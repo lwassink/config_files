@@ -1,0 +1,38 @@
+" ++++++++++++++ BEGIN VUNDLE ++++++++++++++
+" make vundle work:
+" need this for vundle
+set nocompatible
+
+" turn this off now, but turn it on again after vundle is done
+filetype plugin indent off
+syntax off
+
+" set the path for vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" start vundle
+call vundle#begin()
+
+" list of plugins goes here
+" format: Plugin 'repository/plugin_name'
+" REQUIRED PLUGIN
+Plugin 'VundleVim/Vundle.vim'
+
+" MY PLUGINS
+Plugin 'https://github.com/kien/ctrlp.vim.git'
+Plugin 'https://github.com/scrooloose/nerdtree.git'
+
+" to install a plugin, add it to the list and run :PluginInstall
+" to update the plugins run :PluginUpdate
+" to delete a plugin remove it from the list and run :PluginClean
+
+" this does something. it has to come after the list of plugins
+call vundle#end()
+
+" now it's safe to turn that stuff from earlier back on
+filetype plugin indent on
+syntax on
+" We also couldn't have this till after nocompatible was set
+" show a comand as i type it
+set showcmd 
+" ++++++++++++++ END VUNDLE ++++++++++++++
