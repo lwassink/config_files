@@ -1,3 +1,43 @@
+" ++++++++++++++ BEGIN VUNDLE ++++++++++++++
+" make vundle work:
+" need this for vundle
+set nocompatible
+
+" turn this off now, but turn it on again after vundle is done
+filetype plugin indent off
+syntax off
+
+" set the path for vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" start vundle
+call vundle#begin()
+
+" list of plugins goes here
+" format: Plugin 'repository/plugin_name'
+" REQUIRED PLUGIN
+Plugin 'VundleVim/Vundle.vim'
+
+" MY PLUGINS
+Plugin 'https://github.com/kien/ctrlp.vim.git'
+Plugin 'https://github.com/scrooloose/nerdtree.git'
+
+
+" to install a plugin, add it to the list and run :PluginInstall
+" to update the plugins run :PluginUpdate
+" to delete a plugin remove it from the list and run :PluginClean
+
+" this does something. it has to come after the list of plugins
+call vundle#end()
+
+" now it's safe to turn that stuff from earlier back on
+filetype plugin indent on
+syntax on
+" We also couldn't have this till after nocompatible was set
+" show a comand as I type it
+set showcmd 
+" ++++++++++++++ END VUNDLE ++++++++++++++
+
 " VIM Apearance
 set number "turn on line numbering
 set laststatus=2 "Make vim display the status line at all times
@@ -40,11 +80,6 @@ let g:ctrlp_working_path_mode = 'ra'
 " ignore certain file types
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 
-" TeX
-let g:tex_flavors='latex' "prevent vim from assuming plaintex
-autocmd BufNewFile,Bufread *.tex set filetype=tex "set it to load vimlatex for TeX files
-let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame' "set which TeX environments to fold
-
 " NERDTree settings
 " open with Ctrl+n
 noremap <C-n> :NERDTreeToggle<CR>
@@ -52,14 +87,11 @@ noremap <C-n> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-" Load the Vundle configuration stuff
-source ~/.vim/my_config_files/vundle_config
-
 " turn on automatic comment insertion
 setlocal formatoptions+=c formatoptions+=r formatoptions+=o
 
 
-" +++++++++++++++++++++++KEY BINDINGS+++++++++++++++++++++++
+" +++++++++++++++++++++++MY MAPS+++++++++++++++++++++++
 " My custom key maps
 
 " refer to , using <leader> at the begining of commands
@@ -138,7 +170,14 @@ iabbrev +++ +++++++++++++++++++++++
 
 " coment out line
 augroup coment_line
-autocmd FileType ruby nnoremap <buffer> <localleader>c I#<Space><esc>$
-autocmd FileType python nnoremap <buffer> <localleader>c I#<Space><esc>$
-autocmd FileType vim nnoremap <buffer> <localleader>c I"<Space><esc>$
+	autocmd!
+	autocmd FileType ruby nnoremap <buffer> <localleader>c I#<Space><esc>$
+	autocmd FileType python nnoremap <buffer> <localleader>c I#<Space><esc>$
+	autocmd FileType vim nnoremap <buffer> <localleader>c I"<Space><esc>$
 augroup END
+
+" TeX
+filetype plugin on
+let g:tex_flavors='latex' "prevent vim from assuming plaintex
+autocmd BufNewFile,Bufread *.tex set filetype=tex "set it to load vimlatex for TeX files
+let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame' "set which TeX environments to fold
