@@ -1,4 +1,4 @@
-" ++++++++++++++ BEGIN VUNDLE ++++++++++++++
+" BEGIN VUNDLE ------------------------ {{{
 " make vundle work:
 " need this for vundle
 set nocompatible
@@ -15,13 +15,18 @@ call vundle#begin()
 
 " list of plugins goes here
 " format: Plugin 'repository/plugin_name'
-" REQUIRED PLUGIN
+" required plugin
 Plugin 'VundleVim/Vundle.vim'
 
-" MY PLUGINS
+" my plugins
+" fuzzy file search
 Plugin 'https://github.com/kien/ctrlp.vim.git'
+" file browser
 Plugin 'https://github.com/scrooloose/nerdtree.git'
-
+" template manager
+Plugin 'git://github.com/aperezdc/vim-template.git'
+" syntax checker
+Plugin 'https://github.com/scrooloose/syntastic.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -36,24 +41,32 @@ syntax on
 " We also couldn't have this till after nocompatible was set
 " show a comand as I type it
 set showcmd 
-" ++++++++++++++ END VUNDLE ++++++++++++++
+
+" }}}
+
+
+" APPEARANCE AND BASIC EDDITING ------------------------ {{{
 
 " VIM Apearance
-set number "turn on line numbering
-set laststatus=2 "Make vim display the status line at all times
-set term=ansi "turn on colors
-set foldmethod=syntax "turn on code folding
+set number " turn on line numbering
+set laststatus=2 " Make vim display the status line at all times
+set term=ansi " turn on colors
+if &ft != 'vim' " when filetype=vim we use marker based folding instead
+	set foldmethod=syntax " turn on syntax based folding
+endif
 
-" enhanced code highliting for python
-let python_highlight_all = 1
+" Set the cursor not to go to the very edge or bottom of the screen
+set scrolloff=1
+set sidescrolloff=5
 
 " Statusline format
-set statusline=Line\ %l/%-5L
-set statusline+=Column\ %-4c
-set statusline+=[File\ %.30f]\ [Type\ %Y]
-set statusline+=%=
-" Set status line coloring
 hi StatusLine ctermbg=Black ctermfg=DarkGreen
+set statusline=\ %.20f
+set statusline+=\ %y
+set statusline+=%=
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%m
+set statusline+=\ %l/%-5L
 
 " set tabbing and indenting to be right for programing
 set autoindent
@@ -69,8 +82,19 @@ set matchpairs+=<:>
 " allow backspace to go over line breaks and other stuff
 set backspace=eol,start,indent
 
-" Allow me to jump back to a previous file
-set hidden
+" turn on automatic comment insertion
+setlocal formatoptions+=c formatoptions+=r formatoptions+=o
+
+" turn on tab completion from the comand line
+set wildmenu
+set wildmode=longest,full
+
+" set vim to open any file with the code folded as much as possible
+set foldlevelstart=0
+" }}}
+
+
+" PLUGIN SETTINGS ------------------------ {{{
 
 " ctrlp settings
 " max file limit
@@ -84,14 +108,25 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 " open with Ctrl+n
 noremap <C-n> :NERDTreeToggle<CR>
 " open automatically if no file is specified
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+augroup NERDtree
+	autocmd!
+	autocmd StdinReadPre * let s:std_in=1
+	autocmd VimEnter * if argc() == 0 && !exists(" s:std_in") | NERDTree | endif
+augroup END
 
-" turn on automatic comment insertion
-setlocal formatoptions+=c formatoptions+=r formatoptions+=o
+" vim-template settings
+let g:email = 'lwassink@gmail.com'
+let g:username = 'Luke Wassink'
+
+" syntastic settings
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+" }}}
 
 
-" +++++++++++++++++++++++MY MAPS+++++++++++++++++++++++
+" MY MAPS ------------------------ {{{
 " My custom key maps
 
 " refer to , using <leader> at the begining of commands
@@ -106,11 +141,19 @@ inoremap ;; <Esc>
 " command to open a new tab
 noremap <C-t> :tabnew<CR>
 
-" allow switching between split windows
-noremap <C-J> <C_W><C-J>
-noremap <C-K> <C_W><C-K>
-noremap <C-L> <C_W><C-L>
-noremap <C-H> <C_W><C-H>
+" split control commands
+" these allow me to move to the windows above, below, to the left, and to the
+" right, as well as to close a window or all other windows and shrink or
+" enlarge the current window
+noremap <leader>wk <c-w>k
+noremap <leader>wj <c-w>j
+noremap <leader>wh <c-w><left>
+noremap <leader>wl <c-w><right>
+noremap <leader>ww <c-w><c-w>
+noremap <leader>wo <c-w>o
+noremap <leader>wc <c-w>c
+noremap <leader>wb <c-w>10>
+noremap <leader>ws <c-w>10<
 
 " put cursor between matching parens after typing them
 inoremap () ()<esc>i
@@ -124,7 +167,7 @@ inoremap '' ''<esc>i
 inoremap <c-u> <esc>viwUea
 noremap <c-u> viwUe
 
-" allow me to easily edit and reload my .vimrc file
+" more easily edit and reload my .vimrc file
 noremap <leader>ev :split $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
 
@@ -133,25 +176,28 @@ noremap <leader>sv :source $MYVIMRC<cr>
 inoremap <leader><leader> <esc>cc
 noremap <leader>o o<esc>0Di
 
-" save more easily
-noremap <leader>w :w<cr>
+" quit more easily
 noremap <leader>q :q<cr>
+
+" easily edit a template
+noremap ,et :split ~/.vim/bundle/vim-template/templates/=template=.
 
 " reindent the whole document
 noremap <leader>= gg=GGzz
 
 " operator mappings
 " select next paren pair
-onoremap in( :<c-u>execute "normal! /(\rvi("<cr>
+onoremap in( :<c-u>execute! "normal! /(\rvi("<cr>
 " select last paren pair
 onoremap il( :<c-u>execute! "normal! /)\rvi("<cr>
-" select last brace pair
+" select next brace pair
 onoremap in{ :<c-u>execute! "normal! /{\rvi("<cr>
 " select last brace pair
-onoremap il{ :<c-u>execute! "normal! /{\rvi("<cr>
+onoremap il{ :<c-u>execute! "normal! /}\rvi("<cr>
+" }}}
 
 
-" +++++++++++++++++++++++MY ABREVIATIONS+++++++++++++++++++++++
+" MY ABREVIATIONS ------------------------ {{{
 " automatic substitutions while in insert mode
 
 " correct common spelling mistakes
@@ -162,22 +208,37 @@ iabbrev adn and
 iabbrev lenght length
 
 " for inserting in section headers in this .vimrc file
-iabbrev +++ +++++++++++++++++++++++
+iabbrev -- -----------------------
+" }}}
 
 
-" ++++++++++++++++++++++++MY AUTOCOMANDS++++++++++++++++++++++++
+" GENERAL AUTOCOMANDS ------------------------ {{{
 " events vim is supposed to respond to
 
-" coment out line
+" comment out line
 augroup coment_line
 	autocmd!
 	autocmd FileType ruby nnoremap <buffer> <localleader>c I#<Space><esc>$
 	autocmd FileType python nnoremap <buffer> <localleader>c I#<Space><esc>$
 	autocmd FileType vim nnoremap <buffer> <localleader>c I"<Space><esc>$
+	autocmd FileType css noremap <buffer> <localleader>c I/*<space><esc>A<space>*/<esc>
 augroup END
+" }}}
+
+
+" LANGUAGE SPECIFIC SETTINGS ----------------------- {{{
 
 " TeX
 filetype plugin on
-let g:tex_flavors='latex' "prevent vim from assuming plaintex
-autocmd BufNewFile,Bufread *.tex set filetype=tex "set it to load vimlatex for TeX files
-let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame' "set which TeX environments to fold
+let g:tex_flavors='latex' " prevent vim from assuming plaintex
+augroup TeX
+	autocmd BufNewFile,Bufread *.tex set filetype=tex " set it to load vimlatex for TeX files
+augroup END
+let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame' " set which TeX environments to fold
+
+" vimscript
+augroup filetype_vim
+	autocmd!
+	autocmd FileType vim setlocal foldmethod=marker
+augroup END
+" }}}
