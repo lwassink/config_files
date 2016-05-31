@@ -1,27 +1,17 @@
-alias ideas='vi ~/Dropbox/school/Research/research_journal/research_journal.tex'
-alias school='cd ~/Dropbox/school'
-alias sendme='sendattach lwassink@gmail.com'
-alias gslcomp='g++ -lgsl -L /usr/lib -lgslcblas'
+# Author: Luke Wassink
+# my aliases
+# linked to by my .bashrc
+
 alias pep='ps -Aa | grep'
 alias pss='ps -aA | grep'
 alias pa='ps -aA'
-alias cronl='crontab -l'
-alias crone='crontab -e'
-alias prof="vi ~/.bashrc"
 alias ps="ps -o pid,user,time,command=PROCESS"
 alias ls="ls -GF"
 alias la="ls -GFA"
 alias ll="ls -lFG"
-alias vi="vim"
-alias school="cd ~/Dropbox/school"
+alias vim="/usr/local/Cellar/vim/7.4.1795/bin/vim"
+alias vi="/usr/local/Cellar/vim/7.4.1795/bin/vim"
 
-#scripts
-alias town='~/town/town.py'
-
-#SSH Aliases
-alias csdept='ssh lwassink@linux.cs.uiowa.edu'
-alias nano='ssh luke@nano.physics.uiowa.edu'
-alias aspen="ssh wassink@aspen.physics.uiowa.edu"
-
-#VNC Aliases
-alias nanovnc='vncviewer -nocursorshape nano.physics.uiowa.edu'
+# t todo list aliases
+alias t='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks'
+alias tcount='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks | wc -l'
