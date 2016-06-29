@@ -1,10 +1,15 @@
 " PREAMBLE {{{
 " anything that other stuff later on might depend on
 
-" refer to ',' using <leader> at the begining of commands
+" refer to ',' using <leader> at the beginning of commands
 " this gives greater flexibility with commands
 let mapleader = ","
 let maplocalleader = ","
+
+set history=500
+set noignorecase
+set t_Co=256
+set sessionoptions+=resize
 
 " }}}
 
@@ -30,18 +35,22 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " my plugins
-" file browser
-Plugin 'https://github.com/scrooloose/nerdtree.git'
 " template manager
 Plugin 'git://github.com/aperezdc/vim-template.git'
 " syntax checker
 Plugin 'https://github.com/scrooloose/syntastic.git'
 " code completion
 Plugin 'https://github.com/Shougo/neocomplete.vim.git'
-" apperently we need this plugin to use neocomplete
+" apparently we need this plugin to use neocomplete
 Plugin 'https://github.com/Konfekt/FastFold.git'
 " run rspec unit tests from vim
 Plugin 'https://github.com/thoughtbot/vim-rspec.git'
+" easier commenting
+Plugin 'https://github.com/tpope/vim-commentary.git'
+" ruby support
+Plugin 'vim-ruby/vim-ruby'
+" search for visual selection using *
+Plugin 'bronson/vim-visual-star-search.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -54,7 +63,7 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 " We also couldn't have this till after nocompatible was set
-" show a comand as I type it
+" show a command as I type it
 set showcmd
 
 " }}}
@@ -67,16 +76,24 @@ set laststatus=2 " Make vim display the status line at all times
 if &ft != 'vim' " when filetype=vim we use marker based folding instead
   set foldmethod=syntax " turn on syntax based folding
 endif
-set foldlevel=100
+set foldlevel=99
+
+set formatoptions+=c " autowrap comments
+set formatoptions+=r " automatically continue comments on next line
+set formatoptions+=o " do the same with 'o' in normal mode
+set formatoptions+=q " allow gq for comments
+set formatoptions+=l " don't break lines while inserting
+set formatoptions+=j " easier joining of comments
 
 
 " color options
-highlight LineNr ctermfg=237 ctermbg=223
-highlight Folded ctermbg=223 ctermfg=darkblue
+highlight StatusLineNC ctermbg=000 ctermfg=255 cterm=bold term=bold
+highlight StatusLine ctermbg=223 ctermfg=000 cterm=none term=none
+highlight Folded ctermbg=none ctermfg=darkblue
 highlight ErrorMsg ctermfg=red ctermbg=NONE
 
 " custom highlight groups
-highlight SearchResult ctermbg=011 ctermfg=black
+highlight SearchResult ctermbg=red ctermfg=white
 
 " Set the cursor not to go to the very edge or bottom of the screen
 set scrolloff=1
@@ -90,7 +107,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%m
 set statusline+=\ %l/%-5L
 
-" set tabbing and indenting to be right for programing
+" set tabbing and indenting to be right for programming
 set autoindent
 set tabstop=2
 set shiftwidth=2
@@ -98,10 +115,10 @@ set smarttab
 set expandtab
 
 " let me know when a line passes 81 characters
-highlight ColorColumn ctermbg=113
+highlight ColorColumn ctermbg=cyan
 call matchadd('ColorColumn', '\%81v', 100)
 
-" show unwanted whitespace
+" show unwanted white space
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 
@@ -116,7 +133,19 @@ set hidden
 set whichwrap=<,>,h,l,[,]
 set backspace=eol,start,indent
 set hlsearch
+set ignorecase
+set smartcase
+set gdefault
 nnoremap <leader>h :nohlsearch<cr>
+
+" always allow use
+set mouse=a
+
+" save undo history
+set undofile
+
+" complete words with ctrl-n and ctrl-p
+set complete+=kspell
 
 " set % to match <> in addition to other parens
 set matchpairs+=<:>
@@ -124,33 +153,30 @@ set matchpairs+=<:>
 " turn on automatic comment insertion
 setlocal formatoptions+=c formatoptions+=r formatoptions+=o
 
-" turn on tab completion from the comand line
+" turn on tab completion from the command line
 set wildmenu
 set wildmode=longest,full
 
-" backspace to begining of line in insert mode
+" backspace to beginning of line in insert mode
 " and on new line in normal mode
 inoremap <leader><leader> <esc>cc
 noremap <leader>o o<esc>0Di
 
 " operator mappings
-" select next paren pair
+onoremap - f_
 onoremap in( :<c-u>execute "normal! /(\rvi("<cr>
-" select last paren pair
 onoremap il( :<c-u>execute "normal! ?)\rvi("<cr>
-" select next brace pair
 onoremap in{ :<c-u>execute "normal! /{\rvi("<cr>
-" select last brace pair
 onoremap il{ :<c-u>execute "normal! ?}\rvi("<cr>
 
-" trim trailing whitespace
+" trim trailing white space
 fun! TrimWhitespace()
   let l:save_cursor = getpos('.')
   %s/\s\+$//e
   call setpos('.', l:save_cursor)
 endfun
 
-" use a key combo to trim trailing whitespace
+" use a key combo to trim trailing white space
 noremap ,tw :call TrimWhitespace()<cr>
 
 " capitalize most recent word
@@ -179,16 +205,6 @@ nnoremap <silent> N N:call HLNext(0.4)<cr>
 
 " PLUGIN SETTINGS {{{
 
-" NERDTree settings
-" open with Ctrl+n
-noremap <C-n> :NERDTreeToggle<CR>
-" open automatically if no file is specified
-augroup NERDtree
-  autocmd!
-  autocmd StdinReadPre * let s:std_in=1
-  autocmd VimEnter * if argc() == 0 && !exists(" s:std_in") | NERDTree | endif
-augroup END
-
 " vim-template settings
 let g:email = 'lwassink@gmail.com'
 let g:username = 'Luke Wassink'
@@ -214,6 +230,14 @@ let g:neocomplet#enable_smart_case = 1
 let g:neocomplete#syntax#min_keyword_length = 3
 inoremap <expr><C-g>     neocomplete#undo_completion()
 inoremap <expr><c-l>     neocomplete#complete_common_string()
+" <TAB>: completion.
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ neocomplete#start_manual_complete()
+function! s:check_back_space() "{{{
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction"}}}
 
 " Define dictionary.
 let g:neocomplete#sources#dictionary#dictionaries = {
@@ -222,8 +246,10 @@ let g:neocomplete#sources#dictionary#dictionaries = {
       \ 'scheme' : $HOME.'/.gosh_completions'
       \ }
 
-" }}}
+" Allow more general matching with %
+packadd! matchit
 
+" }}}
 
 " MAPS {{{
 " My custom key maps
@@ -233,6 +259,23 @@ inoremap jk <Esc>
 nnoremap U :redo<cr>
 nnoremap s msHk's
 noremap <leader>q :q<cr>
+nnoremap <leader>l :ls<cr>:b<space>
+nnoremap ,= m'gg=G`'
+nnoremap ,tw :call TrimWhitespace()<cr>
+nnoremap ,h :nohlsearch<cr>
+nnoremap Y y$
+nnoremap / /\v
+nnoremap U :redo<cr>
+nnoremap sb :b#<cr>
+
+nnoremap [<space> m'O<esc>0D``
+nnoremap ]<space> m'o<esc>0D``
+nnoremap [e kkddp
+nnoremap ]e ddpk
+nnoremap [b :bprevious<cr>
+nnoremap ]b :bnext<cr>
+nnoremap [w <c-w>p
+nnoremap ]w <c-w>n
 
 " split control commands
 " these allow me to move to the windows above, below, to the left, and to the
@@ -247,13 +290,6 @@ noremap <leader>wo <c-w>o
 noremap <leader>wc <c-w>c
 noremap <leader>wb <c-w>10>
 noremap <leader>ws <c-w>10<
-
-" put cursor between matching parens after typing them
-" inoremap () ()<esc>i
-" inoremap [] []<esc>i
-" inoremap {} {}<esc>i
-" inoremap <> <><esc>i
-" inoremap '' ''<esc>i
 
 " more easily edit and reload my .vimrc file
 noremap <leader>ev :split $MYVIMRC<cr>
@@ -272,10 +308,19 @@ vnoremap <c-v> v
 nnoremap 0 ^
 nnoremap ^ 0
 
+" syntastic commands
+nnoremap <space>r :SyntasticReset<cr>
+nnoremap <space>e :Errors<cr>
+
+" list navigation commands
+nnoremap <space>lo :lopen<cr>
+nnoremap <space>lc :lclose<cr>
+nnoremap <space>co :copen<cr>
+nnoremap <space>cc :cclose<cr>
+
 " }}}
 
-
-" MY ABREVIATIONS {{{
+" ABBREVIATIONS {{{
 " automatic substitutions while in insert mode
 
 " correct common spelling mistakes
@@ -300,6 +345,18 @@ augroup coment_line
   autocmd FileType css noremap <buffer> <localleader>c m'I/*<space><esc>A<space>*/<esc>`'
 augroup END
 
+" restore the cursor to its previous position on opening file
+augroup restore_cursor
+  autocmd!
+  autocmd BufReadPost * execute "silent! normal! `z"
+  autocmd BufWinLeave * execute "normal! mz"
+augroup END
+
+augroup save_when_focus_lost
+  autocmd!
+  autocmd FocusLost * :wall
+augroup END
+
 " }}}
 
 
@@ -312,18 +369,12 @@ augroup TeX
   autocmd!
   autocmd BufNewFile,Bufread *.tex set filetype=tex " set it to load vimlatex for TeX files
 augroup END
-let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame' " set which TeX environments to fold
+let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame'
 
 " vimscript
 augroup filetype_vim
   autocmd!
   autocmd FileType vim setlocal foldmethod=marker
-augroup END
-
-" ruby
-augroup filetype_ruby
-  autocmd!
-  autocmd Filetype ruby noremap <leader>rs :call RunCurrentSpecFile()<CR>
 augroup END
 
 " }}}

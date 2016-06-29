@@ -9,9 +9,3 @@ fi
 # no keyboard ding
 set bell-style none
 
-#set PYTHONPATH
-#PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
-#export $PYTHONPATH
-
-#set the path for LaTeX
-#export PATH=$PATH:/Library/TeX/texbin
