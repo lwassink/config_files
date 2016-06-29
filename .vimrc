@@ -270,7 +270,7 @@ nnoremap sb :b#<cr>
 
 nnoremap [<space> m'O<esc>0D``
 nnoremap ]<space> m'o<esc>0D``
-nnoremap [e kkddp
+nnoremap [e kddp
 nnoremap ]e ddpk
 nnoremap [b :bprevious<cr>
 nnoremap ]b :bnext<cr>
