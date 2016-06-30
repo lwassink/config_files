@@ -51,6 +51,8 @@ Plugin 'https://github.com/tpope/vim-commentary.git'
 Plugin 'vim-ruby/vim-ruby'
 " search for visual selection using *
 Plugin 'bronson/vim-visual-star-search.git'
+" instert interactive snippets
+Plugin 'SirVer/ultisnips'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -168,6 +170,7 @@ onoremap in( :<c-u>execute "normal! /(\rvi("<cr>
 onoremap il( :<c-u>execute "normal! ?)\rvi("<cr>
 onoremap in{ :<c-u>execute "normal! /{\rvi("<cr>
 onoremap il{ :<c-u>execute "normal! ?}\rvi("<cr>
+onoremap . f.
 
 " trim trailing white space
 fun! TrimWhitespace()
@@ -249,7 +252,11 @@ let g:neocomplete#sources#dictionary#dictionaries = {
 " Allow more general matching with %
 packadd! matchit
 
+" ultisnips settings
+let g:UltiSnipsSplit = 'horisontal'
+
 " }}}
+
 
 " MAPS {{{
 " My custom key maps
@@ -291,9 +298,10 @@ noremap <leader>wc <c-w>c
 noremap <leader>wb <c-w>10>
 noremap <leader>ws <c-w>10<
 
-" more easily edit and reload my .vimrc file
+" edit and source commands
 noremap <leader>ev :split $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>eu :UltiSnipsEdit<cr>
 
 " easily edit a template
 noremap ,et :split ~/.vim/bundle/vim-template/templates/=template=.
@@ -319,6 +327,7 @@ nnoremap <space>co :copen<cr>
 nnoremap <space>cc :cclose<cr>
 
 " }}}
+
 
 " ABBREVIATIONS {{{
 " automatic substitutions while in insert mode
