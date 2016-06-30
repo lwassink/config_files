@@ -386,4 +386,11 @@ augroup filetype_vim
   autocmd FileType vim setlocal foldmethod=marker
 augroup END
 
+" git
+augroup git_settings
+  autocmd!
+  autocmd BufReadPre .gitignore set filetype=git
+  autocmd FileType git setlocal commentstring=#%s
+augroup END
+
 " }}}
