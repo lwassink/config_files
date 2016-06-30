@@ -165,12 +165,12 @@ inoremap <leader><leader> <esc>cc
 noremap <leader>o o<esc>0Di
 
 " operator mappings
-onoremap - f_
 onoremap in( :<c-u>execute "normal! /(\rvi("<cr>
 onoremap il( :<c-u>execute "normal! ?)\rvi("<cr>
 onoremap in{ :<c-u>execute "normal! /{\rvi("<cr>
 onoremap il{ :<c-u>execute "normal! ?}\rvi("<cr>
 onoremap . f.
+onoremap - f_
 
 " trim trailing white space
 fun! TrimWhitespace()
