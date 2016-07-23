@@ -11,6 +11,12 @@ set noignorecase
 set t_Co=256
 set sessionoptions+=resize
 
+" save and close this vimrc when closing its window
+augroup vimrc_commands
+  autocmd!
+  autocmd BufWinLeave *.vimrc write | bdelete
+augroup END
+
 " }}}
 
 
@@ -53,6 +59,22 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'bronson/vim-visual-star-search.git'
 " instert interactive snippets
 Plugin 'SirVer/ultisnips'
+" repeat and undo mappings
+Plugin 'https://github.com/tpope/vim-repeat.git'
+" handy maps involving '[' and ']'
+Plugin 'https://github.com/tpope/vim-unimpaired.git'
+" easily modify surroundings of text
+Plugin 'https://github.com/tpope/vim-surround.git'
+" easily exchange blocks of text
+Plugin 'https://github.com/tommcdo/vim-exchange.git'
+" git integration
+Plugin 'https://github.com/tpope/vim-fugitive.git'
+" run programs from vim
+Plugin 'https://github.com/tpope/vim-dispatch.git'
+" allow creation of custom text objects
+Plugin 'https://github.com/kana/vim-textobj-user.git'
+" a ruby block text object
+Plugin 'https://github.com/nelstrom/vim-textobj-rubyblock.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -135,13 +157,7 @@ set hidden
 set whichwrap=<,>,h,l,[,]
 set backspace=eol,start,indent
 set hlsearch
-set ignorecase
-set smartcase
-set gdefault
 nnoremap <leader>h :nohlsearch<cr>
-
-" always allow use
-set mouse=a
 
 " save undo history
 set undofile
@@ -171,6 +187,7 @@ onoremap in{ :<c-u>execute "normal! /{\rvi("<cr>
 onoremap il{ :<c-u>execute "normal! ?}\rvi("<cr>
 onoremap . f.
 onoremap - f_
+onoremap % VggG
 
 " trim trailing white space
 fun! TrimWhitespace()
@@ -183,11 +200,14 @@ endfun
 noremap ,tw :call TrimWhitespace()<cr>
 
 " capitalize most recent word
-inoremap <c-u> <esc>viwUea
-noremap <c-u> viwUe
+inoremap <c-u> <esc>viw~ea
+noremap <c-u> viw~e
 
 " reindent the whole document
 noremap <leader>= m'gg=G`'zz
+
+" remove trailing white space from file
+nnoremap <leader><space> ma:silent %s/\s\+$//<cr>:nohlsearch<cr>`a
 
 " blink the next search
 function! HLNext (blinktime)
@@ -253,7 +273,7 @@ let g:neocomplete#sources#dictionary#dictionaries = {
 packadd! matchit
 
 " ultisnips settings
-let g:UltiSnipsSplit = 'horisontal'
+let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
 
 " }}}
 
@@ -271,18 +291,15 @@ nnoremap ,= m'gg=G`'
 nnoremap ,tw :call TrimWhitespace()<cr>
 nnoremap ,h :nohlsearch<cr>
 nnoremap Y y$
-nnoremap / /\v
 nnoremap U :redo<cr>
 nnoremap sb :b#<cr>
+nnoremap \ ,
+nnoremap <c-s> :w<cr>
+inoremap <c-s> <esc>:w<cr>a
+inoremap <c-j> i<c-j>
 
-nnoremap [<space> m'O<esc>0D``
-nnoremap ]<space> m'o<esc>0D``
-nnoremap [e kddp
-nnoremap ]e ddpk
-nnoremap [b :bprevious<cr>
-nnoremap ]b :bnext<cr>
-nnoremap [w <c-w>p
-nnoremap ]w <c-w>n
+nnoremap [w <c-w>W
+nnoremap ]w <c-w>w
 
 " split control commands
 " these allow me to move to the windows above, below, to the left, and to the
@@ -300,6 +317,7 @@ noremap <leader>ws <c-w>10<
 
 " edit and source commands
 noremap <leader>ev :split $MYVIMRC<cr>
+noremap <leader>ov :edit $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>eu :UltiSnipsEdit<cr>
 
@@ -307,8 +325,6 @@ nnoremap <leader>eu :UltiSnipsEdit<cr>
 noremap ,et :split ~/.vim/bundle/vim-template/templates/=template=.
 
 " swap commands to make it easier for me to do common stuff
-nnoremap ; :
-nnoremap : ;
 nnoremap v <c-v>
 nnoremap <c-v> v
 vnoremap v <c-v>
@@ -319,6 +335,7 @@ nnoremap ^ 0
 " syntastic commands
 nnoremap <space>r :SyntasticReset<cr>
 nnoremap <space>e :Errors<cr>
+nnoremap <space>ts :SyntasticToggleMode<cr>
 
 " list navigation commands
 nnoremap <space>lo :lopen<cr>
@@ -345,15 +362,6 @@ iabbrev lenght length
 " GENERAL AUTOCOMANDS {{{
 " events vim is supposed to respond to
 
-" comment out line
-augroup coment_line
-  autocmd!
-  autocmd FileType ruby nnoremap <buffer> <localleader>c m'I#<Space><esc>`'
-  autocmd FileType python nnoremap <buffer> <localleader>c m'I#<Space><esc>`'
-  autocmd FileType vim nnoremap <buffer> <localleader>c m'I"<Space><esc>`'
-  autocmd FileType css noremap <buffer> <localleader>c m'I/*<space><esc>A<space>*/<esc>`'
-augroup END
-
 " restore the cursor to its previous position on opening file
 augroup restore_cursor
   autocmd!
@@ -372,13 +380,13 @@ augroup END
 " LANGUAGE SPECIFIC SETTINGS {{{
 
 " TeX
-filetype plugin on
 let g:tex_flavors='latex' " prevent vim from assuming plaintex
 augroup TeX
   autocmd!
-  autocmd BufNewFile,Bufread *.tex set filetype=tex " set it to load vimlatex for TeX files
+  autocmd BufNewFile,Bufread *.tex set filetype=tex
 augroup END
 let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame'
+let g:Tex_CompileRule_pdf='/Library/TeX/texbin/lualatex'
 
 " vimscript
 augroup filetype_vim
@@ -392,5 +400,31 @@ augroup git_settings
   autocmd BufReadPre .gitignore set filetype=git
   autocmd FileType git setlocal commentstring=#%s
 augroup END
+
+" vim help
+augroup vim_help
+  autocmd!
+  autocmd FileType help nnoremap t <c-]>
+augroup END
+
+" ruby
+augroup ruby
+  autocmd!
+  autocmd FileType ruby execute "normal! /^\s*private<cr>mp"
+augroup END
+
+" }}}
+
+
+" EX-MODE SETTINGS {{{
+" settings for the command line, and for ex-mode
+
+" make cnext, cprev wrap
+command! Cnext try | cnext | catch | silent! cfirst | endtry
+command! Cprev try | cprev | catch | silent! clast | endtry
+
+" make lnext, lprev wrap
+command! Lnext try | lnext | catch | silent! lfirst | endtry
+command! Lprev try | lprev | catch | silent! llast | endtry
 
 " }}}

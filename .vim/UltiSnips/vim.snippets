@@ -1,0 +1,14 @@
+# vimscript snippets
+
+snippet plugin
+" $1
+Plugin '${0:${VISUAL:# plugin...}}'
+endsnippet
+
+snippet au
+augroup $1
+  autocmd!
+  ${VISUAL:autocmd }$0
+augroup END
+endsnippet
+

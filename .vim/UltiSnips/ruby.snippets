@@ -1,20 +1,45 @@
+priority -50
+
 snippet run
 if __FILE__ == $PROGRAM_NAME
   $0
 end
 endsnippet
 
-snippet func
+snippet func "def function..."
 def $1
   $0
 end
 endsnippet
 
-snippet copyright
-#!/usr/bin/ruby
-#
-# Copyright (C) `date +%Y` Luke Wassink <lwassink@gmail.com>
-#
-# Distributed under terms of the MIT license.
-#
+snippet defi "def initialize ..."
+def initialize${1:(${2:*args})}
+  $0
+end
 endsnippet
+
+snippet frt "(<from>..<to>).each { |<i>| <block> }"
+(${1:from}..${2:to}).each { |${3:i}| $0 }
+endsnippet
+
+# rspec snippets
+
+snippet context
+context "$1" do
+it "$1" do
+  ${0:${VISUAL:# content}}
+end
+endsnippet
+
+snippet describe
+describe "$1" do
+  ${0:${VISUAL:# content}}
+end
+endsnippet
+
+snippet it
+it "$1" do
+  ${0:${VISUAL:# content}}
+end
+endsnippet
+

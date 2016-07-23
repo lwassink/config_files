@@ -9,3 +9,6 @@ fi
 # no keyboard ding
 set bell-style none
 
+# cd will search these dirs after the current one
+CDPATH=$HOME:..
+export CDPATH
