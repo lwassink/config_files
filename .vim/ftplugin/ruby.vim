@@ -5,7 +5,7 @@ nnoremap <buffer> <silent> \m :silent execute "normal! /\\v^\\s*def (self.)?".ex
 nnoremap <buffer> <space>e :!ruby %<cr>
 
 " run rspec file
-nnoremap <leader>ra :call RunAllSpecs()<cr>
-nnoremap <leader>rn :call RunNearestSpec()<cr>
-nnoremap <leader>rc :call RunCurrentSpecFile()<cr>
+nnoremap <buffer> <leader>ra :call RunAllSpecs()<cr>
+nnoremap <buffer> <leader>rn :call RunNearestSpec()<cr>
+nnoremap <buffer> <leader>rc :call RunCurrentSpecFile()<cr>
 
