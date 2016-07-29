@@ -10,11 +10,12 @@ set history=500
 set noignorecase
 set t_Co=256
 set sessionoptions+=resize
+set ttyfast
 
 " save and close this vimrc when closing its window
 augroup vimrc_commands
   autocmd!
-  autocmd BufWinLeave *.vimrc write | bdelete
+  autocmd BufWinLeave *.vimrc mark z | write | bdelete
 augroup END
 
 " }}}
@@ -75,6 +76,16 @@ Plugin 'https://github.com/tpope/vim-dispatch.git'
 Plugin 'https://github.com/kana/vim-textobj-user.git'
 " a ruby block text object
 Plugin 'https://github.com/nelstrom/vim-textobj-rubyblock.git'
+" a plugin to insert 'end' in ruby
+Plugin 'https://github.com/tpope/vim-endwise.git'
+" ruby refactoring features
+Plugin 'https://github.com/ecomba/vim-ruby-refactoring.git'
+" access ruby doccumentation in vim
+Plugin 'https://github.com/lucapette/vim-ruby-doc.git'
+" pathogen
+Plugin 'https://github.com/tpope/vim-pathogen.git'
+" color scheme
+Plugin 'https://github.com/altercation/vim-colors-solarized.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -83,24 +94,34 @@ Plugin 'https://github.com/nelstrom/vim-textobj-rubyblock.git'
 " this does something. it has to come after the list of plugins
 call vundle#end()
 
+" use pathogen for runtimepath for development
+call pathogen#infect()
+
 " now it's safe to turn that stuff from earlier back on
 filetype plugin indent on
 syntax on
 " We also couldn't have this till after nocompatible was set
-" show a command as I type it
-set showcmd
 
 " }}}
 
 
 " APPEARANCE {{{
 
-set number " turn on line numbering
+set number
 set laststatus=2 " Make vim display the status line at all times
 if &ft != 'vim' " when filetype=vim we use marker based folding instead
-  set foldmethod=syntax " turn on syntax based folding
+  set foldmethod=syntax
 endif
 set foldlevel=99
+set showcmd
+set showmode
+set visualbell
+
+" this vimrc file opens folded
+augroup open_folded
+  autocmd!
+  autocmd Bufread *.vimrc set foldlevel=0
+augroup END
 
 set formatoptions+=c " autowrap comments
 set formatoptions+=r " automatically continue comments on next line
@@ -135,6 +156,7 @@ set statusline+=\ %l/%-5L
 set autoindent
 set tabstop=2
 set shiftwidth=2
+set softtabstop=2
 set smarttab
 set expandtab
 
@@ -275,6 +297,10 @@ packadd! matchit
 " ultisnips settings
 let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
 
+" vim-ruby-doc
+let g:ruby_doc_command='open'
+nnoremap \d :RubyDoc <cword><cr>
+
 " }}}
 
 
@@ -331,17 +357,13 @@ vnoremap v <c-v>
 vnoremap <c-v> v
 nnoremap 0 ^
 nnoremap ^ 0
+nnoremap ` '
+nnoremap ' `
 
 " syntastic commands
 nnoremap <space>r :SyntasticReset<cr>
 nnoremap <space>e :Errors<cr>
 nnoremap <space>ts :SyntasticToggleMode<cr>
-
-" list navigation commands
-nnoremap <space>lo :lopen<cr>
-nnoremap <space>lc :lclose<cr>
-nnoremap <space>co :copen<cr>
-nnoremap <space>cc :cclose<cr>
 
 " }}}
 
@@ -355,6 +377,7 @@ iabbrev waht what
 iabbrev tehn then
 iabbrev adn and
 iabbrev lenght length
+iabbrev edn end
 
 " }}}
 
@@ -366,7 +389,7 @@ iabbrev lenght length
 augroup restore_cursor
   autocmd!
   autocmd BufReadPost * execute "silent! normal! `z"
-  autocmd BufWinLeave * execute "normal! mz"
+  autocmd BufWinLeave * mark z
 augroup END
 
 augroup save_when_focus_lost

@@ -1,7 +1,7 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/lwassink/Dropbox/Programing'
-let g:netrw_dirhist_2='/Users/lwassink/Dropbox/Programing/algorithms'
-let g:netrw_dirhist_3='/Users/lwassink/Dropbox/Programing/algorithms/__pycache__'
-let g:netrw_dirhist_4='/Users/lwassink/Dropbox/Programing/algorithms'
-let g:netrw_dirhist_5='/Users/lwassink'
+let g:netrw_dirhist_1='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3/w3d1'
+let g:netrw_dirhist_2='/Users/lwassink/.vim/plugin'
+let g:netrw_dirhist_3='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3/w3d3'
+let g:netrw_dirhist_4='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3/w3d3/lib'
+let g:netrw_dirhist_5='/Users/lwassink/.vim/ftdetect'

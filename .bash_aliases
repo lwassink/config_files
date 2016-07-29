@@ -14,6 +14,7 @@ alias vi="vim"
 alias shoes='/Applications/Shoes.app/Contents/MacOS/shoes'
 alias v="vim"
 alias g="g++"
+alias ..='cd ..'
 
 # t todo list aliases
 alias t='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks'

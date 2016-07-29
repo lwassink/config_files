@@ -1,0 +1,11 @@
+[user]
+	name = Luke Wassink
+	email = lwassink@gmail.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = auto
+[web]
+	browser = chrome
+[core]
+	editor = vim

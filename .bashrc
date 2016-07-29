@@ -10,5 +10,5 @@ fi
 set bell-style none
 
 # cd will search these dirs after the current one
-CDPATH=$HOME:..
+CDPATH=$HOME
 export CDPATH
