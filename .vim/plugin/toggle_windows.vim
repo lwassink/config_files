@@ -10,6 +10,7 @@ function! s:QuickfixToggle()
   else
     let g:quifix_return_to_window = winnr()
     copen
+    execute "normal! \<c-w>\<c-p>"
     let g:quickfix_is_open = 1
   endif
 endfunction
@@ -26,6 +27,7 @@ function! s:ListToggle()
   else
     let g:list_return_to_window = winnr()
     lopen
+    execute "normal! \<c-w>\<c-p>"
     let g:list_is_open = 1
   endif
 endfunction

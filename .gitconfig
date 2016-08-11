@@ -9,3 +9,9 @@
 	browser = chrome
 [core]
 	editor = vim
+[alias]
+	unstage = reset Head --
+	last = log -1 HEAD
+	branchout = checkout -b
+	amend = commit --amend
+	oneline = log --pretty=oneline

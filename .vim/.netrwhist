@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3/w3d1'
-let g:netrw_dirhist_2='/Users/lwassink/.vim/plugin'
-let g:netrw_dirhist_3='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3/w3d3'
-let g:netrw_dirhist_4='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3/w3d3/lib'
-let g:netrw_dirhist_5='/Users/lwassink/.vim/ftdetect'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/lwassink/Dropbox/developer/app-academy/luke_wassink_prep_work'
+let g:netrw_dirhist_2='/Users/lwassink/Dropbox/developer/app-academy/luke_wassink_prep_work/week3'
+let g:netrw_dirhist_3='/Users/lwassink/Dropbox/developer/app-academy/luke_wassink_prep_work/week3/maze_bonus_project'
+let g:netrw_dirhist_4='/Users/lwassink/Dropbox/developer/app-academy/luke_wassink_prep_work/week3'
+let g:netrw_dirhist_5='/Users/lwassink/Dropbox/developer/app-academy/luke_wassink_prep_work'
+let g:netrw_dirhist_6='/Users/lwassink/Dropbox/developer/app-academy'
+let g:netrw_dirhist_7='/Users/lwassink/Dropbox/developer/app-academy/prep_work'
+let g:netrw_dirhist_8='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3'
+let g:netrw_dirhist_9='/Users/lwassink/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project'

@@ -86,6 +86,14 @@ Plugin 'https://github.com/lucapette/vim-ruby-doc.git'
 Plugin 'https://github.com/tpope/vim-pathogen.git'
 " color scheme
 Plugin 'https://github.com/altercation/vim-colors-solarized.git'
+" do searching with ack (I actually use ag)
+Plugin 'mileszs/ack.vim'
+" easily switch two splits
+Plugin 'https://github.com/wesQ3/vim-windowswap.git'
+" sensible management of swap files
+Plugin 'https://github.com/vitorgalvao/autoswap_mac.git'
+" visually move blocks of text
+Plugin 'https://github.com/gavinbeatty/dragvisuals.vim.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -136,6 +144,7 @@ highlight StatusLineNC ctermbg=000 ctermfg=255 cterm=bold term=bold
 highlight StatusLine ctermbg=223 ctermfg=000 cterm=none term=none
 highlight Folded ctermbg=none ctermfg=darkblue
 highlight ErrorMsg ctermfg=red ctermbg=NONE
+highlight String ctermbg=none ctermfg=022
 
 " custom highlight groups
 highlight SearchResult ctermbg=red ctermfg=white
@@ -168,6 +177,8 @@ call matchadd('ColorColumn', '\%81v', 100)
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
 set list
 
+set title titlestring= 
+
 "}}}
 
 
@@ -197,6 +208,12 @@ setlocal formatoptions+=c formatoptions+=r formatoptions+=o
 set wildmenu
 set wildmode=longest,full
 
+" tell filename completion which files to ignore
+set wildignore+=*.o,*.out
+set wildignore+=*.bmp,*.gif,*.ico,*.png,*.jpg,*.pdf
+set wildignore+=.DS_Store,.git,.hg,.svn
+set wildignore+=*~,*.swp,*.tmp
+
 " backspace to beginning of line in insert mode
 " and on new line in normal mode
 inoremap <leader><leader> <esc>cc
@@ -211,25 +228,12 @@ onoremap . f.
 onoremap - f_
 onoremap % VggG
 
-" trim trailing white space
-fun! TrimWhitespace()
-  let l:save_cursor = getpos('.')
-  %s/\s\+$//e
-  call setpos('.', l:save_cursor)
-endfun
-
-" use a key combo to trim trailing white space
-noremap ,tw :call TrimWhitespace()<cr>
-
 " capitalize most recent word
 inoremap <c-u> <esc>viw~ea
 noremap <c-u> viw~e
 
-" reindent the whole document
-noremap <leader>= m'gg=G`'zz
-
-" remove trailing white space from file
-nnoremap <leader><space> ma:silent %s/\s\+$//<cr>:nohlsearch<cr>`a
+" reformat the whole document
+noremap <silent> <leader>= m'gg=G`'zz
 
 " blink the next search
 function! HLNext (blinktime)
@@ -244,6 +248,11 @@ function! HLNext (blinktime)
 endfunction
 nnoremap <silent> n n:call HLNext(0.4)<cr>
 nnoremap <silent> N N:call HLNext(0.4)<cr>
+
+" use ag instead of ack
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
 
 " }}}
 
@@ -296,10 +305,17 @@ packadd! matchit
 
 " ultisnips settings
 let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
+let g:UltiSnipsEditSplit="horizontal"
 
 " vim-ruby-doc
 let g:ruby_doc_command='open'
 nnoremap \d :RubyDoc <cword><cr>
+
+"visual-drag
+vmap <expr> <left> DVB_Drag('left')
+vmap <expr> <right> DVB_Drag('right')
+vmap <expr> <up> DVB_Drag('up')
+vmap <expr> <down> DVB_Drag('down')
 
 " }}}
 
@@ -310,8 +326,6 @@ nnoremap \d :RubyDoc <cword><cr>
 " general mappings
 inoremap jk <Esc>
 nnoremap U :redo<cr>
-nnoremap s msHk's
-noremap <leader>q :q<cr>
 nnoremap <leader>l :ls<cr>:b<space>
 nnoremap ,= m'gg=G`'
 nnoremap ,tw :call TrimWhitespace()<cr>
@@ -319,36 +333,37 @@ nnoremap ,h :nohlsearch<cr>
 nnoremap Y y$
 nnoremap U :redo<cr>
 nnoremap sb :b#<cr>
+nnoremap sw <c-w>W
 nnoremap \ ,
 nnoremap <c-s> :w<cr>
 inoremap <c-s> <esc>:w<cr>a
 inoremap <c-j> i<c-j>
+nnoremap dl 0<c-v>$d
+nnoremap <space>j a<space><esc>h
+nnoremap <space>k i<space><esc>l
+nnoremap =p VypVr=
+inoremap <c-p> <esc>VypVr=o
 
+" split control commands
+" these allow me to move to the splits above, below, to the left, and to the
+" right, as well as to close a split or all other splits and shrink or
+" enlarge the current split
+nnoremap <c-k>  <c-w>k
+nnoremap <c-j>  <c-w>j
+nnoremap <c-h>  <c-w>h
+nnoremap <c-l>  <c-w>l
+nnoremap <c-c> <c-w>c
+nnoremap <c-,>  <c-w>10>
+nnoremap <c-.>  <c-w>10<
 nnoremap [w <c-w>W
 nnoremap ]w <c-w>w
 
-" split control commands
-" these allow me to move to the windows above, below, to the left, and to the
-" right, as well as to close a window or all other windows and shrink or
-" enlarge the current window
-noremap <leader>wk <c-w>k
-noremap <leader>wj <c-w>j
-noremap <leader>wh <c-w><left>
-noremap <leader>wl <c-w><right>
-noremap <leader>ww <c-w><c-w>
-noremap <leader>wo <c-w>o
-noremap <leader>wc <c-w>c
-noremap <leader>wb <c-w>10>
-noremap <leader>ws <c-w>10<
-
 " edit and source commands
 noremap <leader>ev :split $MYVIMRC<cr>
-noremap <leader>ov :edit $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>eu :UltiSnipsEdit<cr>
-
-" easily edit a template
-noremap ,et :split ~/.vim/bundle/vim-template/templates/=template=.
+" edit the template corresponding to current file extension
+noremap <silent> <leader>et :execute 'split ~/.vim/bundle/vim-template/templates/=template=.' . expand('%:e')<cr>
 
 " swap commands to make it easier for me to do common stuff
 nnoremap v <c-v>
@@ -364,6 +379,17 @@ nnoremap ' `
 nnoremap <space>r :SyntasticReset<cr>
 nnoremap <space>e :Errors<cr>
 nnoremap <space>ts :SyntasticToggleMode<cr>
+
+" }}}
+
+
+" COMMANDS {{{
+" custom ed commands
+
+command! WQ wq
+command! Wq wq
+command! W w
+command! Q q
 
 " }}}
 
