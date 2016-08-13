@@ -94,6 +94,14 @@ Plugin 'https://github.com/wesQ3/vim-windowswap.git'
 Plugin 'https://github.com/vitorgalvao/autoswap_mac.git'
 " visually move blocks of text
 Plugin 'https://github.com/gavinbeatty/dragvisuals.vim.git'
+" a nice file browser
+Plugin 'https://github.com/scrooloose/nerdtree.git'
+" fuzzy search
+Plugin 'https://github.com/ctrlpvim/ctrlp.vim.git'
+" visual undo tree
+Plugin 'https://github.com/sjl/gundo.vim.git'
+" align columns
+Plugin 'https://github.com/godlygeek/tabular.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -213,6 +221,7 @@ set wildignore+=*.o,*.out
 set wildignore+=*.bmp,*.gif,*.ico,*.png,*.jpg,*.pdf
 set wildignore+=.DS_Store,.git,.hg,.svn
 set wildignore+=*~,*.swp,*.tmp
+set wildignore+=*/tmp/*,*.so,*.zip,*.tar
 
 " backspace to beginning of line in insert mode
 " and on new line in normal mode
@@ -252,6 +261,7 @@ nnoremap <silent> N N:call HLNext(0.4)<cr>
 " use ag instead of ack
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
+  set grepprg=ag\ --nogroup\ --nocolor
 endif
 
 " }}}
@@ -317,6 +327,18 @@ vmap <expr> <right> DVB_Drag('right')
 vmap <expr> <up> DVB_Drag('up')
 vmap <expr> <down> DVB_Drag('down')
 
+" ctrlp
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+let g:ctrp_map = '<c-p>'
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_max_files = 0
+let g:ctrlp_cmd = 'CtrlP'
+
+" Gundo
+nnoremap <leader>gu :GundoToggle<cr>
+
 " }}}
 
 
@@ -342,7 +364,8 @@ nnoremap dl 0<c-v>$d
 nnoremap <space>j a<space><esc>h
 nnoremap <space>k i<space><esc>l
 nnoremap =p VypVr=
-inoremap <c-p> <esc>VypVr=o
+nnoremap <leader>nt :NERDTree<cr>
+nnoremap ZZ :wall<cr>ZZ
 
 " split control commands
 " these allow me to move to the splits above, below, to the left, and to the
