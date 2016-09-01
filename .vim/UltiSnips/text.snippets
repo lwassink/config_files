@@ -1,0 +1,7 @@
+# insert the date as a header
+snippet date "insert the date as a header" b
+${1:`date +%A,\ %B\ %d,\ %Y`}
+`!p snip.rv = "=" * len(t[1]) `
+
+$0
+endsnippet

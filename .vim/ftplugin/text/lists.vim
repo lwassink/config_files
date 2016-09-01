@@ -5,19 +5,12 @@ if exists("b:lists_loaded")
 endif
 let b:lists_loaded = 1
 
-function! s:PreviousLine()
-  if line('.') ==# 1
-    return '###'
-  else
-    return getline(line('.') - 1)
-  endif
-endfunction!
-
+source ~/.vim/plugin/utilities.vim
 
 function! s:Leader()
-  let prev_line = s:PreviousLine()
+  let prev_line = UtilitiesPreviousLine()
 
-  if prev_line =~# '\v^\s*--'
+  if prev_line =~# '\v^\s*--\s*[^ ]'
     return '-- '
   elseif prev_line =~# '\v^\s*\d+[.\)]\s*[^ ]'
     let number = matchstr(prev_line, '\v\d+')

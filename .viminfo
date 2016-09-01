@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/plugin
+~MSle0/au
 
 # Last Substitute Search Pattern:
-~MSle0&^$
+~MSle0~&10
 
 # Last Substitute String:
-$\r
+$len
 
 # Command Line History (newest to oldest):
-:PluginInstall
-|2,0,1471062612,,"PluginInstall"
 :w
-|2,0,1471062606,,"w"
-:e .vimrc
-|2,0,1471062575,,"e .vimrc"
+|2,0,1472525401,,"w"
+:%s/10/len/g
+|2,0,1472525361,,"%s/10/len/g"
+:s/10/len/g
+|2,0,1472525356,,"s/10/len/g"
+:s/10/len
+|2,0,1472525340,,"s/10/len"
+:e array_filter_benchmark.rb
+|2,0,1472524693,,"e array_filter_benchmark.rb"
+:cd ~/test
+|2,0,1472524652,,"cd ~/test"
 :e ~/.vimrc
-|2,0,1471057809,,"e ~/.vimrc"
-:%s/,/\r/g|g/^$/d
-|2,0,1471054795,,"%s/,/\\r/g|g/^$/d"
-:%s/,/\r/g g/^$/d
-|2,0,1471054789,,"%s/,/\\r/g g/^$/d"
-:%s/,/\r/g | g/^$/d
-|2,0,1471054779,,"%s/,/\\r/g | g/^$/d"
-:%s/,/\r/g | %s/^$
-|2,0,1471054757,,"%s/,/\\r/g | %s/^$"
-:%s/,/\r/g | %s/\n
-|2,0,1471054738,,"%s/,/\\r/g | %s/\\n"
-:%s/,/\r/g
-|2,0,1471054708,,"%s/,/\\r/g"
-:%s/,/<cr>/g
-|2,0,1471054633,,"%s/,/<cr>/g"
-:'<,'>=sum
-|2,0,1471052737,,"'<,'>=sum"
-:put =system('echo $RANDOM')
-|2,0,1471052532,,"put =system('echo $RANDOM')"
-:put system('echo $RANDOM')
-|2,0,1471052513,,"put system('echo $RANDOM')"
-:wall
-|2,0,1471047837,,"wall"
-:h ctrlp
-|2,0,1471047657,,"h ctrlp"
-:pwd
-|2,0,1471047597,,"pwd"
-:cd ~/developer/
-|2,0,1471047254,,"cd ~/developer/"
-:cd developer/
-|2,0,1471047952,,"cd developer/"
-:e ~/developer/app-academy/prep_work/
-|2,0,1471047853,,"e ~/developer/app-academy/prep_work/"
-:PluginUpdate
-|2,0,1471047119,,"PluginUpdate"
-:make
-|2,0,1471036073,,"make"
-:%s/list<.*>/container/gc
-|2,0,1471035973,,"%s/list<.*>/container/gc"
-:%s/list<\.*>/container/gc
-|2,0,1471035968,,"%s/list<\\.*>/container/gc"
-:e container_type.h
-|2,0,1471035606,,"e container_type.h"
-:bd
-|2,0,1471035579,,"bd"
-:w!
-|2,0,1471035473,,"w!"
-:e grade_vector_example/grades.cpp
-|2,0,1471035280,,"e grade_vector_example/grades.cpp"
-:e grade_list_example/grades.cpp
-|2,0,1471035251,,"e grade_list_example/grades.cpp"
-:1,10g/^/ 1,$t$
-|2,0,1471035069,,"1,10g/^/ 1,$t$"
-:1,100g/^/ 1,$t$
-|2,0,1471034991,,"1,100g/^/ 1,$t$"
-:g/^/ 1,99t$
-|2,0,1471034706,,"g/^/ 1,99t$"
-:1,$t$
-|2,0,1471034675,,"1,$t$"
-:1,$p$
-|2,0,1471034641,,"1,$p$"
-:1,$c$
-|2,0,1471034637,,"1,$c$"
-:1,$m$
-|2,0,1471034633,,"1,$m$"
-:b grades.cpp
-|2,0,1471031284,,"b grades.cpp"
-:%s/vector/list/gc
-|2,0,1471031270,,"%s/vector/list/gc"
-:e list_of_students
-|2,0,1471031013,,"e list_of_students"
-:e makefile
-|2,0,1471030619,,"e makefile"
-:e mak
-|2,0,1471030615,,"e mak"
-:!ctags -R
-|2,0,1471030500,,"!ctags -R"
-:e grade.cpp
-|2,0,1471030478,,"e grade.cpp"
-:q
-|2,0,1471030182,,"q"
+|2,0,1472452119,,"e ~/.vimrc"
+:ew
+|2,0,1472357199,,"ew"
+:imap i
+|2,0,1472357014,,"imap i"
+:map id
+|2,0,1472357011,,"map id"
+:e grades.cpp
+|2,0,1472356903,,"e grades.cpp"
+:e check_for_completion.cpp
+|2,0,1472356860,,"e check_for_completion.cpp"
+:let NERDTreeIgnore = ['\.o$']
+|2,0,1472356470,,"let NERDTreeIgnore = ['\\.o$']"
+:map <space><space>
+|2,0,1472261503,,"map <space><space>"
+:e ../cpp/cpp.vim
+|2,0,1472261438,,"e ../cpp/cpp.vim"
+:w sh.vim
+|2,0,1472261426,,"w sh.vim"
+:cd sh
+|2,0,1472261419,,"cd sh"
+:!mkdir sh
+|2,0,1472261416,,"!mkdir sh"
 :!ls
-|2,0,1471030057,,"!ls"
-:b gra
-|2,0,1471029786,,"b gra"
-:%s/list/vector/gc
-|2,0,1471029777,,"%s/list/vector/gc"
-:%/vector/list/gc
-|2,0,1471029738,,"%/vector/list/gc"
-:b test
-|2,0,1470980464,,"b test"
-:set filetype=cpp
-|2,0,1470977462,,"set filetype=cpp"
+|2,0,1472261388,,"!ls"
+:cd ~/.vim/ftplugin/
+|2,0,1472261383,,"cd ~/.vim/ftplugin/"
+:q!
+|2,0,1472255941,,"q!"
+:wall
+|2,0,1472255935,,"wall"
+:w!
+|2,0,1472255249,,"w!"
+:cd bash_test/
+|2,0,1472249377,,"cd bash_test/"
+:pwd
+|2,0,1472249345,,"pwd"
+:e bash_test/hello_world
+|2,0,1472249337,,"e bash_test/hello_world"
+:cd test/
+|2,0,1472249317,,"cd test/"
+:e ~/.virmc
+|2,0,1471977458,,"e ~/.virmc"
+:h 'ctrlp'
+|2,0,1471976712,,"h 'ctrlp'"
+:b ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_in
+|2,0,1471976280,,"b ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_in"
+:args
+|2,0,1471976257,,"args"
+:ls
+|2,0,1471976250,,"ls"
+:!ctag -R
+|2,0,1471972429,,"!ctag -R"
+:ctag -R
+|2,0,1471972425,,"ctag -R"
+:PluginClean
+|2,0,1471757156,,"PluginClean"
+:UltiSnipsEdit all
+|2,0,1471757105,,"UltiSnipsEdit all"
+:h spell
+|2,0,1471823423,,"h spell"
+:e palindrome.cpp
+|2,0,1471391686,,"e palindrome.cpp"
+:make
+|2,0,1471297490,,"make"
+:e makefile
+|2,0,1471297440,,"e makefile"
+:GundoShow
+|2,0,1471310573,,"GundoShow"
+:Gundo
+|2,0,1471310566,,"Gundo"
+:h 'history'
+|2,0,1471310289,,"h 'history'"
+:h history
+|2,0,1471310205,,"h history"
+:w ~/test/transpose.rb
+|2,0,1471294768,,"w ~/test/transpose.rb"
+:h refact
+|2,0,1471294582,,"h refact"
+:set filetype=ruby
+|2,0,1471294483,,"set filetype=ruby"
+:PluginInstall
+|2,0,1471284086,,"PluginInstall"
+:e ~/test/test.rb
+|2,0,1471284243,,"e ~/test/test.rb"
+:e ~/test/test.god
+|2,0,1471238673,,"e ~/test/test.god"
 
 # Search String History (newest to oldest):
-?/plugin
-|2,1,1471057637,47,"plugin"
-? ^$
-|2,1,1471054795,,"^$"
-? ,
-|2,1,1471054795,,","
-? \n
-|2,1,1471054738,,"\\n"
-?/^s*private<cr>mp
-|2,1,1471047959,47,"^s*private<cr>mp"
-?/wildig
-|2,1,1471047035,47,"wildig"
-?/grepprg
-|2,1,1471046680,47,"grepprg"
-?/list
-|2,1,1471035982,47,"list"
-? list<.*>
-|2,1,1471035973,,"list<.*>"
-? list<\.*>
-|2,1,1471035968,,"list<\\.*>"
+? 10
+|2,1,1472525361,,"10"
 ? %HERE%
-|2,1,1471035606,,"%HERE%"
-? ^
-|2,1,1471035069,,"^"
-? vector
-|2,1,1471031270,,"vector"
-?/comp
-|2,1,1471030489,47,"comp"
-? list
-|2,1,1471029777,,"list"
-??l
-|2,1,1471029606,63,"l"
-??or
-|2,1,1470957200,63,"or"
-?/*
-|2,1,1470949994,47,"*"
-?/oa
-|2,1,1470949956,47,"oa"
-?/=
-|2,1,1470897136,47,"="
-?/whil
-|2,1,1470895231,47,"whil"
-? s.size()
-|2,1,1470890346,,"s.size()"
-? iter
-|2,1,1470869190,,"iter"
-?/for
-|2,1,1470866162,47,"for"
-?/int
-|2,1,1470847982,47,"int"
-?/grade
-|2,1,1470844620,47,"grade"
+|2,1,1472524694,,"%HERE%"
+?/^s*private<cr>mp
+|2,1,1472524693,47,"^s*private<cr>mp"
+?/au
+|2,1,1472452131,47,"au"
+?/c++
+|2,1,1472452128,47,"c++"
 ?/cpp
-|2,1,1470858787,47,"cpp"
-? tes
-|2,1,1470858417,,"tes"
-? cpp_switch
-|2,1,1470858403,,"cpp_switch"
-? s:SwitchFile
-|2,1,1470858253,,"s:SwitchFile"
-??cout
-|2,1,1470793041,63,"cout"
-? word
-|2,1,1470792836,,"word"
-? *
-|2,1,1470777703,,"*"
-? SwitchFile(file_name . '.h')
-|2,1,1470777138,,"SwitchFile(file_name . '.h')"
-?/Sw
-|2,1,1470776696,47,"Sw"
-?/]w
-|2,1,1470775090,47,"]w"
-?/map s
-|2,1,1470774987,47,"map s"
-?/rea
-|2,1,1470768210,47,"rea"
-?/word
-|2,1,1470763860,47,"word"
-?/ind
-|2,1,1470763686,47,"ind"
-?/conta
-|2,1,1470763674,47,"conta"
-?/ds
-|2,1,1470763159,47,"ds"
-?/fa
-|2,1,1470762925,47,"fa"
-?/bool
-|2,1,1470762910,47,"bool"
-??,
-|2,1,1470762589,63,","
-??;
-|2,1,1470762569,63,";"
-? \<log\>
-|2,1,1470724903,,"\\<log\\>"
-??str
-|2,1,1470723660,63,"str"
+|2,1,1472452124,47,"cpp"
+?/autocmd
+|2,1,1472451521,47,"autocmd"
+?/fold
+|2,1,1472357491,47,"fold"
+?/ctrlp_
+|2,1,1471977478,47,"ctrlp_"
+?/ctrlp_use
+|2,1,1471977197,47,"ctrlp_use"
+?/wildig
+|2,1,1471976717,47,"wildig"
+? \<not_url_char\>
+|2,1,1471972452,,"\\<not_url_char\\>"
 ?/tab
-|2,1,1470705253,47,"tab"
-?/wild
-|2,1,1470705034,47,"wild"
+|2,1,1471757134,47,"tab"
+??as
+|2,1,1471823342,63,"as"
+?/=
+|2,1,1471883094,47,"="
+?/write
+|2,1,1471391902,47,"write"
+?/focus
+|2,1,1471391889,47,"focus"
+? \s*$
+|2,1,1471408619,,"\\s*$"
+??nui
+|2,1,1471407842,63,"nui"
+??thei
+|2,1,1471315772,63,"thei"
+?/as
+|2,1,1471310692,47,"as"
+?/save as
+|2,1,1471310690,47,"save as"
+?/name
+|2,1,1471310683,47,"name"
+?/rename
+|2,1,1471310680,47,"rename"
+?/<c-n>
+|2,1,1471294882,47,"<c-n>"
+?/snip
+|2,1,1471283798,47,"snip"
+?/neocomplete
+|2,1,1471283612,47,"neocomplete"
+?/END
+|2,1,1471238508,47,"END"
+? (\(\f\|\[\|]\|\s\)*
+|2,1,1471116497,,"(\\(\\f\\|\\[\\|]\\|\\s\\)*"
+?/Dept.
+|2,1,1471116317,47,"Dept."
+? \s\+$
+|2,1,1471116237,,"\\s\\+$"
+? \s+$
+|2,1,1471116232,,"\\s+$"
+?/\c<c-j>
+|2,1,1471115915,47,"\\c<c-j>"
+?/<c-j>/c
+|2,1,1471115905,47,"<c-j>/c"
+?/<c-j>
+|2,1,1471115889,47,"<c-j>"
+?/y
+|2,1,1471114190,47,"y"
+? list
+|2,1,1471113276,,"list"
+??ii
+|2,1,1471110390,63,"ii"
+??vector
+|2,1,1471110077,63,"vector"
+?/cc
+|2,1,1471041030,47,"cc"
+?/cin
+|2,1,1471040691,47,"cin"
+?/ost
+|2,1,1471040630,47,"ost"
+?/cont
+|2,1,1471040578,47,"cont"
+?/pri
+|2,1,1471040279,47,"pri"
+?/con
+|2,1,1471040027,47,"con"
+?/c
+|2,1,1471039942,47,"c"
+?/upcase
+|2,1,1471039711,47,"upcase"
+?/pr
+|2,1,1471039544,47,"pr"
+? list<string>
+|2,1,1471039212,,"list<string>"
+? list<.*>
+|2,1,1471039200,,"list<.*>"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -233,7 +233,9 @@ $\r
 
 # Input Line History (newest to oldest):
 @y
-|2,3,1470980114,,"y"
+|2,3,1471757159,,"y"
+@row
+|2,3,1471294652,,"row"
 @LOOP_LENGTH
 |2,3,1469561989,,"LOOP_LENGTH"
 @wahuna
@@ -261,38 +263,38 @@ $\r
 
 # Registers:
 "0	LINE	0
-	"
-|3,0,0,1,1,0,1471062581,"\""
-""1	CHAR	0
-	# plugin...
-|3,1,1,0,1,0,1471062604,"# plugin..."
+	  x.report do
+|3,0,0,1,1,0,1472525258,"  x.report do"
+"1	LINE	0
+	end
+|3,0,1,1,1,0,1472525248,"end"
 "2	LINE	0
-	"
-|3,0,2,1,1,0,1471057690,"\""
-"3	CHAR	0
-	# plugin...
-|3,0,3,0,1,0,1471057611,"# plugin..."
+	puts new_nums
+|3,0,2,1,1,0,1472525121,"puts new_nums"
+"3	LINE	0
+	puts nums
+|3,0,3,1,1,0,1472525119,"puts nums"
 "4	LINE	0
-	12345679001234567900
-|3,0,4,1,1,0,1471055757,"12345679001234567900"
+	puts nums
+|3,0,4,1,1,0,1472525118,"puts nums"
 "5	LINE	0
-	12345
-|3,0,5,1,1,0,1471055712,"12345"
+	
+|3,0,5,1,1,0,1472357384,""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1471054795,""
+	using Student_info::did_all_hw;
+|3,0,6,1,1,0,1472357120,"using Student_info::did_all_hw;"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1471054779,""
+	  }
+|3,0,7,1,1,0,1472357052,"  }"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1471054779,""
+	    } else
+|3,0,8,1,1,0,1472357049,"    } else"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1471054779,""
-"a	CHAR	0
+	    did
+|3,0,9,1,1,0,1472357006,"    did"
+"a@	CHAR	0
 	djj
-|3,0,10,0,1,0,1471054610,"djj"
+|3,2,10,0,1,0,1471755760,"djj"
 "b	CHAR	0
 	   \sin^{-1}(x)' = \frac{1}{\sqrt{1-x^2}},
 	   \ \ \ & \cos^{-1}(x)' = -\frac{1}{\sqrt{1-x^2}},
@@ -349,7 +351,7 @@ $\r
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,1471047883,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,1472356822,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
 "i	LINE	0
@@ -378,14 +380,14 @@ $\r
 	I€kr€kb;;j
 |3,0,27,0,1,0,0,"I€kr€kb;;j"
 "s	CHAR	0
-	b
-|3,0,28,0,1,0,1469243008,"b"
+	bsbo:w
+|3,0,28,0,1,0,1471116516,"bsbo:w"
 "u	CHAR	0
 	u
 |3,0,30,0,1,0,1467089029,"u"
-"v	LINE	0
-	#include <iostream>
-|3,0,31,1,1,0,1471048961,"#include <iostream>"
+"v	BLOCK	0
+	e
+|3,0,31,2,1,0,1471977577,"e"
 "w	LINE	0
 	  cout << "Enter a series of words:" << endl;
 	
@@ -399,351 +401,1404 @@ $\r
 |3,0,32,1,9,0,1470337453,"  cout << \"Enter a series of words:\" << endl;","","  string x;","  vector<string> words;","","  /* invariant: words contains all the words entered so far */","  while (cin >> x)","    words.push_back(x);",""
 "z	CHAR	0
 	Jx;;ZvZ€kb€kbZ
-|3,0,35,0,1,0,0,"Jx;;ZvZ€kb€kbZ"
-"-	CHAR	0
-	# plugin...
-|3,0,36,0,1,0,1471062604,"# plugin..."
+|3,0,35,0,1,0,1471294686,"Jx;;ZvZ€kb€kbZ"
+""-	CHAR	0
+	300
+|3,1,36,0,1,0,1472525396,"300"
 
 # File marks:
-'L  427  0  ~/.vimrc
-|4,76,427,0,1469084029,"~/.vimrc"
+'L  411  0  ~/.vimrc
+|4,76,411,0,1469084029,"~/.vimrc"
 'U  361  0  /usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt
 |4,85,361,0,1469211868,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  80  0  ~/.vimrc
 |4,86,80,0,1468550697,"~/.vimrc"
-'0  154  19  ~/.vim/bundle/ctrlp.vim/doc/ctrlp.txt
-|4,48,154,19,1471049016,"~/.vim/bundle/ctrlp.vim/doc/ctrlp.txt"
-'1  3  0  ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/maze.rb
-|4,49,3,0,1471049014,"~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/maze.rb"
-'2  1  0  ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/spec/position_spec.rb
-|4,50,1,0,1471047936,"~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/spec/position_spec.rb"
-'3  44  2  ~/Dropbox/programing/accelerated_cpp/chap5/grade_flexible_example/grades.cpp
-|4,51,44,2,1471036088,"~/Dropbox/programing/accelerated_cpp/chap5/grade_flexible_example/grades.cpp"
-'4  1  0  ~/Dropbox/programing/accelerated_cpp/chap5/grade_flexible_example/list_of_students
-|4,52,1,0,1471035475,"~/Dropbox/programing/accelerated_cpp/chap5/grade_flexible_example/list_of_students"
-'5  43  0  ~/Dropbox/programing/accelerated_cpp/chap5/grade_list_example/grades.cpp
-|4,53,43,0,1471035384,"~/Dropbox/programing/accelerated_cpp/chap5/grade_list_example/grades.cpp"
-'6  1  0  ~/Dropbox/programing/accelerated_cpp/chap5/speed_profile
-|4,54,1,0,1471035364,"~/Dropbox/programing/accelerated_cpp/chap5/speed_profile"
-'7  10000  1  ~/Dropbox/programing/accelerated_cpp/chap5/list_of_students
-|4,55,10000,1,1471035086,"~/Dropbox/programing/accelerated_cpp/chap5/list_of_students"
-'8  10137582  1  ~/Dropbox/programing/accelerated_cpp/chap5/list_of_students
-|4,56,10137582,1,1471035086,"~/Dropbox/programing/accelerated_cpp/chap5/list_of_students"
-'9  1  0  ~/Dropbox/programing/accelerated_cpp/chap5/list_of_student
-|4,57,1,0,1471035050,"~/Dropbox/programing/accelerated_cpp/chap5/list_of_student"
+'0  13  10  ~/test/array_filter_benchmark.rb
+|4,48,13,10,1472530633,"~/test/array_filter_benchmark.rb"
+'1  1  0  ~/.vim/ftplugin/cpp/cpp
+|4,49,1,0,1472452061,"~/.vim/ftplugin/cpp/cpp"
+'2  38  20  ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/check_for_completion.cpp
+|4,50,38,20,1472357539,"~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/check_for_completion.cpp"
+'3  4  41  ~/.vim/ftplugin/sh/sh.vim
+|4,51,4,41,1472261588,"~/.vim/ftplugin/sh/sh.vim"
+'4  1  0  ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp
+|4,52,1,0,1472255941,"~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp"
+'5  1  0  ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp
+|4,53,1,0,1472255941,"~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp"
+'6  43  26  ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp
+|4,54,43,26,1472255917,"~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp"
+'7  43  26  ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp
+|4,55,43,26,1472255917,"~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp"
+'8  1  0  ~/test/bash_test/hello_world
+|4,56,1,0,1472249444,"~/test/bash_test/hello_world"
+'9  3  17  bash_test/hello_world
+|4,57,3,17,1472249422,"bash_test/hello_world"
 
 # Jumplist (newest first):
--'  104  48  ~/.vimrc
-|4,39,104,48,1471062621,"~/.vimrc"
--'  340  0  ~/.vimrc
-|4,39,340,0,1471062577,"~/.vimrc"
+-'  13  10  ~/test/array_filter_benchmark.rb
+|4,39,13,10,1472530633,"~/test/array_filter_benchmark.rb"
+-'  30  6  ~/test/array_filter_benchmark.rb
+|4,39,30,6,1472525363,"~/test/array_filter_benchmark.rb"
+-'  23  6  ~/test/array_filter_benchmark.rb
+|4,39,23,6,1472525361,"~/test/array_filter_benchmark.rb"
+-'  16  6  ~/test/array_filter_benchmark.rb
+|4,39,16,6,1472525340,"~/test/array_filter_benchmark.rb"
+-'  1  0  ~/test/array_filter_benchmark.rb
+|4,39,1,0,1472525313,"~/test/array_filter_benchmark.rb"
+-'  25  6  ~/test/array_filter_benchmark.rb
+|4,39,25,6,1472525313,"~/test/array_filter_benchmark.rb"
+-'  28  13  ~/test/array_filter_benchmark.rb
+|4,39,28,13,1472525306,"~/test/array_filter_benchmark.rb"
+-'  15  4  ~/test/array_filter_benchmark.rb
+|4,39,15,4,1472525292,"~/test/array_filter_benchmark.rb"
+-'  19  4  ~/test/array_filter_benchmark.rb
+|4,39,19,4,1472525272,"~/test/array_filter_benchmark.rb"
+-'  20  2  ~/test/array_filter_benchmark.rb
+|4,39,20,2,1472525139,"~/test/array_filter_benchmark.rb"
+-'  5  0  ~/test/array_filter_benchmark.rb
+|4,39,5,0,1472524694,"~/test/array_filter_benchmark.rb"
+-'  3  0  ~/test/array_filter_benchmark.rb
+|4,39,3,0,1472524694,"~/test/array_filter_benchmark.rb"
+-'  453  2  ~/.vimrc
+|4,39,453,2,1472502385,"~/.vimrc"
+-'  453  2  ~/.vimrc
+|4,39,453,2,1472502385,"~/.vimrc"
+-'  452  2  ~/.vimrc
+|4,39,452,2,1472452165,"~/.vimrc"
+-'  451  0  ~/.vimrc
+|4,39,451,0,1472452165,"~/.vimrc"
+-'  452  2  ~/.vimrc
+|4,39,452,2,1472452165,"~/.vimrc"
+-'  451  0  ~/.vimrc
+|4,39,451,0,1472452165,"~/.vimrc"
+-'  434  2  ~/.vimrc
+|4,39,434,2,1472452164,"~/.vimrc"
+-'  434  2  ~/.vimrc
+|4,39,434,2,1472452164,"~/.vimrc"
+-'  348  17  ~/.vimrc
+|4,39,348,17,1472452163,"~/.vimrc"
+-'  348  17  ~/.vimrc
+|4,39,348,17,1472452163,"~/.vimrc"
+-'  313  12  ~/.vimrc
+|4,39,313,12,1472452162,"~/.vimrc"
+-'  300  22  ~/.vimrc
+|4,39,300,22,1472452162,"~/.vimrc"
+-'  313  12  ~/.vimrc
+|4,39,313,12,1472452162,"~/.vimrc"
+-'  300  22  ~/.vimrc
+|4,39,300,22,1472452162,"~/.vimrc"
+-'  291  16  ~/.vimrc
+|4,39,291,16,1472452161,"~/.vimrc"
+-'  291  16  ~/.vimrc
+|4,39,291,16,1472452161,"~/.vimrc"
+-'  225  10  ~/.vimrc
+|4,39,225,10,1472452159,"~/.vimrc"
+-'  225  10  ~/.vimrc
+|4,39,225,10,1472452159,"~/.vimrc"
+-'  195  0  ~/.vimrc
+|4,39,195,0,1472452158,"~/.vimrc"
+-'  194  2  ~/.vimrc
+|4,39,194,2,1472452158,"~/.vimrc"
+-'  193  2  ~/.vimrc
+|4,39,193,2,1472452158,"~/.vimrc"
+-'  195  0  ~/.vimrc
+|4,39,195,0,1472452158,"~/.vimrc"
+-'  194  2  ~/.vimrc
+|4,39,194,2,1472452158,"~/.vimrc"
+-'  193  2  ~/.vimrc
+|4,39,193,2,1472452158,"~/.vimrc"
+-'  192  0  ~/.vimrc
+|4,39,192,0,1472452156,"~/.vimrc"
+-'  192  0  ~/.vimrc
+|4,39,192,0,1472452156,"~/.vimrc"
+-'  177  4  ~/.vimrc
+|4,39,177,4,1472452154,"~/.vimrc"
+-'  147  23  ~/.vimrc
+|4,39,147,23,1472452154,"~/.vimrc"
+-'  177  4  ~/.vimrc
+|4,39,177,4,1472452154,"~/.vimrc"
+-'  147  23  ~/.vimrc
+|4,39,147,23,1472452154,"~/.vimrc"
+-'  146  23  ~/.vimrc
+|4,39,146,23,1472452153,"~/.vimrc"
+-'  144  0  ~/.vimrc
+|4,39,144,0,1472452153,"~/.vimrc"
+-'  146  23  ~/.vimrc
+|4,39,146,23,1472452153,"~/.vimrc"
+-'  144  0  ~/.vimrc
+|4,39,144,0,1472452153,"~/.vimrc"
+-'  143  2  ~/.vimrc
+|4,39,143,2,1472452152,"~/.vimrc"
+-'  143  2  ~/.vimrc
+|4,39,143,2,1472452152,"~/.vimrc"
+-'  142  2  ~/.vimrc
+|4,39,142,2,1472452150,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1472452150,"~/.vimrc"
+-'  142  2  ~/.vimrc
+|4,39,142,2,1472452150,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1472452150,"~/.vimrc"
+-'  126  0  ~/.vimrc
+|4,39,126,0,1472452149,"~/.vimrc"
+-'  126  0  ~/.vimrc
+|4,39,126,0,1472452149,"~/.vimrc"
+-'  94  39  ~/.vimrc
+|4,39,94,39,1472452136,"~/.vimrc"
+-'  19  0  ~/.vimrc
+|4,39,19,0,1472452136,"~/.vimrc"
+-'  94  39  ~/.vimrc
+|4,39,94,39,1472452136,"~/.vimrc"
+-'  19  0  ~/.vimrc
+|4,39,19,0,1472452136,"~/.vimrc"
+-'  18  2  ~/.vimrc
+|4,39,18,2,1472452135,"~/.vimrc"
+-'  18  2  ~/.vimrc
+|4,39,18,2,1472452135,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472452133,"~/.vimrc"
+-'  16  0  ~/.vimrc
+|4,39,16,0,1472452133,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472452133,"~/.vimrc"
+-'  16  0  ~/.vimrc
+|4,39,16,0,1472452133,"~/.vimrc"
+-'  510  0  ~/.vimrc
+|4,39,510,0,1472452131,"~/.vimrc"
+-'  510  0  ~/.vimrc
+|4,39,510,0,1472452131,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1471062576,"~/.vimrc"
--'  338  0  ~/.vimrc
-|4,39,338,0,1471057907,"~/.vimrc"
--'  339  4  ~/.vimrc
-|4,39,339,4,1471057901,"~/.vimrc"
--'  102  8  ~/.vimrc
-|4,39,102,8,1471057901,"~/.vimrc"
--'  101  2  ~/.vimrc
-|4,39,101,2,1471057901,"~/.vimrc"
--'  335  32  ~/.vimrc
-|4,39,335,32,1471057901,"~/.vimrc"
--'  337  0  ~/.vimrc
-|4,39,337,0,1471057901,"~/.vimrc"
--'  336  0  ~/.vimrc
-|4,39,336,0,1471057901,"~/.vimrc"
--'  224  16  ~/.vimrc
-|4,39,224,16,1471057901,"~/.vimrc"
--'  223  4  ~/.vimrc
-|4,39,223,4,1471057901,"~/.vimrc"
--'  333  4  ~/.vimrc
-|4,39,333,4,1471057901,"~/.vimrc"
--'  331  18  ~/.vimrc
-|4,39,331,18,1471057901,"~/.vimrc"
--'  332  51  ~/.vimrc
-|4,39,332,51,1471057901,"~/.vimrc"
--'  264  0  ~/.vimrc
-|4,39,264,0,1471057901,"~/.vimrc"
--'  263  4  ~/.vimrc
-|4,39,263,4,1471057901,"~/.vimrc"
--'  330  6  ~/.vimrc
-|4,39,330,6,1471057901,"~/.vimrc"
--'  328  4  ~/.vimrc
-|4,39,328,4,1471057901,"~/.vimrc"
--'  100  8  ~/.vimrc
-|4,39,100,8,1471057901,"~/.vimrc"
--'  99  2  ~/.vimrc
-|4,39,99,2,1471057901,"~/.vimrc"
--'  368  0  ~/.vimrc
-|4,39,368,0,1471057901,"~/.vimrc"
--'  105  0  ~/.vimrc
-|4,39,105,0,1471057901,"~/.vimrc"
--'  367  0  ~/.vimrc
-|4,39,367,0,1471057901,"~/.vimrc"
--'  98  8  ~/.vimrc
-|4,39,98,8,1471057901,"~/.vimrc"
--'  97  2  ~/.vimrc
-|4,39,97,2,1471057901,"~/.vimrc"
--'  24  1  ~/.vimrc
-|4,39,24,1,1471057901,"~/.vimrc"
--'  358  12  ~/.vimrc
-|4,39,358,12,1471057901,"~/.vimrc"
--'  357  0  ~/.vimrc
-|4,39,357,0,1471057901,"~/.vimrc"
--'  351  0  ~/.vimrc
-|4,39,351,0,1471057901,"~/.vimrc"
--'  220  19  ~/.vimrc
-|4,39,220,19,1471057901,"~/.vimrc"
--'  218  0  ~/.vimrc
-|4,39,218,0,1471057901,"~/.vimrc"
--'  267  0  ~/.vimrc
-|4,39,267,0,1471057901,"~/.vimrc"
--'  337  4  ~/.vimrc
-|4,39,337,4,1471057901,"~/.vimrc"
--'  102  8  ~/.vimrc
-|4,39,102,8,1471057901,"~/.vimrc"
--'  101  2  ~/.vimrc
-|4,39,101,2,1471057901,"~/.vimrc"
--'  333  32  ~/.vimrc
-|4,39,333,32,1471057901,"~/.vimrc"
--'  335  0  ~/.vimrc
-|4,39,335,0,1471057901,"~/.vimrc"
--'  334  0  ~/.vimrc
-|4,39,334,0,1471057901,"~/.vimrc"
--'  222  16  ~/.vimrc
-|4,39,222,16,1471057901,"~/.vimrc"
--'  221  4  ~/.vimrc
-|4,39,221,4,1471057901,"~/.vimrc"
--'  331  4  ~/.vimrc
-|4,39,331,4,1471057901,"~/.vimrc"
--'  329  18  ~/.vimrc
-|4,39,329,18,1471057901,"~/.vimrc"
--'  330  51  ~/.vimrc
-|4,39,330,51,1471057901,"~/.vimrc"
--'  262  0  ~/.vimrc
-|4,39,262,0,1471057901,"~/.vimrc"
--'  261  4  ~/.vimrc
-|4,39,261,4,1471057901,"~/.vimrc"
--'  328  6  ~/.vimrc
-|4,39,328,6,1471057901,"~/.vimrc"
--'  326  4  ~/.vimrc
-|4,39,326,4,1471057901,"~/.vimrc"
--'  100  8  ~/.vimrc
-|4,39,100,8,1471057901,"~/.vimrc"
--'  99  2  ~/.vimrc
-|4,39,99,2,1471057901,"~/.vimrc"
--'  366  0  ~/.vimrc
-|4,39,366,0,1471057901,"~/.vimrc"
--'  103  0  ~/.vimrc
-|4,39,103,0,1471057901,"~/.vimrc"
--'  365  0  ~/.vimrc
-|4,39,365,0,1471057901,"~/.vimrc"
--'  98  8  ~/.vimrc
-|4,39,98,8,1471057901,"~/.vimrc"
--'  97  2  ~/.vimrc
-|4,39,97,2,1471057901,"~/.vimrc"
--'  24  1  ~/.vimrc
-|4,39,24,1,1471057901,"~/.vimrc"
--'  356  12  ~/.vimrc
-|4,39,356,12,1471057901,"~/.vimrc"
--'  355  0  ~/.vimrc
-|4,39,355,0,1471057901,"~/.vimrc"
--'  349  0  ~/.vimrc
-|4,39,349,0,1471057901,"~/.vimrc"
--'  218  19  ~/.vimrc
-|4,39,218,19,1471057901,"~/.vimrc"
--'  216  0  ~/.vimrc
-|4,39,216,0,1471057901,"~/.vimrc"
--'  265  0  ~/.vimrc
-|4,39,265,0,1471057901,"~/.vimrc"
--'  226  18  ~/.vimrc
-|4,39,226,18,1471057900,"~/.vimrc"
--'  359  10  ~/.vimrc
-|4,39,359,10,1471057900,"~/.vimrc"
--'  369  0  ~/.vimrc
-|4,39,369,0,1471057900,"~/.vimrc"
--'  338  6  ~/.vimrc
-|4,39,338,6,1471057900,"~/.vimrc"
--'  265  0  ~/.vimrc
-|4,39,265,0,1471057900,"~/.vimrc"
--'  224  18  ~/.vimrc
-|4,39,224,18,1471057900,"~/.vimrc"
--'  357  10  ~/.vimrc
-|4,39,357,10,1471057900,"~/.vimrc"
--'  367  0  ~/.vimrc
-|4,39,367,0,1471057900,"~/.vimrc"
--'  336  6  ~/.vimrc
-|4,39,336,6,1471057900,"~/.vimrc"
--'  263  0  ~/.vimrc
-|4,39,263,0,1471057900,"~/.vimrc"
--'  338  35  ~/.vimrc
-|4,39,338,35,1471057799,"~/.vimrc"
--'  270  0  ~/.vimrc
-|4,39,270,0,1471057678,"~/.vimrc"
--'  342  4  ~/.vimrc
-|4,39,342,4,1471057678,"~/.vimrc"
--'  268  0  ~/.vimrc
-|4,39,268,0,1471057678,"~/.vimrc"
--'  24  0  ~/.vimrc
-|4,39,24,0,1471057678,"~/.vimrc"
--'  340  4  ~/.vimrc
-|4,39,340,4,1471057678,"~/.vimrc"
--'  269  0  ~/.vimrc
-|4,39,269,0,1471057676,"~/.vimrc"
--'  267  0  ~/.vimrc
-|4,39,267,0,1471057676,"~/.vimrc"
--'  106  15  ~/.vimrc
-|4,39,106,15,1471057642,"~/.vimrc"
--'  79  4  ~/.vimrc
-|4,39,79,4,1471057642,"~/.vimrc"
--'  104  15  ~/.vimrc
-|4,39,104,15,1471057642,"~/.vimrc"
--'  79  4  ~/.vimrc
-|4,39,79,4,1471057642,"~/.vimrc"
--'  51  26  ~/.vimrc
-|4,39,51,26,1471057641,"~/.vimrc"
--'  44  5  ~/.vimrc
-|4,39,44,5,1471057641,"~/.vimrc"
--'  51  26  ~/.vimrc
-|4,39,51,26,1471057641,"~/.vimrc"
--'  44  5  ~/.vimrc
-|4,39,44,5,1471057641,"~/.vimrc"
--'  41  11  ~/.vimrc
-|4,39,41,11,1471057640,"~/.vimrc"
--'  40  29  ~/.vimrc
-|4,39,40,29,1471057640,"~/.vimrc"
--'  41  11  ~/.vimrc
-|4,39,41,11,1471057640,"~/.vimrc"
--'  40  29  ~/.vimrc
-|4,39,40,29,1471057640,"~/.vimrc"
--'  39  10  ~/.vimrc
-|4,39,39,10,1471057639,"~/.vimrc"
--'  30  9  ~/.vimrc
-|4,39,30,9,1471057639,"~/.vimrc"
--'  39  10  ~/.vimrc
-|4,39,39,10,1471057639,"~/.vimrc"
--'  30  9  ~/.vimrc
-|4,39,30,9,1471057639,"~/.vimrc"
--'  9  0  ~/.vimrc
-|4,39,9,0,1471057637,"~/.vimrc"
--'  9  0  ~/.vimrc
-|4,39,9,0,1471057637,"~/.vimrc"
--'  102  44  ~/.vimrc
-|4,39,102,44,1471057623,"~/.vimrc"
+|4,39,1,0,1472452119,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1472452119,"~/.vimrc"
+-'  1  0  ~/.vim/ftplugin/cpp/cpp
+|4,39,1,0,1472452061,"~/.vim/ftplugin/cpp/cpp"
+-'  1  0  ~/.vim/ftplugin/cpp/cpp
+|4,39,1,0,1472452061,"~/.vim/ftplugin/cpp/cpp"
+-'  1  0  ~/.vim/ftplugin/cpp/cpp
+|4,39,1,0,1472452061,"~/.vim/ftplugin/cpp/cpp"
+-'  1  0  ~/.vim/ftplugin/cpp/cpp
+|4,39,1,0,1472452061,"~/.vim/ftplugin/cpp/cpp"
+-'  510  0  ~/.vimrc
+|4,39,510,0,1472452036,"~/.vimrc"
+-'  510  0  ~/.vimrc
+|4,39,510,0,1472452036,"~/.vimrc"
+-'  510  0  ~/.vimrc
+|4,39,510,0,1472452036,"~/.vimrc"
+-'  510  0  ~/.vimrc
+|4,39,510,0,1472452036,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1472451779,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1472451779,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1472451779,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1472451779,"~/.vimrc"
+-'  510  2  ~/.vimrc
+|4,39,510,2,1472451704,"~/.vimrc"
+-'  510  2  ~/.vimrc
+|4,39,510,2,1472451704,"~/.vimrc"
+-'  510  2  ~/.vimrc
+|4,39,510,2,1472451704,"~/.vimrc"
+-'  510  2  ~/.vimrc
+|4,39,510,2,1472451704,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  17  2  ~/.vimrc
+|4,39,17,2,1472451681,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
+-'  493  2  ~/.vimrc
+|4,39,493,2,1472451678,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/test/array_filter_benchmark.rb
+	*	1472530633	0
+	"	13	10
+	^	11	11
+	.	11	10
+	+	20	0
+	+	17	12
+	+	16	13
+	+	17	49
+	+	20	8
+	+	16	13
+	+	23	0
+	+	27	0
+	+	30	0
+	+	24	21
+	+	31	12
+	+	32	51
+	+	34	8
+	+	24	33
+	+	27	0
+	+	20	0
+	+	34	0
+	+	13	14
+	+	20	2
+	+	16	0
+	+	8	18
+	+	13	0
+	+	10	7
+	+	15	11
+	+	17	0
+	+	18	0
+	+	13	18
+	+	20	0
+	+	14	12
+	+	21	0
+	+	28	0
+	+	35	4
+	+	26	0
+	+	19	4
+	+	16	0
+	+	15	0
+	+	16	0
+	+	22	13
+	+	28	0
+	+	29	13
+	+	33	6
+	+	25	6
+	+	23	0
+	+	16	0
+	+	23	0
+	+	10	0
+	+	11	8
+	+	10	4
+	+	11	10
+	z	13	0
+
 > ~/.vimrc
-	*	1471062621	0
-	"	104	48
-	^	104	48
-	.	104	8
-	+	95	0
-	+	94	8
-	+	190	9
-	+	364	0
-	+	377	0
-	+	357	30
-	+	357	0
-	+	357	13
-	+	357	0
-	+	357	15
-	+	357	0
-	+	359	17
-	+	357	0
-	+	359	7
+	*	1472502385	0
+	"	453	2
+	.	126	0
+	+	329	36
+	+	326	0
+	+	372	0
+	+	417	0
+	+	426	4
+	+	419	10
+	+	420	0
+	+	425	0
+	+	424	14
+	+	422	0
+	+	260	16
+	+	372	0
+	+	370	14
+	+	372	0
+	+	370	17
+	+	422	0
+	+	421	15
+	+	421	0
+	+	421	23
+	+	425	4
+	+	425	0
+	+	421	7
+	+	423	0
+	+	371	12
+	+	372	0
+	+	319	0
+	+	320	0
+	+	319	26
+	+	282	0
+	+	239	0
+	+	239	25
 	+	361	0
-	+	359	31
-	+	361	0
-	+	359	16
-	+	361	16
-	+	95	0
-	+	96	0
-	+	95	29
-	+	96	57
-	+	107	0
-	+	327	0
-	+	320	12
-	+	321	38
-	+	322	0
-	+	323	0
-	+	324	0
-	+	322	38
-	+	323	32
-	+	324	36
-	+	321	0
-	+	364	0
-	+	404	0
-	+	413	4
-	+	406	10
-	+	407	0
-	+	412	0
-	+	411	14
-	+	409	0
-	+	247	16
-	+	364	0
-	+	362	14
-	+	364	0
-	+	362	17
-	+	409	0
-	+	408	15
-	+	408	0
-	+	408	23
-	+	412	4
-	+	412	0
-	+	408	7
-	+	410	0
-	+	363	12
-	+	364	0
-	+	314	0
-	+	315	0
-	+	314	26
-	+	269	0
-	+	226	0
-	+	226	25
-	+	353	0
-	+	360	17
+	+	368	17
 	+	24	1
-	+	105	0
-	+	105	20
-	+	105	8
-	+	370	0
-	+	369	32
-	+	105	0
-	+	106	0
-	+	105	24
-	+	106	0
-	+	369	22
-	+	105	0
-	+	105	13
-	+	105	8
-	+	338	6
-	+	338	0
-	+	265	0
-	+	338	52
-	+	338	18
-	+	338	35
-	+	226	39
-	+	338	24
-	+	338	32
-	+	105	0
-	+	105	17
-	+	105	8
-	+	342	0
-	+	340	0
+	+	109	0
+	+	109	20
+	+	109	8
+	+	383	0
+	+	377	32
+	+	109	0
+	+	110	0
+	+	109	24
+	+	110	0
+	+	377	22
+	+	109	0
+	+	109	13
+	+	109	8
+	+	343	6
+	+	343	0
+	+	278	0
+	+	343	52
+	+	343	18
+	+	343	35
+	+	239	39
+	+	343	24
+	+	343	32
+	+	109	0
+	+	109	17
+	+	109	8
+	+	350	0
+	+	345	0
 	+	103	0
 	+	104	0
 	+	103	14
 	+	104	8
+	+	459	0
+	+	461	0
+	+	105	0
+	+	106	0
+	+	105	20
+	+	106	8
+	+	107	23
+	+	108	45
+	+	310	0
+	+	109	0
+	+	109	10
+	+	109	8
+	+	109	0
+	+	346	0
+	+	348	44
+	+	350	0
+	+	348	42
+	+	193	10
+	+	194	9
+	+	196	0
+	+	194	10
+	+	195	0
+	+	194	9
+	+	188	9
+	+	190	0
+	+	194	45
+	+	109	0
+	+	235	50
+	+	337	62
+	+	382	0
+	+	379	19
+	+	380	14
+	+	381	14
+	+	134	0
+	+	126	0
 	a	24	3
 	b	40	12
 	d	24	0
-	l	489	2
-	m	369	0
-	p	326	2
-	v	107	0
-	z	104	0
+	l	502	2
+	m	377	0
+	p	331	2
+	v	111	0
+	z	453	2
+
+> ~/.vim/ftplugin/cpp/cpp
+	*	1472452061	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/check_for_completion.cpp
+	*	1472357539	0
+	"	38	20
+	^	38	21
+	.	38	20
+	+	8	15
+	+	8	10
+	+	8	0
+	+	9	0
+	+	39	0
+	+	29	26
+	+	27	0
+	+	26	0
+	+	25	22
+	+	29	28
+	+	39	0
+	+	28	27
+	+	31	30
+	+	33	0
+	+	21	0
+	+	32	0
+	+	36	12
+	+	37	0
+	+	38	20
+	z	38	2
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.cpp
+	*	1472357196	0
+	"	40	0
+	z	40	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/Student_info.h
+	*	1472357195	0
+	"	24	36
+	^	24	37
+	.	24	36
+	+	24	36
+	z	24	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/grades.cpp
+	*	1472356910	0
+	"	9	0
+	z	9	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/NERD_tree_3
+	*	1472356826	0
+	"	4	0
+	.	1	0
+	+	1	0
+	z	4	0
+
+> ~/.vim/ftplugin/cpp/cpp.vim
+	*	1472261453	0
+	"	2	0
+	z	2	0
+
+> ~/test/bash_test/hello_world
+	*	1472249444	0
+	"	1	0
+	^	1	1
+	.	1	1
+	+	1	1
+	z	1	0
+
+> bash_test/hello_world
+	*	1472249420	0
+	"	3	17
+	^	3	18
+	.	3	17
+	+	3	17
+	z	3	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/ControlP
+	*	1471977586	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/.agignore
+	*	1471977524	0
+	"	1	0
+	^	4	5
+	.	4	4
+	+	4	4
+	z	1	0
+
+> ~/.virmc
+	*	1471977488	0
+	"	1	0
+	z	1	0
+
+> ~/.bash_aliases
+	*	1471977454	0
+	"	20	43
+	^	20	44
+	.	20	43
+	+	20	43
+	z	20	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/.agignore
+	*	1471977363	0
+	"	1	0
+	z	1	0
+
+> ~/.vim/bundle/ctrlp.vim/doc/ctrlp.txt
+	*	1471977219	0
+	"	287	0
+	z	287	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/grades
+	*	1471976287	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/median.cpp
+	*	1471976070	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/grade.cpp
+	*	1471976065	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/grades/grade_example/extract_fails.cpp
+	*	1471976065	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/find_urls.cpp
+	*	1471975959	0
+	"	10	15
+	^	10	16
+	.	10	15
+	+	24	0
+	+	24	40
+	+	51	0
+	+	8	15
+	+	9	15
+	+	12	16
+	+	13	16
+	+	14	0
+	+	34	33
+	+	38	15
+	+	41	10
+	+	49	36
+	+	15	0
+	+	17	0
+	+	16	54
+	+	62	0
+	+	60	60
+	+	18	0
+	+	23	0
+	+	18	22
+	+	62	0
+	+	61	0
+	+	57	56
+	+	58	62
+	+	18	23
+	+	16	55
+	+	19	0
+	+	22	0
+	+	21	30
+	+	64	0
+	+	93	0
+	+	65	57
+	+	67	34
+	+	77	40
+	+	82	13
+	+	86	18
+	+	89	19
+	+	91	10
+	+	73	35
+	+	76	62
+	+	79	40
+	+	84	45
+	+	79	16
+	+	84	47
+	+	63	0
+	+	52	0
+	+	41	0
+	+	45	0
+	+	10	15
+	z	10	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/dictionary.txt
+	*	1471921673	0
+	"	22137	0
+	z	22137	0
+
+> ~/Dropbox/Borky/Rental Stuff/Cover Letter
+	*	1471901700	0
+	"	22	0
+	^	22	0
+	.	22	0
+	+	16	9
+	+	19	46
+	+	20	0
+	+	22	0
+	z	22	0
+
+> /usr/local/Cellar/macvim/7.4-104_1/MacVim.app/Contents/Resources/vim/runtime/doc/spell.txt
+	*	1471823447	0
+	"	63	35
+	z	63	3
+
+> ~/.vim/UltiSnips/all.snippets
+	*	1471757210	0
+	"	1	0
+	.	13	0
+	+	13	10
+	+	13	2
+	+	13	0
+	z	1	0
+
+> /opt/X11/share/doc/xproto/x11protocol.txt
+	*	1471756963	0
+	"	357	36
+	z	357	0
+
+> ~/Desktop/journal.txt
+	*	1471755774	0
+	"	26	39
+	^	26	40
+	.	26	39
+	+	10	0
+	+	3	0
+	+	1	24
+	+	2	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	14	0
+	+	20	0
+	+	15	0
+	+	14	95
+	+	15	11
+	+	15	0
+	+	19	45
+	+	22	0
+	+	23	0
+	+	25	54
+	+	26	39
+	z	26	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/palindrome.cpp
+	*	1471502014	0
+	"	16	0
+	.	17	0
+	+	12	37
+	+	14	0
+	+	12	35
+	+	14	46
+	+	8	16
+	+	12	0
+	+	10	16
+	+	11	0
+	+	17	2
+	+	17	4
+	+	17	0
+	z	16	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/better_split.cpp
+	*	1471391598	0
+	"	19	0
+	^	14	42
+	.	14	41
+	+	8	15
+	+	9	15
+	+	11	16
+	+	12	16
+	+	11	36
+	+	17	19
+	+	42	0
+	+	22	20
+	+	37	34
+	+	38	7
+	+	40	12
+	+	14	41
+	z	19	0
+
+> ~/.vim/UltiSnips/text.snippets
+	*	1471315334	0
+	"	4	0
+	^	4	14
+	.	5	0
+	+	3	0
+	+	1	28
+	+	3	24
+	+	4	6
+	+	6	2
+	+	3	24
+	+	2	43
+	+	4	0
+	+	6	0
+	+	4	33
+	+	4	13
+	+	5	0
+	z	4	0
+
+> ~/Desktop/NERD_tree_4
+	*	1471310703	0
+	"	4	0
+	.	1	0
+	+	1	0
+	z	4	0
+
+> ~/Desktop/__Gundo__
+	*	1471310581	0
+	"	6	1
+	.	1	0
+	+	1	0
+	z	6	1
+
+> ~/Desktop/__Gundo_Preview__
+	*	1471310577	0
+	"	1	0
+	.	1	0
+	+	1	0
+	z	1	0
+
+> /usr/local/Cellar/macvim/7.4-104_1/MacVim.app/Contents/Resources/vim/runtime/doc/options.txt
+	*	1471310307	0
+	"	4180	24
+	z	4180	0
+
+> /usr/local/Cellar/macvim/7.4-104_1/MacVim.app/Contents/Resources/vim/runtime/doc/cmdline.txt
+	*	1471310285	0
+	"	47	24
+	z	47	6
+
+> ~/.vimgolf/put/4ef209ef78702b0001000019.output.new
+	*	1471305535	0
+	"	1	0
+	z	1	0
+
+> /private/var/folders/m5/pq_xl90s4s7f3446m3y92qrh0000gp/T/vimgolf20160815-44415-7io57w.old
+	*	1471305534	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap6/makefile
+	*	1471297487	0
+	"	2	41
+	^	2	42
+	.	2	41
+	+	2	41
+	z	2	1
+
+> ~/.vim/bundle/vim-ruby-refactoring/doc/rubyrefactoring.txt
+	*	1471294619	0
+	"	32	43
+	z	43	0
+
+> ~/test/test.rb
+	*	1471284264	0
+	"	15	10
+	^	15	11
+	.	15	10
+	+	1	0
+	+	1	25
+	+	1	31
+	+	1	17
+	+	1	31
+	+	1	36
+	+	1	32
+	+	1	35
+	+	1	40
+	+	1	36
+	+	1	41
+	+	1	32
+	+	1	37
+	+	1	20
+	+	1	31
+	+	1	15
+	+	2	10
+	+	5	10
+	+	7	10
+	+	8	0
+	+	9	0
+	+	10	0
+	+	9	13
+	+	13	10
+	+	15	10
+	z	15	0
+
+> ~/test/test.god
+	*	1471238676	0
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	9
+	+	1	7
+	+	1	9
+	+	1	0
+	+	1	7
+	+	1	0
+	z	1	0
+
+> ~/.vim/ftdetect/god.vim
+	*	1471238663	0
+	"	1	0
+	.	1	0
+	+	1	0
+	z	1	0
+
+> ftdetect/god.vim
+	*	1471238604	0
+	"	1	0
+	^	10	51
+	.	10	50
+	+	8	0
+	+	8	21
+	+	10	50
+	z	1	0
+
+> ~/.vim/ftplugin/god.vim
+	*	1471238460	0
+	"	11	4
+	^	8	17
+	.	11	4
+	+	15	25
+	+	16	0
+	+	51	0
+	+	52	13
+	+	17	0
+	+	15	12
+	+	46	0
+	+	17	35
+	+	18	18
+	+	20	12
+	+	21	0
+	+	20	19
+	+	17	28
+	+	46	0
+	+	26	11
+	+	45	11
+	+	52	47
+	+	28	14
+	+	30	0
+	+	27	27
+	+	28	19
+	+	30	6
+	+	28	18
+	+	30	36
+	+	30	64
+	+	36	0
+	+	28	19
+	+	16	41
+	+	39	7
+	+	30	29
+	+	33	0
+	+	19	7
+	+	23	10
+	+	36	0
+	+	34	66
+	+	35	15
+	+	42	11
+	+	30	29
+	+	31	38
+	+	32	15
+	+	34	19
+	+	33	0
+	+	37	0
+	+	39	0
+	+	28	0
+	+	42	0
+	+	26	10
+	+	52	0
+	+	32	0
+	+	38	0
+	+	41	0
+	+	29	0
+	+	32	0
+	+	28	0
+	+	31	14
+	+	34	17
+	+	32	13
+	+	29	15
+	+	39	15
+	+	29	0
+	+	26	11
+	+	52	0
+	+	8	11
+	+	11	4
+	z	11	0
+
+> ~/.vim/ftplugin/text/lists.vim
+	*	1471238306	0
+	"	3	0
+	^	13	35
+	.	13	34
+	+	10	0
+	+	11	18
+	+	7	0
+	+	8	0
+	+	11	26
+	+	21	12
+	+	13	34
+	z	3	0
+
+> ~/test/tes.god
+	*	1471237778	0
+	"	1	0
+	z	1	0
+
+> ~/.vim/ControlP
+	*	1471143990	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/.vim/plugin/utilities.vim
+	*	1471143718	0
+	"	24	0
+	^	23	19
+	.	23	18
+	+	13	0
+	+	13	44
+	+	18	61
+	+	17	20
+	+	19	14
+	+	8	0
+	+	12	0
+	+	8	0
+	+	12	0
+	+	8	0
+	+	23	0
+	+	23	18
+	z	24	2
+
+> ~/.vim/ftplugin/ControlP
+	*	1471143517	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/.vim/ftplugin/latex-suite/packages/multicol
+	*	1471143503	0
+	"	1	0
+	z	1	0
+
+> ~/test/test.txt
+	*	1471142660	0
+	"	29	0
+	^	29	0
+	.	29	0
+	+	7	2
+	+	8	0
+	+	13	2
+	+	15	0
+	+	17	4
+	+	18	4
+	+	21	3
+	+	24	6
+	+	25	6
+	+	29	0
+	z	29	0
+
+> ~/Dropbox/developer/app-academy/luke_wassink_prep_work/week3/w3d1/lib/01_xml_document.rb
+	*	1471132741	0
+	"	6	0
+	z	6	2
+
+> ~/Dropbox/developer/ControlP
+	*	1471132525	0
+	"	7	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Dropbox/developer/app-academy/prep_work/resume/luke_wassink_CV.tex
+	*	1471116516	0
+	"	15	0
+	^	15	13
+	.	15	12
+	+	25	0
+	+	86	0
+	+	70	60
+	+	78	58
+	+	86	46
+	+	93	46
+	+	100	41
+	+	10	10
+	+	15	45
+	+	15	12
+	z	15	0
+
+> /usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec.sty
+	*	1471116510	0
+	"	42	3
+	z	42	3
+
+> ~/Dropbox/developer/app-academy/prep_work/resume/luke_wassink_CV.log
+	*	1471116497	0
+	"	200	0
+
+> ~/.vim/ftplugin/tex/imaps.vim
+	*	1471116091	0
+	"	494	0
+	^	490	33
+	.	496	0
+	+	490	5
+	+	489	59
+	+	492	0
+	+	488	17
+	+	490	32
+	+	496	0
+	z	494	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/no_extenders.cpp
+	*	1471115800	0
+	"	57	17
+	^	60	14
+	.	57	17
+	+	8	0
+	+	14	31
+	+	18	10
+	+	22	20
+	+	23	26
+	+	20	30
+	+	24	13
+	+	23	48
+	+	25	24
+	+	22	16
+	+	29	26
+	+	10	0
+	+	11	17
+	+	13	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	35	0
+	+	62	0
+	+	35	36
+	+	36	16
+	+	35	17
+	+	37	0
+	+	39	0
+	+	41	0
+	+	43	0
+	+	45	0
+	+	47	0
+	+	49	0
+	+	51	0
+	+	53	0
+	+	55	0
+	+	57	0
+	+	60	13
+	+	59	0
+	+	37	17
+	+	39	17
+	+	41	17
+	+	43	17
+	+	45	17
+	+	47	17
+	+	49	17
+	+	51	17
+	+	53	17
+	+	55	17
+	+	57	17
+	z	57	2
+
+> ~/Dropbox/developer/app-academy/luke_wassink_prep_work/resume/luke_wassink_CV.tex
+	*	1471115796	0
+	"	1	0
+	z	16	0
+
+> ~/Dropbox/developer/app-academy/ControlP
+	*	1471115217	0
+	"	3	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/ControlP
+	*	1471115191	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/palindromes.cpp
+	*	1471113746	0
+	"	21	0
+	^	45	45
+	.	41	0
+	+	29	49
+	+	40	24
+	+	29	2
+	+	40	0
+	+	31	30
+	+	32	8
+	+	32	0
+	+	39	23
+	+	41	35
+	+	42	0
+	+	41	49
+	+	42	10
+	+	43	25
+	+	14	30
+	+	15	0
+	+	51	35
+	+	52	30
+	+	64	13
+	+	55	12
+	+	55	0
+	+	55	6
+	+	55	17
+	+	56	19
+	+	57	14
+	+	61	0
+	+	59	18
+	+	58	0
+	+	55	0
+	+	52	36
+	+	55	26
+	+	15	36
+	+	13	0
+	+	15	0
+	+	11	17
+	+	51	0
+	+	52	33
+	+	54	5
+	+	61	0
+	+	63	13
+	+	64	0
+	+	64	16
+	+	51	15
+	+	52	21
+	+	54	0
+	+	61	0
+	+	57	13
+	+	55	13
+	+	52	0
+	+	54	11
+	+	54	25
+	+	56	26
+	+	57	14
+	+	64	0
+	+	64	11
+	+	58	0
+	+	56	28
+	+	58	0
+	+	64	0
+	+	63	24
+	+	61	0
+	+	54	0
+	+	64	0
+	+	54	0
+	+	50	31
+	+	17	31
+	+	63	26
+	+	64	9
+	+	52	21
+	+	61	0
+	+	63	13
+	+	39	12
+	+	52	36
+	+	23	0
+	+	30	0
+	+	32	30
+	+	37	5
+	+	37	0
+	+	33	7
+	+	37	0
+	+	33	35
+	+	34	31
+	+	35	23
+	+	37	0
+	+	24	16
+	+	43	0
+	+	45	44
+	+	45	25
+	+	46	0
+	+	37	4
+	+	39	0
+	+	37	0
+	+	38	0
+	+	37	0
+	+	38	0
+	+	10	0
+	+	13	0
+	+	21	0
+	+	29	0
+	+	41	0
+	z	21	2
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/palindromes
+	*	1471113690	0
+	"	1	0
+	z	1	0
+
+> ~/.vim/UltiSnips/cpp.snippets
+	*	1471110505	0
+	"	14	7
+	^	14	11
+	.	14	7
+	+	2	0
+	+	4	0
+	+	14	0
+	+	24	0
+	+	15	0
+	+	14	12
+	+	18	5
+	+	14	5
+	+	18	5
+	+	19	0
+	+	18	9
+	+	20	0
+	+	24	0
+	+	6	0
+	+	8	0
+	+	6	9
+	+	5	10
+	+	10	0
+	+	12	0
+	+	10	8
+	+	9	10
+	+	10	25
+	+	24	0
+	+	22	18
+	+	23	0
+	+	22	18
+	+	15	0
+	+	14	11
+	+	15	0
+	+	18	8
+	+	19	0
+	+	22	17
+	+	23	0
+	+	22	16
+	+	18	7
+	+	14	0
+	+	15	0
+	+	14	7
+	s	1	0
+	z	14	0
+
+> ~/Dropbox/developer/app-academy/prep_work/ControlP
+	*	1471109916	0
+	"	4	0
+	.	2	0
+	+	1	0
+	+	2	0
+	z	4	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/ControlP
+	*	1471109856	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/sort_by_case.cpp
+	*	1471109815	0
+	"	42	2
+	^	55	17
+	.	46	0
+	+	9	15
+	+	10	15
+	+	13	16
+	+	14	16
+	+	26	0
+	+	27	0
+	+	42	0
+	+	60	0
+	+	59	0
+	+	43	0
+	+	9	0
+	+	42	0
+	+	43	14
+	+	21	30
+	+	43	0
+	+	42	0
+	+	44	20
+	+	45	41
+	+	48	26
+	+	11	15
+	+	15	17
+	+	48	30
+	+	50	11
+	+	44	0
+	+	50	11
+	+	42	23
+	+	58	14
+	+	43	16
+	+	49	10
+	+	31	20
+	+	32	0
+	+	29	10
+	+	31	16
+	+	32	18
+	+	31	17
+	+	35	0
+	+	8	17
+	+	16	13
+	+	17	14
+	+	34	26
+	+	23	0
+	+	23	36
+	+	34	19
+	+	42	9
+	+	23	9
+	+	22	0
+	+	24	35
+	+	61	0
+	+	69	0
+	+	61	45
+	+	62	0
+	+	18	17
+	+	62	38
+	+	63	0
+	+	62	52
+	+	63	36
+	+	64	22
+	+	19	14
+	+	67	10
+	+	36	7
+	+	38	0
+	+	36	22
+	+	37	15
+	+	61	18
+	+	24	32
+	+	61	38
+	+	18	11
+	+	24	0
+	+	36	21
+	+	37	14
+	+	52	12
+	+	55	16
+	+	11	0
+	+	46	0
+	z	42	0
+
+> ~/Dropbox/developer/app-academy/luke_wassink_prep_work/week3/maze_bonus_project/spec/solver_spec.rb
+	*	1471108697	0
+	"	16	0
+	.	16	0
+	+	19	0
+	+	16	0
+	z	16	4
+
+> ~/.vim/bundle/tabular/doc/Tabular.txt
+	*	1471063329	0
+	"	3	55
+	z	3	55
+
+> ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/maze.rb
+	*	1471063124	0
+	"	132	0
+	^	1	0
+	.	1	2
+	+	1	2
+	z	132	0
+
+> ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/solver.rb
+	*	1471063097	0
+	"	131	0
+	z	131	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/grade_examples/grade_example/grades.cpp
+	*	1471063027	0
+	"	19	0
+	.	23	0
+	+	19	0
+	+	23	0
+	z	19	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/NERD_tree_3
+	*	1471062770	0
+	"	4	0
+	.	1	0
+	+	1	0
+	z	4	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1471062677	0
+	"	1	48
+	^	1	49
+	.	1	48
+	+	3	0
+	+	2	22
+	+	1	48
+	z	1	0
 
 > ~/__Gundo__
 	*	1471057900	0
@@ -759,29 +1814,10 @@ $\r
 	+	1	0
 	z	1	0
 
-> ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/maze.rb
-	*	1471049014	0
-	"	3	0
-	^	1	0
-	.	1	2
-	+	1	2
-	z	3	0
-
 > ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/spec/position_spec.rb
 	*	1471047936	0
 	"	1	0
 	z	1	0
-
-> ~/.vim/bundle/ctrlp.vim/doc/ctrlp.txt
-	*	1471047936	0
-	"	154	19
-	z	154	54
-
-> ~/ControlP
-	*	1471047923	0
-	"	1	0
-	.	1	0
-	+	1	0
 
 > ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/spec/square_spec.rb
 	*	1471047906	0
@@ -795,11 +1831,180 @@ $\r
 	+	1	0
 	z	15	6
 
-> ~/Dropbox/developer/ControlP
-	*	1471047648	0
+> ~/Dropbox/programing/accelerated_cpp/chap5/grade_examples/grade_list_example/grades.cpp
+	*	1471040283	0
+	"	27	9
+	z	27	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/concatenate.cpp
+	*	1471038058	0
+	"	11	0
+	^	25	3
+	.	25	0
+	+	8	15
+	+	8	0
+	+	11	0
+	+	20	59
+	+	22	26
+	+	22	30
+	+	20	58
+	+	22	12
+	+	22	0
+	+	21	0
+	+	20	53
+	+	48	0
+	+	24	0
+	+	47	0
+	+	25	47
+	+	40	26
+	+	43	20
+	+	45	12
+	+	29	45
+	+	30	0
+	+	10	16
+	+	25	0
+	z	11	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/makefile
+	*	1471038043	0
 	"	1	0
-	.	1	0
-	+	1	0
+	^	1	51
+	.	1	50
+	+	1	27
+	+	2	33
+	+	7	37
+	+	8	25
+	+	10	26
+	+	13	37
+	+	14	39
+	+	17	33
+	+	14	45
+	+	11	33
+	+	8	31
+	+	2	39
+	+	1	48
+	+	2	13
+	+	4	27
+	+	5	35
+	+	1	50
+	z	1	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/center.cpp
+	*	1471037808	0
+	"	15	0
+	^	27	13
+	.	27	12
+	+	8	16
+	+	10	16
+	+	9	15
+	+	32	0
+	+	16	0
+	+	12	16
+	+	13	16
+	+	14	0
+	+	16	19
+	+	15	48
+	+	19	12
+	+	17	20
+	+	19	40
+	+	20	10
+	+	19	54
+	+	20	30
+	+	21	46
+	+	16	21
+	+	21	31
+	+	22	26
+	+	21	36
+	+	30	12
+	+	28	0
+	+	21	29
+	+	22	57
+	+	27	12
+	z	15	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/test.cpp
+	*	1471037780	0
+	"	41	21
+	^	41	22
+	.	41	21
+	+	29	0
+	+	30	0
+	+	27	18
+	+	30	18
+	+	33	16
+	+	34	0
+	+	35	0
+	+	33	27
+	+	11	16
+	+	12	22
+	+	33	36
+	+	34	47
+	+	35	21
+	+	34	21
+	+	35	42
+	+	21	0
+	+	24	0
+	+	43	0
+	+	46	36
+	+	47	43
+	+	48	22
+	+	46	7
+	+	20	17
+	+	51	11
+	+	46	46
+	+	49	0
+	+	51	0
+	+	49	0
+	+	50	10
+	+	49	18
+	+	46	0
+	+	52	0
+	+	47	20
+	+	38	17
+	+	39	0
+	+	40	0
+	+	39	12
+	+	40	11
+	+	23	0
+	+	22	23
+	+	38	13
+	+	39	13
+	+	40	13
+	+	47	27
+	+	11	0
+	+	50	0
+	+	48	23
+	+	35	0
+	+	40	0
+	+	35	0
+	+	13	17
+	+	36	42
+	+	41	21
+	z	41	2
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/center.h
+	*	1471037673	0
+	"	14	64
+	^	14	65
+	.	14	64
+	+	13	0
+	+	14	0
+	+	11	15
+	+	12	15
+	+	14	64
+	z	14	0
+
+> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/width.h
+	*	1471036408	0
+	"	14	0
+	^	14	52
+	.	14	51
+	+	14	0
+	+	14	45
+	+	11	15
+	+	12	15
+	+	14	51
+	z	14	0
 
 > ~/Dropbox/programing/accelerated_cpp/chap5/grade_flexible_example/grades.cpp
 	*	1471036088	0
@@ -964,1212 +2169,3 @@ $\r
 	*	1471032302	0
 	"	1	0
 	z	1	0
-
-> ~/Dropbox/developer/app-academy/prep_work/week3/w3d2/spec/mastermind_spec.rb
-	*	1471032302	0
-	"	6	0
-	z	6	2
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_list_example/extract_fails.cpp
-	*	1471031276	0
-	"	22	0
-	.	22	0
-	+	8	0
-	+	12	0
-	+	19	0
-	+	21	0
-	+	22	0
-	z	22	2
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_list_example/extract_fails.h
-	*	1471031263	0
-	"	14	0
-	.	14	0
-	+	11	0
-	+	14	0
-	z	14	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/list_of_students
-	*	1471031176	0
-	"	23	1
-	^	28	5
-	.	23	0
-	+	33	1
-	+	33	0
-	+	24	0
-	+	33	0
-	+	34	0
-	+	28	4
-	+	22	1
-	+	18	1
-	+	23	0
-	z	23	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/makefile
-	*	1471031010	0
-	"	2	1
-	^	2	21
-	.	2	20
-	+	18	0
-	+	13	49
-	+	14	43
-	+	1	63
-	+	14	49
-	+	5	7
-	+	2	20
-	z	2	1
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/NERD_tree_2
-	*	1471030871	0
-	"	4	0
-	.	1	0
-	+	1	0
-	z	4	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/mak
-	*	1471030615	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/Student_info.cpp
-	*	1471030508	0
-	"	35	0
-	z	35	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/grade.cpp
-	*	1471030478	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/extract_fails.h
-	*	1471030275	0
-	"	14	0
-	^	12	24
-	.	14	0
-	+	14	42
-	+	11	13
-	+	13	0
-	+	12	23
-	+	11	0
-	+	14	0
-	z	14	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/grades
-	*	1471030231	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/grade_vector_example/extract_fails.cpp
-	*	1471029782	0
-	"	22	0
-	.	22	0
-	+	8	0
-	+	12	0
-	+	19	0
-	+	21	0
-	+	22	0
-	z	22	2
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/test.cpp
-	*	1471026520	0
-	"	33	2
-	^	44	28
-	.	34	0
-	+	28	0
-	+	29	0
-	+	26	18
-	+	29	18
-	+	32	16
-	+	33	0
-	+	34	0
-	+	32	27
-	+	11	16
-	+	12	22
-	+	32	36
-	+	33	47
-	+	34	21
-	+	33	21
-	+	34	42
-	+	20	0
-	+	23	0
-	+	40	0
-	+	43	36
-	+	44	43
-	+	45	22
-	+	43	7
-	+	19	17
-	+	48	11
-	+	43	46
-	+	46	0
-	+	48	0
-	+	46	0
-	+	47	10
-	+	46	18
-	+	43	0
-	+	49	0
-	+	44	20
-	+	36	17
-	+	37	0
-	+	38	0
-	+	37	12
-	+	38	11
-	+	22	0
-	+	21	23
-	+	36	13
-	+	37	13
-	+	38	13
-	+	44	27
-	+	11	0
-	+	47	0
-	+	45	23
-	+	34	0
-	+	38	0
-	+	34	0
-	z	33	2
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/makefile
-	*	1470980453	0
-	"	2	39
-	^	2	13
-	.	2	12
-	+	1	27
-	+	2	33
-	+	4	37
-	+	5	25
-	+	7	26
-	+	10	37
-	+	11	39
-	+	14	33
-	+	11	45
-	+	8	33
-	+	5	31
-	+	2	39
-	+	1	48
-	+	2	12
-	z	2	1
-
-> ~/.git/COMMIT_EDITMSG
-	*	1470980220	0
-	"	1	17
-	^	1	18
-	.	1	17
-	+	3	0
-	+	2	22
-	+	1	17
-	z	1	0
-
-> ~/bash - 1
-	*	1470980054	0
-	"	1	0
-	^	2	0
-	.	1	2
-	+	1	2
-	z	1	0
-
-> ~/.vim/ftplugin/cpp/cpp.vim
-	*	1470977232	0
-	"	4	26
-	^	4	27
-	.	4	26
-	+	6	0
-	+	5	0
-	+	6	0
-	+	3	22
-	+	4	26
-	z	4	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/width.cpp
-	*	1470964475	0
-	"	16	0
-	^	14	14
-	.	11	0
-	+	9	15
-	+	22	24
-	+	17	0
-	+	18	0
-	+	22	0
-	+	23	0
-	+	16	47
-	+	21	15
-	+	10	15
-	+	12	16
-	+	13	16
-	+	11	18
-	+	14	13
-	+	11	0
-	z	16	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/width.h
-	*	1470964334	0
-	"	14	0
-	^	14	52
-	.	14	51
-	+	14	0
-	+	14	45
-	+	11	15
-	+	12	15
-	+	14	51
-	z	14	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/concatenate.cpp
-	*	1470964322	0
-	"	10	10
-	^	25	3
-	.	25	0
-	+	8	15
-	+	8	0
-	+	11	0
-	+	20	59
-	+	22	26
-	+	22	30
-	+	20	58
-	+	22	12
-	+	22	0
-	+	21	0
-	+	20	53
-	+	48	0
-	+	24	0
-	+	47	0
-	+	25	47
-	+	40	26
-	+	43	20
-	+	45	12
-	+	29	45
-	+	30	0
-	+	10	16
-	+	25	0
-	z	10	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/frame.h
-	*	1470964123	0
-	"	14	0
-	^	14	66
-	.	14	62
-	+	13	0
-	+	14	0
-	+	11	15
-	+	12	15
-	+	14	62
-	z	14	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/frame.cpp
-	*	1470957817	0
-	"	8	0
-	^	23	22
-	.	23	21
-	+	8	15
-	+	9	15
-	+	11	0
-	+	14	0
-	+	12	16
-	+	13	16
-	+	30	0
-	+	8	0
-	+	30	0
-	+	15	0
-	+	30	0
-	+	17	37
-	+	10	16
-	+	22	61
-	+	23	30
-	+	22	58
-	+	29	0
-	+	24	44
-	+	26	0
-	+	25	0
-	+	22	60
-	+	25	0
-	+	28	12
-	+	17	7
-	+	18	8
-	+	24	49
-	+	27	18
-	+	23	21
-	z	8	0
-
-> ~/.vim/bundle/vim-template/templates/=template=.cpp
-	*	1470956946	0
-	"	1	0
-	.	8	0
-	+	8	0
-	+	11	0
-	+	15	0
-	+	16	0
-	+	8	18
-	+	14	8
-	+	13	0
-	+	14	1
-	+	13	1
-	+	8	0
-	+	9	0
-	+	12	0
-	+	8	0
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/concatenate.h
-	*	1470956942	0
-	"	18	36
-	^	18	37
-	.	18	36
-	+	16	0
-	+	17	0
-	+	14	0
-	+	11	15
-	+	12	15
-	+	14	61
-	+	15	26
-	+	17	52
-	+	18	35
-	+	17	61
-	+	15	36
-	+	18	36
-	z	18	4
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/string_box_example/NERD_tree_1
-	*	1470898544	0
-	"	4	0
-	.	1	0
-	+	1	0
-	z	4	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/split_test_compare.cpp
-	*	1470898390	0
-	"	14	14
-	^	14	15
-	.	14	14
-	+	9	0
-	+	18	11
-	+	19	16
-	+	20	21
-	+	9	15
-	+	11	16
-	+	12	14
-	+	13	14
-	+	14	14
-	z	14	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/split_test.cpp
-	*	1470897526	0
-	"	19	0
-	.	19	0
-	+	10	0
-	+	21	11
-	+	23	26
-	+	24	31
-	+	10	15
-	+	10	0
-	+	9	15
-	+	13	16
-	+	14	16
-	+	11	23
-	+	13	16
-	+	9	15
-	+	32	0
-	+	9	0
-	+	13	0
-	+	11	0
-	+	15	14
-	+	11	0
-	+	9	0
-	+	13	0
-	+	14	0
-	+	13	0
-	+	26	7
-	+	28	0
-	+	27	26
-	+	17	16
-	+	26	42
-	+	16	14
-	+	17	0
-	+	19	0
-	z	19	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/split_string.cpp
-	*	1470897522	0
-	"	27	0
-	^	27	21
-	.	27	0
-	+	21	28
-	+	23	0
-	+	28	8
-	+	27	0
-	z	27	4
-
-> ~/.vim/UltiSnips/cpp.snippets
-	*	1470897049	0
-	"	14	0
-	^	14	11
-	.	14	10
-	+	2	0
-	+	4	0
-	+	14	0
-	+	24	0
-	+	15	0
-	+	14	12
-	+	18	5
-	+	14	5
-	+	18	5
-	+	19	0
-	+	18	9
-	+	20	0
-	+	24	0
-	+	6	0
-	+	8	0
-	+	6	9
-	+	5	10
-	+	10	0
-	+	12	0
-	+	10	8
-	+	9	10
-	+	10	25
-	+	24	0
-	+	22	18
-	+	23	0
-	+	22	18
-	+	15	0
-	+	14	11
-	+	15	0
-	+	18	8
-	+	19	0
-	+	22	17
-	+	23	0
-	+	22	16
-	+	18	7
-	+	14	10
-	s	1	0
-	z	14	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/split_string.h
-	*	1470896902	0
-	"	14	50
-	^	14	51
-	.	14	50
-	+	14	0
-	+	14	34
-	+	13	0
-	+	11	15
-	+	12	15
-	+	14	50
-	z	14	0
-
-> ~/NERD_tree_2
-	*	1470896607	0
-	"	4	0
-	.	1	0
-	+	1	0
-	z	4	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/example/split_string.cpp
-	*	1470889661	0
-	"	11	15
-	^	11	16
-	.	11	15
-	+	9	0
-	+	16	37
-	+	20	20
-	+	23	0
-	+	24	0
-	+	23	42
-	+	34	0
-	+	24	9
-	+	25	4
-	+	27	43
-	+	32	11
-	+	36	12
-	+	9	15
-	+	10	15
-	+	13	16
-	+	14	16
-	+	11	15
-	z	11	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/example/extract_fails.cpp
-	*	1470888984	0
-	"	35	0
-	^	27	16
-	.	22	0
-	+	14	0
-	+	35	0
-	+	14	0
-	+	8	15
-	+	13	0
-	+	9	23
-	+	10	16
-	+	12	16
-	+	13	0
-	+	21	23
-	+	25	29
-	+	24	31
-	+	33	0
-	+	31	4
-	+	28	0
-	+	23	0
-	+	22	38
-	+	25	0
-	+	31	0
-	+	30	10
-	+	27	42
-	+	22	55
-	+	24	30
-	+	25	18
-	+	22	0
-	+	24	0
-	+	25	15
-	+	26	28
-	+	27	29
-	+	26	21
-	+	22	62
-	+	30	15
-	+	27	15
-	+	22	24
-	+	8	0
-	+	12	0
-	+	19	0
-	+	21	0
-	+	22	0
-	z	35	0
-
-> ~/test/test.cpp
-	*	1470884560	0
-	"	12	0
-	^	13	3
-	.	12	0
-	+	9	0
-	+	13	0
-	+	12	0
-	z	12	0
-
-> ~/.gitignore
-	*	1470883729	0
-	"	6	4
-	^	6	5
-	.	6	4
-	+	6	4
-	z	6	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/example/extract_fails.h
-	*	1470882746	0
-	"	11	36
-	^	11	37
-	.	11	36
-	+	11	0
-	+	11	36
-	z	11	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/example/grades.cpp
-	*	1470869051	0
-	"	41	0
-	^	41	22
-	.	41	21
-	+	25	0
-	+	25	14
-	+	30	0
-	+	30	1
-	+	30	0
-	+	25	0
-	+	25	1
-	+	25	34
-	+	25	8
-	+	25	12
-	+	25	0
-	+	38	67
-	+	39	35
-	+	41	18
-	+	42	35
-	+	45	33
-	+	42	29
-	+	41	21
-	z	41	4
-
-> ~/test/test.hs
-	*	1470864358	0
-	"	8	0
-	^	10	12
-	.	8	0
-	+	11	0
-	+	10	11
-	+	8	0
-	+	1	0
-	+	8	0
-	z	8	0
-
-> ~/Desktop/Instantly_Better_Vim_2013/plugin/autoswap_mac.vim
-	*	1470860623	0
-	"	90	0
-	z	90	0
-
-> ~/.vim/ftplugin/cpp/switch.vim
-	*	1470858797	0
-	"	18	57
-	^	18	58
-	.	18	57
-	+	13	18
-	+	14	23
-	+	15	32
-	+	17	23
-	+	18	29
-	+	20	31
-	+	23	61
-	+	25	0
-	+	26	0
-	+	26	30
-	+	26	17
-	+	26	4
-	+	26	0
-	+	26	28
-	+	26	38
-	+	26	19
-	+	26	10
-	+	26	11
-	+	26	14
-	+	26	32
-	+	26	11
-	+	13	11
-	+	18	5
-	+	20	5
-	+	19	24
-	+	17	20
-	+	17	0
-	+	23	0
-	+	13	10
-	+	18	8
-	+	22	0
-	+	23	0
-	+	20	8
-	+	18	8
-	+	13	10
-	+	15	28
-	+	13	11
-	+	26	42
-	+	26	0
-	+	26	17
-	+	5	0
-	+	9	7
-	+	12	21
-	+	11	0
-	+	8	11
-	+	11	4
-	+	1	0
-	+	8	25
-	+	11	12
-	+	8	11
-	+	11	9
-	+	8	16
-	+	26	0
-	+	6	0
-	+	7	0
-	+	26	0
-	+	4	33
-	+	18	54
-	+	20	54
-	+	18	57
-	z	18	4
-
-> ~/test/test.h
-	*	1470858769	0
-	"	11	0
-	.	11	0
-	+	11	0
-	z	11	0
-
-> ~/test/t_spec.rb
-	*	1470858753	0
-	"	9	0
-	.	9	0
-	+	9	0
-	z	9	0
-
-> ~/test/test.rb
-	*	1470858728	0
-	"	65	4
-	^	76	24
-	.	76	23
-	+	1	0
-	+	1	25
-	+	2	31
-	+	5	17
-	+	6	31
-	+	9	36
-	+	10	32
-	+	13	35
-	+	31	40
-	+	36	36
-	+	54	41
-	+	59	32
-	+	66	37
-	+	74	20
-	+	75	31
-	+	76	23
-	z	65	4
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/example/grades.cpp
-	*	1470858714	0
-	"	47	6
-	z	47	6
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/example/median.h
-	*	1470858694	0
-	"	3	0
-	^	4	2
-	.	4	0
-	+	1	0
-	+	4	0
-	z	3	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/example/median.cpp
-	*	1470858689	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/position.rb
-	*	1470858654	0
-	"	1	0
-	z	1	0
-
-> ~/.vim/plugin/utilities.vim
-	*	1470858436	0
-	"	11	0
-	^	12	0
-	.	8	0
-	+	13	0
-	+	13	44
-	+	18	61
-	+	17	20
-	+	19	14
-	+	8	0
-	+	12	0
-	+	8	0
-	+	12	0
-	+	8	0
-	z	11	0
-
-> ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/spec/maze_spec.rb
-	*	1470858339	0
-	"	2	0
-	z	2	0
-
-> ~/.vim/ftplugin/ruby/switch.vim
-	*	1470858297	0
-	"	4	0
-	^	22	77
-	.	5	0
-	+	2	48
-	+	16	30
-	+	14	27
-	+	18	20
-	+	21	0
-	+	23	0
-	+	20	44
-	+	22	50
-	+	15	33
-	+	22	30
-	+	20	34
-	+	22	39
-	+	20	27
-	+	20	0
-	+	18	0
-	+	19	0
-	+	18	23
-	+	19	45
-	+	18	22
-	+	11	0
-	+	19	51
-	+	12	0
-	+	11	12
-	+	24	11
-	+	8	17
-	+	11	4
-	+	26	0
-	+	6	0
-	+	7	0
-	+	26	0
-	+	20	79
-	+	22	76
-	+	4	0
-	+	5	0
-	z	4	0
-
-> ~/.vim/bundle/vim-template/templates/=template=.vim
-	*	1470858141	0
-	"	1	0
-	^	8	34
-	.	8	33
-	+	1	0
-	+	3	0
-	+	1	0
-	+	11	0
-	+	2	7
-	+	3	32
-	+	11	0
-	+	10	5
-	+	8	33
-	z	1	0
-
-> /usr/local/Cellar/macvim/7.4-104_1/MacVim.app/Contents/Resources/vim/runtime/doc/eval.txt
-	*	1470858104	0
-	"	9013	7
-	z	9013	7
-
-> ~/.vim/bundle/vim-template/templates/=template=.h
-	*	1470857779	0
-	"	10	0
-	.	10	0
-	+	10	0
-	+	1	0
-	+	3	0
-	+	10	0
-	z	10	0
-
-> ~/test/test.vim
-	*	1470857507	0
-	"	4	0
-	^	1	16
-	.	4	7
-	+	4	15
-	+	7	10
-	+	8	0
-	+	1	16
-	+	2	0
-	+	4	7
-	z	4	2
-
-> ~/test/test1.vim
-	*	1470857493	0
-	"	3	0
-	^	1	12
-	.	4	0
-	+	2	18
-	+	1	10
-	+	4	0
-	z	3	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap5/example/grades
-	*	1470844371	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/example-6/grades.cpp
-	*	1470809113	0
-	"	39	45
-	^	37	41
-	.	39	0
-	+	28	14
-	+	34	35
-	+	39	0
-	z	39	2
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/example-6/Student_info.cpp
-	*	1470808179	0
-	"	39	0
-	.	40	0
-	+	40	17
-	+	40	0
-	z	39	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/example-6/Student_info.h
-	*	1470797101	0
-	"	22	0
-	z	22	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/average.cpp
-	*	1470796959	0
-	"	11	16
-	^	11	17
-	.	11	16
-	+	9	16
-	+	12	0
-	+	13	17
-	+	19	0
-	+	14	14
-	+	16	14
-	+	24	3
-	+	20	37
-	+	21	0
-	+	45	0
-	+	35	44
-	+	44	0
-	+	37	5
-	+	38	48
-	+	24	0
-	+	39	2
-	+	40	0
-	+	41	0
-	+	40	27
-	+	41	21
-	+	40	27
-	+	44	0
-	+	43	18
-	+	40	10
-	+	24	27
-	+	10	18
-	+	24	24
-	+	25	0
-	+	26	0
-	+	25	14
-	+	14	13
-	+	25	23
-	+	12	0
-	+	10	0
-	+	15	14
-	+	31	0
-	+	28	49
-	+	30	0
-	+	33	0
-	+	37	7
-	+	27	0
-	+	28	40
-	+	29	45
-	+	28	0
-	+	21	0
-	+	17	20
-	+	18	22
-	+	11	16
-	z	11	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/read_nums.cpp
-	*	1470794919	0
-	"	15	0
-	^	15	21
-	.	15	17
-	+	12	0
-	+	15	0
-	+	19	9
-	+	15	17
-	z	15	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/read_nums.h
-	*	1470794897	0
-	"	16	24
-	^	14	44
-	.	14	43
-	+	14	0
-	+	14	45
-	+	11	16
-	+	12	15
-	+	14	43
-	z	16	0
-
-> ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/solver.rb
-	*	1470794227	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/prep_work/week3/maze_bonus_project/spec/solver_spec.rb
-	*	1470794226	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/read.cpp
-	*	1470792801	0
-	"	1	0
-	s	3	1
-	z	1	0
-
-> ~/.vim/ftplugin/text/lists.vim
-	*	1470780319	0
-	"	6	0
-	^	6	5
-	.	6	4
-	+	4	7
-	+	6	18
-	+	8	16
-	+	3	22
-	+	6	4
-	+	4	7
-	+	3	0
-	+	7	0
-	+	3	24
-	+	6	17
-	+	8	0
-	+	39	0
-	+	35	0
-	+	36	0
-	+	23	42
-	+	41	0
-	+	22	43
-	+	27	0
-	+	27	41
-	+	27	0
-	+	3	11
-	+	6	4
-	+	39	13
-	+	40	13
-	+	6	4
-	z	6	0
-
-> /usr/local/Cellar/macvim/7.4-104_1/MacVim.app/Contents/Resources/vim/runtime/doc/pattern.txt
-	*	1470780073	0
-	"	821	0
-	z	821	1
-
-> ../ruby/switch.vim
-	*	1470778394	0
-	"	2	0
-	.	2	0
-	+	1	0
-	+	2	0
-	z	2	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/read.h
-	*	1470778020	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/word_count.cpp
-	*	1470778019	0
-	"	7	0
-	^	24	61
-	.	25	0
-	+	9	0
-	+	21	0
-	+	9	15
-	+	21	22
-	+	22	18
-	+	10	15
-	+	11	15
-	+	17	15
-	+	24	27
-	+	22	0
-	+	24	60
-	+	25	0
-	z	7	0
-
-> ~/.vim/ftplugin/a:file_name
-	*	1470776598	0
-	"	1	0
-	z	1	0
-
-> ~/.vim/ftplugin/abc
-	*	1470776172	0
-	"	1	0
-	z	1	0
-
-> ~/.vim/ftplugin/cpp.vim
-	*	1470775193	0
-	"	6	0
-	^	3	0
-	.	4	0
-	+	4	46
-	+	5	43
-	+	1	14
-	+	4	0
-	s	1	15
-	z	1	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/each_word_count.cpp
-	*	1470768216	0
-	"	9	10
-	^	52	15
-	.	52	14
-	+	7	0
-	+	22	0
-	+	25	0
-	+	22	0
-	+	21	13
-	+	22	1
-	+	50	0
-	+	39	0
-	+	24	30
-	+	63	34
-	+	24	28
-	+	63	49
-	+	71	0
-	+	72	0
-	+	65	17
-	+	63	56
-	+	24	19
-	+	65	29
-	+	63	42
-	+	68	0
-	+	65	30
-	+	70	14
-	+	69	0
-	+	66	6
-	+	63	42
-	+	66	7
-	+	67	17
-	+	65	23
-	+	39	5
-	+	31	23
-	+	39	7
-	+	40	0
-	+	39	16
-	+	63	2
-	+	24	2
-	+	67	14
-	+	70	10
-	+	40	7
-	+	41	12
-	+	40	0
-	+	49	30
-	+	42	9
-	+	49	12
-	+	40	21
-	+	42	5
-	+	50	0
-	+	49	0
-	+	43	0
-	+	36	0
-	+	38	19
-	+	39	37
-	+	43	0
-	+	33	9
-	+	45	37
-	+	44	29
-	+	45	0
-	+	58	0
-	+	55	11
-	+	54	21
-	+	57	30
-	+	54	4
-	+	24	8
-	+	39	20
-	+	63	8
-	+	39	12
-	+	40	8
-	+	41	13
-	+	39	16
-	+	38	4
-	+	32	9
-	+	39	26
-	+	43	25
-	+	65	15
-	+	63	61
-	+	66	32
-	+	35	15
-	+	47	7
-	+	46	0
-	+	47	27
-	+	35	18
-	+	48	25
-	+	55	29
-	+	56	16
-	+	52	14
-	z	9	0
-
-> ~/Dropbox/programing/accelerated_cpp/chap4/example/makefile
-	*	1470767595	0
-	"	1	0
-	z	1	0
-
-> ~/test/bar.rb
-	*	1470760286	0
-	"	20	4
-	^	20	5
-	.	20	4
-	+	9	9
-	+	10	16
-	+	17	0
-	+	19	0
-	+	14	25
-	+	20	4
-	z	20	0
-
-> ~/test/foo.rb
-	*	1470758583	0
-	"	11	8
-	^	11	9
-	.	11	8
-	+	9	9
-	+	11	8
-	z	11	4

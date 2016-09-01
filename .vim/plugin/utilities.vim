@@ -20,4 +20,11 @@ function! UtilitiesSwitchFile(file_name, type)
   endif
 endfunction
 
+function! UtilitiesPreviousLine()
+  if line('.') ==# 1
+    return '###'
+  else
+    return getline(line('.') - 1)
+  endif
+endfunction!
 

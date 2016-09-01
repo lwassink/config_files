@@ -17,6 +17,7 @@ alias vim="mvim"
 alias g="g++"
 alias ..='cd ..'
 alias gpp='g++'
+alias ag='ag --path-to-agignore ~/.agignore'
 
 # t todo list aliases
 alias t='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks'

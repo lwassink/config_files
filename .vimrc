@@ -102,6 +102,10 @@ Plugin 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plugin 'https://github.com/sjl/gundo.vim.git'
 " align columns
 Plugin 'https://github.com/godlygeek/tabular.git'
+" auto-generate ctags
+Plugin 'https://github.com/xolox/vim-easytags.git'
+" required for easytags
+Plugin 'https://github.com/xolox/vim-misc.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -125,9 +129,9 @@ syntax on
 
 set number
 set laststatus=2 " Make vim display the status line at all times
-if &ft != 'vim' " when filetype=vim we use marker based folding instead
-  set foldmethod=syntax
-endif
+" if &ft != 'vim' " when filetype=vim we use marker based folding instead
+"   set foldmethod=syntax
+" endif
 set foldlevel=99
 set showcmd
 set showmode
@@ -179,7 +183,16 @@ set expandtab
 
 " let me know when a line passes 81 characters
 highlight ColorColumn ctermbg=cyan
-call matchadd('ColorColumn', '\%81v', 100)
+function! s:ColorColumnEighty()
+  if &ft =~# 'text'
+    return
+  endif
+  call matchadd('ColorColumn', '\%81v', 100)
+endfunction
+augroup check_80_lines
+  autocmd!
+  autocmd BufRead * call s:ColorColumnEighty()
+augroup END
 
 " show unwanted white space
 exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
@@ -219,7 +232,7 @@ set wildmode=longest,full
 " tell filename completion which files to ignore
 set wildignore+=*.o,*.out
 set wildignore+=*.bmp,*.gif,*.ico,*.png,*.jpg,*.pdf
-set wildignore+=.DS_Store,.git,.hg,.svn
+set wildignore+=.DS_Store,*/.git/*,*/.hg/*,*/.svn/*
 set wildignore+=*~,*.swp,*.tmp
 set wildignore+=*/tmp/*,*.so,*.zip,*.tar
 
@@ -294,14 +307,6 @@ let g:neocomplet#enable_smart_case = 1
 let g:neocomplete#syntax#min_keyword_length = 3
 inoremap <expr><C-g>     neocomplete#undo_completion()
 inoremap <expr><c-l>     neocomplete#complete_common_string()
-" <TAB>: completion.
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ neocomplete#start_manual_complete()
-function! s:check_back_space() "{{{
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~ '\s'
-endfunction"}}}
 
 " Define dictionary.
 let g:neocomplete#sources#dictionary#dictionaries = {
@@ -329,7 +334,7 @@ vmap <expr> <down> DVB_Drag('down')
 
 " ctrlp
 if executable('ag')
-  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+  let g:ctrlp_user_command = 'ag --path-to-agignore ~/.agignore %s -l --nocolor -g ""'
 endif
 let g:ctrp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 0
@@ -338,6 +343,9 @@ let g:ctrlp_cmd = 'CtrlP'
 
 " Gundo
 nnoremap <leader>gu :GundoToggle<cr>
+
+" SuperTab
+let g:SuperTabDefaultCompletionType = "<c-l>"
 
 " }}}
 
@@ -366,6 +374,11 @@ nnoremap <space>k i<space><esc>l
 nnoremap =p VypVr=
 nnoremap <leader>nt :NERDTree<cr>
 nnoremap ZZ :wall<cr>ZZ
+
+" add closing brace, comma, etc.
+inoremap (( ()<esc>i
+inoremap "" ""<esc>i
+inoremap '' ''<esc>i
 
 " split control commands
 " these allow me to move to the splits above, below, to the left, and to the
@@ -439,11 +452,6 @@ augroup restore_cursor
   autocmd!
   autocmd BufReadPost * execute "silent! normal! `z"
   autocmd BufWinLeave * mark z
-augroup END
-
-augroup save_when_focus_lost
-  autocmd!
-  autocmd FocusLost * :wall
 augroup END
 
 " }}}
