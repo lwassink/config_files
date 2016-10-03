@@ -15,7 +15,7 @@ set ttyfast
 " save and close this vimrc when closing its window
 augroup vimrc_commands
   autocmd!
-  autocmd BufWinLeave *.vimrc mark z | write | bdelete
+  autocmd BufWinLeave *.vimrc mark z | write
 augroup END
 
 " }}}
@@ -47,11 +47,7 @@ Plugin 'git://github.com/aperezdc/vim-template.git'
 " syntax checker
 Plugin 'https://github.com/scrooloose/syntastic.git'
 " code completion
-Plugin 'https://github.com/Shougo/neocomplete.vim.git'
-" apparently we need this plugin to use neocomplete
-Plugin 'https://github.com/Konfekt/FastFold.git'
-" run rspec unit tests from vim
-Plugin 'https://github.com/thoughtbot/vim-rspec.git'
+Plugin 'https://github.com/Valloric/YouCompleteMe.git'
 " easier commenting
 Plugin 'https://github.com/tpope/vim-commentary.git'
 " ruby support
@@ -66,32 +62,18 @@ Plugin 'https://github.com/tpope/vim-repeat.git'
 Plugin 'https://github.com/tpope/vim-unimpaired.git'
 " easily modify surroundings of text
 Plugin 'https://github.com/tpope/vim-surround.git'
-" easily exchange blocks of text
-Plugin 'https://github.com/tommcdo/vim-exchange.git'
 " git integration
 Plugin 'https://github.com/tpope/vim-fugitive.git'
-" run programs from vim
-Plugin 'https://github.com/tpope/vim-dispatch.git'
 " allow creation of custom text objects
 Plugin 'https://github.com/kana/vim-textobj-user.git'
 " a ruby block text object
 Plugin 'https://github.com/nelstrom/vim-textobj-rubyblock.git'
 " a plugin to insert 'end' in ruby
 Plugin 'https://github.com/tpope/vim-endwise.git'
-" ruby refactoring features
-Plugin 'https://github.com/ecomba/vim-ruby-refactoring.git'
-" access ruby doccumentation in vim
-Plugin 'https://github.com/lucapette/vim-ruby-doc.git'
-" pathogen
-Plugin 'https://github.com/tpope/vim-pathogen.git'
-" color scheme
-Plugin 'https://github.com/altercation/vim-colors-solarized.git'
 " do searching with ack (I actually use ag)
 Plugin 'mileszs/ack.vim'
 " easily switch two splits
 Plugin 'https://github.com/wesQ3/vim-windowswap.git'
-" sensible management of swap files
-Plugin 'https://github.com/vitorgalvao/autoswap_mac.git'
 " visually move blocks of text
 Plugin 'https://github.com/gavinbeatty/dragvisuals.vim.git'
 " a nice file browser
@@ -106,6 +88,10 @@ Plugin 'https://github.com/godlygeek/tabular.git'
 Plugin 'https://github.com/xolox/vim-easytags.git'
 " required for easytags
 Plugin 'https://github.com/xolox/vim-misc.git'
+" rails support
+Plugin 'tpope/vim-rails'
+" make tab completion work
+Plugin 'ervandew/supertab'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -113,9 +99,6 @@ Plugin 'https://github.com/xolox/vim-misc.git'
 
 " this does something. it has to come after the list of plugins
 call vundle#end()
-
-" use pathogen for runtimepath for development
-call pathogen#infect()
 
 " now it's safe to turn that stuff from earlier back on
 filetype plugin indent on
@@ -186,8 +169,9 @@ highlight ColorColumn ctermbg=cyan
 function! s:ColorColumnEighty()
   if &ft =~# 'text'
     return
+  else
+    call matchadd('ColorColumn', '\%81v', 100)
   endif
-  call matchadd('ColorColumn', '\%81v', 100)
 endfunction
 augroup check_80_lines
   autocmd!
@@ -215,9 +199,6 @@ nnoremap <leader>h :nohlsearch<cr>
 
 " save undo history
 set undofile
-
-" complete words with ctrl-n and ctrl-p
-set complete+=kspell
 
 " set % to match <> in addition to other parens
 set matchpairs+=<:>
@@ -277,10 +258,23 @@ if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
 endif
 
+" save undos in a centralized location
+set undodir=~/.vim/undo
+
 " }}}
 
 
 " PLUGIN SETTINGS {{{
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
 " vim-template settings
 let g:email = 'lwassink@gmail.com'
@@ -295,25 +289,6 @@ let g:syntastic_check_on_wq = 0
 nnoremap <space>c :lclose<cr>
 nnoremap <silent> <space>o :Errors<cr>
 nnoremap <silent> <space>r :SyntasticReset<cr>
-
-" neocomplete settings
-" disable the builtin autocomplete, AutoComplPop
-let g:acp_enableAtStartup = 0
-" use neocomplete
-let g:neocomplete#enable_at_startup = 1
-" use smartcase
-let g:neocomplet#enable_smart_case = 1
-" set minimum keyword length
-let g:neocomplete#syntax#min_keyword_length = 3
-inoremap <expr><C-g>     neocomplete#undo_completion()
-inoremap <expr><c-l>     neocomplete#complete_common_string()
-
-" Define dictionary.
-let g:neocomplete#sources#dictionary#dictionaries = {
-      \ 'default' : '',
-      \ 'vimshell' : $HOME.'/.vimshell_hist',
-      \ 'scheme' : $HOME.'/.gosh_completions'
-      \ }
 
 " Allow more general matching with %
 packadd! matchit
@@ -367,7 +342,6 @@ nnoremap sw <c-w>W
 nnoremap \ ,
 nnoremap <c-s> :w<cr>
 inoremap <c-s> <esc>:w<cr>a
-inoremap <c-j> i<c-j>
 nnoremap dl 0<c-v>$d
 nnoremap <space>j a<space><esc>h
 nnoremap <space>k i<space><esc>l
@@ -378,7 +352,6 @@ nnoremap ZZ :wall<cr>ZZ
 " add closing brace, comma, etc.
 inoremap (( ()<esc>i
 inoremap "" ""<esc>i
-inoremap '' ''<esc>i
 
 " split control commands
 " these allow me to move to the splits above, below, to the left, and to the
@@ -400,6 +373,7 @@ noremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>eu :UltiSnipsEdit<cr>
 " edit the template corresponding to current file extension
 noremap <silent> <leader>et :execute 'split ~/.vim/bundle/vim-template/templates/=template=.' . expand('%:e')<cr>
+nnoremap <leader>ec :execute "split ~/.vim/ftplugin/".&filetype."/".&filetype.".vim"<cr>
 
 " swap commands to make it easier for me to do common stuff
 nnoremap v <c-v>

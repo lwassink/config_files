@@ -15,3 +15,12 @@
 	branchout = checkout -b
 	amend = commit --amend
 	oneline = log --pretty=oneline
+	alias = config --get-regexp alias
+	cm = commit -m
+	ci = commit
+	co = checkout
+	br = branch
+	st = status
+	all = add -A
+	pu = push -u origin master
+	p = push

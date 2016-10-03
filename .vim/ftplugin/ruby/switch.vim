@@ -17,9 +17,9 @@ function! s:Switch()
 
   if file_name =~# '\v^.+_spec$'
     let file_name = matchstr(file_name, '\v^\zs.+\ze_spec$')
-    call UtilitiesSwitchFile(super_path . '/' . file_name . '.rb', 'source code')
+    call UtilitiesSwitchFile(super_path . '/lib/' . file_name . '.rb', 'source code')
   else
-    call UtilitiesSwitchFile(path . '/spec/' . file_name . '_spec.rb', 'spec')
+    call UtilitiesSwitchFile(super_path . '/spec/' . file_name . '_spec.rb', 'spec')
   endif
 endfunction!
 

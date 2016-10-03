@@ -1,11 +1,11 @@
 "
-" god
+" g-d
 " Copyright (C) 2016 Luke Wassink <lwassink@gmail.com>
 "
 " Distributed under terms of the MIT license.
 "
 
-if exists("g:god_loaded")
+if exists("g:g-d_loaded")
   finish
 endif
 let g:lists_loaded = 1

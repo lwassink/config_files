@@ -1,12 +1,12 @@
 "
-" god
+" g-d
 " Copyright (C) 2016 Luke Wassink <lwassink@gmail.com>
 "
 " Distributed under terms of the MIT license.
 "
 
-augroup god_file_type
+augroup g_d_file_type
   autocmd!
-  autocmd BufNewFile,Bufread *.god set filetype=god
+  autocmd BufNewFile,Bufread *.g-d set filetype=g-d
 augroup END
 

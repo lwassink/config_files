@@ -12,3 +12,6 @@ set bell-style none
 # cd will search these dirs after the current one
 CDPATH=$HOME
 export CDPATH
+
+# path for postgress
+PATH="/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH"

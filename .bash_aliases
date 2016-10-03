@@ -18,6 +18,10 @@ alias g="g++"
 alias ..='cd ..'
 alias gpp='g++'
 alias ag='ag --path-to-agignore ~/.agignore'
+alias be='bundle exec'
+alias bi='bundle install'
+alias ber='bundle exec rspec'
+alias vimclean='find . -type f -name "\.*sw[klmnop]" -delete; find . -type f -name "*.un~" -delete'
 
 # t todo list aliases
 alias t='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks'

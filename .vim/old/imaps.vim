@@ -484,9 +484,16 @@ vmap <silent> <Plug>IMAP_JumpBack          <C-\><C-N>`<i<c-r>=IMAP_Jumpfunc('b',
 " NOTE: Default mappings for jumping to the previous placeholder are not
 "       provided. It is assumed that if the user will create such mappings
 "       hself if e so desires.
-if !hasmapto('<Plug>IMAP_JumpForward', 'i')
-    imap <C-J> <Plug>IMAP_JumpForward
-endif
+
+" ME, LUKE WASSINK
+" I'm adding this to prevent interference with other plugins
+imap <c-m> <Plug>IMAP_JumpForward
+
+
+
+" if !hasmapto('<Plug>IMAP_JumpForward', 'i')
+"     imap <C-J> <Plug>IMAP_JumpForward
+" endif
 if !hasmapto('<Plug>IMAP_JumpForward', 'n')
     nmap <C-J> <Plug>IMAP_JumpForward
 endif

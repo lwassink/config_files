@@ -1,0 +1,79 @@
+snippet sql
+<<-SQL
+  $0
+SQL
+endsnippet
+
+snippet tcts "Create timestamps columns"
+t.timestamps
+$0
+endsnippet
+
+snippet tcs "Create string column"
+t.string :${1:title}
+$0
+endsnippet
+
+snippet tct "Create text column"
+t.text :${1:title}
+$0
+endsnippet
+
+snippet tcda "Create date column"
+t.date :${1:title}
+$0
+endsnippet
+
+snippet tci "Create integer column"
+t.integer :${1:title}
+$0
+endsnippet
+
+
+snippet tcs "Create string column"
+t.string :${1:title}
+$0
+endsnippet
+
+snippet tct "Create text column"
+t.text :${1:title}
+$0
+endsnippet
+
+snippet bt "belongs_to (bt)"
+belongs_to :$1,
+  foreign_id: :$2,
+	primary_id: :${3:id},
+	class_name: "$4"
+	$0
+endsnippet
+
+snippet hm "has_many (hm)"
+belongs_to :$1,
+  foreign_id: :$2,
+	primary_id: :${3:id},
+	class_name: "$4"
+	$0
+endsnippet
+
+snippet hmt "has_many_through (hmt)"
+belongs_to :$1,
+  through: :$2,
+	source: :$3
+	$0
+endsnippet
+
+snippet ho "has_one (ho)"
+belongs_to :$1,
+  foreign_id: :$2,
+	primary_id: :${3:id},
+	class_name: "$4"
+	$0
+endsnippet
+
+snippet hot "has_one_through (hot)"
+belongs_to :$1,
+  through: :$2,
+	source: :$3
+	$0
+endsnippet
