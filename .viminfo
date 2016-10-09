@@ -11,211 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/fetch
+~MSle0~/Cre
 
 # Last Substitute Search Pattern:
-~MSle0&"B"
+~MSle0&band
 
 # Last Substitute String:
-$
+$album
 
 # Command Line History (newest to oldest):
-:e lib/04_associatable2.rb
-|2,0,1475349279,,"e lib/04_associatable2.rb"
 :w
-|2,0,1475342525,,"w"
-:split lib/03_associatable.rb
-|2,0,1475341290,,"split lib/03_associatable.rb"
-:b watch_list.rb
-|2,0,1475376082,,"b watch_list.rb"
-:b company.rb
-|2,0,1475375983,,"b company.rb"
-:e user.rb
-|2,0,1475375861,,"e user.rb"
-:b ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-|2,0,1475375856,,"b ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb"
-:e watch_list_item.rb
-|2,0,1475375720,,"e watch_list_item.rb"
-:e watch_list.rb
-|2,0,1475375623,,"e watch_list.rb"
-:e executive.rb
-|2,0,1475375440,,"e executive.rb"
-:e exchange.rb
-|2,0,1475375394,,"e exchange.rb"
-:e price.rb
-|2,0,1475375181,,"e price.rb"
-:e company.rb
-|2,0,1475374963,,"e company.rb"
-:e board_membership.rb
-|2,0,1475374749,,"e board_membership.rb"
-:cd app/models/
-|2,0,1475374742,,"cd app/models/"
-:vsplit db/schema.rb
-|2,0,1475374247,,"vsplit db/schema.rb"
-:q!
-|2,0,1475373746,,"q!"
-:nnoremap <c-j> <c-j>
-|2,0,1475373726,,"nnoremap <c-j> <c-j>"
-:nnoremap <c-j> <c-j>jk
-|2,0,1475373724,,"nnoremap <c-j> <c-j>jk"
-:verbose map <c-j>
-|2,0,1475373672,,"verbose map <c-j>"
-:map <c-j>
-|2,0,1475373666,,"map <c-j>"
-:UltiSnipsEdit ruby
-|2,0,1475365770,,"UltiSnipsEdit ruby"
-:wq!
-|2,0,1475304888,,"wq!"
-:e lib/*.rb
-|2,0,1475304788,,"e lib/*.rb"
-:let g:UltiSnipsExpandTrigger = "<c-l>"
-|2,0,1475304616,,"let g:UltiSnipsExpandTrigger = \"<c-l>\""
-:verbose imap <tab>
-|2,0,1475304596,,"verbose imap <tab>"
-:message
-|2,0,1475303280,,"message"
+|2,0,1475900303,,"w"
+:%s/band/album/g
+|2,0,1475889908,,"%s/band/album/g"
+:wall
+|2,0,1475859717,,"wall"
+:e app/models/concerns/notable.rb
+|2,0,1475856442,,"e app/models/concerns/notable.rb"
 :PluginInstall
-|2,0,1475304563,,"PluginInstall"
-:let g:UltiSnipsExpandTrigger = "<c-tab>"
-|2,0,1475304325,,"let g:UltiSnipsExpandTrigger = \"<c-tab>\""
-:call UltiSnips#ExpandSnippet()
-|2,0,1475304075,,"call UltiSnips#ExpandSnippet()"
-:call UltiSnips#ExpandSnippet
-|2,0,1475304072,,"call UltiSnips#ExpandSnippet"
-:inoremap <s-tab> <esc>call UltiSnips_ExpandSnippet()
-|2,0,1475304041,,"inoremap <s-tab> <esc>call UltiSnips_ExpandSnippet()"
-:inoremap <s-tab> hi
-|2,0,1475304003,,"inoremap <s-tab> hi"
-:let g:UltiSnipsExpandTrigger = "<c-s>"
-|2,0,1475303795,,"let g:UltiSnipsExpandTrigger = \"<c-s>\""
-:let g:UltiSnipsExpandTrigger = "<s-tab>"
-|2,0,1475303717,,"let g:UltiSnipsExpandTrigger = \"<s-tab>\""
-:YcmDebugInfo
-|2,0,1475303247,,"YcmDebugInfo"
-:b lib/01_sql_object.rb
-|2,0,1475294619,,"b lib/01_sql_object.rb"
-:vsplit spec/03_associatable_spec.rb
-|2,0,1475276639,,"vsplit spec/03_associatable_spec.rb"
-:b lib/03_associatable.rb
-|2,0,1475273533,,"b lib/03_associatable.rb"
-:e lib/01_sql_object.rb
-|2,0,1475273501,,"e lib/01_sql_object.rb"
-:b lib/02_searchable.rb
-|2,0,1475273486,,"b lib/02_searchable.rb"
-:e lib/03_associatable.rb
-|2,0,1475272039,,"e lib/03_associatable.rb"
-:'<,
-|2,0,1475272030,,"'<,"
-:PluginUpdate
-|2,0,1475303074,,"PluginUpdate"
-:PluginClean
-|2,0,1475302563,,"PluginClean"
+|2,0,1475856207,,"PluginInstall"
+:%s/Band/Album/g
+|2,0,1475806217,,"%s/Band/Album/g"
+:%s/Album/Track
+|2,0,1475805173,,"%s/Album/Track"
+:%s/album/track
+|2,0,1475805165,,"%s/album/track"
+:%s/kind/status/g
+|2,0,1475800903,,"%s/kind/status/g"
+:%s/album/track/g
+|2,0,1475800889,,"%s/album/track/g"
+:%s/Album/Track/g
+|2,0,1475800748,,"%s/Album/Track/g"
+:s/album/track/g
+|2,0,1475800421,,"s/album/track/g"
+:bd
+|2,0,1475797965,,"bd"
+:%s/band/album
+|2,0,1475797788,,"%s/band/album"
+:%s/Band/Album
+|2,0,1475797778,,"%s/Band/Album"
+:e app/views/albums/show.html.erb
+|2,0,1475797469,,"e app/views/albums/show.html.erb"
+:e app/views/albums/_album_il.html.erb
+|2,0,1475797275,,"e app/views/albums/_album_il.html.erb"
+:%s/required/band/g
+|2,0,1475796177,,"%s/required/band/g"
+:%s/item/band
+|2,0,1475795981,,"%s/item/band"
+:s/"/\\"/g
+|2,0,1475795674,,"s/\"/\\\\\"/g"
+:s/"/\"/g
+|2,0,1475795647,,"s/\"/\\\"/g"
+:e app/models/concerns/toyable.rb
+|2,0,1475815695,,"e app/models/concerns/toyable.rb"
+:e app/views/bands/edit.html.erb
+|2,0,1475795374,,"e app/views/bands/edit.html.erb"
+:e app/views/bands/index.html.erb
+|2,0,1475792848,,"e app/views/bands/index.html.erb"
+:split
+|2,0,1475792428,,"split"
+:%s/self.class/model_class/gc
+|2,0,1475791055,,"%s/self.class/model_class/gc"
+:e app/models/user.rb
+|2,0,1475784842,,"e app/models/user.rb"
+:e config/routes.rb
+|2,0,1475776724,,"e config/routes.rb"
+:b app/controllers/users_controller.rb
+|2,0,1475781448,,"b app/controllers/users_controller.rb"
+:b app/views/sessions/new.html.erb
+|2,0,1475781278,,"b app/views/sessions/new.html.erb"
+:split app/controllers/sessions_controller.rb
+|2,0,1475780870,,"split app/controllers/sessions_controller.rb"
+:b app/views/users/show.html.erb
+|2,0,1475780388,,"b app/views/users/show.html.erb"
+:split app/models/user.rb
+|2,0,1475780266,,"split app/models/user.rb"
+:b musicApp/app/models/user.rb
+|2,0,1475780251,,"b musicApp/app/models/user.rb"
+:split app/views/shared/_user_form.html.erb
+|2,0,1475779625,,"split app/views/shared/_user_form.html.erb"
+:b app/views/shared/_user_form.html.erb
+|2,0,1475779394,,"b app/views/shared/_user_form.html.erb"
+:b app/views/layouts/application.html.erb
+|2,0,1475779173,,"b app/views/layouts/application.html.erb"
+:b app/controllers/application_controller.rb
+|2,0,1475779161,,"b app/controllers/application_controller.rb"
+:b db/migrate/20161006164827_create_users.rb
+|2,0,1475778887,,"b db/migrate/20161006164827_create_users.rb"
+:pwd
+|2,0,1475778459,,"pwd"
+:b rout
+|2,0,1475778086,,"b rout"
+:b root
+|2,0,1475778082,,"b root"
+:b form
+|2,0,1475777784,,"b form"
+:b config/routes.rb
+|2,0,1475777292,,"b config/routes.rb"
+:b ~/Dropbox/developer/app-academy/class/projects/musicApp/Gemfil
+|2,0,1475776054,,"b ~/Dropbox/developer/app-academy/class/projects/musicApp/Gemfil"
+:vsplit Gemfile
+|2,0,1475775050,,"vsplit Gemfile"
+:q!
+|2,0,1475775045,,"q!"
+:vsplit
+|2,0,1475775029,,"vsplit"
+:vsplit Gemfilem
+|2,0,1475774898,,"vsplit Gemfilem"
 :e ~/.vimrc
-|2,0,1475302200,,"e ~/.vimrc"
-:set filetype=text
-|2,0,1475270635,,"set filetype=text"
-:b db_connection.rb
-|2,0,1475269576,,"b db_connection.rb"
-:source ~/.vim/ftplugin/ruby/switch.vim
-|2,0,1475261195,,"source ~/.vim/ftplugin/ruby/switch.vim"
-:set filetype=ruby
-|2,0,1475261130,,"set filetype=ruby"
+|2,0,1475773299,,"e ~/.vimrc"
 
 # Search String History (newest to oldest):
 ?/^s*private<cr>mp
-|2,1,1475349279,47,"^s*private<cr>mp"
-?/fetch
-|2,1,1475342213,47,"fetch"
-?/humans'
-|2,1,1475342208,47,"humans'"
-?/ni
-|2,1,1475342113,47,"ni"
-?/Lu
-|2,1,1475341738,47,"Lu"
-?/HI
-|2,1,1475341721,47,"HI"
-?/<c-j
-|2,1,1475373691,47,"<c-j"
-?/<cj
-|2,1,1475373684,47,"<cj"
-?/puts
-|2,1,1475277523,47,"puts"
-?/camel_
-|2,1,1475277294,47,"camel_"
-?/l_
-|2,1,1475277288,47,"l_"
-?/unders
-|2,1,1475275487,47,"unders"
-? \<table_name\>
-|2,1,1475273989,,"\\<table_name\\>"
-??ay
-|2,1,1475272789,63,"ay"
-??a
-|2,1,1475272784,63,"a"
-?/compl
-|2,1,1475303151,47,"compl"
-?/columns
-|2,1,1475270234,47,"columns"
-?/e2
-|2,1,1475270203,47,"e2"
-?/ast
-|2,1,1475269580,47,"ast"
-?/attri
-|2,1,1475269068,47,"attri"
-?/ute[
-|2,1,1475269055,47,"ute["
-?/inser
-|2,1,1475267982,47,"inser"
-?/find
-|2,1,1475267911,47,"find"
-?/attr
-|2,1,1475263723,47,"attr"
-?/tabl
-|2,1,1475263583,47,"tabl"
-?/Pr
-|2,1,1475263576,47,"Pr"
-?/Bon
-|2,1,1475254281,47,"Bon"
-?/>
-|2,1,1475164073,47,">"
-??p
-|2,1,0,63,"p"
-?/pp
-|2,1,0,47,"pp"
-?/call
-|2,1,0,47,"call"
-??30
-|2,1,0,63,"30"
-??resu
-|2,1,0,63,"resu"
+|2,1,1475900149,47,"^s*private<cr>mp"
+?/Cre
+|2,1,1475895092,47,"Cre"
+? band
+|2,1,1475889908,,"band"
+?/ban
+|2,1,1475889878,47,"ban"
+?/note
+|2,1,1475870590,47,"note"
+?/set
+|2,1,1475859964,47,"set"
+?/new
+|2,1,1475859597,47,"new"
+?/item
+|2,1,1475859284,47,"item"
 ? %HERE%
-|2,1,0,,"%HERE%"
-?/ings.id
-|2,1,0,47,"ings.id"
-??ear
-|2,1,0,63,"ear"
-?/n_plu
-|2,1,0,47,"n_plu"
-?/leader
-|2,1,0,47,"leader"
-?/tab
-|2,1,0,47,"tab"
-?/indent
-|2,1,0,47,"indent"
-?/sty
-|2,1,0,47,"sty"
-?/_
-|2,1,0,47,"_"
-?/jk
-|2,1,0,47,"jk"
-?/dev
-|2,1,0,47,"dev"
-?/move his
-|2,1,0,47,"move his"
-?/rank
-|2,1,0,47,"rank"
+|2,1,1475856442,,"%HERE%"
 ?/color
-|2,1,0,47,"color"
+|2,1,1475856259,47,"color"
+?/sol
+|2,1,1475856062,47,"sol"
+?/val
+|2,1,1475807497,47,"val"
+? Band
+|2,1,1475806217,,"Band"
+?/sele
+|2,1,1475806058,47,"sele"
+??band
+|2,1,1475805492,63,"band"
+?/reg
+|2,1,1475805200,47,"reg"
+? Album
+|2,1,1475805173,,"Album"
+? album
+|2,1,1475805165,,"album"
+?/=
+|2,1,1475802091,47,"="
+?/:w
+|2,1,1475801096,47,":w"
+?/li
+|2,1,1475800921,47,"li"
+?/stu
+|2,1,1475800908,47,"stu"
+? kind
+|2,1,1475800903,,"kind"
+?/path
+|2,1,1475799699,47,"path"
+?/fail
+|2,1,1475799697,47,"fail"
+?/succ
+|2,1,1475799695,47,"succ"
+?/succe
+|2,1,1475799635,47,"succe"
+?/crea
+|2,1,1475799615,47,"crea"
+?/st
+|2,1,1475798667,47,"st"
+?/band
+|2,1,1475798348,47,"band"
+??w
+|2,1,1475798251,63,"w"
+?/user
+|2,1,1475797820,47,"user"
+?/la
+|2,1,1475796441,47,"la"
+?/model
+|2,1,1475796304,47,"model"
+? required
+|2,1,1475796177,,"required"
+? item
+|2,1,1475795981,,"item"
+?/sa
+|2,1,1475795789,47,"sa"
+? "
+|2,1,1475795674,,"\""
+?/edit
+|2,1,1475795203,47,"edit"
+?/show
+|2,1,1475794965,47,"show"
+? self.class
+|2,1,1475791055,,"self.class"
+?/_u
+|2,1,1475786397,47,"_u"
+?/username
+|2,1,1475786361,47,"username"
+?/by
+|2,1,1475779752,47,"by"
+?/dest
+|2,1,1475779192,47,"dest"
+?/railties
+|2,1,1475772196,47,"railties"
+?/ctrlp
+|2,1,1475770368,47,"ctrlp"
+?/mode
+|2,1,1475770794,47,"mode"
+?/<c-f>
+|2,1,1475770784,47,"<c-f>"
+?/ctrl-f
+|2,1,1475770769,47,"ctrl-f"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -226,8 +232,36 @@ $
 |2,2,0,,"strftime('%c')<c-m>p"
 
 # Input Line History (newest to oldest):
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/edit.html.erb
+|2,3,1475795334,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/edit.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/index.html.erb
+|2,3,1475793355,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/index.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/bands.html.erb
+|2,3,1475793147,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/bands.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb
+|2,3,1475792715,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/show.html.erb
+|2,3,1475792449,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/show.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/new.html.erb
+|2,3,1475791725,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/new.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/shared/_errors.html.erb
+|2,3,1475789819,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/shared/_errors.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/shared/_user_form.html.erb
+|2,3,1475777637,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/shared/_user_form.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/users/new.html.erb
+|2,3,1475777584,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/users/new.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/sessions/new.html.erb
+|2,3,1475777439,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/sessions/new.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/users/show.html.erb
+|2,3,1475777364,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/users/show.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/homework/99CatsAuth/app/views/cats/_rental_requests.html.erb
+|2,3,1475729728,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/99CatsAuth/app/views/cats/_rental_requests.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/homework/99CatsAuth/app/views/cats/_cat.html.erb
+|2,3,1475729532,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/99CatsAuth/app/views/cats/_cat.html.erb"
+@/Users/lwassink/Dropbox/developer/app-academy/class/homework/99CatsAuth/app/views/users/_cat.html.erb
+|2,3,1475729236,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/99CatsAuth/app/views/users/_cat.html.erb"
 @y
-|2,3,1475302565,,"y"
+|2,3,1475652471,,"y"
 @row
 |2,3,0,,"row"
 @LOOP_LENGTH
@@ -257,42 +291,88 @@ $
 
 # Registers:
 "0	LINE	0
-	  through: :$2,
-		source: :$3
-|3,0,0,1,2,0,1475374157,"  through: :$2,","	source: :$3"
-"1	LINE	0
-	    through
-|3,0,1,1,1,0,1475375470,"    through"
+	
+|3,0,0,1,1,0,1475900289,""
+""1	LINE	0
+	
+	# Old list
+	#
+	# .DS_Store
+	# .CFUserTextEncoding
+	# .DS_Store
+	# .Trash/
+	# .Xauthority
+	# .aspell.en.prepl
+	# .aspell.en.pws
+	# .atom/
+	# .bash_history
+	# .bash_profile.pysave
+	# .bash_sessions/
+	# .bundle/
+	# .cache/
+	# .config/
+	# .cups/
+	# .dropbox/
+	# .emacs
+	# .emacs.d/
+	# .gem/
+	# .idlerc/
+	# .irb-history
+	# .lesshst
+	# .local/
+	# .matplotlib/
+	# .mkshrc
+	# .nx/
+	# .oracle_jre_usage/
+	# .profile
+	# .pry_history
+	# .python_history
+	# .qt/
+	# .rnd
+	# .rvm/
+	# .sbclrc
+	# .screenrc
+	# .shoes/
+	# .ssh/
+	# .subversion/
+	# .text.tex.swp
+	# .wine/
+	# .zlogin
+	# .zshrc
+	# Applications/
+	# Audiobooks/
+	# Desktop/
+	# Documents/
+	# Downloads/
+|3,1,1,1,50,0,1476054793,"","# Old list","#","# .DS_Store","# .CFUserTextEncoding","# .DS_Store","# .Trash/","# .Xauthority","# .aspell.en.prepl","# .aspell.en.pws","# .atom/","# .bash_history","# .bash_profile.pysave","# .bash_sessions/","# .bundle/","# .cache/","# .config/","# .cups/","# .dropbox/","# .emacs","# .emacs.d/","# .gem/","# .idlerc/","# .irb-history","# .lesshst","# .local/","# .matplotlib/","# .mkshrc","# .nx/","# .oracle_jre_usage/",>12
+|<"# .profile","# .pry_history","# .python_history","# .qt/","# .rnd","# .rvm/","# .sbclrc","# .screenrc","# .shoes/","# .ssh/","# .subversion/","# .text.tex.swp","# .wine/","# .zlogin","# .zshrc","# Applications/","# Audiobooks/","# Desktop/","# Documents/","# Downloads/"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1475375342,""
+|3,0,2,1,1,0,1475900271,""
 "3	LINE	0
-	  has_many :price
 	
-	  has_many :watch_lists
-|3,0,3,1,3,0,1475375330,"  has_many :price","","  has_many :watch_lists"
+|3,0,3,1,1,0,1475900241,""
 "4	LINE	0
-	    class_name: :Price
-|3,0,4,1,1,0,1475375259,"    class_name: :Price"
+	  before_action :redirect_unless_logged_in, only: [:show]
+|3,0,4,1,1,0,1475900240,"  before_action :redirect_unless_logged_in, only: [:show]"
 "5	LINE	0
-	    class_name
-|3,0,5,1,1,0,1475375175,"    class_name"
+	<a href="<%= @post.url %>"><%= @post.url %></a><br>
+|3,0,5,1,1,0,1475900120,"<a href=\"<%= @post.url %>\"><%= @post.url %></a><br>"
 "6	LINE	0
-	  belongs_to :
-|3,0,6,1,1,0,1475375027,"  belongs_to :"
+	
+|3,0,6,1,1,0,1475895138,""
 "7	LINE	0
-	    # foreign_key: :member_id,
-|3,0,7,1,1,0,1475374941,"    # foreign_key: :member_id,"
+	
+|3,0,7,1,1,0,1475894929,""
 "8	LINE	0
-	      # class_name: :Company
-|3,0,8,1,1,0,1475374567,"      # class_name: :Company"
+	    <%= link_to "Home" %>
+|3,0,8,1,1,0,1475894774,"    <%= link_to \"Home\" %>"
 "9	LINE	0
-	      # primary_key: :id,
-	      # foreign_key: :company_id,
-|3,0,9,1,2,0,1475374566,"      # primary_key: :id,","      # foreign_key: :company_id,"
+	
+|3,0,9,1,1,0,1475894479,""
 "a@	CHAR	0
 	djj
-|3,2,10,0,1,0,1475090488,"djj"
+|3,2,10,0,1,0,1475730672,"djj"
 "b	CHAR	0
 	   \sin^{-1}(x)' = \frac{1}{\sqrt{1-x^2}},
 	   \ \ \ & \cos^{-1}(x)' = -\frac{1}{\sqrt{1-x^2}},
@@ -349,7 +429,7 @@ $
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,1475038927,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,1475856714,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
 "i	LINE	0
@@ -383,9 +463,11 @@ $
 "u	CHAR	0
 	ire€kb€kbrequire 'rspec'€ýb€ýaRespec.describe "some stuff" dojkkhxjccit "knowa€kb€kb€kb€kbnows about classes doendjkOjkkfs;;;a"jk:wjccexpect(1).to be_an(IN€kbnteger)jkyypfbcw€ýb€ýa€ýb€ýai€kbjkuea_instance_ofjk:w,ra
 |3,0,30,0,1,0,1474390051,"ire€kb€kbrequire 'rspec'€ýb€ýaRespec.describe \"some stuff\" dojkkhxjccit \"knowa€kb€kb€kb€kbnows about classes doendjkOjkkfs;;;a\"jk:wjccexpect(1).to be_an(IN€kbnteger)jkyypfbcw€ýb€ýa€ýb€ýai€kbjkuea_instance_ofjk:w,ra"
-"v	BLOCK	0
-	e
-|3,0,31,2,1,0,1474316698,"e"
+"v	BLOCK	2
+	cti
+	uth
+	l f
+|3,0,31,2,3,2,1475900289,"cti","uth","l f"
 "w	LINE	0
 	  cout << "Enter a series of words:" << endl;
 	
@@ -401,509 +483,1023 @@ $
 	Jx;;ZvZ€kb€kbZZqzqZq
 |3,0,35,0,1,0,1475277418,"Jx;;ZvZ€kb€kbZZqzqZq"
 "-	CHAR	0
-	:
-|3,0,36,0,1,0,1475375913,":"
+	Create 
+|3,0,36,0,1,0,1475895093,"Create "
 
 # File marks:
-'L  401  0  ~/.vimrc
-|4,76,401,0,1469084029,"~/.vimrc"
+'L  408  0  ~/.vimrc
+|4,76,408,0,1469084029,"~/.vimrc"
 'U  361  0  /usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt
 |4,85,361,0,1469211868,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  77  0  ~/.vimrc
 |4,86,77,0,1468550697,"~/.vimrc"
-'0  1  0  ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/04_associatable2.rb
-|4,48,1,0,1475376172,"~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/04_associatable2.rb"
-'1  34  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-|4,49,34,0,1475376110,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb"
-'2  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-|4,50,1,0,1475373986,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb"
-'3  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-|4,51,1,0,1475373746,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb"
-'4  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-|4,52,1,0,1475373746,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb"
-'5  32  15  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,53,32,15,1475372987,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
-'6  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,54,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
-'7  1  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,55,1,0,1475365095,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
-'8  134  0  ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/01_sql_object.rb
-|4,56,134,0,1475304889,"~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/01_sql_object.rb"
-'9  53  6  ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/03_associatable.rb
-|4,57,53,6,1475304793,"~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/03_associatable.rb"
+'0  13  11  ~/.gitignore
+|4,48,13,11,1476054817,"~/.gitignore"
+'1  1  0  ~/.gitignore
+|4,49,1,0,1476054780,"~/.gitignore"
+'2  1  0  ~/.gitignore
+|4,50,1,0,1476054780,"~/.gitignore"
+'3  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,51,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+'4  10  88  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/db/seeds.rb
+|4,52,10,88,1475892820,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/db/seeds.rb"
+'5  6  6  ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/notes/_form.html.erb
+|4,53,6,6,1475892476,"~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/notes/_form.html.erb"
+'6  18  3  ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/note.rb
+|4,54,18,3,1475856218,"~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/note.rb"
+'7  18  3  ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/note.rb
+|4,55,18,3,1475856218,"~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/note.rb"
+'8  2  0  ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/tracks_controller.rb
+|4,56,2,0,1475851529,"~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/tracks_controller.rb"
+'9  2  0  ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/tracks_controller.rb
+|4,57,2,0,1475851529,"~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/tracks_controller.rb"
 
 # Jumplist (newest first):
--'  1  0  ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/04_associatable2.rb
-|4,39,1,0,1475376172,"~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/04_associatable2.rb"
--'  34  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-|4,39,34,0,1475376110,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-|4,39,1,0,1475374247,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb"
--'  2  3  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-|4,39,2,3,1475374247,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-|4,39,1,0,1475373986,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb"
--'  13  65  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-|4,39,13,65,1475373829,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-|4,39,1,0,1475373754,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-|4,39,1,0,1475373746,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-|4,39,1,0,1475373746,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-|4,39,1,0,1475373191,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb"
--'  32  15  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,32,15,1475372987,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  32  15  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,32,15,1475372987,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  32  15  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,32,15,1475372987,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  32  15  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,32,15,1475372987,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  32  15  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,32,15,1475372987,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  32  15  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,32,15,1475372987,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,1,0,1475372974,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,1,0,1475372974,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,1,0,1475372974,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,1,0,1475372974,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,1,0,1475372974,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  1  0  ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-|4,39,1,0,1475372974,"~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  89  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,89,0,1475368546,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  79  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,79,0,1475368172,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  99  21  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,99,21,1475366063,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  97  18  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,97,18,1475365608,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  98  4  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,98,4,1475365599,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  93  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,93,0,1475365456,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  100  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,100,0,1475365455,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  100  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,100,0,1475365455,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  100  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,100,0,1475365455,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  100  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,100,0,1475365455,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  100  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,100,0,1475365455,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
--'  100  0  ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-|4,39,100,0,1475365455,"~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb"
+-'  13  11  ~/.gitignore
+|4,39,13,11,1476054817,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1476054797,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1476054792,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1476054780,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1476054780,"~/.gitignore"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  16  8  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+|4,39,16,8,1475901435,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+|4,39,2,2,1475900294,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+|4,39,7,0,1475900226,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  7  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,7,0,1475900222,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  2  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+|4,39,2,53,1475900190,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  8  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,8,0,1475900131,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  12  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+|4,39,12,0,1475895092,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  4  4  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,4,4,1475895084,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+|4,39,2,2,1475895011,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  3  53  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,3,53,1475895001,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  1  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,1,0,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  1  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,1,0,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  1  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,1,0,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  1  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,1,0,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  1  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,1,0,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  1  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,1,0,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  1  0  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,1,0,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
+-'  2  2  ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+|4,39,2,2,1475894926,"~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb"
 
 # History of marks within files (newest to oldest):
 
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/04_associatable2.rb
-	*	1475376172	0
+> ~/.gitignore
+	*	1476054817	0
+	"	13	11
+	^	13	12
+	.	13	11
+	+	13	11
+	z	13	0
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/subs/show.html.erb
+	*	1475901435	0
+	"	16	8
+	^	1	9
+	.	1	8
+	+	1	8
+	z	16	0
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/ControlP
+	*	1475900292	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/users_controller.rb
+	*	1475900288	0
+	"	2	2
+	^	18	34
+	.	2	0
+	+	18	33
+	+	2	0
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/users/show.html.erb
+	*	1475900222	0
+	"	7	0
+	^	4	23
+	.	4	22
+	+	1	4
+	+	2	0
+	+	1	26
+	+	3	13
+	+	4	25
+	+	6	5
+	+	5	16
+	+	4	22
+	z	7	0
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/show.html.erb
+	*	1475900217	0
+	"	7	0
+	^	2	12
+	.	7	0
+	+	22	13
+	+	23	0
+	+	4	11
+	+	2	11
+	+	7	0
+	z	7	0
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/controllers/posts_controller.rb
+	*	1475900188	0
+	"	2	53
+	^	2	54
+	.	2	53
+	+	2	53
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/comments/_comment.html.erb
+	*	1475895081	0
+	"	4	4
+	^	2	68
+	.	2	67
+	+	2	67
+	z	4	0
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/posts/_post.html.erb
+	*	1475894980	0
+	"	3	53
+	^	3	54
+	.	3	53
+	+	3	0
+	+	2	43
+	+	3	53
+	z	3	2
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/app/views/layouts/application.html.erb
+	*	1475894877	0
+	"	13	75
+	^	13	76
+	.	13	0
+	+	21	0
+	+	13	0
+	z	13	6
+
+> ~/Dropbox/developer/app-academy/class/projects/reditClone/RedditClone/db/seeds.rb
+	*	1475892820	0
+	"	10	88
+	^	10	89
+	.	10	88
+	+	27	0
+	+	19	0
+	+	20	0
+	+	13	0
+	+	15	0
+	+	17	111
+	+	9	0
+	+	13	23
+	+	12	0
+	+	10	88
+	z	10	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/notes/_form.html.erb
+	*	1475892476	0
+	"	6	6
+	^	1	4
+	.	1	4
+	+	2	62
+	+	6	0
+	+	5	15
+	+	6	69
+	+	6	0
+	+	5	52
+	+	2	12
+	+	2	27
+	+	3	82
+	+	4	67
+	+	2	0
+	+	1	4
+	z	6	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/tracks/_form.html.erb
+	*	1475892475	0
+	"	19	51
+	^	28	14
+	.	28	51
+	+	1	0
+	+	4	0
+	+	9	63
+	+	8	10
+	+	9	8
+	+	8	0
+	+	9	65
+	+	8	68
+	+	9	64
+	+	8	77
+	+	16	0
+	+	29	0
+	+	28	55
+	+	24	5
+	+	27	10
+	+	28	67
+	+	4	71
+	+	13	0
+	+	6	0
+	+	28	93
+	+	8	81
+	+	8	111
+	+	9	98
+	+	8	110
+	+	32	0
+	+	4	61
+	+	5	0
+	+	12	5
+	+	18	60
+	+	19	51
+	+	15	0
+	+	28	0
+	+	28	94
+	+	28	97
+	+	28	51
+	z	19	8
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/ControlP
+	*	1475890256	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/tracks/new.html.erb
+	*	1475890253	0
+	"	8	0
+	^	5	51
+	.	5	50
+	+	1	12
+	+	3	0
+	+	5	0
+	+	6	32
+	+	5	50
+	z	8	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/layouts/application.html.erb
+	*	1475890246	0
+	"	14	28
+	^	14	29
+	.	14	28
+	+	11	9
+	+	3	0
+	+	18	0
+	+	14	16
+	+	12	21
+	+	17	0
+	+	14	72
+	+	24	0
+	+	20	22
+	+	22	37
+	+	22	29
+	+	22	11
+	+	22	30
+	+	22	11
+	+	22	9
+	+	22	0
+	+	21	31
+	+	20	16
+	+	27	48
+	+	28	0
+	+	27	0
+	+	28	0
+	+	16	0
+	+	15	12
+	+	16	59
+	+	13	15
+	+	14	28
+	z	14	8
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/tracks/show.html.erb
+	*	1475890120	0
+	"	21	17
+	^	5	18
+	.	5	17
+	+	1	0
+	+	4	15
+	+	14	0
+	+	12	16
+	+	13	3
+	+	12	0
+	+	9	14
+	+	4	105
+	+	4	0
+	+	4	124
+	+	3	2
+	+	7	3
+	+	6	34
+	+	7	0
+	+	4	104
+	+	5	63
+	+	4	99
+	+	15	0
+	+	16	0
+	+	21	0
+	+	19	38
+	+	5	0
+	+	19	0
+	+	5	0
+	+	19	45
+	+	5	17
+	z	21	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/albums/show.html.erb
+	*	1475889871	0
+	"	17	0
+	^	18	40
+	.	18	39
+	+	1	0
+	+	4	25
+	+	1	14
+	+	4	49
+	+	6	30
+	+	8	45
+	+	4	0
+	+	12	0
+	+	11	0
+	+	3	60
+	+	12	27
+	+	5	9
+	+	13	0
+	+	14	68
+	+	14	4
+	+	3	17
+	+	15	0
+	+	20	16
+	+	18	38
+	+	14	16
+	+	12	17
+	+	14	21
+	+	12	47
+	+	18	39
+	z	17	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/notes_controller.rb
+	*	1475889841	0
+	"	67	2
+	^	64	34
+	.	64	0
+	+	4	0
+	+	59	0
+	+	60	40
+	+	33	0
+	+	6	32
+	+	10	51
+	+	11	17
+	+	14	6
+	+	13	17
+	+	10	7
+	+	10	0
+	+	8	0
+	+	10	7
+	+	8	16
+	+	7	0
+	+	9	26
+	+	6	25
+	+	13	22
+	+	33	0
+	+	13	0
+	+	46	0
+	+	55	0
+	+	25	15
+	+	28	52
+	+	29	16
+	+	36	33
+	+	38	16
+	+	39	26
+	+	40	33
+	+	43	0
+	+	40	45
+	+	60	55
+	+	61	0
+	+	60	67
+	+	61	0
+	+	60	57
+	+	42	7
+	+	41	22
+	+	51	33
+	+	53	24
+	+	54	17
+	+	59	0
+	+	58	0
+	+	29	17
+	+	44	17
+	+	28	11
+	+	29	16
+	+	22	34
+	+	4	0
+	+	10	24
+	+	41	47
+	+	2	24
+	+	3	0
+	+	2	72
+	+	63	28
+	+	63	0
+	+	65	31
+	+	64	33
+	+	65	60
+	+	64	4
+	+	65	67
+	+	54	14
+	+	52	6
+	+	54	18
+	+	64	0
+	k	60	40
+	z	67	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/show.html.erb
+	*	1475889755	0
+	"	10	44
+	^	10	45
+	.	10	0
+	+	1	28
+	+	3	13
+	+	1	13
+	+	2	54
+	+	3	11
+	+	4	12
+	+	3	9
+	+	4	31
+	+	9	5
+	+	9	0
+	+	6	0
+	+	4	0
+	+	6	43
+	+	5	5
+	+	7	6
+	+	6	0
+	+	2	0
+	+	9	0
+	+	10	26
+	+	12	56
+	+	11	3
+	+	12	38
+	+	16	22
+	+	18	15
+	+	16	38
+	+	12	22
+	+	10	17
+	+	11	0
+	+	10	0
+	z	10	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/helpers/notes_helper.rb
+	*	1475889654	0
+	"	5	44
+	^	5	46
+	.	5	44
+	+	4	11
+	+	2	17
+	+	3	15
+	+	4	0
+	+	5	0
+	+	6	0
+	+	5	14
+	+	6	14
+	+	8	6
+	+	5	90
+	+	6	15
+	+	8	0
+	+	6	67
+	+	2	23
+	+	5	73
+	+	1	0
+	+	5	44
+	z	5	4
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/notes/_note.html.erb
+	*	1475872066	0
+	"	4	25
+	^	4	26
+	.	4	25
+	+	2	13
+	+	8	3
+	+	5	38
+	+	2	4
+	+	6	0
+	+	5	42
+	+	6	52
+	+	5	44
+	+	6	41
+	+	4	35
+	+	5	0
+	+	7	5
+	+	4	25
+	z	4	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/concerns/notable.rb
+	*	1475871541	0
+	"	8	2
+	^	4	10
+	.	4	9
+	+	1	14
+	+	8	0
+	+	6	17
+	+	4	9
+	z	8	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/db/schema.rb
+	*	1475870791	0
+	"	44	13
+	z	44	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/notes/edit.html.erb
+	*	1475870583	0
+	"	3	26
+	^	3	27
+	.	3	26
+	+	1	21
+	+	8	0
+	+	3	0
+	+	4	10
+	+	5	23
+	+	3	26
+	z	3	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/tracks_controller.rb
+	*	1475859512	0
+	"	45	25
+	^	45	26
+	.	45	25
+	+	4	2
+	+	4	0
+	+	5	0
+	+	52	67
+	+	2	0
+	+	3	0
+	+	45	25
+	z	45	4
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/albums_controller.rb
+	*	1475859301	0
+	"	45	25
+	^	45	26
+	.	45	25
+	+	54	0
+	+	4	0
+	+	54	2
+	+	5	0
+	+	15	0
+	+	21	32
+	+	16	7
+	+	52	55
+	+	16	0
+	+	44	0
+	+	19	27
+	+	2	15
+	+	3	0
+	+	2	41
+	+	45	25
+	z	45	4
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/bands_controller.rb
+	*	1475859289	0
+	"	50	23
+	^	50	24
+	.	50	23
+	+	9	12
+	+	9	0
+	+	54	0
+	+	9	0
+	+	54	0
+	+	9	0
+	+	54	8
+	+	54	5
+	+	9	31
+	+	54	38
+	+	9	0
+	+	9	10
+	+	9	9
+	+	9	31
+	+	9	25
+	+	9	0
+	+	9	16
+	+	9	22
+	+	9	0
+	+	9	24
+	+	9	0
+	+	9	19
+	+	54	0
+	+	9	12
+	+	9	4
+	+	9	0
+	+	9	7
+	+	9	0
+	+	9	20
+	+	9	0
+	+	54	0
+	+	9	0
+	+	6	20
+	+	8	0
+	+	9	26
+	+	54	20
+	+	9	15
+	+	6	16
+	+	9	0
+	+	54	8
+	+	9	0
+	+	54	10
+	+	54	9
+	+	9	0
+	+	10	0
+	+	54	0
+	+	20	0
+	+	34	0
+	+	44	15
+	+	49	14
+	+	10	15
+	+	15	15
+	+	20	15
+	+	32	15
+	+	36	0
+	+	33	0
+	+	26	31
+	+	24	26
+	+	2	0
+	+	3	0
+	+	50	23
+	z	50	4
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/album.rb
+	*	1475858834	0
+	"	17	8
+	^	17	9
+	.	17	16
+	+	14	42
+	+	15	56
+	+	21	19
+	+	22	22
+	+	17	20
+	+	18	0
+	+	17	16
+	z	17	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/application_controller.rb
+	*	1475858413	0
+	"	13	2
+	.	13	0
+	+	7	0
+	+	12	0
+	+	6	18
+	+	9	0
+	+	7	4
+	+	9	0
+	+	7	0
+	+	12	72
+	+	29	0
+	+	14	32
+	+	20	26
+	+	14	16
+	+	19	12
+	+	19	42
+	+	19	29
+	+	19	24
+	+	19	0
+	+	19	35
+	+	19	0
+	+	19	38
+	+	19	24
+	+	19	38
+	+	19	54
+	+	19	35
+	+	19	50
+	+	19	0
+	+	19	6
+	+	19	0
+	+	19	15
+	+	19	39
+	+	19	0
+	+	19	58
+	+	19	26
+	+	19	17
+	+	19	4
+	+	19	7
+	+	19	6
+	+	19	31
+	+	19	4
+	+	19	7
+	+	19	10
+	+	19	31
+	+	19	26
+	+	19	23
+	+	19	16
+	+	19	40
+	+	19	15
+	+	19	0
+	+	19	4
+	+	19	0
+	+	19	15
+	+	19	17
+	+	19	40
+	+	19	15
+	+	19	0
+	+	19	26
+	+	14	14
+	+	14	0
+	+	19	0
+	+	22	31
+	+	23	0
+	+	26	0
+	+	25	0
+	+	26	26
+	+	27	25
+	+	13	0
+	z	13	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/track.rb
+	*	1475858324	0
+	"	18	8
+	^	18	9
+	.	18	8
+	+	15	43
+	+	16	55
+	+	23	18
+	+	22	8
+	+	18	8
+	z	18	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/band.rb
+	*	1475858321	0
+	"	14	8
+	^	14	9
+	.	14	8
+	+	12	32
+	+	16	17
+	+	20	0
+	+	17	22
+	+	20	0
+	+	14	8
+	z	14	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/test/fixtures/bands.yml
+	*	1475858296	0
 	"	1	0
 	z	1	0
 
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/db/schema.rb
-	*	1475376110	0
-	"	34	0
-	z	34	4
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/test/models/band_test.rb
+	*	1475858048	0
+	"	1	0
+	z	1	0
 
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/company.rb
-	*	1475376109	0
-	"	15	16
-	^	15	17
-	.	15	16
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/config/routes.rb
+	*	1475857974	0
+	"	18	2
+	^	18	61
+	.	18	60
+	+	1	2
+	+	1	52
+	+	1	46
+	+	1	26
+	+	1	17
+	+	1	26
+	+	1	20
+	+	1	0
+	+	1	56
+	+	1	0
+	+	1	18
+	+	1	17
+	+	1	36
+	+	1	41
+	+	1	34
+	+	1	20
+	+	1	45
+	+	1	28
+	+	18	0
+	+	2	0
+	+	18	60
+	z	18	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/tracks/edit.html.erb
+	*	1475857895	0
+	"	6	2
+	^	6	34
+	.	6	33
+	+	1	0
+	+	6	33
+	z	6	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/shared/_user_form.html.erb
+	*	1475857429	0
+	"	7	0
+	^	8	7
+	.	8	7
+	+	1	39
 	+	2	15
-	+	4	21
-	+	6	0
-	+	5	0
-	+	3	0
-	+	6	17
-	+	13	19
-	+	11	11
-	+	8	27
-	+	9	0
-	+	11	29
-	+	14	26
-	+	15	16
-	z	15	4
-
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/watch_list.rb
-	*	1475376083	0
-	"	8	0
-	^	8	18
-	.	8	17
-	+	2	27
-	+	9	0
-	+	5	31
-	+	6	19
-	+	8	17
-	z	8	2
-
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/user.rb
-	*	1475375981	0
-	"	7	19
-	^	7	20
-	.	7	19
-	+	2	22
-	+	5	13
-	+	7	23
-	+	8	31
-	+	9	12
-	+	7	19
+	+	5	70
+	+	8	0
+	+	4	13
+	+	5	16
+	+	4	49
+	+	5	55
+	+	7	0
+	+	5	38
+	+	4	61
+	+	8	7
 	z	7	2
 
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board.rb
-	*	1475375858	0
-	"	9	0
-	^	11	12
-	.	13	0
-	+	13	20
-	+	13	0
-	+	13	21
-	+	13	16
-	+	13	0
-	+	13	22
-	+	13	0
-	+	13	21
-	+	13	0
-	+	2	0
-	+	2	26
-	+	2	23
-	+	2	21
-	+	2	27
-	+	2	24
-	+	13	0
-	+	13	18
-	+	2	10
-	+	13	16
-	+	2	13
-	+	13	0
-	+	2	22
-	+	13	0
-	+	4	1
-	+	2	0
-	+	5	31
-	+	4	14
-	+	8	26
-	+	9	18
-	+	7	19
-	+	8	25
-	+	9	0
-	+	11	20
-	+	12	11
-	+	13	15
-	+	10	0
-	+	6	0
-	+	3	0
-	+	13	20
-	+	13	14
-	+	13	0
-	+	13	17
-	+	13	9
-	+	13	17
-	+	13	0
-	+	13	16
-	+	11	0
-	+	13	0
-	z	9	4
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/note.rb
+	*	1475857111	0
+	"	19	0
+	^	18	21
+	.	18	20
+	+	19	0
+	+	15	25
+	+	17	22
+	+	18	20
+	z	19	0
 
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/watch_list_item.rb
-	*	1475375831	0
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/NERD_tree_2
+	*	1475856714	0
 	"	4	0
-	^	4	21
-	.	4	20
-	+	2	23
-	+	4	20
-	z	4	2
-
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/executive.rb
-	*	1475375579	0
-	"	4	31
-	^	4	32
-	.	4	31
-	+	3	26
-	+	7	13
-	+	4	31
-	z	4	4
-
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/exchange.rb
-	*	1475375437	0
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
-	z	2	2
-
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/price.rb
-	*	1475375198	0
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
-	z	2	2
-
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/board_membership.rb
-	*	1475374952	0
-	"	3	4
-	^	3	26
-	.	3	0
-	+	3	16
-	+	5	18
-	+	3	0
-	z	3	4
-
-> ~/.vim/UltiSnips/rails.snippets
-	*	1475374173	0
-	"	78	1
-	^	62	12
-	.	78	0
+	.	1	0
 	+	1	0
-	+	2	0
-	+	7	0
-	+	11	0
-	+	7	12
-	+	43	0
-	+	44	14
-	+	46	13
-	+	45	14
-	+	47	10
-	+	46	20
-	+	48	2
-	+	44	14
-	+	45	17
-	+	46	21
-	+	51	0
-	+	50	0
-	+	51	25
-	+	58	0
-	+	59	0
-	+	66	0
-	+	65	0
-	+	59	28
-	+	66	22
-	+	59	33
-	+	67	0
-	+	74	0
-	+	73	0
-	+	74	32
-	+	63	0
-	+	61	8
-	+	62	11
-	+	68	0
-	+	76	0
-	+	78	0
-	z	78	1
+	z	4	0
 
 > ~/.vimrc
-	*	1475373699	0
-	"	345	0
-	^	277	46
-	.	345	0
-	+	351	32
-	+	95	0
-	+	96	0
-	+	95	24
-	+	96	0
-	+	351	22
-	+	95	0
-	+	95	13
-	+	95	8
-	+	318	6
-	+	318	0
-	+	259	0
-	+	318	52
-	+	318	18
-	+	318	35
-	+	220	39
-	+	318	24
-	+	318	32
-	+	95	0
-	+	95	17
-	+	95	8
-	+	325	0
-	+	320	0
-	+	85	0
-	+	86	0
-	+	85	14
-	+	86	8
-	+	426	0
-	+	87	0
-	+	88	0
-	+	87	20
-	+	88	8
-	+	89	23
-	+	90	45
-	+	293	0
-	+	95	0
-	+	95	10
-	+	95	8
-	+	95	0
-	+	321	0
-	+	323	44
-	+	325	0
-	+	323	42
-	+	177	10
-	+	178	9
-	+	180	0
-	+	178	10
-	+	179	0
-	+	178	9
-	+	171	9
-	+	173	0
-	+	178	45
-	+	95	0
-	+	216	50
-	+	312	62
-	+	426	0
-	+	376	0
-	+	376	33
-	+	378	0
-	+	376	81
-	+	378	0
-	+	376	20
-	+	173	0
-	+	172	0
-	+	173	0
-	+	355	0
+	*	1475856344	0
+	"	194	0
+	^	145	20
+	.	145	0
+	+	386	33
+	+	388	0
+	+	386	81
+	+	388	0
+	+	386	20
+	+	177	0
+	+	176	0
+	+	177	0
+	+	365	0
 	+	51	0
 	+	77	0
 	+	18	43
@@ -911,2009 +1507,765 @@ $
 	+	73	0
 	+	77	0
 	+	86	0
-	+	103	0
-	+	356	0
-	+	351	0
-	+	348	0
-	+	340	0
-	+	261	37
-	+	262	0
+	+	105	0
+	+	366	0
+	+	358	0
+	+	354	0
+	+	346	0
+	+	265	37
+	+	266	0
 	+	51	0
 	+	52	0
 	+	50	53
 	+	65	0
 	+	86	0
-	+	95	14
-	+	95	0
+	+	97	14
+	+	97	0
 	+	91	0
 	+	92	0
 	+	91	14
 	+	92	8
-	+	95	0
-	+	203	0
-	+	293	0
+	+	97	0
+	+	207	0
+	+	300	0
 	+	94	7
-	+	279	0
-	+	269	2
-	+	278	0
-	+	269	0
-	+	345	0
+	+	286	0
+	+	276	2
+	+	285	0
+	+	276	0
+	+	351	0
+	+	270	0
+	+	273	25
+	+	276	0
+	+	274	87
+	+	272	0
+	+	289	0
+	+	274	0
+	+	495	0
+	+	274	0
+	+	416	0
+	+	275	31
+	+	274	37
+	+	332	0
+	+	274	57
+	+	275	50
+	+	276	0
+	+	274	55
+	+	275	0
+	+	274	0
+	+	2	0
+	+	274	100
+	+	332	0
+	+	404	0
+	+	271	0
+	+	363	13
+	+	361	0
+	+	363	14
+	+	364	13
+	+	274	60
+	+	362	0
+	+	357	18
+	+	322	37
+	+	322	66
+	+	325	0
+	+	322	37
+	+	323	28
+	+	322	34
+	+	324	24
+	+	325	0
+	+	323	24
+	+	324	0
+	+	323	0
+	+	324	27
+	+	322	33
+	+	324	23
+	+	322	34
+	+	324	23
+	+	325	0
+	+	320	0
+	+	323	24
+	+	97	13
+	+	97	0
+	+	95	0
+	+	96	0
+	+	96	63
+	+	144	0
+	+	145	0
 	a	24	3
 	b	40	12
 	d	24	0
-	l	466	2
-	m	351	0
-	p	306	2
-	v	97	0
-	z	345	0
+	l	476	2
+	m	358	0
+	p	313	2
+	v	99	0
+	z	194	0
 
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/Gemfile
-	*	1475372986	0
-	"	32	15
-	^	32	16
-	.	32	15
-	+	32	15
-	z	32	2
-
-> ~/Dropbox/developer/app-academy/class/projects/movie_buff/movie_buff/queries.rb
-	*	1475368545	0
-	"	89	0
-	.	89	0
-	+	61	32
-	+	63	0
-	+	54	8
-	+	62	9
-	+	63	0
-	+	62	9
-	+	67	31
-	+	68	27
-	+	70	12
-	+	69	15
-	+	70	0
-	+	70	10
-	+	67	39
-	+	70	17
-	+	69	33
-	+	67	36
-	+	75	0
-	+	84	0
-	+	83	31
-	+	86	8
-	+	85	13
-	+	83	10
-	+	87	35
-	+	87	10
-	+	89	7
-	+	87	0
-	+	89	0
-	+	84	12
-	+	87	7
-	+	86	9
-	+	88	7
-	+	75	7
-	+	76	36
-	+	77	26
-	+	79	8
-	+	93	25
-	+	100	12
-	+	100	29
-	+	100	14
-	+	100	29
-	+	100	16
-	+	93	6
-	+	94	0
-	+	98	33
-	+	97	20
-	+	98	41
-	+	97	16
-	+	95	22
-	+	98	0
-	+	99	0
-	+	99	23
-	+	99	21
-	+	99	31
-	+	99	0
-	+	99	10
-	+	99	47
-	+	99	26
-	+	99	15
-	+	99	10
-	+	99	7
-	+	99	15
-	+	99	0
-	+	98	0
-	+	97	21
-	+	99	0
-	+	103	22
-	+	103	29
-	+	103	12
-	+	103	0
-	+	110	0
-	+	109	36
-	+	107	18
-	+	110	0
-	+	107	8
-	+	109	9
-	+	107	17
-	+	109	0
-	+	108	19
-	+	109	0
-	+	107	28
-	+	108	33
-	+	114	25
-	+	114	12
-	+	114	14
-	+	114	36
-	+	114	0
-	+	114	11
-	+	114	0
-	+	33	0
-	+	32	32
-	+	68	17
-	+	70	0
-	+	78	0
-	+	89	11
-	+	89	12
-	+	89	0
-	z	89	0
-
-> ~/.vim/UltiSnips/ruby.snippets
-	*	1475365779	0
-	"	46	0
-	.	46	0
-	+	46	2
-	+	46	3
-	+	46	10
-	+	46	0
-	z	46	0
-
-> ~/.vim/UltiSnips/snippets.snippets
-	*	1475365763	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/03_associatable.rb
-	*	1475349271	0
-	"	15	0
-	^	74	15
-	.	16	0
-	+	26	5
-	+	24	20
-	+	27	0
-	+	24	7
-	+	27	7
-	+	24	49
-	+	26	49
-	+	32	51
-	+	13	0
-	+	26	0
-	+	13	26
-	+	40	0
-	+	55	0
-	+	43	0
-	+	47	0
-	+	46	0
-	+	47	0
-	+	44	0
-	+	49	0
-	+	53	18
-	+	55	48
-	+	24	0
-	+	27	0
-	+	26	42
-	+	35	52
-	+	32	51
-	+	35	0
-	+	35	42
-	+	13	22
-	+	35	0
-	+	34	0
-	+	40	0
-	+	39	0
-	+	53	0
-	+	55	0
-	+	53	0
-	+	13	4
-	+	34	42
-	+	53	0
-	+	55	0
-	+	55	20
-	+	41	0
-	+	52	18
-	+	55	14
-	+	52	0
-	+	55	0
-	+	53	0
-	+	49	0
-	+	13	15
-	+	24	56
-	+	32	0
-	+	49	29
-	+	43	0
-	+	55	52
-	+	53	25
-	+	53	32
-	+	53	0
-	+	40	0
-	+	46	36
-	+	52	0
-	+	52	13
-	+	52	0
-	+	53	0
-	+	53	17
-	+	24	5
-	+	25	5
-	+	26	5
-	+	13	32
-	+	13	5
-	+	17	4
-	+	13	4
-	+	17	10
-	+	18	36
-	+	24	4
-	+	52	0
-	+	53	0
-	+	54	28
-	+	76	0
-	+	62	0
-	+	63	0
-	+	65	0
-	+	68	0
-	+	62	0
-	+	73	53
-	+	75	34
-	+	74	30
-	+	71	0
-	+	70	0
-	+	70	7
-	+	68	0
-	+	65	34
-	+	70	0
-	+	72	0
-	+	74	14
-	+	32	0
-	+	72	0
-	+	60	0
-	+	60	44
-	+	74	14
-	+	16	0
-	z	15	0
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/spec/03_associatable_spec.rb
-	*	1475342296	0
-	"	101	0
-	.	93	0
-	+	108	0
-	+	108	17
-	+	109	0
-	+	108	0
-	+	112	8
-	+	113	8
-	+	112	16
-	+	113	0
-	+	111	16
-	+	112	16
-	+	113	16
-	+	110	16
-	+	94	0
-	+	85	15
-	+	86	0
-	+	85	0
-	+	93	0
-	+	94	16
-	+	95	16
-	+	94	0
-	+	104	0
-	+	90	0
-	+	99	0
-	+	110	0
-	+	111	0
-	+	112	0
-	+	113	0
-	+	95	0
-	+	94	0
-	+	93	0
-	z	101	0
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/01_sql_object.rb
-	*	1475304885	0
-	"	134	0
-	.	135	0
-	+	19	26
-	+	19	30
-	+	20	26
-	+	24	32
-	+	71	0
-	+	14	4
-	+	76	18
-	+	77	14
-	+	18	0
-	+	24	8
-	+	20	8
-	+	71	39
-	+	39	0
-	+	44	6
-	+	40	9
-	+	39	10
-	+	43	20
-	+	46	39
-	+	50	44
-	+	87	0
-	+	88	17
-	+	89	21
-	+	91	7
-	+	54	0
-	+	87	0
-	+	123	32
-	+	123	23
-	+	123	0
-	+	123	34
-	+	123	0
-	+	91	7
-	+	87	23
-	+	91	24
-	+	87	21
-	+	89	36
-	+	87	0
-	+	87	33
-	+	123	0
-	+	81	0
-	+	83	0
-	+	123	0
-	+	81	14
-	+	87	26
-	+	87	40
-	+	89	35
-	+	83	0
-	+	81	4
-	+	87	34
-	+	87	0
-	+	94	0
-	+	94	7
-	+	91	34
-	+	87	0
-	+	87	33
-	+	87	0
-	+	119	0
-	+	121	17
-	+	87	14
-	+	87	4
-	+	81	10
-	+	82	22
-	+	91	39
-	+	87	0
-	+	93	0
-	+	89	32
-	+	91	11
-	+	86	10
-	+	86	64
-	+	91	24
-	+	94	0
-	+	95	9
-	+	110	0
-	+	100	0
-	+	101	11
-	+	102	31
-	+	103	8
-	+	105	10
-	+	106	12
-	+	100	0
-	+	86	0
-	+	100	0
-	+	121	6
-	+	89	55
-	+	99	39
-	+	104	20
-	+	108	18
-	+	99	49
-	+	108	0
-	+	113	28
-	+	116	8
-	+	39	0
-	+	8	30
-	+	9	0
-	+	14	14
-	+	8	30
-	+	34	49
-	+	135	52
-	+	135	0
-	+	135	17
-	+	135	0
-	z	134	0
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/00_attr_accessor_object.rb
-	*	1475304806	0
-	"	9	6
-	^	8	22
-	.	8	21
-	+	11	32
-	+	11	0
-	+	5	34
-	+	8	39
-	+	9	39
-	+	5	39
-	+	9	39
-	+	8	21
-	z	9	8
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/02_searchable.rb
-	*	1475273496	0
-	"	27	7
-	^	16	24
-	.	15	0
-	+	17	6
-	+	17	0
-	+	6	0
-	+	7	12
-	+	12	24
-	+	15	50
-	+	27	19
-	+	21	17
-	+	23	0
-	+	22	42
-	+	21	4
-	+	15	37
-	+	21	0
-	+	21	11
-	+	21	15
-	+	21	14
-	+	15	56
-	+	15	18
-	+	27	7
-	+	10	15
-	+	21	0
-	+	21	21
-	+	15	50
-	+	21	27
-	+	21	0
-	+	21	10
-	+	21	31
-	+	21	0
-	+	21	8
-	+	21	19
-	+	21	11
-	+	21	5
-	+	21	10
-	+	21	0
-	+	21	17
-	+	22	17
-	+	21	0
-	+	22	39
-	+	15	50
-	+	15	14
-	+	15	10
-	+	16	23
-	+	15	0
-	z	27	2
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/spec/02_searchable_spec.rb
-	*	1475271080	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/spec/01_sql_object_spec.rb
-	*	1475270272	0
-	"	44	36
-	.	44	36
-	+	44	36
-	z	44	10
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/db_connection.rb
-	*	1475269585	0
-	"	44	12
-	z	44	2
-
-> ~/.vim/bundle/vim-template/templates/=template=.rb
-	*	1475267548	0
-	"	1	0
-	z	1	0
-
-> ~/.vim/ftplugin/ruby/switch.vim
-	*	1475261207	0
-	"	8	0
-	.	11	0
-	+	20	47
-	+	22	34
-	+	20	0
-	+	22	0
-	+	23	0
-	+	23	54
-	+	11	0
-	+	22	0
-	+	23	0
-	+	11	0
-	z	8	0
-
-> ~/.bash_aliases
-	*	1475259727	0
-	"	23	23
-	^	23	29
-	.	23	28
-	+	20	43
-	+	21	21
-	+	25	0
-	+	22	23
-	+	24	97
-	+	23	28
-	z	23	0
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/spec/00_attr_accessor_object_spec.rb
-	*	1475259520	0
-	"	23	34
-	z	23	6
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/spec/00
-	*	1475259483	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/meta_programing_practice/meta_corgis.rb
-	*	1475258476	0
-	"	146	2
-	^	138	38
-	.	146	2
-	+	165	442
-	+	153	0
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/NERD_tree_1
+	*	1475856050	0
+	"	11	0
+	.	1	0
 	+	1	0
-	+	109	14
-	+	109	35
-	+	109	19
-	+	125	0
-	+	109	24
-	+	109	0
-	+	111	0
-	+	111	17
-	+	109	0
-	+	111	18
-	+	111	2
-	+	111	0
-	+	141	0
-	+	142	0
-	+	135	0
-	+	134	0
-	+	111	0
-	+	110	0
-	+	125	4
-	+	136	47
-	+	138	33
-	+	146	2
-	z	146	2
+	z	11	0
 
-> ~/Dropbox/developer/app-academy/class/homework/skeleton/meta_corgis.rb
-	*	1475217999	0
-	"	1	0
-	.	112	0
-	+	140	0
-	+	140	50
-	+	140	13
-	+	140	1
-	+	140	0
-	+	117	23
-	+	126	0
-	+	117	11
-	+	127	0
-	+	127	8
-	+	118	0
-	+	117	54
-	+	118	0
-	+	117	55
-	+	118	64
-	+	119	73
-	+	122	0
-	+	122	22
-	+	123	0
-	+	120	9
-	+	121	0
-	+	120	55
-	+	123	9
-	+	141	0
-	+	144	18
-	+	149	0
-	+	145	0
-	+	144	11
-	+	149	0
-	+	145	28
-	+	145	0
-	+	142	24
-	+	143	0
-	+	145	32
-	+	146	0
-	+	145	11
-	+	148	21
-	+	149	0
-	+	145	43
-	+	123	12
-	+	149	0
-	+	127	0
-	+	125	0
-	+	124	0
-	+	125	0
-	+	127	0
-	+	117	55
-	+	117	19
-	+	117	0
-	+	118	31
-	+	119	35
-	+	117	36
-	+	120	22
-	+	119	9
-	+	123	16
-	+	149	0
-	+	147	0
-	+	149	0
-	+	150	0
-	+	128	0
-	+	130	23
-	+	130	31
-	+	131	24
-	+	121	0
-	+	128	0
-	+	116	0
-	+	117	0
-	+	128	0
-	+	131	0
-	+	110	57
-	+	111	16
-	+	111	35
-	+	111	13
-	+	111	5
-	+	111	50
-	+	112	0
-	z	1	0
-
-> /usr/local/Cellar/macvim/7.4-106/MacVim.app/Contents/Resources/vim/runtime/doc/message.txt
-	*	1475217927	0
-	"	173	2
-	z	173	2
-
-> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/sql-skeleton/lib/movie_sql.rb
-	*	1475195807	0
-	"	175	30
-	^	182	31
-	.	182	30
-	+	61	23
-	+	72	12
-	+	74	14
-	+	61	24
-	+	60	18
-	+	61	33
-	+	72	17
-	+	83	5
-	+	60	9
-	+	83	0
-	+	93	17
-	+	92	9
-	+	88	35
-	+	89	8
-	+	92	0
-	+	90	18
-	+	82	18
-	+	90	33
-	+	91	18
-	+	90	11
-	+	91	27
-	+	88	33
-	+	87	16
-	+	88	11
-	+	106	15
-	+	104	25
-	+	106	0
-	+	109	27
-	+	102	0
-	+	109	0
-	+	109	15
-	+	109	29
-	+	104	43
-	+	106	16
-	+	109	46
-	+	109	15
-	+	109	48
-	+	109	0
-	+	109	22
-	+	109	0
-	+	109	6
-	+	109	0
-	+	109	10
-	+	109	17
-	+	109	44
-	+	110	21
-	+	109	14
-	+	102	17
-	+	101	18
-	+	111	24
-	+	109	0
-	+	104	25
-	+	106	23
-	+	108	39
-	+	104	12
-	+	110	0
-	+	102	0
-	+	110	34
-	+	135	0
-	+	128	16
-	+	130	14
-	+	125	0
-	+	130	9
-	+	133	27
-	+	134	0
-	+	123	0
-	+	120	9
-	+	134	20
-	+	122	7
-	+	121	31
-	+	134	0
-	+	125	16
-	+	131	16
-	+	133	28
-	+	146	10
-	+	147	0
-	+	151	21
-	+	147	12
-	+	151	0
-	+	154	0
-	+	147	51
-	+	155	19
-	+	142	9
-	+	145	4
-	+	156	13
-	+	145	0
-	+	144	7
-	+	158	21
-	+	160	15
-	+	147	42
-	+	153	20
-	+	143	23
-	+	147	28
-	+	169	0
-	+	178	8
-	+	172	0
-	+	182	30
-	z	175	8
-
-> ~/Dropbox/developer/app-academy/class/homework/n_plus_one_buster/routes_buses_drivers.rb
-	*	1475178525	0
-	"	75	0
-	^	64	12
-	.	79	0
-	+	9	0
-	+	63	40
-	+	66	0
-	+	67	0
-	+	64	0
-	+	64	57
-	+	70	10
-	+	64	0
-	+	79	0
-	z	75	0
-
-> ~/.vim/ftplugin/ruby/ruby.vim
-	*	1475167894	0
-	"	18	64
-	^	18	65
-	.	18	64
-	+	13	0
-	+	14	0
-	+	15	0
-	+	17	33
-	+	15	0
-	+	18	58
-	+	15	0
-	+	18	64
-	z	18	0
-
-> ~/Dropbox/developer/app-academy/class/homework/n_plus_one_buster/artists_albums_tracks.rb
-	*	1475124450	0
-	"	71	2
-	^	70	16
-	.	70	15
-	+	9	0
-	+	59	20
-	+	63	21
-	+	71	0
-	+	62	27
-	+	64	19
-	+	71	0
-	+	61	12
-	+	67	18
-	+	66	24
-	+	67	50
-	+	70	15
-	z	71	2
-
-> ~/Dropbox/developer/app-academy/class/homework/mancala/spec/spec_helper.rb
-	*	1475124448	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/n_plus_one_buster/plants_gardeners_houses.rb
-	*	1475124442	0
-	"	86	0
-	^	85	24
-	.	85	23
-	+	9	0
-	+	83	9
-	+	83	24
-	+	84	0
-	+	86	0
-	+	85	23
-	z	86	0
-
-> ~/Dropbox/developer/app-academy/class/homework/plays_demo/import_db.sql
-	*	1475124440	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/programing/project_euler/17_number_letter_counts.rb
-	*	1475123442	0
-	"	67	1
-	^	67	2
-	.	67	2
-	+	9	16
-	+	11	7
-	+	10	8
-	+	11	8
-	+	12	3
-	+	12	0
-	+	20	0
-	+	29	0
-	+	12	8
-	+	13	8
-	+	28	10
-	+	29	10
-	+	12	7
-	+	13	7
-	+	14	7
-	+	15	7
-	+	14	7
-	+	16	7
-	+	17	7
-	+	18	7
-	+	19	8
-	+	20	8
-	+	21	8
-	+	22	8
-	+	23	8
-	+	24	8
-	+	25	8
-	+	26	8
-	+	27	8
-	+	28	9
-	+	29	8
-	+	29	0
-	+	29	9
-	+	69	0
-	+	42	0
-	+	29	0
-	+	9	6
-	+	45	0
-	+	47	14
-	+	11	0
-	+	10	5
-	+	11	0
-	+	10	5
-	+	11	0
-	+	47	25
-	+	60	0
-	+	10	3
-	+	19	4
-	+	49	40
-	+	52	4
-	+	43	8
-	+	44	7
-	+	32	0
-	+	29	0
-	+	28	9
-	+	33	7
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	34	2
-	+	35	2
-	+	36	2
-	+	37	2
-	+	38	2
-	+	39	2
-	+	33	8
-	+	34	7
-	+	35	7
-	+	36	7
-	+	37	7
-	+	38	7
-	+	39	8
-	+	40	0
-	+	49	41
-	+	50	54
-	+	52	17
-	+	53	11
-	+	51	0
-	+	53	45
-	+	70	16
-	+	71	27
-	+	56	42
-	+	59	6
-	+	63	2
-	+	67	2
-	z	67	1
-
-> ~/Dropbox/developer/app-academy/class/projects/rails-practice/URLShortener/app/models/shortened_url.rb
-	*	1475123348	0
-	"	77	33
-	^	102	6
-	.	101	58
-	+	106	19
-	+	106	0
-	+	105	0
-	+	100	6
-	+	98	20
-	+	100	20
-	+	98	27
-	+	100	30
-	+	101	56
-	+	103	13
-	+	103	0
-	+	105	0
-	+	106	0
-	+	112	0
-	+	103	0
-	+	98	34
-	+	101	0
-	+	98	20
-	+	100	0
-	+	98	20
-	+	100	0
-	+	98	9
-	+	78	7
-	+	98	13
-	+	101	0
-	+	99	0
-	+	101	58
-	+	103	0
-	+	101	58
-	z	77	4
-
-> ~/Dropbox/developer/app-academy/class/homework/joins_demo/app/models/user.rb
-	*	1475120687	0
-	"	29	4
-	z	29	4
-
-> ~/Dropbox/developer/app-academy/class/projects/sql_zoo/lib/07a_more_joins.rb
-	*	1475074707	0
-	"	214	0
-	.	215	0
-	+	195	0
-	+	197	27
-	+	198	7
-	+	197	62
-	+	200	35
-	+	199	11
-	+	203	0
-	+	197	32
-	+	200	0
-	+	202	36
-	+	205	52
-	+	206	29
-	+	199	25
-	+	200	28
-	+	204	9
-	+	197	23
-	+	206	51
-	+	193	0
-	+	215	0
-	z	214	0
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/app/models/house.rb
-	*	1475040172	0
-	"	18	2
-	^	17	24
-	.	17	23
-	+	17	23
-	z	18	0
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/app/models/person.rb
-	*	1475040171	0
-	"	18	22
-	^	18	23
-	.	18	22
-	+	9	33
-	+	11	0
-	+	10	34
-	+	12	0
-	+	10	23
-	+	12	0
-	+	18	22
-	z	18	4
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/app/models/application_record.rb
-	*	1475040002	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/app/models/houses.rb
-	*	1475039689	0
-	"	2	25
-	^	4	22
-	.	2	25
-	+	8	0
-	+	2	19
-	+	8	0
-	+	8	17
-	+	8	21
-	+	1	10
-	+	8	0
-	+	4	20
-	+	5	0
-	+	7	22
-	+	4	21
-	+	2	25
-	l	8	0
-	z	2	2
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/db/migrate/20160928045026_create_houses.rb
-	*	1475039110	0
-	"	4	35
-	^	4	36
-	.	4	35
-	+	6	17
-	+	4	35
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/db/migrate/20161007061525_create_notes.rb
+	*	1475821148	0
+	"	4	30
+	^	4	31
+	.	4	30
+	+	6	58
+	+	5	49
+	+	4	30
 	z	4	6
 
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/db/migrate/20160928044654_create_people.rb
-	*	1475038937	0
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/sessions_controller.rb
+	*	1475821029	0
+	"	2	2
+	^	24	32
+	.	3	0
+	+	5	0
+	+	8	15
+	+	30	53
+	+	10	31
+	+	13	22
+	+	16	60
+	+	22	52
+	+	25	0
+	+	14	30
+	+	24	28
+	+	14	26
+	+	16	43
+	+	30	38
+	+	9	26
+	+	13	11
+	+	17	28
+	+	24	31
+	+	2	0
+	+	3	0
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/NERD_tree_3
+	*	1475820941	0
 	"	4	0
+	.	1	0
+	+	1	0
+	z	4	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/db/migrate/20161006204239_create_tracks.rb
+	*	1475820926	0
+	"	5	6
+	^	5	55
+	.	5	54
+	+	4	37
+	+	5	34
+	+	6	0
+	+	7	32
+	+	12	31
+	+	5	54
+	z	5	6
+
+> ~/Dropbox/developer/app-academy/class/homework/ToyApp/app/models/cat.rb
+	*	1475816056	0
+	"	3	0
+	.	3	0
+	+	3	0
+	+	2	0
+	+	3	0
+	z	3	0
+
+> ~/Dropbox/developer/app-academy/class/homework/ToyApp/ControlP
+	*	1475815932	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Dropbox/developer/app-academy/class/homework/ToyApp/app/models/corgi.rb
+	*	1475815928	0
+	"	2	16
+	^	2	17
+	.	2	16
+	+	3	0
+	+	2	16
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/homework/sort_compare.rb
+	*	1475815894	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/homework/ToyApp/app/models/concerns/toyable.rb
+	*	1475815888	0
+	"	13	11
+	^	13	12
+	.	13	11
+	+	1	0
+	+	6	17
+	+	10	31
+	+	11	14
+	+	10	16
+	+	11	27
+	+	12	37
+	+	13	11
+	z	13	4
+
+> ~/Dropbox/developer/app-academy/class/homework/ToyApp/db/migrate/20161007043710_create_toys.rb
+	*	1475815673	0
+	"	6	0
+	^	5	8
+	.	5	7
+	+	4	32
+	+	5	7
+	z	6	0
+
+> ~/Dropbox/developer/app-academy/class/homework/ToyApp/app/models/toy.rb
+	*	1475815409	0
+	"	4	0
+	.	4	0
+	+	3	20
+	+	4	0
+	z	4	0
+
+> ~/Dropbox/developer/app-academy/class/homework/ToyApp/Gemfile
+	*	1475814754	0
+	"	49	0
+	.	49	0
+	+	49	0
+	z	49	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/new.html.erb
+	*	1475807482	0
+	"	3	29
+	^	3	30
+	.	3	29
+	+	2	0
+	+	3	0
+	+	8	18
+	+	7	0
+	+	6	47
+	+	3	29
+	z	3	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/controllers/users_controller.rb
+	*	1475807020	0
+	"	5	2
+	^	5	60
+	.	6	0
+	+	3	45
+	+	3	0
+	+	26	50
+	+	8	0
+	+	18	51
+	+	13	9
+	+	1	15
+	+	2	0
+	+	13	0
+	+	15	11
+	+	16	32
+	+	15	0
+	+	16	0
+	+	13	0
+	+	19	25
+	+	4	56
+	+	5	59
+	+	6	0
+	z	5	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/users/new.html.erb
+	*	1475806970	0
+	"	3	0
+	.	4	0
+	+	1	10
+	+	3	45
+	+	4	0
+	z	3	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/sessions/new.html.erb
+	*	1475806924	0
+	"	3	18
+	^	5	32
+	.	5	31
+	+	1	16
+	+	3	48
+	+	4	0
+	+	5	31
+	z	3	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/albums/_form.html.erb
+	*	1475806044	0
+	"	15	34
+	^	15	35
+	.	15	34
+	+	2	23
+	+	2	11
+	+	2	0
+	+	2	7
+	+	2	0
+	+	1	0
+	+	4	68
+	+	3	13
+	+	4	87
+	+	4	0
+	+	4	100
+	+	4	0
+	+	9	0
+	+	7	0
+	+	6	13
+	+	7	66
+	+	9	0
+	+	8	0
+	+	9	0
+	+	8	58
+	+	10	7
+	+	8	64
+	+	18	0
+	+	17	12
+	+	13	0
+	+	12	32
+	+	13	31
+	+	16	11
+	+	14	63
+	+	4	52
+	+	20	5
+	+	12	12
+	+	14	37
+	+	12	11
+	+	7	71
+	+	14	58
+	+	12	30
+	+	23	0
+	+	4	59
+	+	16	0
+	+	14	58
+	+	15	48
+	+	7	102
+	+	8	94
+	+	7	93
+	+	8	89
+	+	15	34
+	z	8	4
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/albums/new.html.erb
+	*	1475806018	0
+	"	5	2
+	.	5	0
+	+	1	18
+	+	4	0
+	+	3	23
+	+	5	21
+	+	6	32
+	+	5	44
+	+	5	0
+	z	6	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/helpers/tracks_helper.rb
+	*	1475805438	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/albums/edit.html.erb
+	*	1475805123	0
+	"	6	33
+	^	6	34
+	.	6	33
+	+	3	0
+	+	8	0
+	+	7	0
+	+	3	21
+	+	5	0
+	+	1	2
+	+	3	27
+	+	6	11
+	+	5	0
+	+	6	18
+	+	4	0
+	+	5	0
+	+	3	0
+	+	6	33
+	z	6	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/tracks/_track_li.html.erb
+	*	1475801722	0
+	"	2	2
+	^	3	24
+	.	2	2
+	+	4	0
+	+	2	26
+	+	3	23
+	+	2	2
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/index.html.erb
+	*	1475801402	0
+	"	9	38
+	^	9	39
+	.	9	38
+	+	5	21
+	+	9	38
+	z	9	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/albums/_album_li.html.erb
+	*	1475800521	0
+	"	2	8
+	^	2	42
+	.	2	41
+	+	3	21
+	+	2	41
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/edit.html.erb
+	*	1475798970	0
+	"	3	0
+	^	8	63
+	.	11	0
+	+	1	12
+	+	2	3
+	+	3	34
+	+	5	10
+	+	7	74
+	+	10	0
+	+	7	78
+	+	2	14
+	+	7	13
+	+	8	77
+	+	9	2
+	+	3	18
+	+	11	8
+	+	3	33
+	+	2	0
+	+	8	62
+	+	11	0
+	z	3	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/albums/_album_il.html.erb
+	*	1475797393	0
+	"	3	21
+	^	3	22
+	.	3	21
+	+	4	0
+	+	2	26
+	+	4	0
+	+	3	21
+	z	3	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/helpers/application_helper.rb
+	*	1475795989	0
+	"	12	2
+	^	11	68
+	.	11	67
+	+	3	4
+	+	3	103
+	+	7	69
+	+	6	0
+	+	11	67
+	z	12	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/NERD_tree_19
+	*	1475795469	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb
+	*	1475795378	0
+	"	2	46
+	^	2	47
+	.	2	46
+	+	2	55
+	+	3	0
+	+	2	46
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands.html.erb
+	*	1475795133	0
+	"	4	6
+	^	4	11
+	.	4	0
+	+	5	32
+	+	4	0
+	z	4	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/shared/_errors.html.erb
+	*	1475789920	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	1	0
+	+	2	11
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/db/seeds.rb
+	*	1475787675	0
+	"	22	51
+	^	22	51
+	.	22	50
+	+	8	0
+	+	9	47
+	+	23	0
+	+	10	22
+	+	11	0
+	+	16	49
+	+	23	0
+	+	16	64
+	+	18	0
+	+	17	20
+	+	18	0
+	+	15	39
+	+	18	0
+	+	19	41
+	+	20	0
+	+	21	0
+	+	22	0
+	+	19	71
+	+	20	72
+	+	21	49
+	+	22	46
+	+	21	47
+	+	22	50
+	z	22	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/db/migrate/20161006204103_create_albums.rb
+	*	1475786954	0
+	"	6	42
+	^	6	43
+	.	6	42
+	+	5	23
+	+	4	32
+	+	5	36
+	+	11	12
+	+	10	0
+	+	11	30
+	+	6	42
+	z	6	6
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/db/migrate/20161006204145_create_bands.rb
+	*	1475786630	0
+	"	4	32
 	^	4	33
 	.	4	32
-	+	4	20
-	+	7	17
-	+	5	14
 	+	4	32
 	z	4	6
 
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/NERD_tree_3
-	*	1475038927	0
-	"	4	0
-	.	1	0
-	+	1	0
-	z	4	0
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/app/models/houses
-	*	1475038416	0
-	"	1	0
-	.	1	0
-	+	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/Gemfile
-	*	1475037955	0
-	"	47	6
-	.	39	0
-	+	7	6
-	+	49	2
-	+	50	0
-	+	59	0
-	+	63	0
-	+	57	0
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/models/user.rb
+	*	1475786333	0
+	"	39	4
+	^	39	13
+	.	39	12
+	+	13	0
 	+	49	0
-	+	47	0
-	+	39	0
-	z	47	2
-
-> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/config/database.yml
-	*	1475024061	0
-	"	25	31
-	^	25	32
-	.	25	31
-	+	8	20
-	+	14	32
-	+	21	12
-	+	25	32
-	+	21	25
-	+	25	31
-	z	25	2
-
-> /usr/local/Cellar/macvim/7.4-106/MacVim.app/Contents/Resources/vim/runtime/doc/options.txt
-	*	1474995760	0
-	"	795	17
-	z	795	1
-
-> ~/test/guess.rb
-	*	1474995419	0
-	"	32	0
-	z	32	4
-
-> ~/NERD_tree_2
-	*	1474995406	0
-	"	20	0
-	.	1	0
-	+	1	0
-	z	20	2
-
-> ~/test/all_sub_words.rb
-	*	1474995395	0
-	"	1	0
-	z	1	0
-
-> ~/NERD_tree_1
-	*	1474995394	0
-	"	12	0
-	.	1	0
-	+	1	0
-	z	12	2
-
-> ~/Dropbox/developer/app-academy/class/projects/sql_zoo/import_db.sh
-	*	1474994775	0
-	"	1	0
-	z	1	0
-
-> ~/Desktop/conversation.g-d
-	*	1474964659	0
-	"	50	36
-	^	50	37
-	.	50	36
-	+	7	20
-	+	9	6
-	+	11	38
-	+	9	13
-	+	13	30
-	+	11	20
-	+	12	1
-	+	24	7
-	+	29	0
-	+	1	0
-	+	30	112
-	+	40	46
-	+	44	251
-	+	50	36
-	z	50	0
-
-> ~/Dropbox/developer/app-academy/class/homework/plays_demo/playwrights.rb
-	*	1474962037	0
-	"	34	0
-	^	11	21
-	.	11	20
-	+	8	0
-	+	8	26
-	+	10	0
-	+	8	0
-	+	10	15
-	+	14	70
-	+	15	32
-	+	20	26
-	+	21	26
-	+	22	0
-	+	26	64
-	+	21	10
-	+	28	0
-	+	30	13
-	+	37	50
-	+	26	46
-	+	37	69
-	+	39	17
-	+	41	31
-	+	48	0
-	+	48	10
-	+	56	0
-	+	49	11
-	+	50	18
-	+	51	9
-	+	52	18
-	+	50	8
-	+	54	15
-	+	48	56
-	+	59	5
-	+	47	10
-	+	67	6
-	+	68	27
-	+	66	24
-	+	70	0
-	+	27	13
-	+	11	20
-	z	34	0
-
-> ~/Dropbox/developer/app-academy/class/homework/plays_demo/plays.rb
-	*	1474961760	0
-	"	28	0
-	^	3	29
-	.	3	28
-	+	3	31
-	+	52	0
-	+	54	0
-	+	53	30
-	+	54	51
-	+	55	11
-	+	56	8
-	+	57	9
-	+	58	12
-	+	60	12
-	+	54	10
-	+	63	0
-	+	62	0
-	+	64	0
-	+	65	28
-	+	73	17
-	+	73	13
-	+	73	15
-	+	70	29
-	+	71	46
-	+	73	27
-	+	68	60
-	+	69	19
-	+	68	61
-	+	69	0
-	+	3	28
-	z	28	2
-
-> ~/Dropbox/developer/app-academy/class/homework/plays_demo/plays.
-	*	1474959615	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/plays_demo/plays.db
-	*	1474959606	0
-	"	1	0
-	z	1	0
-
-> ~/.vim/ftplugin/text/lists.vim
-	*	1474931256	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/assessments/luke_wassink/lib/card.rb
-	*	1474907829	0
-	"	61	0
-	^	83	32
-	.	83	31
-	+	44	33
-	+	45	37
-	+	42	13
-	+	48	8
-	+	55	0
-	+	58	23
-	+	57	9
-	+	56	0
-	+	57	64
-	+	58	0
-	+	59	0
-	+	57	66
-	+	63	40
-	+	64	11
-	+	66	9
-	+	73	9
-	+	65	8
-	+	74	12
-	+	1	0
-	+	75	6
-	+	77	8
-	+	84	0
-	+	83	31
-	l	36	0
-	z	61	0
-
-> ~/Dropbox/developer/app-academy/class/assessments/luke_wassink/lib/game.rb
-	*	1474907760	0
-	"	44	46
-	^	44	47
-	.	44	46
-	+	14	10
-	+	17	35
-	+	22	28
-	+	27	51
-	+	26	43
-	+	27	70
-	+	28	9
-	+	9	21
-	+	2	63
-	+	29	74
-	+	33	47
-	+	40	0
-	+	27	31
-	+	40	24
-	+	27	0
-	+	26	62
-	+	35	8
-	+	36	0
-	+	29	50
-	+	36	42
-	+	44	46
-	z	44	4
-
-> ~/Dropbox/developer/app-academy/class/assessments/luke_wassink/lib/pile_foundation.rb
-	*	1474907716	0
-	"	25	0
-	^	25	55
-	.	25	54
-	+	9	16
-	+	10	17
-	+	14	14
-	+	25	14
-	+	9	14
-	+	24	0
-	+	9	32
-	+	25	60
-	+	23	45
-	+	9	15
-	+	25	54
-	z	25	6
-
-> ~/Dropbox/developer/app-academy/class/assessments/luke_wassink/lib/pile.rb
-	*	1474907674	0
-	"	32	0
-	^	32	21
-	.	32	20
-	+	5	17
-	+	9	16
-	+	13	45
-	+	15	13
-	+	23	14
-	+	19	15
-	+	32	20
-	z	32	4
-
-> ~/Dropbox/developer/app-academy/class/assessments/luke_wassink/spec/game_spec.rb
-	*	1474907396	0
-	"	68	22
-	z	68	10
-
-> ~/Dropbox/developer/app-academy/class/assessments/luke_wassink/lib/pile_tableau.rb
-	*	1474906980	0
-	"	10	67
-	^	10	68
-	.	10	67
-	+	10	67
-	z	10	6
-
-> ~/Dropbox/developer/app-academy/class/assessments/luke_wassink/lib/pile_freecell.rb
-	*	1474906637	0
-	"	7	77
-	^	7	78
-	.	7	77
-	+	7	77
-	z	7	4
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/ai.rb
-	*	1474872197	0
-	"	108	16
-	^	61	36
-	.	61	35
-	+	22	0
-	+	21	4
-	+	22	0
-	+	10	0
-	+	15	13
-	+	12	26
-	+	10	0
-	+	12	0
-	+	10	0
-	+	12	0
-	+	80	83
-	+	53	22
-	+	54	0
-	+	53	42
-	+	75	41
-	+	80	14
-	+	80	10
-	+	80	35
-	+	80	25
-	+	89	0
-	+	89	33
-	+	89	49
-	+	92	32
-	+	92	36
-	+	92	75
-	+	79	0
-	+	69	0
-	+	78	0
-	+	77	0
-	+	69	0
-	+	78	0
-	+	89	0
-	+	92	0
-	+	77	27
-	+	92	0
-	+	108	0
-	+	93	74
-	+	108	0
-	+	93	43
-	+	92	0
-	+	94	0
-	+	91	0
-	+	93	43
-	+	72	33
-	+	90	37
-	+	104	0
-	+	69	29
-	+	89	26
-	+	90	46
-	+	104	48
-	+	93	44
-	+	90	46
-	+	93	7
-	+	101	30
-	+	102	6
-	+	103	0
-	+	105	6
-	+	104	0
-	+	83	7
-	+	82	30
-	+	83	9
-	+	7	21
-	+	16	34
-	+	11	59
-	+	14	0
-	+	11	61
-	+	14	9
-	+	12	7
-	+	16	20
-	+	12	10
-	+	14	12
-	+	117	0
-	+	55	0
-	+	67	0
-	+	115	57
-	+	58	13
-	+	59	33
-	+	66	0
-	+	64	18
-	+	17	0
-	+	17	23
-	+	66	0
-	+	60	10
-	+	65	7
-	+	60	4
-	+	65	4
-	+	15	0
-	+	14	0
-	+	17	0
-	+	13	0
-	+	58	0
-	+	60	55
-	+	62	21
-	+	63	0
-	+	60	47
-	+	63	0
-	+	62	7
-	+	61	35
-	z	108	2
-
-> ~/Dropbox/developer/app-academy/class/homework/SQL/learning-sql-example-postgres.sql
-	*	1474840686	0
-	"	655	24
-	^	655	25
-	.	1	0
-	+	1	0
-	z	655	0
-
-> ~/.bashrc
-	*	1474819909	0
-	"	17	4
-	^	17	5
-	.	17	4
-	+	17	4
-	z	17	0
-
-> ~/.bshrc
-	*	1474819797	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/board.rb
-	*	1474766177	0
-	"	122	33
-	^	122	47
-	.	122	46
-	+	16	14
-	+	17	21
-	+	18	65
-	+	22	37
-	+	23	45
-	+	27	30
-	+	30	32
-	+	31	21
-	+	32	43
-	+	36	13
-	+	34	13
-	+	35	25
-	+	30	15
-	+	27	14
-	+	122	39
-	+	1	0
-	+	19	0
-	+	26	0
-	+	17	27
-	+	18	69
-	+	22	37
-	+	23	47
-	+	31	27
-	+	32	49
-	+	34	17
-	+	32	24
-	+	35	28
-	+	36	19
-	+	122	18
-	+	124	0
-	+	122	21
-	+	139	45
-	+	121	35
-	+	122	46
-	z	122	8
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/chess_node.rb
-	*	1474765562	0
-	"	27	25
-	^	27	26
-	.	27	25
-	+	72	0
-	+	72	5
-	+	72	0
-	+	72	7
-	+	71	0
-	+	72	0
-	+	71	0
-	+	72	0
-	+	71	0
-	+	72	0
-	+	28	15
-	+	22	17
-	+	44	0
-	+	19	35
-	+	21	31
-	+	52	0
-	+	51	23
-	+	52	0
-	+	43	21
-	+	44	26
-	+	52	15
-	+	22	17
-	+	14	23
-	+	17	0
-	+	52	30
-	+	54	0
-	+	11	0
-	+	38	0
+	+	49	2
+	+	37	4
+	+	42	20
+	+	37	26
+	+	42	52
+	+	37	4
 	+	42	0
-	+	38	40
-	+	39	0
-	+	60	0
-	+	21	39
-	+	39	40
-	+	40	19
-	+	52	10
-	+	67	5
-	+	69	0
-	+	52	0
-	+	19	28
-	+	15	18
+	+	37	0
+	+	49	0
+	+	46	0
+	+	45	0
+	+	49	0
+	+	43	48
+	+	19	39
+	+	29	45
+	+	28	23
+	+	30	0
+	+	29	17
+	+	33	54
+	+	34	32
+	+	15	62
+	+	17	22
+	+	38	46
+	+	21	30
+	+	26	0
+	+	21	47
+	+	22	10
+	+	24	0
 	+	23	15
-	+	18	66
-	+	32	0
-	+	24	17
-	+	19	34
-	+	36	0
-	+	19	35
-	+	35	0
-	+	31	0
-	+	32	0
-	+	24	45
-	+	33	30
-	+	38	76
-	+	52	32
-	+	21	20
-	+	22	0
-	+	48	19
-	+	37	30
-	+	38	38
-	+	39	25
-	+	27	17
-	+	28	22
-	+	24	50
-	+	32	45
-	+	38	35
-	+	16	19
-	+	58	23
-	+	32	37
-	+	38	52
-	+	27	25
-	z	27	2
+	+	24	6
+	+	43	6
+	+	10	15
+	+	43	0
+	+	39	12
+	z	39	4
 
-> ~/Dropbox/developer/app-academy/class/projects/chess/game.rb
-	*	1474744350	0
-	"	23	0
-	^	13	23
-	.	13	22
-	+	57	19
-	+	56	38
-	+	12	0
-	+	15	52
-	+	56	44
-	+	76	0
-	+	12	25
-	+	15	25
-	+	15	0
-	+	14	0
-	+	11	33
-	+	12	17
-	+	13	0
-	+	12	22
-	+	13	22
-	z	23	0
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/views/users/show.html.erb
+	*	1475786273	0
+	"	3	0
+	.	3	0
+	+	3	44
+	+	3	0
+	z	3	0
 
-> ~/Dropbox/developer/app-academy/class/projects/chess/display.rb
-	*	1474744063	0
-	"	8	24
-	^	8	25
-	.	8	24
-	+	34	0
-	+	36	0
-	+	34	24
-	+	36	24
-	+	34	28
-	+	11	16
-	+	12	10
-	+	11	31
-	+	12	25
-	+	34	62
-	+	36	35
-	+	8	49
-	+	36	0
-	+	33	0
-	+	12	0
-	+	8	24
-	z	8	2
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/Gemfile
+	*	1475785114	0
+	"	27	0
+	^	27	0
+	.	26	12
+	+	47	15
+	+	58	2
+	+	59	32
+	+	59	28
+	+	59	27
+	+	59	0
+	+	54	0
+	+	50	2
+	+	26	12
+	z	27	0
 
-> ~/Dropbox/developer/app-academy/class/projects/chess/player.rb
-	*	1474739550	0
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/Gemfile
+	*	1475785074	0
+	"	21	0
+	z	21	0
+
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/ControlP
+	*	1475785016	0
 	"	10	0
-	^	2	0
-	.	1	23
-	+	10	24
-	+	1	23
-	z	10	4
+	.	2	0
+	+	1	0
+	+	2	0
 
-> ~/Dropbox/developer/app-academy/class/projects/chess/human_player.rb
-	*	1474739521	0
-	"	9	18
-	^	23	18
-	.	23	17
-	+	22	19
-	+	23	17
-	z	9	6
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/move.rb
-	*	1474739479	0
-	"	13	14
-	^	13	15
-	.	13	14
-	+	24	0
-	+	9	40
-	+	24	0
-	+	9	37
-	+	9	24
-	+	24	11
-	+	9	0
-	+	24	0
-	+	9	30
-	+	24	3
-	+	24	0
-	+	10	5
-	+	15	0
-	+	13	19
-	+	14	17
-	+	13	10
-	+	14	10
-	+	11	15
-	+	10	9
-	+	11	37
-	+	12	0
-	+	18	35
-	+	19	0
-	+	24	0
-	+	22	8
-	+	18	38
-	+	14	17
-	+	11	18
-	+	13	14
-	z	13	4
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/piece.rb
-	*	1474736133	0
-	"	1	0
-	^	4	23
-	.	4	22
-	+	6	0
-	+	5	26
-	+	25	20
-	+	31	44
-	+	61	0
-	+	24	28
-	+	30	44
-	+	24	44
-	+	4	22
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/cursor.rb
-	*	1474735146	0
-	"	35	22
-	z	35	2
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/vim.log
-	*	1474675266	0
-	"	49	0
-	z	49	0
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/utilities.rb
-	*	1474647772	0
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/musicApp/app/models/user.rb
+	*	1475784855	0
 	"	9	0
-	^	9	45
+	^	35	60
 	.	9	0
-	+	9	10
-	+	10	0
-	+	9	11
-	+	10	0
+	+	41	0
+	+	34	4
+	+	36	2
+	+	34	51
+	+	35	59
+	+	33	0
+	+	25	0
+	+	17	0
 	+	9	0
 	z	9	0
 
-> ~/Dropbox/developer/app-academy/class/homework/lru_cache/lru_cache.rb
-	*	1474647419	0
-	"	18	4
-	^	12	24
-	.	18	0
-	+	22	0
-	+	22	20
-	+	22	0
-	+	20	0
-	+	12	22
-	+	13	0
-	+	12	3
-	+	12	0
-	+	15	0
-	+	12	0
-	+	8	0
-	+	18	0
-	z	18	4
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/app/views/shared/_form.html.erb
+	*	1475784699	0
+	"	1	0
+	z	1	0
 
-> ~/Dropbox/developer/app-academy/class/homework/NERD_tree_2
-	*	1474591723	0
-	"	4	0
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/NERD_tree_1
+	*	1475784698	0
+	"	32	4
 	.	1	0
 	+	1	0
-	z	4	0
+	z	32	4
 
-> ~/Dropbox/developer/app-academy/class/in_class/chess/board.rb
-	*	1474591575	0
-	"	123	8
-	^	109	21
-	.	106	32
-	+	105	0
-	+	107	0
-	+	105	11
-	+	107	0
-	+	104	18
-	+	105	17
-	+	57	0
-	+	104	61
-	+	154	0
-	+	155	0
-	+	154	26
-	+	52	0
-	+	53	0
-	+	51	0
-	+	107	0
-	+	125	0
-	+	107	0
-	+	118	18
-	+	116	26
-	+	118	4
-	+	108	14
-	+	133	31
-	+	108	57
-	+	110	0
-	+	108	58
-	+	110	9
-	+	137	61
-	+	110	13
-	+	112	6
-	+	111	38
-	+	113	4
-	+	108	12
-	+	110	12
-	+	108	0
-	+	110	10
-	+	108	10
-	+	110	10
-	+	108	9
-	+	110	13
-	+	113	9
-	+	108	16
-	+	110	17
-	+	129	21
-	+	108	37
-	+	106	8
-	+	109	0
-	+	108	40
-	+	109	20
-	+	106	32
-	z	123	4
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/helpers/sessions_helper.rb
+	*	1475780854	0
+	"	2	2
+	z	2	0
 
-> ~/Dropbox/developer/app-academy/class/in_class/chess/game.rb
-	*	1474591495	0
-	"	12	0
-	^	12	23
-	.	12	22
-	+	12	0
-	+	13	0
-	+	12	25
-	+	24	0
-	+	22	0
-	+	23	0
-	+	22	12
-	+	22	0
-	+	21	13
-	+	42	16
-	+	41	18
-	+	43	20
-	+	30	0
-	+	30	9
-	+	29	0
-	+	30	0
-	+	28	0
-	+	29	78
-	+	30	0
-	+	34	25
-	+	39	0
-	+	35	0
-	+	37	41
-	+	12	22
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/app/helpers/users_helper.rb
+	*	1475779154	0
+	"	2	0
+	z	2	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/db/migrate/20161006164827_create_users.rb
+	*	1475779013	0
+	"	12	37
+	^	12	52
+	.	12	37
+	+	4	33
+	+	6	41
+	+	11	36
+	+	12	37
 	z	12	4
 
-> ~/Dropbox/developer/app-academy/class/in_class/chess/chess_node.rb
-	*	1474591304	0
-	"	23	4
-	.	25	0
-	+	9	24
-	+	14	0
-	+	15	0
-	+	14	29
-	+	15	21
-	+	16	30
-	+	21	13
-	+	13	12
-	+	12	12
-	+	24	0
-	+	23	0
-	+	25	0
-	z	23	2
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/app/helpers/application_helper.rb
+	*	1475777883	0
+	"	3	4
+	z	3	4
 
-> ~/Dropbox/developer/app-academy/class/projects/w1d3/recursion.rb
-	*	1474575764	0
-	"	136	19
-	^	136	20
-	.	136	19
-	+	115	0
-	+	134	0
-	+	136	27
-	+	120	64
-	+	136	15
-	+	135	6
-	+	136	6
-	+	135	3
-	+	136	3
-	+	135	0
-	+	136	19
-	z	136	2
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/app/views/session/new.html.erb
+	*	1475777645	0
+	"	2	0
+	z	2	0
 
-> ~/Desktop/luke_wassink/lib/dealer.rb
-	*	1474563870	0
-	"	26	29
-	^	26	30
-	.	26	29
-	+	13	29
-	+	17	0
-	+	21	23
-	+	9	22
-	+	17	43
-	+	25	0
-	+	31	0
-	+	37	0
-	+	34	5
-	+	36	0
-	+	26	68
-	+	29	22
-	+	26	29
-	z	26	6
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/config/routes.rb
+	*	1475777459	0
+	"	1	0
+	z	1	0
 
-> ~/Desktop/luke_wassink/spec/dealer_spec.rb
-	*	1474563870	0
-	"	54	0
-	z	54	8
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/app/controllers/session_controller.rb
+	*	1475776716	0
+	"	1	0
+	z	1	0
 
-> ~/Desktop/luke_wassink/lib/hand.rb
-	*	1474563128	0
-	"	39	4
-	^	24	30
-	.	38	0
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/app/controllers/users_controller.rb
+	*	1475776246	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/app/controllers/application_controller.rb
+	*	1475776071	0
+	"	7	0
+	z	7	4
+
+> ~/Dropbox/developer/app-academy/class/projects/99CatsAuth/app/models/user.rb
+	*	1475775878	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/musicApp/Gemfile
+	*	1475775042	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/Gemfilem
+	*	1475774900	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/musicApp/musicApp/ControlP
+	*	1475774327	0
+	"	3	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/.vim/bundle/ctrlp.vim/doc/ctrlp.txt
+	*	1475774214	0
+	"	213	78
+	z	187	50
+
+> ~/Dropbox/developer/app-academy/class/practice_assessments/a03-prep/assoc-skeleton/app/models/user.rb
+	*	1475772774	0
+	"	7	10
+	.	7	0
+	+	10	22
+	+	10	13
+	+	10	23
+	+	10	31
 	+	10	12
-	+	1	15
-	+	10	25
-	+	16	17
-	+	2	22
-	+	3	0
-	+	20	56
-	+	56	5
-	+	55	0
-	+	57	48
-	+	61	0
-	+	60	18
-	+	61	46
-	+	20	47
-	+	21	45
-	+	22	0
-	+	24	55
-	+	25	29
-	+	57	16
-	+	29	14
-	+	34	14
-	+	33	36
-	+	42	29
-	+	38	26
-	+	47	14
-	+	42	11
-	+	40	46
-	+	42	44
-	+	42	48
-	+	41	0
-	+	42	0
-	+	42	43
-	+	42	0
-	+	42	49
-	+	39	36
-	+	42	0
-	+	38	0
-	+	38	5
-	+	39	5
-	+	40	5
-	+	38	12
-	+	39	12
-	+	40	12
-	+	42	5
-	+	38	0
-	+	38	11
-	+	39	11
-	+	40	11
-	+	42	4
-	+	24	29
-	+	38	0
-	z	39	4
+	+	10	0
+	+	7	0
+	z	7	2
 
-> ~/Desktop/luke_wassink/lib/player.rb
-	*	1474563093	0
-	"	21	0
-	^	21	1
-	.	21	0
-	+	7	23
-	+	12	23
-	+	9	23
-	+	16	27
-	+	9	0
-	+	17	14
-	+	8	14
-	+	24	23
-	+	23	25
-	+	21	0
-	+	22	0
-	+	21	0
-	z	21	4
+> ~/Dropbox/developer/app-academy/class/homework/AuthHomework/db/migrate/20161005071419_create_users.rb
+	*	1475772702	0
+	"	12	0
+	^	12	36
+	.	12	35
+	+	4	36
+	+	5	43
+	+	6	41
+	+	11	44
+	+	4	20
+	+	11	27
+	+	12	35
+	z	12	4
 
-> ~/Desktop/luke_wassink/spec/player_spec.rb
-	*	1474562756	0
+> ~/Dropbox/developer/app-academy/class/homework/99CatsAuth/db/migrate/20161006052130_add_email_to_user.rb
+	*	1475772558	0
+	"	3	4
+	^	3	38
+	.	3	37
+	+	3	37
+	z	3	4
+
+> ~/Dropbox/developer/app-academy/class/homework/rails_demo/DemoProject/config/database.yml
+	*	1475771878	0
 	"	3	0
 	z	3	0
-
-> ~/Desktop/luke_wassink/spec/hand_spec.rb
-	*	1474562493	0
-	"	99	26
-	.	104	0
-	+	103	0
-	+	104	0
-	z	99	10

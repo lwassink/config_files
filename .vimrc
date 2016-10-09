@@ -92,6 +92,8 @@ Plugin 'https://github.com/xolox/vim-misc.git'
 Plugin 'tpope/vim-rails'
 " make tab completion work
 Plugin 'ervandew/supertab'
+" color scheme
+Plugin 'https://github.com/altercation/vim-colors-solarized.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -135,11 +137,13 @@ set formatoptions+=j " easier joining of comments
 
 
 " color options
-highlight StatusLineNC ctermbg=000 ctermfg=255 cterm=bold term=bold
-highlight StatusLine ctermbg=223 ctermfg=000 cterm=none term=none
-highlight Folded ctermbg=none ctermfg=darkblue
-highlight ErrorMsg ctermfg=red ctermbg=NONE
-highlight String ctermbg=none ctermfg=022
+" highlight StatusLineNC ctermbg=000 ctermfg=255 cterm=bold term=bold
+" highlight StatusLine ctermbg=223 ctermfg=000 cterm=none term=none
+" highlight Folded ctermbg=none ctermfg=darkblue
+" highlight ErrorMsg ctermfg=red ctermbg=NONE
+" highlight String ctermbg=none ctermfg=022
+set background=dark
+colorscheme solarized
 
 " custom highlight groups
 highlight SearchResult ctermbg=red ctermfg=white
@@ -266,6 +270,9 @@ set undodir=~/.vim/undo
 
 " PLUGIN SETTINGS {{{
 
+" set correct Python path
+let g:ycm_server_python_interpreter = '/usr/local/bin/python'
+
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
@@ -308,11 +315,11 @@ vmap <expr> <up> DVB_Drag('up')
 vmap <expr> <down> DVB_Drag('down')
 
 " ctrlp
-if executable('ag')
-  let g:ctrlp_user_command = 'ag --path-to-agignore ~/.agignore %s -l --nocolor -g ""'
-endif
+" if executable('ag')
+"   let g:ctrlp_user_command = 'ag --path-to-agignore ~/.agignore %s -l --nocolor -g ""'
+" endif
 let g:ctrp_map = '<c-p>'
-let g:ctrlp_working_path_mode = 0
+let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_max_files = 0
 let g:ctrlp_cmd = 'CtrlP'
 
@@ -348,10 +355,14 @@ nnoremap <space>k i<space><esc>l
 nnoremap =p VypVr=
 nnoremap <leader>nt :NERDTree<cr>
 nnoremap ZZ :wall<cr>ZZ
+nnoremap <tab>p "0p
 
 " add closing brace, comma, etc.
 inoremap (( ()<esc>i
 inoremap "" ""<esc>i
+inoremap '' ''<esc>i
+inoremap [[ []<esc>i
+inoremap {{ {}<esc>i
 
 " split control commands
 " these allow me to move to the splits above, below, to the left, and to the
