@@ -42,8 +42,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " my plugins
-" template manager
-Plugin 'git://github.com/aperezdc/vim-template.git'
 " syntax checker
 Plugin 'https://github.com/scrooloose/syntastic.git'
 " code completion
@@ -94,6 +92,16 @@ Plugin 'tpope/vim-rails'
 Plugin 'ervandew/supertab'
 " color scheme
 Plugin 'https://github.com/altercation/vim-colors-solarized.git'
+" javascript highlighting and indenting
+Plugin 'pangloss/vim-javascript'
+" sytax highlighting for js libraries
+Plugin 'othree/javascript-libraries-syntax.vim'
+" improved status line
+Plugin 'https://github.com/vim-airline/vim-airline.git'
+" syntax hilighting for json
+Plugin 'https://github.com/helino/vim-json.git'
+" easily move through files
+Plugin 'https://github.com/easymotion/vim-easymotion.git'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -264,7 +272,6 @@ endif
 
 " save undos in a centralized location
 set undodir=~/.vim/undo
-
 " }}}
 
 
@@ -292,10 +299,21 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 2
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" syntastic error symbols
+let g:syntastic_error_symbol = '❌'
+let g:syntastic_style_error_symbol = '⁉️'
+let g:syntastic_warning_symbol = '⚠️'
+let g:syntastic_style_warning_symbol = '💩'
+highlight link SyntasticErrorSign SignColumn
+highlight link SyntasticWarningSign SignColumn
+highlight link SyntasticStyleErrorSign SignColumn
+highlight link SyntasticStyleWarningSign SignColumn
 " syntastic maps
 nnoremap <space>c :lclose<cr>
 nnoremap <silent> <space>o :Errors<cr>
 nnoremap <silent> <space>r :SyntasticReset<cr>
+" use lint for javascript files
+let g:syntastic_javascript_checkers = ['eslint']
 
 " Allow more general matching with %
 packadd! matchit
@@ -382,8 +400,6 @@ nnoremap ]w <c-w>w
 noremap <leader>ev :split $MYVIMRC<cr>
 noremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>eu :UltiSnipsEdit<cr>
-" edit the template corresponding to current file extension
-noremap <silent> <leader>et :execute 'split ~/.vim/bundle/vim-template/templates/=template=.' . expand('%:e')<cr>
 nnoremap <leader>ec :execute "split ~/.vim/ftplugin/".&filetype."/".&filetype.".vim"<cr>
 
 " swap commands to make it easier for me to do common stuff

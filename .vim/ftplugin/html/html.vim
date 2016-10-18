@@ -7,5 +7,5 @@
 
 source ~/.vim/plugin/utilities.vim
 
-nnoremap <silent> <leader>ew :!open %<cr>
+nnoremap <silent> <leader>ew :!open %<cr><cr>
 

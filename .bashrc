@@ -22,3 +22,6 @@ PATH="/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH"
 # initialize rbenv
 eval "$(rbenv init -)"
 
+
+export NVM_DIR="/Users/lwassink/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
