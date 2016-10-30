@@ -102,6 +102,14 @@ Plugin 'https://github.com/vim-airline/vim-airline.git'
 Plugin 'https://github.com/helino/vim-json.git'
 " easily move through files
 Plugin 'https://github.com/easymotion/vim-easymotion.git'
+" html insertion
+Plugin 'https://github.com/mattn/emmet-vim.git'
+" react styling
+Plugin 'mxw/vim-jsx'
+" MY FIRST PLUGIN!
+Plugin 'https://github.com/lwassink/vim-text-lists.git'
+" easy switching between vim and tmux
+Plugin 'christoomey/vim-tmux-navigator'
 
 " to install a plugin, add it to the list and run :PluginInstall
 " to update the plugins run :PluginUpdate
@@ -248,7 +256,7 @@ inoremap <c-u> <esc>viw~ea
 noremap <c-u> viw~e
 
 " reformat the whole document
-noremap <silent> <leader>= m'gg=G`'zz
+noremap <silent> <leader>= mxLmygg=G`yzb`x
 
 " blink the next search
 function! HLNext (blinktime)
@@ -309,8 +317,6 @@ highlight link SyntasticWarningSign SignColumn
 highlight link SyntasticStyleErrorSign SignColumn
 highlight link SyntasticStyleWarningSign SignColumn
 " syntastic maps
-nnoremap <space>c :lclose<cr>
-nnoremap <silent> <space>o :Errors<cr>
 nnoremap <silent> <space>r :SyntasticReset<cr>
 " use lint for javascript files
 let g:syntastic_javascript_checkers = ['eslint']
@@ -370,7 +376,7 @@ inoremap <c-s> <esc>:w<cr>a
 nnoremap dl 0<c-v>$d
 nnoremap <space>j a<space><esc>h
 nnoremap <space>k i<space><esc>l
-nnoremap =p VypVr=
+nnoremap <space>= VypVr=
 nnoremap <leader>nt :NERDTree<cr>
 nnoremap ZZ :wall<cr>ZZ
 nnoremap <tab>p "0p

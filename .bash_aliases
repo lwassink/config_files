@@ -11,9 +11,9 @@ alias ls="ls -GF"
 alias la="ls -GFA"
 alias ll="ls -lFG"
 alias shoes='/Applications/Shoes.app/Contents/MacOS/shoes'
-alias vi="mvim"
-alias v="mvim"
-alias vim="mvim"
+alias vi="vim"
+alias v="vim"
+alias vim="vim"
 alias g="g++"
 alias ..='cd ..'
 alias gpp='g++'
@@ -22,6 +22,7 @@ alias be='bundle exec'
 alias bi='bundle install'
 alias ber='bundle exec rspec'
 alias vimclean='find . -type f -name "\.*sw[klmnop]" -delete; find . -type f -name "*.un~" -delete'
+alias tm='tmux'
 
 # t todo list aliases
 alias t='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks'

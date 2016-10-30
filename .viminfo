@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/myBin
+~MSle0~/pa
 
 # Last Substitute Search Pattern:
-~MSle0&var
+~MSle0&setO
 
 # Last Substitute String:
-$let
+$
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1476722826,,"w"
-:e ../spec/js_assessment_spec.js
-|2,0,1476720563,,"e ../spec/js_assessment_spec.js"
-:2
-|2,0,1476675072,,"2"
-:e index.html
-|2,0,1476674202,,"e index.html"
-:b luke_wassink.html
-|2,0,1476671028,,"b luke_wassink.html"
-:e css_reset.css
-|2,0,1476670716,,"e css_reset.css"
-:vsplit assets/css_syntax.css
-|2,0,1476670707,,"vsplit assets/css_syntax.css"
-:e luke_wassink.html
-|2,0,1476670631,,"e luke_wassink.html"
-:UltiSnipsEdit all
-|2,0,1476669201,,"UltiSnipsEdit all"
-:set filetype=html
-|2,0,1476664874,,"set filetype=html"
+|2,0,1477864168,,"w"
 :PluginInstall
-|2,0,1476664129,,"PluginInstall"
-:wall
-|2,0,1476578127,,"wall"
-:b game.js
-|2,0,1476578000,,"b game.js"
-:b bullet.js
-|2,0,1476577993,,"b bullet.js"
-:b bund
-|2,0,1476577816,,"b bund"
-:e asteroid.js
-|2,0,1476577592,,"e asteroid.js"
-:e asteroid
-|2,0,1476577588,,"e asteroid"
-:b ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/bundle.js
-|2,0,1476577584,,"b ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/bundle.js"
-:%s/var/let/gc
-|2,0,1476577288,,"%s/var/let/gc"
-:e game.js
-|2,0,1476571446,,"e game.js"
-:!atom %
-|2,0,1476554582,,"!atom %"
-:e bullet.js
-|2,0,1476554271,,"e bullet.js"
-:b bun
-|2,0,1476554206,,"b bun"
+|2,0,1477863931,,"PluginInstall"
+:sw
+|2,0,1477863154,,"sw"
 :bd
-|2,0,1476554204,,"bd"
-:b 
-|2,0,1476498302,,"b "
-:b bull
-|2,0,1476497836,,"b bull"
-:split
-|2,0,1476497832,,"split"
-:b aster
-|2,0,1476497773,,"b aster"
-:b index.html
-|2,0,1476427517,,"b index.html"
-:b ent
-|2,0,1476427414,,"b ent"
-:e style.css
-|2,0,1476427381,,"e style.css"
-:b con
-|2,0,1476427210,,"b con"
-:e content.js
-|2,0,1476426899,,"e content.js"
-:e ~/.vim/plugin/parent_dir_create.vim
-|2,0,1476414017,,"e ~/.vim/plugin/parent_dir_create.vim"
-:verbose map <c-j>
-|2,0,1476413869,,"verbose map <c-j>"
-:map verbose <c-j>
-|2,0,1476413860,,"map verbose <c-j>"
-:e function_calls.js
-|2,0,1476388306,,"e function_calls.js"
-:!term .
-|2,0,1476387399,,"!term ."
-:! terminal .
-|2,0,1476387388,,"! terminal ."
-:w callbacks_hw.js
-|2,0,1476340370,,"w callbacks_hw.js"
-:cd Desktop/class/homework/w5d3/
-|2,0,1476340359,,"cd Desktop/class/homework/w5d3/"
-:pwd
-|2,0,1476340351,,"pwd"
+|2,0,1477861265,,"bd"
+:e ~/configuration_files/standard_gitignore
+|2,0,1477861251,,"e ~/configuration_files/standard_gitignore"
+:e middleware/session_middleware.js
+|2,0,1477704355,,"e middleware/session_middleware.js"
+:e store/store.js
+|2,0,1477698991,,"e store/store.js"
+:e reducers/root_reducer.js
+|2,0,1477698858,,"e reducers/root_reducer.js"
+:imap {{ {}<esc>i
+|2,0,1477698503,,"imap {{ {}<esc>i"
+:e reducers/session_reducer.js
+|2,0,1477697905,,"e reducers/session_reducer.js"
+:cd frontend/
+|2,0,1477697894,,"cd frontend/"
+:wall
+|2,0,1477697863,,"wall"
+:e frontend/actions/session_actions.js
+|2,0,1477697511,,"e frontend/actions/session_actions.js"
+:e frontend/util/session_api_util.js
+|2,0,1477696792,,"e frontend/util/session_api_util.js"
+:b app/controllers/application_controller.rb
+|2,0,1477695505,,"b app/controllers/application_controller.rb"
+:b app/controllers/api/sessions_controller.rb
+|2,0,1477695417,,"b app/controllers/api/sessions_controller.rb"
+:e app/views/api/sessions/errors.json.jbuilder
+|2,0,1477692620,,"e app/views/api/sessions/errors.json.jbuilder"
+:e app/views/api/users/_user.json.jbuilder
+|2,0,1477691659,,"e app/views/api/users/_user.json.jbuilder"
+:ew
+|2,0,1477691389,,"ew"
+:e app/views/api/users/show.json.jbuilder
+|2,0,1477691338,,"e app/views/api/users/show.json.jbuilder"
+:e webpack.config.js
+|2,0,1477688307,,"e webpack.config.js"
 :!atom .
-|2,0,1476376878,,"!atom ."
-:!open .
-|2,0,1476339403,,"!open ."
-:PluginClean
-|2,0,1476338654,,"PluginClean"
-:e css_syntax.css
-|2,0,1476338598,,"e css_syntax.css"
-:!ls
-|2,0,1476338583,,"!ls"
-:cd homework/html_and_css/
-|2,0,1476338579,,"cd homework/html_and_css/"
-:cd ../..
-|2,0,1476338575,,"cd ../.."
-:Errors
-|2,0,1476334762,,"Errors"
+|2,0,1477670191,,"!atom ."
+:b #
+|2,0,1477599353,,"b #"
+:b#
+|2,0,1477599350,,"b#"
+:%s/@user/user/g
+|2,0,1477635713,,"%s/@user/user/g"
+:imap <c-i>
+|2,0,1477635492,,"imap <c-i>"
+:map <c-i>
+|2,0,1477635467,,"map <c-i>"
+:map sp
+|2,0,1477635389,,"map sp"
+:w ~/Desktop/class/fullStackTentative.txt
+|2,0,1477539874,,"w ~/Desktop/class/fullStackTentative.txt"
+:b spec/requests/03_parties_spec.rb
+|2,0,1477535498,,"b spec/requests/03_parties_spec.rb"
+:b app/views/api/parties/show.json.jbuilder
+|2,0,1477535489,,"b app/views/api/parties/show.json.jbuilder"
+:b app/views/api/guests/index.json.jbuilder
+|2,0,1477535314,,"b app/views/api/guests/index.json.jbuilder"
+:e spec/requests/03_parties_spec.rb
+|2,0,1477534761,,"e spec/requests/03_parties_spec.rb"
+:e app/views/api/parties/show.json.jbuilder
+|2,0,1477534709,,"e app/views/api/parties/show.json.jbuilder"
+:e app/views/api/parties/index.json.jbuilder
+|2,0,1477534695,,"e app/views/api/parties/index.json.jbuilder"
+:e app/views/api/gifts/show.json.jbuilder
+|2,0,1477534574,,"e app/views/api/gifts/show.json.jbuilder"
+:e app/views/api/gifts/index.json.jbuilder
+|2,0,1477534560,,"e app/views/api/gifts/index.json.jbuilder"
+:e app/views/api/guests/index.json.jbuilder
+|2,0,1477513594,,"e app/views/api/guests/index.json.jbuilder"
+:e app/views/api/guests/show.json.jbuilder
+|2,0,1477513429,,"e app/views/api/guests/show.json.jbuilder"
+:b
+|2,0,1477513414,,"b"
+:b blue
+|2,0,1477457336,,"b blue"
+:b red.jsx
+|2,0,1477457267,,"b red.jsx"
+:e ../entry.jsx
+|2,0,1477456236,,"e ../entry.jsx"
+:b ~/Desktop/rainbow_routes/components/blue.js
+|2,0,1477456232,,"b ~/Desktop/rainbow_routes/components/blue.js"
+:b index.html
+|2,0,1477427474,,"b index.html"
+:e application.css
+|2,0,1477427430,,"e application.css"
+:b boar
+|2,0,1477427402,,"b boar"
+:b frontend/dnd.jsx
+|2,0,1477427352,,"b frontend/dnd.jsx"
+:b frontend/square.jsx
+|2,0,1477427328,,"b frontend/square.jsx"
+:b frontend/board.jsx
+|2,0,1477427317,,"b frontend/board.jsx"
 
 # Search String History (newest to oldest):
-?/myBin
-|2,1,1476722147,47,"myBin"
-?/quickSor
-|2,1,1476721674,47,"quickSor"
-?/my
-|2,1,1476721346,47,"my"
-??my
-|2,1,1476721336,63,"my"
-??ort
-|2,1,1476721310,63,"ort"
-??au
-|2,1,1476676015,63,"au"
-?/20
-|2,1,1476675745,47,"20"
-? (',');
-|2,1,1476674891,,"(',');"
-?/figca
-|2,1,1476673364,47,"figca"
-??gold
-|2,1,1476673329,63,"gold"
-?/Cook
-|2,1,1476673198,47,"Cook"
-??Desc
-|2,1,1476672434,63,"Desc"
-?/log
-|2,1,1476671501,47,"log"
-??ul
-|2,1,1476670873,63,"ul"
-?/>eu
-|2,1,1476664803,47,">eu"
-?/>et
-|2,1,1476663941,47,">et"
-?/et
-|2,1,1476663936,47,"et"
-?/ag
-|2,1,1476663780,47,"ag"
-?/if
-|2,1,1476577430,47,"if"
-?/remove
-|2,1,1476577377,47,"remove"
-? var
-|2,1,1476577288,,"var"
-?/hit
-|2,1,1476577107,47,"hit"
-? \<allObjects\>
-|2,1,1476571515,,"\\<allObjects\\>"
-?/check
-|2,1,1476571450,47,"check"
-?/other
-|2,1,1476497850,47,"other"
-? \<Asteroid\>
-|2,1,1476497488,,"\\<Asteroid\\>"
 ?/^s*private<cr>mp
-|2,1,1476497268,47,"^s*private<cr>mp"
+|2,1,1477864243,47,"^s*private<cr>mp"
+?/pa
+|2,1,1477861668,47,"pa"
+??sess
+|2,1,1477698916,63,"sess"
+?/let
+|2,1,1477698438,47,"let"
+?/otken
+|2,1,1477692836,47,"otken"
+?/gg
+|2,1,1477692807,47,"gg"
+?/aem
+|2,1,1477692772,47,"aem"
+?/,
+|2,1,1477692595,47,","
+? \$\(cursor\|select\)\$
+|2,1,1477688550,,"\\$\\(cursor\\|select\\)\\$"
+?/20
+|2,1,1477713990,47,"20"
+?/use
+|2,1,1477690221,47,"use"
+? @user
+|2,1,1477635713,,"@user"
+?/find
+|2,1,1477635263,47,"find"
+?/er
+|2,1,1477634911,47,"er"
+?/pres
+|2,1,1477600015,47,"pres"
+?/ss
+|2,1,1477600011,47,"ss"
+?/create
+|2,1,1477599922,47,"create"
+??vi
+|2,1,1477457329,63,"vi"
+?/Red
+|2,1,1477457021,47,"Red"
+?/div
+|2,1,1477427125,47,"div"
+?/es
+|2,1,1477427050,47,"es"
+?/space
+|2,1,1477323880,47,"space"
+?/i
+|2,1,1477360910,47,"i"
+?/doc
+|2,1,1477284680,47,"doc"
+?/in(
+|2,1,1477284329,47,"in("
 ?/(
-|2,1,1476427067,47,"("
-?/func
-|2,1,1476413981,47,"func"
-?/<c-j>
-|2,1,1476413885,47,"<c-j>"
-?/reset
-|2,1,1476339360,47,"reset"
-?/syn
-|2,1,1476339348,47,"syn"
-?/re
-|2,1,1476339180,47,"re"
-?/tern
-|2,1,1476338610,47,"tern"
-?/synta
-|2,1,1476334531,47,"synta"
-??st
-|2,1,1476252534,63,"st"
-?/1
-|2,1,1476251323,47,"1"
-?/temp
-|2,1,1476243430,47,"temp"
-? %HERE%
-|2,1,1476243406,,"%HERE%"
-?/T
-|2,1,1476208039,47,"T"
-?/make
-|2,1,1476206108,47,"make"
-?/failed sa
-|2,1,1476205847,47,"failed sa"
-??ti
-|2,1,1476205278,63,"ti"
-?/url
-|2,1,1476204869,47,"url"
-?/sign in
-|2,1,1476237661,47,"sign in"
-?/p
-|2,1,1476233032,47,"p"
-?/store
-|2,1,1476229791,47,"store"
-?/app
-|2,1,1476229520,47,"app"
-?/cook
-|2,1,1476229026,47,"cook"
-?/invo
-|2,1,1476223149,47,"invo"
+|2,1,1477284318,47,"("
+?/sele
+|2,1,1477284261,47,"sele"
+?/=p
+|2,1,1477263322,47,"=p"
+?/Sq
+|2,1,1477259913,47,"Sq"
+?/Kn
+|2,1,1477259381,47,"Kn"
+?/Con
+|2,1,1477259172,47,"Con"
+?/{{
+|2,1,1477111309,47,"{{"
+?/wid
+|2,1,1477102250,47,"wid"
+? Providor
+|2,1,1477268431,,"Providor"
+??idea
+|2,1,1477268107,63,"idea"
+?/and
+|2,1,1477266767,47,"and"
+?/]=
+|2,1,1477263550,47,"]="
+?/clear
+|2,1,1477028097,47,"clear"
+?/prefo
+|2,1,1477027788,47,"prefo"
+? setO
+|2,1,1477027647,,"setO"
+?/console.log
+|2,1,1476982637,47,"console.log"
+?/after calle
+|2,1,1476982365,47,"after calle"
+? copy
+|2,1,1476980789,,"copy"
+? this
+|2,1,1476980773,,"this"
+?/ind
+|2,1,1476980249,47,"ind"
+?/pho
+|2,1,1476939299,47,"pho"
+?/wind
+|2,1,1476939126,47,"wind"
+? \s*$
+|2,1,1476938705,,"\\s*$"
+?/script
+|2,1,1476937356,47,"script"
+?/syntas
+|2,1,1476937276,47,"syntas"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -232,6 +232,24 @@ $let
 |2,2,0,,"strftime('%c')<c-m>p"
 
 # Input Line History (newest to oldest):
+@/Users/lwassink/Desktop/jbuilder/app/views/api/guests/show.json.jbuilder
+|2,3,1477513353,,"/Users/lwassink/Desktop/jbuilder/app/views/api/guests/show.json.jbuilder"
+@div
+|2,3,1477377989,,"div"
+@/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/jquery_trigger_example.js
+|2,3,1476935581,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/jquery_trigger_example.js"
+@/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/
+|2,3,1476935560,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/"
+@li>
+|2,3,1476851167,,"li>"
+@em>
+|2,3,1476851137,,"em>"
+@div.col.cf
+|2,3,1476763944,,"div.col.cf"
+@div.col.col-1-3
+|2,3,1476763234,,"div.col.col-1-3"
+@div.cf
+|2,3,1476763096,,"div.cf"
 @y
 |2,3,1476243446,,"y"
 @/Users/lwassink/Desktop/Assesment/firstname_lastname/app/views/shared/_auth_form.html.erb
@@ -313,38 +331,44 @@ $let
 
 # Registers:
 "0	LINE	0
-	  if (x < y) return -1;
-|3,0,0,1,1,0,1476721754,"  if (x < y) return -1;"
-""1	LINE	0
-	  // var args1 = args;
-|3,1,1,1,1,0,1476722794,"  // var args1 = args;"
+	
+|3,0,0,1,1,0,1477863905,""
+"1	BLOCK	1
+	# 
+	# 
+|3,0,1,2,2,1,1477864162,"# ","# "
 "2	LINE	0
-	
-|3,0,2,1,1,0,1476722435,""
+	# set -g @plugin 'tmux-plugins/tpm'
+	# set -g @plugin 'tmux-plugins/tmux-sensible'
+|3,0,2,1,2,0,1477864157,"# set -g @plugin 'tmux-plugins/tpm'","# set -g @plugin 'tmux-plugins/tmux-sensible'"
 "3	LINE	0
-	//
-|3,0,3,1,1,0,1476722388,"//"
+	# # Other examples:
+	# # set -g @plugin 'github_username/plugin_name'
+	# # set -g @plugin 'git@github.com/user/plugin'
+	# # set -g @plugin 'git@bitbucket.com/user/plugin'
+	
+|3,0,3,1,5,0,1477864053,"# # Other examples:","# # set -g @plugin 'github_username/plugin_name'","# # set -g @plugin 'git@github.com/user/plugin'","# # set -g @plugin 'git@bitbucket.com/user/plugin'",""
 "4	LINE	0
-	    binding.
-|3,0,4,1,1,0,1476722355,"    binding."
+	
+|3,0,4,1,1,0,1477863504,""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1476722335,""
+	#
+|3,0,5,1,1,0,1477860581,"#"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1476722325,""
+	#
+|3,0,6,1,1,0,1477860480,"#"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1476722207,""
+	al
+|3,0,7,1,1,0,1477803276,"al"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1476722191,""
+	2. 
+|3,0,8,1,1,0,1477784758,"2. "
 "9	LINE	0
-	
-|3,0,9,1,1,0,1476722189,""
+	import {  }
+|3,0,9,1,1,0,1477704416,"import {  }"
 "a@	CHAR	0
-	djj
-|3,2,10,0,1,0,1475730672,"djj"
+	iexport jk}j
+|3,2,10,0,1,0,1477784650,"iexport jk}j"
 "b	CHAR	0
 	   \sin^{-1}(x)' = \frac{1}{\sqrt{1-x^2}},
 	   \ \ \ & \cos^{-1}(x)' = -\frac{1}{\sqrt{1-x^2}},
@@ -401,7 +425,7 @@ $let
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,1476220694,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,1477713979,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
 "i	LINE	0
@@ -418,8 +442,8 @@ $let
 	
 |3,0,18,1,11,0,1470337437,"#include <ios>","#include <iomanip>","#include <string>","#include <vector>","#include <algorithm>","","using std::cin;     using std::setprecision;","using std::cout;    using std::string;","using std::endl;    using std::streamsize;","using std::vector;  using std::sort;",""
 "j	CHAR	0
-	jkllllllllllrxrwA€kb<>c-w;;:w5+5-
-|3,0,19,0,1,0,0,"jkllllllllllrxrwA€kb<>c-w;;:w5+5-"
+	k
+|3,0,19,0,1,0,1477111292,"k"
 "k	CHAR	0
 	kkkKsbk
 |3,0,20,0,1,0,1468990049,"kkkKsbk"
@@ -435,11 +459,9 @@ $let
 "u	CHAR	0
 	ire€kb€kbrequire 'rspec'€ýb€ýaRespec.describe "some stuff" dojkkhxjccit "knowa€kb€kb€kb€kbnows about classes doendjkOjkkfs;;;a"jk:wjccexpect(1).to be_an(IN€kbnteger)jkyypfbcw€ýb€ýa€ýb€ýai€kbjkuea_instance_ofjk:w,ra
 |3,0,30,0,1,0,1474390051,"ire€kb€kbrequire 'rspec'€ýb€ýaRespec.describe \"some stuff\" dojkkhxjccit \"knowa€kb€kb€kb€kbnows about classes doendjkOjkkfs;;;a\"jk:wjccexpect(1).to be_an(IN€kbnteger)jkyypfbcw€ýb€ýa€ýb€ýai€kbjkuea_instance_ofjk:w,ra"
-"v	BLOCK	2
-	cti
-	uth
-	l f
-|3,0,31,2,3,2,1476232542,"cti","uth","l f"
+"v	BLOCK	3
+	togg
+|3,0,31,2,1,3,1477714412,"togg"
 "w	LINE	0
 	  cout << "Enter a series of words:" << endl;
 	
@@ -452,2179 +474,1760 @@ $let
 	
 |3,0,32,1,9,0,1470337453,"  cout << \"Enter a series of words:\" << endl;","","  string x;","  vector<string> words;","","  /* invariant: words contains all the words entered so far */","  while (cin >> x)","    words.push_back(x);",""
 "z	CHAR	0
-	Jx;;ZvZ€kb€kbZZqzqZq
-|3,0,35,0,1,0,1475277418,"Jx;;ZvZ€kb€kbZZqzqZq"
-"-	CHAR	0
-	let
-|3,0,36,0,1,0,1476722766,"let"
+	722
+<Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		""rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w
+|3,0,35,0,1,0,1475277418,>723
+|<"Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		\"\"rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:
+|<w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1477864166," "
 
 # File marks:
-'L  426  0  ~/.vimrc
-|4,76,426,0,1469084029,"~/.vimrc"
+'L  430  0  ~/.vimrc
+|4,76,430,0,1469084029,"~/.vimrc"
 'U  361  0  /usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt
 |4,85,361,0,1469211868,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  75  0  ~/.vimrc
 |4,86,75,0,1468550697,"~/.vimrc"
-'0  104  41  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,48,104,41,1476722833,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
-'1  62  4  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,49,62,4,1476720742,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
-'2  106  64  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,50,106,64,1476676643,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
-'3  106  64  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,51,106,64,1476676643,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
-'4  37  11  ~/Dropbox/developer/app-academy/class/homework/html_and_css/assets/css_syntax.css
-|4,52,37,11,1476673460,"~/Dropbox/developer/app-academy/class/homework/html_and_css/assets/css_syntax.css"
-'5  20  4  ~/Dropbox/developer/app-academy/class/homework/html_and_css/luke_wassink.html
-|4,53,20,4,1476670604,"~/Dropbox/developer/app-academy/class/homework/html_and_css/luke_wassink.html"
-'6  20  4  ~/Dropbox/developer/app-academy/class/homework/html_and_css/luke_wassink.html
-|4,54,20,4,1476670604,"~/Dropbox/developer/app-academy/class/homework/html_and_css/luke_wassink.html"
-'7  56  0  ~/test/jquery/index.html
-|4,55,56,0,1476670554,"~/test/jquery/index.html"
-'8  325  0  ~/.vimrc
-|4,56,325,0,1476664191,"~/.vimrc"
-'9  27  24  ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/bullet.js
-|4,57,27,24,1476578188,"~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/bullet.js"
+'0  44  2  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile
+|4,48,44,2,1477865365,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile"
+'1  16  0  ~/.tmux.conf
+|4,49,16,0,1477864310,"~/.tmux.conf"
+'2  16  42  ~/.tmux.conf
+|4,50,16,42,1477864186,"~/.tmux.conf"
+'3  20  0  ~/.tmux.conf
+|4,51,20,0,1477864063,"~/.tmux.conf"
+'4  18  0  ~/.tmux.conf
+|4,52,18,0,1477864063,"~/.tmux.conf"
+'5  20  0  ~/.tmux.conf
+|4,53,20,0,1477864063,"~/.tmux.conf"
+'6  18  0  ~/.tmux.conf
+|4,54,18,0,1477864063,"~/.tmux.conf"
+'7  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,55,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+'8  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,56,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+'9  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,57,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
 
 # Jumplist (newest first):
--'  104  41  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,104,41,1476722833,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  285  0  ~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js
-|4,39,285,0,1476722426,"~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js"
--'  109  37  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,109,37,1476722402,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  232  0  ~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js
-|4,39,232,0,1476722311,"~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js"
--'  102  17  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,102,17,1476722264,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  82  0  ~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js
-|4,39,82,0,1476722147,"~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js"
--'  100  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,100,0,1476722145,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  76  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,76,0,1476721971,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  69  10  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,69,10,1476721826,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  9  0  ~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js
-|4,39,9,0,1476721674,"~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js"
--'  61  2  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,61,2,1476721667,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  63  23  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,63,23,1476721351,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  45  24  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,45,24,1476721350,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  52  30  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,52,30,1476721210,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  21  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,21,0,1476721064,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  16  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,16,0,1476721064,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  14  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,14,0,1476721064,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  11  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,11,0,1476721064,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  6  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,6,0,1476721063,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  4  33  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,4,33,1476721063,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  1  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,1,0,1476721050,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  3  46  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,3,46,1476720860,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  5  12  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,5,12,1476720856,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  7  3  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,7,3,1476720855,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  62  4  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,62,4,1476720742,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  106  4  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,106,4,1476720701,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  1  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,1,0,1476720701,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  13  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,13,0,1476720624,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  1  0  ~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js
-|4,39,1,0,1476720578,"~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js"
--'  18  0  ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-|4,39,18,0,1476720563,"~/Desktop/assessment/luke_wassink/src/js_assessment.js"
--'  106  64  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,106,64,1476676643,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  106  64  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,106,64,1476676643,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  91  40  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,91,40,1476676403,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  91  40  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,91,40,1476676403,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  91  40  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,91,40,1476676403,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  84  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,84,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  79  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,79,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  70  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,70,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  84  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,84,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  79  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,79,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  70  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,70,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  84  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,84,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  79  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,79,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  70  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,70,0,1476676315,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  73  14  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,73,14,1476676256,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  73  14  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,73,14,1476676256,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  73  14  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,73,14,1476676256,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  67  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,67,0,1476676181,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  67  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,67,0,1476676181,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  67  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,67,0,1476676181,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  64  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,64,0,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  59  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,59,0,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  52  2  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,52,2,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  64  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,64,0,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  59  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,59,0,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  52  2  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,52,2,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  64  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,64,0,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  59  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,59,0,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  52  2  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,52,2,1476676180,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  74  20  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,74,20,1476676015,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  74  20  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,74,20,1476676015,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  74  20  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,74,20,1476676015,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  49  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,49,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  45  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,45,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  40  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,40,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  49  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,49,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  45  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,45,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  40  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,40,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  49  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,49,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  45  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,45,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  40  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,40,0,1476675768,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  36  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,36,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  32  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,32,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  28  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,28,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  24  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,24,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  23  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,23,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  36  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,36,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  32  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,32,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  28  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,28,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  24  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,24,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  23  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,23,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  36  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,36,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  32  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,32,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  28  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,28,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  24  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,24,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  23  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,23,0,1476675767,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  131  32  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,131,32,1476675763,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  131  32  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,131,32,1476675763,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  131  32  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,131,32,1476675763,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  117  22  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,117,22,1476675762,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  117  22  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,117,22,1476675762,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  117  22  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,117,22,1476675762,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  140  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,140,0,1476675745,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  140  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,140,0,1476675745,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  140  0  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,140,0,1476675745,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  123  22  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,123,22,1476675743,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  123  22  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,123,22,1476675743,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  123  22  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,123,22,1476675743,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  51  20  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,51,20,1476675314,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
--'  51  20  ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-|4,39,51,20,1476675314,"~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js"
+-'  44  2  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile
+|4,39,44,2,1477865365,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile"
+-'  16  0  ~/.tmux.conf
+|4,39,16,0,1477864310,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1477864290,"~/.tmux.conf"
+-'  46  2  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile
+|4,39,46,2,1477864244,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile
+|4,39,1,0,1477864244,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile"
+-'  16  42  ~/.tmux.conf
+|4,39,16,42,1477864186,"~/.tmux.conf"
+-'  16  42  ~/.tmux.conf
+|4,39,16,42,1477864186,"~/.tmux.conf"
+-'  17  1  ~/.tmux.conf
+|4,39,17,1,1477864142,"~/.tmux.conf"
+-'  17  1  ~/.tmux.conf
+|4,39,17,1,1477864142,"~/.tmux.conf"
+-'  17  1  ~/.tmux.conf
+|4,39,17,1,1477864142,"~/.tmux.conf"
+-'  20  0  ~/.tmux.conf
+|4,39,20,0,1477864138,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1477864138,"~/.tmux.conf"
+-'  20  0  ~/.tmux.conf
+|4,39,20,0,1477864138,"~/.tmux.conf"
+-'  20  0  ~/.tmux.conf
+|4,39,20,0,1477864138,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1477864138,"~/.tmux.conf"
+-'  18  0  ~/.tmux.conf
+|4,39,18,0,1477864063,"~/.tmux.conf"
+-'  18  0  ~/.tmux.conf
+|4,39,18,0,1477864063,"~/.tmux.conf"
+-'  18  0  ~/.tmux.conf
+|4,39,18,0,1477864063,"~/.tmux.conf"
+-'  10  0  ~/.tmux.conf
+|4,39,10,0,1477864042,"~/.tmux.conf"
+-'  10  0  ~/.tmux.conf
+|4,39,10,0,1477864042,"~/.tmux.conf"
+-'  10  0  ~/.tmux.conf
+|4,39,10,0,1477864042,"~/.tmux.conf"
+-'  10  0  ~/.tmux.conf
+|4,39,10,0,1477864042,"~/.tmux.conf"
+-'  10  0  ~/.tmux.conf
+|4,39,10,0,1477864042,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1477864023,"~/.tmux.conf"
+-'  1  0  ~/.tmux.conf
+|4,39,1,0,1477864023,"~/.tmux.conf"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  10  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,10,0,1477863936,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863585,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  33  23  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,33,23,1477863548,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+|4,39,1,0,1477863497,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
+-'  29  18  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+|4,39,29,18,1477863487,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md"
 
 # History of marks within files (newest to oldest):
 
-> ~/Desktop/assessment/luke_wassink/src/js_assessment.js
-	*	1476722833	0
-	"	104	41
-	^	104	42
-	.	104	41
-	+	18	0
-	+	15	11
-	+	3	46
-	+	4	22
-	+	3	0
-	+	5	12
-	+	18	38
-	+	19	35
-	+	22	0
-	+	18	43
-	+	22	40
-	+	23	0
-	+	20	19
-	+	23	32
-	+	26	12
-	+	5	0
-	+	4	33
-	+	37	0
-	+	45	46
-	+	46	36
-	+	48	22
-	+	49	31
-	+	52	30
-	+	52	0
-	+	50	43
-	+	50	58
-	+	52	47
-	+	53	48
-	+	63	20
-	+	62	0
-	+	63	22
-	+	45	24
-	+	63	65
-	+	52	15
-	+	53	16
-	+	54	0
-	+	51	0
-	+	54	45
-	+	55	28
-	+	54	31
-	+	56	27
-	+	63	86
-	+	56	35
-	+	57	19
-	+	58	11
-	+	59	10
-	+	60	0
-	+	47	0
-	+	39	35
-	+	40	22
-	+	41	0
-	+	42	0
-	+	41	10
-	+	42	8
-	+	41	22
-	+	42	20
-	+	45	66
+> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile
+	*	1477865365	0
+	"	44	2
+	^	46	15
+	.	46	14
+	+	43	19
 	+	44	0
-	+	68	33
-	+	73	0
-	+	69	41
-	+	70	41
-	+	72	18
-	+	76	37
-	+	77	29
-	+	76	22
-	+	77	33
-	+	78	35
-	+	80	13
-	+	83	23
-	+	88	25
-	+	89	0
-	+	87	0
-	+	89	32
-	+	92	0
-	+	90	0
-	+	91	21
-	+	93	12
-	+	96	12
-	+	100	46
-	+	102	15
-	+	104	22
-	+	109	52
-	+	110	25
-	+	113	35
-	+	102	19
-	+	104	10
-	+	101	17
-	+	104	14
-	+	100	49
-	+	102	24
-	+	100	50
-	+	103	16
-	+	100	50
-	+	102	4
-	+	100	48
-	+	102	0
-	+	100	53
-	+	102	0
-	+	104	41
-	z	104	4
-
-> ~/Desktop/assessment/luke_wassink/spec/js_assessment_spec.js
-	*	1476722426	0
-	"	285	0
-	z	285	4
-
-> ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/js/view.js
-	*	1476720741	0
-	"	62	4
-	^	106	65
-	.	106	64
-	+	26	28
-	+	34	23
-	+	43	17
-	+	42	39
-	+	43	28
-	+	43	20
-	+	51	29
-	+	58	0
-	+	51	48
-	+	58	1
-	+	58	0
-	+	58	34
-	+	58	24
-	+	58	59
-	+	58	0
-	+	58	21
-	+	58	0
-	+	58	24
-	+	58	0
-	+	58	14
-	+	58	33
-	+	58	0
-	+	58	48
-	+	58	17
-	+	58	4
-	+	58	0
-	+	58	3
-	+	58	29
-	+	58	4
-	+	51	49
-	+	58	0
-	+	58	57
-	+	58	32
-	+	51	0
-	+	58	15
-	+	51	20
-	+	58	27
-	+	58	32
-	+	51	12
-	+	52	44
-	+	53	20
-	+	56	0
-	+	54	26
-	+	55	32
-	+	58	0
-	+	54	27
-	+	123	22
-	+	123	0
-	+	55	26
-	+	77	2
-	+	72	28
-	+	74	30
-	+	76	0
-	+	76	5
-	+	76	0
-	+	73	21
-	+	74	8
-	+	73	33
-	+	74	0
-	+	75	16
-	+	69	13
-	+	73	30
-	+	69	0
-	+	71	0
-	+	70	29
-	+	72	29
-	+	73	0
-	+	77	2
-	+	72	31
-	+	73	0
-	+	88	0
-	+	91	15
-	+	92	0
-	+	91	42
-	+	91	0
-	+	103	0
-	+	106	64
-	z	62	2
-
-> ~/Dropbox/developer/app-academy/class/homework/wacky_painter_skeleton/index.html
-	*	1476674341	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/html_and_css/assets/css_syntax.css
-	*	1476673460	0
-	"	37	11
-	^	31	12
-	.	31	11
-	+	8	0
-	+	14	0
-	+	13	20
-	+	1	0
-	+	10	0
-	+	11	0
-	+	28	14
-	+	2	0
-	+	28	0
-	+	15	0
-	+	7	0
-	+	18	18
-	+	7	20
-	+	6	0
-	+	17	16
-	+	19	17
-	+	20	20
-	+	30	15
-	+	32	0
-	+	30	16
-	+	30	11
-	+	29	7
-	+	30	0
-	+	31	14
-	+	35	21
-	+	38	0
-	+	42	0
-	+	41	21
-	+	24	0
-	+	27	0
-	+	25	18
-	+	26	0
+	+	45	0
 	+	46	0
+	+	44	23
+	+	45	15
+	+	46	14
+	z	44	2
+
+> ~/.tmux.conf
+	*	1477864310	0
+	"	16	0
+	^	16	43
+	.	16	42
+	+	1	26
+	+	2	30
+	+	4	26
+	+	5	11
+	+	7	0
+	+	9	0
+	+	11	0
+	+	7	11
+	+	9	11
+	+	11	11
+	+	6	24
+	+	8	9
+	+	10	0
+	+	12	0
+	+	8	24
+	+	10	24
+	+	12	9
+	+	10	9
+	+	21	30
 	+	20	0
 	+	19	0
-	+	48	21
-	+	51	0
-	+	56	0
-	+	54	17
-	+	53	4
-	+	57	0
-	+	61	20
-	+	56	0
-	+	61	0
-	+	61	33
-	+	53	17
-	+	61	0
-	+	56	0
-	+	59	0
-	+	58	27
-	+	59	0
-	+	62	13
-	+	63	0
-	+	62	32
-	+	63	30
-	+	62	1
-	+	66	7
-	+	67	23
-	+	70	0
-	+	76	0
-	+	74	7
-	+	73	23
-	+	74	7
-	+	76	15
-	+	70	13
-	+	67	0
-	+	70	0
-	+	74	14
-	+	76	0
-	+	80	0
-	+	79	23
-	+	83	23
-	+	85	0
-	+	84	21
-	+	75	16
-	+	84	0
-	+	89	13
-	+	88	23
-	+	89	0
-	+	88	23
-	+	90	15
-	+	89	14
-	+	98	0
-	+	97	21
-	+	91	0
-	+	104	0
-	+	68	18
-	+	69	14
-	+	111	10
-	+	113	0
-	+	112	10
-	+	107	11
-	+	108	14
-	+	55	18
-	+	36	20
-	+	37	21
-	+	31	11
-	z	37	2
+	+	20	0
+	+	19	0
+	+	18	30
+	+	17	0
+	+	21	0
+	+	16	42
+	z	16	0
 
-> ~/Dropbox/developer/app-academy/class/homework/html_and_css/luke_wassink.html
-	*	1476673414	0
-	"	73	0
-	^	67	0
-	.	97	0
-	+	9	0
-	+	9	41
-	+	71	42
-	+	9	0
-	+	71	43
-	+	8	37
-	+	7	0
-	+	27	34
-	+	24	0
-	+	29	0
-	+	25	0
-	+	71	0
-	+	39	0
-	+	13	0
-	+	54	0
-	+	71	0
-	+	39	0
-	+	63	0
-	+	39	0
-	+	67	0
-	+	38	0
-	+	39	0
-	+	38	0
-	+	39	0
-	+	38	0
-	+	56	0
-	+	89	0
-	+	88	0
-	+	89	0
-	+	105	0
-	+	97	0
-	z	73	10
-
-> ~/Dropbox/developer/app-academy/class/homework/html_and_css/css_reset.css
-	*	1476670716	0
-	"	1	0
-
-> ~/test/jquery/index.html
-	*	1476670554	0
-	"	56	0
-	.	57	0
-	+	1	0
-	+	8	0
-	+	55	0
-	+	55	4
-	+	55	0
-	+	55	4
-	+	55	0
-	+	55	4
-	+	55	12
-	+	55	13
-	+	55	12
-	+	55	13
-	+	55	0
-	+	10	4
-	+	52	0
-	+	51	22
-	+	57	0
-	z	56	0
-
-> ~/.vim/UltiSnips/all.snippets
-	*	1476669226	0
-	"	15	0
-	^	14	447
-	.	16	0
-	+	14	0
-	+	16	0
-	z	15	0
-
-> ~/.vim/ftplugin/html/html.vim
-	*	1476664856	0
-	"	10	44
-	^	10	45
-	.	10	44
-	+	10	44
+> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
+	*	1477863936	0
+	"	10	0
+	^	33	24
+	.	33	23
+	+	29	29
+	+	30	40
+	+	31	35
+	+	32	37
+	+	33	23
+	z	10	0
 
 > ~/.vimrc
-	*	1476664841	0
-	"	404	0
-	.	404	0
-	+	89	14
-	+	90	8
-	+	105	0
-	+	215	0
-	+	318	0
-	+	92	7
-	+	293	0
-	+	283	2
-	+	292	0
-	+	283	0
-	+	369	0
-	+	277	0
-	+	280	25
-	+	283	0
-	+	281	87
-	+	279	0
-	+	296	0
-	+	281	0
-	+	511	0
-	+	281	0
-	+	432	0
-	+	282	31
-	+	281	37
-	+	350	0
-	+	281	57
-	+	282	50
-	+	283	0
-	+	281	55
-	+	282	0
-	+	281	0
-	+	2	0
-	+	281	100
-	+	350	0
-	+	420	0
-	+	278	0
-	+	381	13
-	+	379	0
-	+	381	14
-	+	382	13
-	+	281	60
-	+	380	0
-	+	375	18
-	+	340	37
-	+	340	66
-	+	343	0
-	+	340	37
-	+	341	28
-	+	340	34
-	+	342	24
-	+	343	0
-	+	341	24
-	+	342	0
-	+	341	0
-	+	342	27
-	+	340	33
-	+	342	23
-	+	340	34
-	+	342	23
-	+	343	0
-	+	338	0
-	+	341	24
-	+	105	13
-	+	105	0
-	+	93	0
-	+	94	0
-	+	94	63
-	+	152	0
-	+	153	0
-	+	384	0
-	+	45	0
-	+	95	0
-	+	96	0
-	+	98	0
-	+	105	0
-	+	275	0
-	+	275	34
-	+	302	25
-	+	303	0
-	+	306	0
-	+	307	0
-	+	315	30
-	+	316	0
-	+	105	0
-	+	99	0
-	+	100	0
-	+	100	54
-	+	275	0
-	+	71	21
-	+	71	0
-	+	101	0
-	+	102	0
-	+	102	46
-	+	403	0
-	+	103	0
-	+	104	0
-	+	103	26
-	+	104	8
-	+	404	0
-	a	24	3
-	b	40	12
-	d	24	0
-	l	492	2
-	m	376	0
-	p	331	2
-	v	107	0
-	z	404	0
+	*	1477863923	0
+	"	112	37
+	^	112	38
+	.	112	37
+	+	111	0
+	+	112	0
+	+	111	36
+	+	112	37
+	z	112	0
 
-> ~/.vim/UltiSnips/vim.snippets
-	*	1476663932	0
-	"	5	0
-	z	5	0
-
-> ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/bullet.js
-	*	1476578188	0
-	"	27	24
-	^	27	25
-	.	27	24
-	+	21	0
-	+	3	38
-	+	27	0
-	+	21	0
-	+	21	9
-	+	19	50
-	+	21	15
-	+	22	31
-	+	21	0
-	+	12	12
-	+	23	0
-	+	25	0
-	+	12	0
-	+	25	0
-	+	22	9
-	+	27	0
-	+	21	0
-	+	22	0
-	+	25	0
-	+	19	52
-	+	21	37
-	+	5	31
-	+	20	20
-	+	21	5
-	+	22	21
-	+	19	0
-	+	27	24
-	z	27	0
-
-> ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/game.js
-	*	1476578082	0
-	"	29	40
-	^	29	41
-	.	29	40
-	+	78	2
-	+	62	0
-	+	59	17
-	+	58	46
-	+	61	29
+> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
+	*	1477863487	0
+	"	29	18
+	^	29	19
+	.	29	18
+	+	3	11
+	+	10	83
+	+	17	5
+	+	16	13
+	+	19	5
+	+	6	47
+	+	19	32
+	+	20	47
+	+	23	28
+	+	24	30
+	+	25	30
+	+	26	19
+	+	27	28
+	+	29	12
 	+	30	0
-	+	43	0
-	+	58	0
-	+	59	0
-	+	20	3
-	+	19	2
-	+	20	30
-	+	73	38
-	+	74	10
-	+	75	44
-	+	78	11
-	+	79	42
-	+	42	39
-	+	35	35
-	+	29	40
+	+	31	0
+	+	32	0
+	+	33	0
+	+	30	10
+	+	31	12
+	+	32	13
+	+	33	6
+	+	29	18
 	z	29	0
 
-> ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/bundle.js
-	*	1476577984	0
-	"	148	18
-	^	148	19
-	.	148	18
-	+	148	18
-	z	148	5
-
-> ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/asteroid.js
-	*	1476577639	0
-	"	24	0
-	.	24	0
-	+	25	0
-	+	27	0
-	+	14	0
-	+	16	0
-	+	20	54
-	+	26	25
-	+	3	33
-	+	24	33
-	+	4	37
-	+	24	31
-	+	24	0
-	+	25	0
-	+	24	4
-	+	21	4
-	+	24	36
-	+	24	0
-	+	24	11
-	+	24	27
-	+	24	33
-	+	24	0
-	z	24	0
-
-> ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/asteroid
-	*	1476577588	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/index.html
-	*	1476577110	0
-	"	12	0
-	^	12	64
-	.	12	63
-	+	12	63
-	z	12	4
-
-> ~/Dropbox/developer/app-academy/class/projects/asteroids/asteroids/lib/package.json
-	*	1476502806	0
-	"	12	17
-	.	13	0
-	+	13	0
-	+	12	18
-	+	13	19
-	+	13	0
-	z	12	2
-
-> ~/Dropbox/developer/app-academy/class/homework/w1d4.rb
-	*	1476497271	0
-	"	10	0
-	z	10	2
-
-> ~/test/webpack_test/index.html
-	*	1476427556	0
-	"	9	0
-	^	7	65
-	.	7	0
-	+	1	0
-	+	7	0
-	+	5	0
-	+	7	0
-	z	9	0
-
-> ~/test/webpack_test/entry.js
-	*	1476427506	0
-	"	2	0
-	.	2	0
-	+	2	35
-	+	1	0
-	+	2	0
-	z	2	0
-
-> ~/test/webpack_test/style.css
-	*	1476427401	0
-	"	2	20
-	^	2	21
-	.	2	20
-	+	2	20
+> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/webpack.config.js
+	*	1477861686	0
+	"	2	27
+	^	2	28
+	.	2	27
+	+	23	1
+	+	2	27
 	z	2	2
 
-> ~/test/webpack_test/content.js
-	*	1476427212	0
-	"	1	0
-	^	1	45
-	.	1	44
-	+	1	44
-	z	1	0
-
-> ~/.vim/UltiSnips/html.snippets
-	*	1476426784	0
-	"	15	78
-	^	15	79
-	.	15	78
-	+	2	0
-	+	9	1
-	+	15	35
-	+	15	38
-	+	19	47
-	+	23	5
-	+	15	78
-	z	15	0
-
-> ~/.vim/plugin/parent_dir_create.vim
-	*	1476414027	0
-	"	1	0
-	.	1	0
-	+	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/w5d3/function_calls.js
-	*	1476388491	0
-	"	18	21
-	^	20	42
-	.	19	0
-	+	1	0
-	+	2	0
-	+	18	0
-	+	19	0
-	+	18	0
-	+	19	0
-	+	20	41
-	+	19	0
-	z	18	0
-
-> ~/Dropbox/developer/app-academy/class/homework/html_and_css/css_syntax.css
-	*	1476339386	0
+> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/.gitignore
+	*	1477861277	0
 	"	7	0
-	^	7	18
-	.	7	17
-	+	1	6
-	+	3	17
-	+	2	5
-	+	9	0
-	+	10	0
-	+	6	8
-	+	7	17
-	z	7	2
+	^	7	13
+	.	7	12
+	+	5	12
+	+	7	12
+	z	7	0
 
-> ~/Dropbox/developer/app-academy/class/homework/w5d3/callbacks.js
-	*	1476338588	0
-	"	1	1
-	.	1	0
-	+	1	0
-	z	1	0
+> ~/configuration_files/standard_gitignore
+	*	1477861263	0
+	"	7	12
+	^	7	13
+	.	7	12
+	+	5	13
+	+	7	12
+	z	7	0
 
-> ~/Desktop/class/homework/w5d3/index.html
-	*	1476334665	0
-	"	8	18
-	^	8	19
-	.	8	18
-	+	11	0
-	+	1	0
-	+	8	18
-	z	8	4
+> ~/.bash_aliases
+	*	1477859922	0
+	"	25	13
+	^	25	14
+	.	25	13
+	+	16	11
+	+	15	9
+	+	14	10
+	+	17	0
+	+	25	13
+	z	25	0
 
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/callbacks.js
-	*	1476329588	0
-	"	4	0
-	^	3	39
-	.	3	38
-	+	1	54
-	+	2	2
-	+	1	22
-	+	2	26
-	+	2	52
-	+	3	6
-	+	2	16
-	+	3	0
-	+	2	70
-	+	3	38
-	z	4	0
-
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/diner-breakfast.js
-	*	1476329587	0
+> ~/Dropbox/developer/app-academy/class/practice_assessments/a06-prep-master/solution/frontend/middlewares/posts_middleware.js
+	*	1477810127	0
 	"	1	0
-	^	3	9
-	.	3	8
-	+	3	18
-	+	1	26
-	+	7	0
-	+	3	0
-	+	2	40
-	+	3	22
-	+	2	5
-	+	3	22
-	+	4	0
-	+	3	32
-	+	4	43
-	+	2	46
-	+	5	34
-	+	4	32
-	+	3	8
 	z	1	0
 
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/allOrNothing.js
-	*	1476286830	0
-	"	11	37
-	^	12	38
-	.	11	37
-	+	1	24
-	+	2	21
-	+	3	40
-	+	7	15
-	+	4	35
-	+	5	18
-	+	7	0
-	+	8	13
-	+	11	25
-	+	12	0
-	+	11	11
-	+	12	11
-	+	11	38
-	+	12	37
-	+	11	37
+> ~/Dropbox/developer/app-academy/class/practice_assessments/a06-prep-master/skeleton/frontend/entry.jsx
+	*	1477807499	0
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/fullStackTentative.txt
+	*	1477806820	0
+	"	11	0
+	^	10	9
+	.	11	0
+	+	6	10
+	+	7	2
+	+	6	16
+	+	7	23
+	+	8	9
+	+	9	8
+	+	10	15
+	+	11	8
+	+	10	8
+	+	11	0
 	z	11	0
 
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/isPrime.js
-	*	1476253449	0
-	"	29	0
-	^	29	0
-	.	29	0
-	+	1	25
-	+	2	27
-	+	6	15
-	+	3	25
-	+	4	0
-	+	6	0
-	+	4	0
-	+	6	0
-	+	7	12
-	+	10	20
-	+	11	20
-	+	13	24
-	+	13	25
-	+	18	20
-	+	19	0
-	+	15	10
-	+	19	20
-	+	20	0
-	+	17	0
-	+	21	13
-	+	20	14
-	+	23	7
-	+	25	18
-	+	28	15
-	+	29	0
-	z	29	0
+> ~/Desktop/conversation.g-d
+	*	1477784653	0
+	"	67	6
+	^	67	7
+	.	67	6
+	+	61	91
+	+	63	87
+	+	67	6
+	z	67	0
 
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/fizzBuzz.js
-	*	1476253081	0
-	"	3	10
-	^	3	11
-	.	3	10
-	+	2	28
-	+	6	0
-	+	2	19
-	+	2	21
-	+	3	0
-	+	2	22
-	+	4	3
-	+	3	54
-	+	7	44
-	+	2	8
-	+	3	10
-	z	3	4
-
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/fizzBuzz
-	*	1476252711	0
-	"	2	0
-	^	2	0
+> ~/Desktop/benchBnB/frontend/middleware/session_middleware.js
+	*	1477784431	0
+	"	2	8
+	^	2	9
 	.	2	0
-	+	1	25
+	+	1	70
+	+	3	8
+	+	3	9
+	+	3	0
 	+	2	0
 	z	2	0
 
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/is_substring.js
-	*	1476252658	0
-	"	9	41
-	^	9	42
-	.	9	41
-	+	1	35
-	+	2	0
-	+	1	43
-	+	2	37
-	+	4	0
-	+	3	11
-	+	5	16
-	+	3	15
-	+	2	4
-	+	9	26
-	+	10	25
-	+	2	17
-	+	9	11
-	+	10	41
-	+	9	41
-	z	9	0
+> ~/Desktop/notes.txt
+	*	1477784405	0
+	"	132	2
+	^	132	16
+	.	132	15
+	+	8	4
+	+	9	0
+	+	12	129
+	+	12	0
+	+	13	41
+	+	15	11
+	+	13	3
+	+	22	18
+	+	23	0
+	+	25	57
+	+	27	110
+	+	28	67
+	+	29	21
+	+	37	0
+	+	21	0
+	+	37	17
+	+	38	0
+	+	47	2
+	+	46	8
+	+	47	70
+	+	48	78
+	+	51	0
+	+	27	82
+	+	51	16
+	+	52	0
+	+	59	0
+	+	49	0
+	+	59	20
+	+	60	0
+	+	61	0
+	+	42	52
+	+	40	23
+	+	41	0
+	+	40	24
+	+	62	34
+	+	65	32
+	+	68	0
+	+	87	0
+	+	69	7
+	+	70	0
+	+	72	20
+	+	75	54
+	+	76	113
+	+	78	0
+	+	79	14
+	+	80	0
+	+	82	97
+	+	83	70
+	+	86	41
+	+	31	32
+	+	54	16
+	+	56	0
+	+	55	0
+	+	56	39
+	+	33	48
+	+	34	36
+	+	32	0
+	+	89	8
+	+	91	0
+	+	90	0
+	+	97	10
+	+	89	0
+	+	99	12
+	+	102	8
+	+	103	0
+	+	119	0
+	+	110	77
+	+	113	35
+	+	114	20
+	+	115	23
+	+	116	17
+	+	117	13
+	+	118	0
+	+	114	0
+	+	120	173
+	+	127	0
+	+	120	0
+	+	127	0
+	+	120	0
+	+	127	0
+	+	122	151
+	+	121	94
+	+	121	0
+	+	123	0
+	+	122	20
+	+	123	150
+	+	126	0
+	+	128	70
+	+	122	40
+	+	111	118
+	+	37	0
+	+	36	0
+	+	128	43
+	+	133	0
+	+	130	21
+	+	129	0
+	+	130	7
+	+	129	31
+	+	131	2
+	+	132	15
+	z	132	2
 
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/madlib.js
-	*	1476252252	0
-	"	5	14
-	^	5	16
-	.	5	14
-	+	1	39
-	+	2	28
+> ~/Dropbox/developer/app-academy/class/projects/pokedex/NERD_tree_1
+	*	1477714525	0
+	"	26	0
+	.	1	0
+	+	1	0
+	z	26	8
+
+> ~/Dropbox/developer/app-academy/class/projects/pokedex/db/seeds.rb
+	*	1477714467	0
+	"	15	10
+	z	15	4
+
+> ~/Dropbox/developer/app-academy/class/projects/pokedex/ControlP
+	*	1477714416	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Dropbox/developer/app-academy/class/projects/pokedex/frontend/components/pokemon/pokemon_index_item.jsx
+	*	1477714411	0
+	"	16	4
+	.	11	39
+	+	11	39
+	z	16	0
+
+> ~/Dropbox/developer/app-academy/class/projects/pokedex/package.json
+	*	1477713969	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	2	0
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/old/luke_wassink_prep_work/resume/luke_wassink_CV.tex
+	*	1477712258	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/benchBnB/frontend/store/store.js
+	*	1477704336	0
+	"	8	2
+	^	5	2
+	.	8	2
+	+	1	36
+	+	2	50
 	+	3	0
+	+	4	42
+	+	4	43
+	+	4	48
+	+	4	49
+	+	4	48
+	+	4	65
+	+	4	51
+	+	4	49
+	+	11	29
+	+	12	0
+	+	4	48
+	+	4	49
 	+	4	0
-	+	3	6
-	+	4	6
-	+	3	18
-	+	4	13
-	+	5	25
+	+	9	0
+	+	4	49
+	+	5	13
+	+	6	0
+	+	5	13
+	+	8	2
+	z	8	2
+
+> ~/Desktop/benchBnB/frontend/ControlP
+	*	1477704016	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Desktop/benchBnB/frontend/bench_bnb.jsx
+	*	1477704005	0
+	"	10	17
+	^	8	23
+	.	8	22
+	+	1	26
+	+	2	33
+	+	7	45
+	+	13	0
+	+	12	46
+	+	13	52
+	+	14	2
+	+	13	44
+	+	3	29
+	+	3	37
+	+	3	30
+	+	6	0
+	+	3	61
+	+	8	24
+	+	11	0
+	+	11	21
+	+	11	23
+	+	3	40
+	+	4	37
+	+	8	21
+	+	9	21
+	+	10	17
+	+	5	42
+	+	10	33
+	+	9	22
+	+	8	22
+	z	10	2
+
+> ~/Desktop/benchBnB/frontend/reducers/root_reducer.js
+	*	1477703991	0
+	"	5	9
+	^	8	27
+	.	5	9
+	+	1	8
+	+	1	9
+	+	2	0
+	+	1	40
+	+	2	46
+	+	3	0
+	+	2	7
+	+	4	37
 	+	5	24
-	+	8	42
-	+	5	14
+	+	6	2
+	+	8	26
+	+	5	9
 	z	5	2
 
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/madlib.rb
-	*	1476251766	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/homework/intro_to_js/scoping.js
-	*	1476251728	0
-	"	41	0
-	^	50	20
-	.	50	0
-	+	2	22
-	+	9	0
-	+	3	12
-	+	4	22
-	+	5	18
-	+	7	16
-	+	9	0
-	+	11	0
-	+	21	0
-	+	20	0
-	+	30	0
-	+	40	0
-	+	11	23
-	+	21	23
-	+	31	23
-	+	41	23
-	+	12	6
-	+	22	6
-	+	4	8
-	+	32	4
-	+	34	7
-	+	42	5
-	+	44	7
-	+	47	30
-	+	51	16
-	+	4	6
-	+	14	8
-	+	51	0
-	+	8	0
-	+	28	0
-	+	38	0
-	+	49	0
-	+	51	0
-	+	9	14
-	+	19	14
-	+	29	14
-	+	39	14
-	+	50	14
-	+	19	0
-	+	29	0
-	+	39	0
-	+	50	0
-	+	9	16
-	+	19	19
-	+	29	19
-	+	39	19
-	+	50	19
-	+	9	0
-	+	19	0
-	+	29	0
-	+	39	0
-	+	50	0
-	y	9	0
-	z	41	0
-
-> ~/test/javascript/js_demo.js
-	*	1476251083	0
-	"	48	0
-	.	48	0
-	+	1	13
-	+	3	35
-	+	12	0
-	+	5	24
-	+	7	0
-	+	6	22
-	+	9	34
-	+	11	0
-	+	10	15
-	+	14	19
-	+	17	25
-	+	20	21
-	+	21	41
-	+	23	0
-	+	22	19
-	+	26	11
-	+	29	0
-	+	32	33
-	+	41	38
-	+	35	27
-	+	36	39
-	+	39	21
-	+	40	0
-	+	41	13
-	+	32	0
-	+	14	0
-	+	41	0
-	+	43	0
-	+	42	0
-	+	44	30
-	+	45	40
-	+	46	8
-	+	46	0
-	+	48	70
-	+	48	0
-	z	48	0
-
-> ~/.vim/ftplugin/javascript/javascript.vim
-	*	1476245674	0
-	"	1	0
-	^	1	26
-	.	1	25
-	+	1	17
-	+	2	0
-	+	1	25
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/assessments/a04/luke_wassink/spec/features/auth_spec.rb
-	*	1476237900	0
-	"	45	20
-	^	35	9
-	.	35	0
-	+	43	16
-	+	35	0
-	z	45	4
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/spec/p08_exceptions_spec.rb
-	*	1476233932	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/bin/p08_exception_server.rb
-	*	1476233931	0
-	"	28	0
-	z	28	4
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/lib/show_exceptions.rb
-	*	1476233931	0
-	"	15	73
-	^	15	55
-	.	15	73
-	+	40	0
-	+	41	0
-	+	8	0
-	+	8	24
-	+	8	0
-	+	12	0
-	+	17	56
-	+	17	0
-	+	15	64
-	+	36	7
-	+	29	21
-	+	33	14
-	+	30	15
-	+	33	17
-	+	15	68
-	+	38	10
-	+	30	12
-	+	33	14
-	+	31	0
-	+	33	0
-	+	32	7
-	+	7	13
-	+	12	6
-	+	29	0
-	+	4	17
-	+	5	0
-	+	29	14
-	+	12	19
-	+	29	24
-	+	15	8
-	+	38	12
-	+	12	0
-	+	17	0
-	+	12	0
-	+	38	0
-	+	15	22
-	+	29	0
-	+	23	0
-	+	35	12
-	+	15	66
-	+	11	8
-	+	16	4
-	+	12	0
-	+	14	47
-	+	15	15
-	+	26	32
-	+	15	73
-	z	15	6
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/ControlP
-	*	1476232546	0
-	"	5	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/spec/p07_flash_spec.rb
-	*	1476230399	0
-	"	65	12
-	z	65	6
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/lib/flash.rb
-	*	1476230389	0
-	"	13	4
-	^	14	24
-	.	13	0
-	+	10	0
-	+	11	9
-	+	15	4
-	+	17	19
-	+	19	4
-	+	26	8
-	+	11	0
-	+	21	16
-	+	24	4
-	+	26	0
-	+	29	0
-	+	26	13
-	+	29	18
-	+	10	16
-	+	10	12
-	+	4	20
-	+	10	0
-	+	5	13
-	+	4	17
-	+	26	8
-	+	27	14
-	+	11	8
-	+	22	14
-	+	11	42
-	+	14	19
-	+	11	44
-	+	22	12
-	+	19	27
-	+	29	0
-	+	22	4
-	+	22	0
-	+	6	46
-	+	23	40
-	+	24	9
-	+	23	0
-	+	21	20
-	+	6	63
-	+	24	0
-	+	19	0
-	+	9	18
-	+	27	13
-	+	11	11
-	+	11	0
-	+	18	30
-	+	13	71
-	+	22	49
-	+	23	0
-	+	13	15
-	+	6	44
-	+	7	30
-	+	14	16
-	+	18	0
-	+	14	0
-	+	13	0
-	z	13	4
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/lib/session.rb
-	*	1476230389	0
-	"	23	0
-	^	26	3
-	.	24	48
-	+	8	24
-	+	13	15
-	+	17	21
-	+	24	53
-	+	8	61
-	+	10	0
-	+	7	38
-	+	10	17
-	+	8	0
-	+	10	12
-	+	8	8
-	+	7	38
-	+	8	29
-	+	8	0
-	+	9	0
-	+	8	44
-	+	23	50
-	+	24	48
-	z	23	4
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/lib/controller_base.rb
-	*	1476229028	0
-	"	36	0
-	^	12	44
-	.	12	43
-	+	14	13
-	+	42	0
-	+	38	35
-	+	42	0
-	+	37	22
-	+	38	21
-	+	41	33
-	+	19	36
-	+	25	25
-	+	26	23
-	+	29	33
-	+	26	20
-	+	69	68
-	+	10	0
-	+	24	20
-	+	36	20
-	+	51	40
-	+	48	56
-	+	48	39
-	+	49	27
-	+	51	25
-	+	4	32
-	+	48	34
-	+	47	47
-	+	48	61
-	+	56	14
-	+	58	0
-	+	57	11
-	+	40	24
-	+	28	0
-	+	27	0
-	+	28	30
-	+	40	30
-	+	50	45
-	+	62	17
-	+	63	46
-	+	11	43
-	+	12	43
-	z	36	4
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/lib/router.rb
-	*	1476229020	0
-	"	34	15
-	^	26	54
-	.	26	53
-	+	7	0
-	+	6	29
-	+	7	39
-	+	8	29
-	+	13	36
-	+	14	31
-	+	13	14
-	+	13	0
-	+	14	13
-	+	13	16
-	+	13	0
-	+	13	36
-	+	13	26
-	+	14	0
-	+	13	31
-	+	13	23
-	+	14	25
-	+	13	0
-	+	15	0
-	+	13	0
-	+	28	12
-	+	13	23
-	+	6	30
-	+	13	30
-	+	28	0
-	+	35	15
-	+	40	70
-	+	53	67
-	+	52	18
-	+	59	60
-	+	60	16
-	+	65	17
-	+	65	32
-	+	26	45
-	+	9	22
-	+	9	25
-	+	9	0
-	+	9	17
-	+	26	34
-	+	27	40
-	+	9	0
-	+	26	0
-	+	27	0
-	+	26	46
-	+	27	29
-	+	27	5
-	+	43	0
-	+	26	50
-	+	46	27
-	+	20	24
-	+	20	39
-	+	25	0
-	+	27	0
-	+	22	24
-	+	21	14
-	+	22	33
-	+	24	6
-	+	26	53
-	+	21	9
-	+	23	11
-	+	26	53
-	e	13	26
-	z	34	2
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/bin/p05_router_server.rb
-	*	1476228875	0
-	"	40	0
-	z	40	2
-
-> ~/Dropbox/developer/app-academy/class/projects/chess/ai.rb
-	*	1476228560	0
-	"	12	19
-	.	12	19
-	+	14	0
-	+	15	0
-	+	11	0
-	+	13	0
-	+	14	0
-	+	12	19
-	z	12	4
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/04_associatable2.rb
-	*	1476228290	0
-	"	23	6
-	^	25	47
-	.	23	0
-	+	9	49
-	+	10	47
-	+	12	23
-	+	21	6
-	+	14	0
-	+	19	10
-	+	16	8
-	+	14	0
-	+	16	0
-	+	8	25
-	+	28	2
-	+	9	0
-	+	22	0
-	+	18	0
-	+	17	7
-	+	18	8
-	+	10	17
-	+	18	66
-	+	20	39
-	+	23	0
-	+	18	95
-	+	23	17
-	+	23	53
-	+	20	33
-	+	25	33
-	+	9	34
-	+	10	33
-	+	11	21
-	+	11	18
-	+	11	31
-	+	10	49
-	+	11	0
-	+	14	0
-	+	16	0
-	+	18	0
-	+	20	0
-	+	23	9
-	+	16	42
-	+	18	98
-	+	18	0
-	+	20	0
-	+	25	12
-	+	25	21
-	+	25	22
-	+	11	0
-	+	24	0
-	+	24	11
-	+	25	0
-	+	25	33
-	+	23	0
-	+	24	0
-	+	23	0
-	+	25	0
-	+	23	0
-	+	25	46
-	+	23	0
-	z	23	6
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/03_associatable.rb
-	*	1476228290	0
-	"	66	4
-	^	45	33
-	.	66	0
-	+	40	0
-	+	42	0
-	+	40	22
-	+	41	0
-	+	40	22
-	+	41	17
-	+	46	43
-	+	67	0
-	+	46	9
-	+	67	9
-	+	45	6
-	+	46	4
-	+	45	10
-	+	39	6
-	+	45	6
-	+	67	0
-	+	41	19
-	+	45	10
-	+	46	8
-	+	41	7
-	+	45	23
-	+	46	0
-	+	41	0
-	+	46	0
-	+	45	0
-	+	41	0
-	+	45	0
-	+	46	0
-	+	41	0
-	+	45	6
-	+	85	0
-	+	45	0
-	+	46	0
-	+	45	32
-	+	66	0
-	z	66	4
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/lib/01_sql_object.rb
-	*	1476228226	0
-	"	69	13
-	z	69	4
-
-> ~/Dropbox/developer/app-academy/class/projects/active_record_lite/ControlP
-	*	1476228208	0
-	"	2	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/spec/p05_router_spec.rb
-	*	1476223867	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/bin/p04_session_server.rb
-	*	1476221411	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/views/my_controller/counting_show.html.erb
-	*	1476220722	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/NERD_tree_1
-	*	1476220719	0
-	"	14	0
-	.	1	0
-	+	1	0
-	z	14	6
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/bin/p02_controller_server.rb
-	*	1476219743	0
-	"	24	0
-	z	24	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/spec/p02_controller_spec.rb
-	*	1476217575	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/bin/p01_basic_server.rb
-	*	1476217455	0
-	"	14	14
-	^	7	21
-	.	14	0
-	+	3	0
-	+	11	0
-	+	5	0
-	+	7	20
-	+	14	0
-	z	14	0
-
-> ~/Dropbox/developer/app-academy/class/projects/rails_lite/skeleton/Gemfile
-	*	1476217161	0
-	"	1	0
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/tags/_tag.html.erb
-	*	1476208455	0
-	"	3	50
-	^	3	51
-	.	3	50
-	+	4	3
-	+	2	16
-	+	3	50
-	z	3	0
-
-> ~/Desktop/Assesment/ControlP
-	*	1476208414	0
-	"	2	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/controllers/tags_controller.rb
-	*	1476208409	0
-	"	7	4
-	.	7	0
+> ~/Desktop/benchBnB/frontend/reducers/session_reducer.js
+	*	1477703958	0
+	"	3	5
+	^	3	6
+	.	3	5
+	+	1	92
+	+	4	16
+	+	4	26
+	+	4	16
 	+	6	0
-	+	17	0
-	+	25	0
-	+	27	0
-	+	27	24
-	+	2	29
-	+	4	0
-	+	6	28
-	+	25	46
-	+	9	35
-	+	11	51
-	+	12	23
-	+	17	28
-	+	19	32
-	+	3	29
+	+	4	16
+	+	8	60
+	+	9	0
+	+	24	29
 	+	9	26
-	+	7	0
-	+	7	7
-	+	27	28
-	+	27	0
-	+	2	0
-	+	7	0
-	z	7	4
-
-> ~/Desktop/Assesment/firstname_lastname/spec/controllers/tags_controller_spec.rb
-	*	1476208376	0
-	"	1	0
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/tags/_form.html.erb
-	*	1476208298	0
-	"	1	26
-	^	1	27
-	.	1	26
-	+	1	0
-	+	4	0
-	+	1	25
-	+	6	7
-	+	10	0
-	+	7	36
-	+	3	65
-	+	7	38
-	+	6	7
-	+	7	39
-	+	12	32
-	+	6	7
-	+	12	33
-	+	1	26
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/config/routes.rb
-	*	1476208250	0
-	"	6	21
-	^	4	71
-	.	4	17
-	+	4	17
-	+	3	0
-	+	8	50
-	+	2	0
-	+	4	63
-	+	6	42
-	+	4	17
-	z	6	2
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/posts/show.html.erb
-	*	1476208138	0
-	"	11	20
-	^	11	21
-	.	11	20
-	+	1	37
-	+	2	7
-	+	1	12
-	+	2	28
-	+	3	5
-	+	2	5
-	+	3	27
-	+	4	38
-	+	10	15
-	+	8	4
-	+	12	15
-	+	11	20
-	z	11	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/posts/_form.html.erb
-	*	1476207790	0
-	"	1	0
-	^	7	60
-	.	7	59
-	+	5	0
-	+	1	55
-	+	2	44
-	+	3	62
-	+	7	54
-	+	10	8
-	+	11	38
-	+	18	7
-	+	10	4
-	+	20	58
-	+	11	49
-	+	3	61
-	+	8	0
-	+	6	0
+	+	12	23
+	+	13	19
+	+	5	11
+	+	13	24
+	+	20	24
 	+	19	0
-	+	17	17
-	+	20	23
-	+	7	59
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/controllers/posts_controller.rb
-	*	1476207648	0
-	"	54	62
-	^	54	63
-	.	54	62
-	+	6	8
-	+	10	6
-	+	7	19
-	+	11	31
-	+	16	20
-	+	48	16
-	+	2	16
-	+	4	29
-	+	5	0
-	+	50	4
-	+	49	44
-	+	54	73
-	+	4	52
-	+	20	0
-	+	31	0
-	+	30	11
-	+	31	31
-	+	32	28
-	+	35	31
-	+	37	53
-	+	38	16
-	+	20	0
-	+	49	31
-	+	20	31
-	+	21	11
-	+	22	13
-	+	21	30
-	+	22	15
-	+	26	17
-	+	25	11
-	+	26	40
-	+	16	51
-	+	26	29
-	+	35	0
-	+	33	0
-	+	35	0
-	+	43	31
-	+	37	0
-	+	38	0
-	+	25	13
-	+	26	17
-	+	37	0
-	+	38	0
-	+	12	15
-	+	53	30
-	+	54	62
-	z	54	4
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/posts/edit.html.erb
-	*	1476207541	0
-	"	3	4
-	^	1	4
-	.	1	3
-	+	1	3
-	z	3	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/posts/_post.html.erb
-	*	1476207376	0
-	"	2	22
-	^	2	23
-	.	2	22
-	+	2	20
-	+	4	0
-	+	2	27
-	+	4	18
-	+	2	64
-	+	4	0
-	+	2	0
-	+	1	3
-	+	3	5
-	+	2	35
-	+	3	0
-	+	2	22
-	z	2	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/models/post.rb
-	*	1476206713	0
-	"	6	0
-	^	6	16
-	.	6	15
-	+	2	47
-	+	6	15
-	z	6	2
-
-> ~/Desktop/Assesment/firstname_lastname/spec/features/posts_spec.rb
-	*	1476206636	0
-	"	17	8
-	.	17	0
+	+	17	0
+	+	20	21
+	+	14	0
+	+	6	1
+	+	14	45
+	+	14	17
+	+	17	9
+	+	14	6
+	+	10	14
+	+	14	13
+	+	14	19
+	+	14	21
+	+	17	18
+	+	17	32
+	+	17	0
+	+	17	42
+	+	17	0
+	+	17	21
+	+	17	45
+	+	18	0
+	+	14	55
+	+	17	0
 	+	18	0
 	+	17	0
-	z	17	8
+	+	16	50
+	+	18	24
+	+	4	19
+	+	24	15
+	+	8	9
+	+	3	5
+	z	3	0
 
-> ~/Desktop/Assesment/firstname_lastname/spec/spec_helper.rb
-	*	1476206204	0
-	"	104	35
-	z	104	2
-
-> ~/Desktop/Assesment/firstname_lastname/spec/rails_helper.rb
-	*	1476206100	0
+> ~/Desktop/benchBnB/frontend/actions/session_actions.js
+	*	1477703925	0
 	"	12	0
+	^	26	7
+	.	12	0
+	+	1	21
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	2	21
+	+	3	21
+	+	4	25
+	+	5	19
+	+	9	5
+	+	11	0
+	+	10	2
+	+	11	0
+	+	12	0
+	+	16	0
+	+	21	0
+	+	26	0
+	+	30	0
+	+	12	10
+	+	13	13
+	+	14	0
+	+	16	11
+	+	17	13
+	+	21	23
+	+	22	27
+	+	26	18
+	+	27	21
+	+	26	27
+	+	28	7
+	+	26	0
+	+	1	6
+	+	5	6
+	+	7	6
+	+	12	0
+	+	15	0
+	+	20	0
+	+	25	0
+	+	7	6
+	+	21	6
+	+	26	6
+	+	12	0
 	z	12	0
 
-> ~/Desktop/Assesment/firstname_lastname/app/views/posts/index.html.erb
-	*	1476205752	0
-	"	1	16
-	^	1	17
-	.	1	16
-	+	1	16
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/helpers/application_helper.rb
-	*	1476205584	0
-	"	3	64
-	^	3	95
-	.	3	0
-	+	3	103
-	+	7	47
-	+	3	91
-	+	3	0
-	z	3	4
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/posts/new.html.erb
-	*	1476205390	0
-	"	1	0
-	^	3	36
-	.	3	35
-	+	3	35
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/db/schema.rb
-	*	1476205247	0
-	"	1	0
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/views/shared/_auth_form.html.erb
-	*	1476205111	0
-	"	1	0
-	^	19	50
-	.	19	49
-	+	1	43
+> ~/Desktop/benchBnB/frontend/util/session_api_util.js
+	*	1477697242	0
+	"	21	6
+	^	21	7
+	.	21	6
+	+	3	21
+	+	4	17
+	+	5	11
+	+	1	36
+	+	5	23
+	+	6	0
+	+	5	16
+	+	7	8
+	+	11	41
+	+	13	23
+	+	14	17
+	+	15	11
+	+	15	16
+	+	18	0
+	+	17	8
 	+	20	0
-	+	2	15
-	+	7	0
-	+	6	44
-	+	11	0
-	+	12	0
-	+	13	11
-	+	14	41
-	+	19	49
-	z	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/controllers/sessions_controller.rb
-	*	1476205092	0
-	"	23	2
-	^	12	23
-	.	12	22
-	+	2	9
-	+	3	0
-	+	7	31
-	+	8	28
-	+	11	17
-	+	12	25
-	+	14	0
-	+	14	59
-	+	20	25
 	+	21	30
-	+	12	22
+	+	25	0
+	+	24	16
+	+	1	6
+	+	11	6
+	+	21	6
+	z	21	0
+
+> ~/Desktop/benchBnB/ControlP
+	*	1477697210	0
+	"	10	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Desktop/benchBnB/app/controllers/application_controller.rb
+	*	1477696749	0
+	"	14	37
+	^	14	38
+	.	14	37
+	+	4	13
+	+	6	4
+	+	6	3
+	+	5	4
+	+	6	0
+	+	8	11
+	+	11	4
+	+	9	51
+	+	10	31
+	+	14	51
+	+	17	15
+	+	17	4
+	+	17	21
+	+	17	41
+	+	17	0
+	+	4	8
+	+	5	0
+	+	9	36
+	+	17	0
+	+	6	11
+	+	9	0
+	+	6	0
+	+	5	10
+	+	10	0
+	+	14	37
+	z	14	4
+
+> ~/Desktop/benchBnB/app/controllers/api/sessions_controller.rb
+	*	1477695638	0
+	"	17	0
+	.	17	0
+	+	3	0
+	+	17	0
+	+	3	37
+	+	4	30
+	+	5	28
+	+	8	16
+	+	9	27
+	+	12	31
+	+	18	24
+	+	19	14
+	+	22	42
+	+	12	42
+	+	22	21
+	+	12	13
+	+	22	13
+	+	12	13
+	+	11	42
+	+	21	34
+	+	22	19
+	+	12	19
+	+	4	28
+	+	19	18
+	+	17	18
+	+	18	11
+	+	17	0
+	z	17	4
+
+> ~/Desktop/benchBnB/app/models/user.rb
+	*	1477695405	0
+	"	23	0
+	^	25	22
+	.	25	21
+	+	2	68
+	+	3	54
+	+	2	64
+	+	4	32
+	+	4	34
+	+	35	0
+	+	4	59
+	+	15	23
+	+	35	0
+	+	17	34
+	+	20	0
+	+	14	0
+	+	9	50
+	+	10	40
+	+	11	52
+	+	12	6
+	+	20	28
+	+	21	41
+	+	22	0
+	+	21	68
+	+	17	42
+	+	21	4
+	+	33	53
+	+	31	0
+	+	27	21
+	+	9	0
+	+	7	40
+	+	25	21
 	z	23	0
 
-> ~/Desktop/Assesment/firstname_lastname/app/views/sessions/new.html.erb
-	*	1476204900	0
-	"	3	25
-	^	3	51
-	.	3	50
-	+	1	6
-	+	3	50
-	z	3	0
+> ~/Desktop/benchBnB/config/application.rb
+	*	1477695162	0
+	"	1	0
+	z	1	0
 
-> ~/Desktop/Assesment/firstname_lastname/app/views/users/new.html.erb
-	*	1476204871	0
-	"	3	48
-	^	3	49
-	.	3	48
-	+	3	70
-	+	1	6
-	+	3	48
-	z	3	0
+> ~/Desktop/benchBnB/app/views/layouts/application.html.erb
+	*	1477695155	0
+	"	12	46
+	^	12	47
+	.	12	46
+	+	12	46
+	z	12	4
 
-> ~/Desktop/Assesment/firstname_lastname/app/views/layouts/application.html.erb
-	*	1476204781	0
-	"	14	5
-	^	14	6
-	.	14	5
-	+	8	6
-	+	11	7
-	+	9	0
-	+	8	17
-	+	9	0
-	+	8	13
-	+	9	28
-	+	10	57
-	+	9	35
-	+	13	11
-	+	14	5
-	z	14	2
-
-> ~/Desktop/Assesment/NERD_tree_3
-	*	1476204261	0
-	"	17	0
+> ~/Desktop/benchBnB/app/views/api/sessions/errors.json.jbuilder
+	*	1477694881	0
+	"	1	0
+	^	1	13
 	.	1	0
 	+	1	0
-
-> ~/Desktop/Assesment/firstname_lastname/app/controllers/application_controller.rb
-	*	1476203792	0
-	"	30	30
-	^	30	31
-	.	30	30
-	+	6	18
-	+	8	47
-	+	14	32
-	+	19	70
-	+	9	23
-	+	15	22
-	+	23	4
-	+	27	28
-	+	30	30
-	z	30	4
-
-> ~/Desktop/Assesment/firstname_lastname/app/controllers/users_controller.rb
-	*	1476203479	0
-	"	13	0
-	^	14	17
-	.	14	16
-	+	3	0
-	+	6	0
-	+	21	52
-	+	6	31
-	+	8	19
-	+	12	7
-	+	10	17
-	+	11	26
-	+	13	52
-	+	14	16
-	z	13	6
-
-> ~/Desktop/Assesment/firstname_lastname/app/models/tag.rb
-	*	1476202844	0
-	"	4	17
-	^	4	18
-	.	4	17
-	+	4	17
-	z	4	2
-
-> ~/Desktop/Assesment/firstname_lastname/app/models/user.rb
-	*	1476202742	0
-	"	33	6
-	^	33	7
-	.	33	6
-	+	2	70
-	+	3	60
-	+	9	22
-	+	11	23
-	+	14	4
-	+	12	23
-	+	13	56
-	+	17	53
-	+	10	0
-	+	5	39
-	+	8	0
-	+	13	23
-	+	22	7
-	+	21	23
-	+	22	12
-	+	25	28
-	+	26	45
-	+	27	28
-	+	30	45
-	+	31	10
-	+	30	10
-	+	31	40
-	+	32	52
-	+	33	6
-	z	33	4
-
-> ~/Desktop/Assesment/firstname_lastname/NERD_tree_1
-	*	1476202401	0
-	"	1	0
-	.	1	0
+	+	2	0
 	+	1	0
 	z	1	0
 
-> ~/Desktop/Assesment/firstname_lastname/db/migrate/20161011161137_create_tags.rb
-	*	1476202387	0
-	"	5	49
-	^	5	50
-	.	5	49
-	+	4	32
-	+	5	49
-	z	5	6
+> ~/Desktop/benchBnB/app/views/api/users/show.json.jbuilder
+	*	1477693045	0
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+	z	1	0
 
-> ~/Desktop/Assesment/firstname_lastname/db/migrate/20161011161112_create_posts.rb
-	*	1476202372	0
-	"	6	49
-	^	6	50
-	.	6	49
-	+	4	33
-	+	5	30
-	+	6	49
-	z	6	6
+> ~/Desktop/benchBnB/app/controllers/api/users_controller.rb
+	*	1477692853	0
+	"	8	0
+	^	8	39
+	.	8	38
+	+	15	52
+	+	11	0
+	+	3	31
+	+	6	17
+	+	8	22
+	+	6	17
+	+	8	12
+	+	8	15
+	+	8	38
+	z	8	6
 
-> ~/Desktop/Assesment/firstname_lastname/db/migrate/20161011161049_create_users.rb
-	*	1476202353	0
-	"	6	41
+> ~/Desktop/benchBnB/Gemfile
+	*	1477692154	0
+	"	26	0
+	^	46	15
+	.	26	0
+	+	43	19
+	+	44	23
+	+	45	15
+	+	46	14
+	+	26	0
+	z	26	0
+
+> ~/Desktop/benchBnB/app/views/api/users/_user.json.jbuilder
+	*	1477691734	0
+	"	1	33
+	^	1	34
+	.	1	33
+	+	1	33
+	z	1	0
+
+> ~/Desktop/benchBnB/config/routes.rb
+	*	1477690520	0
+	"	4	29
+	^	4	30
+	.	4	29
+	+	2	28
+	+	5	35
+	+	6	46
+	+	4	29
+	z	4	2
+
+> ~/Desktop/a04-prep-master/solution/app/models/user.rb
+	*	1477690265	0
+	"	15	2
+	.	15	0
+	+	15	0
+	z	15	2
+
+> ~/Desktop/benchBnB/db/migrate/20161028211843_create_users.rb
+	*	1477689628	0
+	"	4	0
+	^	4	64
+	.	4	63
+	+	4	36
+	+	5	43
+	+	6	41
+	+	4	50
+	+	6	55
+	+	4	63
+	z	4	6
+
+> ~/Desktop/benchBnB/webpack.config.js
+	*	1477689180	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	1	0
+	+	4	0
+	+	2	27
+	+	23	0
+	+	2	11
+	z	2	2
+
+> ~/Desktop/benchBnB/NERD_tree_1
+	*	1477688801	0
+	"	23	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/benchBnB/app/views/static_pages/root.html.erb
+	*	1477688797	0
+	"	1	28
+	^	1	29
+	.	1	28
+	+	1	28
+	z	1	0
+
+> ~/Desktop/a04-prep-master/skeleton/app/controllers/sessions_controller.rb
+	*	1477688161	0
+	"	14	6
+	^	14	45
+	.	14	44
+	+	23	0
+	+	3	0
+	+	5	4
+	+	3	0
+	+	6	0
+	+	19	13
+	+	20	0
+	+	23	0
+	+	6	0
+	+	23	0
+	+	10	0
+	+	6	32
+	+	10	0
+	+	6	11
+	+	13	0
+	+	12	35
+	+	14	0
+	+	16	0
+	+	14	0
+	+	15	16
+	+	21	0
+	+	20	14
+	+	21	19
+	+	22	0
+	+	6	50
+	+	6	55
+	+	6	0
+	+	7	17
+	+	8	17
+	+	11	16
+	+	21	30
+	+	7	11
+	+	8	30
+	+	9	0
+	+	6	0
+	+	14	44
+	z	14	6
+
+> ~/Desktop/benchBnB/.gitignore
+	*	1477688109	0
+	"	6	12
+	^	6	13
+	.	6	12
+	+	5	0
+	+	4	13
+	+	2	0
+	+	6	12
+	z	6	0
+
+> ~/Desktop/a04-prep-master/solution/app/controllers/sessions_controller.rb
+	*	1477669335	0
+	"	23	0
+	.	23	0
+	+	10	0
+	+	23	0
+	z	23	0
+
+> ~/Desktop/a04-prep-master/skeleton/app/models/user.rb
+	*	1477635603	0
+	"	28	0
+	^	28	1
+	.	28	0
+	+	4	53
+	+	9	23
+	+	12	4
+	+	11	11
+	+	10	23
+	+	11	58
+	+	6	22
+	+	8	0
+	+	14	25
+	+	7	39
+	+	16	4
+	+	15	51
+	+	16	0
+	+	15	24
+	+	16	0
+	+	37	52
+	+	34	0
+	+	18	25
+	+	19	0
+	+	27	0
+	+	19	51
+	+	21	21
+	+	25	0
+	+	24	26
+	+	25	44
+	+	26	0
+	+	25	44
+	+	29	0
+	+	33	0
+	+	29	20
+	+	28	37
+	+	29	31
+	+	30	11
+	+	29	4
+	+	30	44
+	+	32	0
+	+	30	53
+	+	31	6
+	+	2	60
+	+	28	0
+	z	28	2
+
+> ~/Desktop/a04-prep-master/solution/app/models/NERD_tree_1
+	*	1477635523	0
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/a04-prep-master/solution/app/controllers/application_controller.rb
+	*	1477635519	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/a04-prep-master/skeleton/ControlP
+	*	1477635260	0
+	"	4	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Desktop/a04-prep-master/skeleton/app/controllers/application_controller.rb
+	*	1477635206	0
+	"	22	0
+	^	22	32
+	.	22	31
+	+	5	21
+	+	8	15
+	+	11	4
+	+	10	47
+	+	14	21
+	+	17	12
+	+	20	4
+	+	18	49
+	+	19	32
+	+	22	31
+	z	22	2
+
+> ~/Desktop/a04-prep-master/skeleton/app/controllers/users_controller.rb
+	*	1477635138	0
+	"	13	0
+	^	13	17
+	.	13	16
+	+	18	2
+	+	18	9
+	+	21	52
+	+	17	0
+	+	3	0
+	+	7	31
+	+	10	16
+	+	15	0
+	+	11	17
+	+	14	16
+	+	13	14
+	+	11	22
+	+	13	51
+	+	11	29
+	+	13	16
+	z	13	6
+
+> ~/Desktop/a04-prep-master/skeleton/config/routes.rb
+	*	1477634641	0
+	"	4	51
+	^	4	52
+	.	4	51
+	+	2	39
+	+	4	51
+	z	4	2
+
+> ~/Desktop/a04-prep-master/skeleton/NERD_tree_3
+	*	1477634411	0
+	"	4	0
+	.	1	0
+	+	1	0
+	z	4	0
+
+> ~/Desktop/a04-prep-master/solution/app/models/ControlP
+	*	1477600143	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/a04-prep-master/solution/spec/models/user_spec.rb
+	*	1477600003	0
+	"	22	0
+	z	22	0
+
+> ~/Desktop/a04-prep-master/skeleton/db/migrate/20161027172255_create_users.rb
+	*	1477589698	0
+	"	6	0
 	^	6	42
 	.	6	41
-	+	4	49
+	+	4	63
 	+	5	43
 	+	6	41
 	z	6	6
 
-> ~/Desktop/Assesment/luke_wassink/db/migrate/20161011160551_create_tags.rb
-	*	1476202131	0
-	"	5	35
-	^	5	36
-	.	5	35
-	+	4	32
-	+	5	35
-	z	5	6
+> ~/Desktop/jbuilder/app/views/api/parties/show.json.jbuilder
+	*	1477535881	0
+	"	9	6
+	^	9	7
+	.	6	0
+	+	1	21
+	+	4	13
+	+	3	37
+	+	6	37
+	+	7	15
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	16
+	+	9	6
+	+	6	0
+	z	9	4
+
+> ~/Desktop/jbuilder/spec/requests/03_parties_spec.rb
+	*	1477535516	0
+	"	38	0
+	z	38	2
+
+> ~/Desktop/jbuilder/app/views/api/parties/index.json.jbuilder
+	*	1477535482	0
+	"	4	0
+	^	1	31
+	.	4	0
+	+	1	24
+	+	1	8
+	+	1	24
+	+	4	16
+	+	4	15
+	+	2	5
+	+	1	30
+	+	4	0
+	z	4	0
+
+> ~/Desktop/jbuilder/app/views/api/guests/index.json.jbuilder
+	*	1477535368	0
+	"	4	0
+	^	4	42
+	.	4	41
+	+	2	12
+	+	1	29
+	+	3	19
+	+	4	41
+	z	4	2
+
+> ~/Desktop/jbuilder/app/views/api/gifts/show.json.jbuilder
+	*	1477534670	0
+	"	2	33
+	^	2	34
+	.	2	33
+	+	2	33
+	z	2	0
+
+> ~/Desktop/jbuilder/app/views/api/gifts/index.json.jbuilder
+	*	1477534561	0
+	"	2	2
+	^	2	23
+	.	2	22
+	+	2	22
+	z	2	2
+
+> ~/Desktop/jbuilder/spec/requests/02_gifts_spec.rb
+	*	1477534538	0
+	"	5	0
+	z	5	4
+
+> ~/Desktop/jbuilder/NERD_tree_4
+	*	1477534359	0
+	"	15	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/jbuilder/app/views/api/guests/show.json.jbuilder
+	*	1477534318	0
+	"	9	2
+	^	9	3
+	.	6	0
+	+	2	0
+	+	5	14
+	+	5	12
+	+	5	13
+	+	5	5
+	+	5	0
+	+	2	14
+	+	2	0
+	+	5	0
+	+	2	0
+	+	5	17
+	+	1	0
+	+	1	41
+	+	2	0
+	+	2	20
+	+	3	0
+	+	4	0
+	+	3	18
+	+	4	40
+	+	2	0
+	+	5	0
+	+	1	0
+	+	6	0
+	+	5	12
+	+	9	2
+	+	6	0
+	z	9	0
+
+> ~/Desktop/jbuilder/config/routes.rb
+	*	1477513414	0
+	"	8	21
+	^	8	22
+	.	8	21
+	+	2	48
+	+	3	35
+	+	4	47
+	+	5	36
+	+	7	47
+	+	9	4
+	+	8	0
+	+	9	0
+	+	8	21
+	z	8	4
+
+> ~/Desktop/jbuilder/ControlP
+	*	1477513406	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/jbuilder/NERD_tree_1
+	*	1477512616	0
+	"	15	0
+	.	1	0
+	+	1	0
+	z	15	4
+
+> ~/Desktop/rainbow_routes/components/blue.jsx
+	*	1477457499	0
+	"	24	4
+	^	28	40
+	.	24	0
+	+	25	0
+	+	24	0
+	+	28	0
+	+	24	32
+	+	28	39
+	+	24	0
+	z	24	4
+
+> ~/Desktop/rainbow_routes/components/red.jsx
+	*	1477457334	0
+	"	27	31
+	^	27	32
+	.	27	31
+	+	27	0
+	+	32	0
+	+	36	0
+	+	37	0
+	+	36	36
+	+	32	38
+	+	27	31
+	z	27	4
+
+> ~/Desktop/rainbow_routes/entry.jsx
+	*	1477457280	0
+	"	53	4
+	^	68	12
+	.	68	11
+	+	61	33
+	+	61	34
+	+	70	0
+	+	61	40
+	+	65	44
+	+	69	42
+	+	70	0
+	+	66	0
+	+	69	41
+	+	41	34
+	+	45	0
+	+	46	0
+	+	45	33
+	+	49	0
+	+	50	0
+	+	49	32
+	+	53	0
+	+	54	0
+	+	53	34
+	+	28	0
+	+	61	37
+	+	64	11
+	+	62	38
+	+	62	39
+	+	64	0
+	+	62	46
+	+	63	43
+	+	67	43
+	+	66	39
+	+	68	11
+	z	53	4
+
+> ~/Desktop/rainbow_routes/components/yellow.jsx
+	*	1477455924	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/rainbow_routes/components/violet.jsx
+	*	1477455919	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/rainbow_routes/components/orange.jsx
+	*	1477455911	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/rainbow_routes/components/indigo.jsx
+	*	1477455909	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/rainbow_routes/components/green.jsx
+	*	1477455907	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/my_dnd/index.html
+	*	1477446345	0
+	"	12	6
+	^	6	48
+	.	6	47
+	+	1	0
+	+	10	0
+	+	5	22
+	+	5	21
+	+	10	0
+	+	7	17
+	+	7	0
+	+	10	35
+	+	6	47
+	z	12	0
+
+> ~/Dropbox/developer/app-academy/drag_and_drop/frontend/knight.jsx
+	*	1477446315	0
+	"	36	34
+	^	36	35
+	.	36	34
+	+	55	0
+	+	1	0
+	+	2	29
+	+	5	41
+	+	5	0
+	+	6	0
+	+	5	0
+	+	6	0
+	+	42	0
+	+	43	37
+	+	42	0
+	+	43	25
+	+	14	45
+	+	29	23
+	+	35	0
+	+	36	0
+	+	35	23
+	+	35	34
+	+	35	37
+	+	14	45
+	+	35	38
+	+	35	0
+	+	30	0
+	+	55	0
+	+	30	27
+	+	31	15
+	+	31	96
+	+	35	56
+	+	30	28
+	+	35	0
+	+	36	0
+	+	35	63
+	+	35	25
+	+	35	53
+	+	35	14
+	+	37	0
+	+	35	4
+	+	35	0
+	+	30	27
+	+	35	18
+	+	30	31
+	+	35	0
+	+	10	0
+	+	26	0
+	+	25	0
+	+	20	12
+	+	23	0
+	+	22	12
+	+	35	0
+	+	25	0
+	+	35	0
+	+	32	41
+	+	33	22
+	+	35	34
+	+	37	0
+	+	28	0
+	+	36	0
+	+	34	16
+	+	36	34
+	z	36	4
+
+> ~/Dropbox/developer/app-academy/my_dnd/application.css
+	*	1477427471	0
+	"	6	26
+	^	6	27
+	.	6	26
+	+	1	4
+	+	2	18
+	+	6	26
+	z	6	2
+
+> ~/Dropbox/developer/app-academy/my_dnd/frontend/board.jsx
+	*	1477427423	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	1	25
+	+	3	0
+	+	16	0
+	+	14	0
+	+	13	12
+	+	13	13
+	+	14	0
+	+	13	34
+	+	5	16
+	+	13	32
+	+	6	0
+	+	10	0
+	+	8	0
+	+	7	0
+	+	8	0
+	+	7	0
+	+	13	37
+	+	7	19
+	+	7	25
+	+	2	21
+	+	4	14
+	+	6	10
+	z	6	4
+
+> ~/Dropbox/developer/app-academy/my_dnd/frontend/dnd.jsx
+	*	1477427397	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	1	26
+	+	2	29
+	+	5	53
+	+	6	43
+	+	8	32
+	+	7	0
+	+	8	0
+	+	2	30
+	+	3	20
+	+	7	13
+	z	7	4
+
+> ~/Dropbox/developer/app-academy/my_dnd/frontend/square.jsx
+	*	1477427348	0
+	"	3	25
+	^	3	15
+	.	3	24
+	+	1	0
+	+	3	26
+	+	6	0
+	+	5	48
+	+	3	24
+	z	3	0
+
+> ~/Dropbox/developer/app-academy/my_dnd/webpack.config.js
+	*	1477426351	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	1	0
+	+	2	25
+	+	4	12
+	+	24	0
+	+	2	11
+	z	2	2
+
+> ~/Dropbox/developer/app-academy/drag_and_drop/frontend/constants.jsx
+	*	1477370397	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/application.css
+	*	1477370263	0
+	"	51	4
+	^	51	5
+	.	51	5
+	+	36	17
+	+	51	5
+	z	51	0
+
+> ~/Dropbox/developer/app-academy/class/homework/synthesizer/frontend/store/store.js
+	*	1477366362	0
+	"	18	40
+	^	18	46
+	.	18	0
+	+	22	0
+	+	3	34
+	+	30	0
+	+	18	0
+	z	18	4
+
+> ~/Dropbox/developer/app-academy/class/homework/synthesizer/frontend/NERD_tree_1
+	*	1477366230	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/Dropbox/developer/app-academy/class/homework/synthesizer/frontend/synthesizer.jsx
+	*	1477366222	0
+	"	15	0
+	.	16	0
+	+	16	46
+	+	16	32
+	+	16	22
+	+	16	0
+	+	16	34
+	+	16	24
+	+	16	31
+	+	12	46
+	+	12	0
+	+	16	0
+	+	16	24
+	+	16	0
+	+	16	53
+	+	16	0
+	+	16	55
+	+	16	18
+	+	16	35
+	+	16	43
+	+	16	26
+	+	16	27
+	+	16	0
+	+	16	49
+	+	12	27
+	+	12	0
+	+	16	0
+	z	15	0
+
+> ~/.vim/UltiSnips/javascript.snippets
+	*	1477365576	0
+	"	2	15
+	^	2	16
+	.	2	15
+	+	2	15
+	z	2	0
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/frontend/util/NERD_tree_1
+	*	1477361622	0
+	"	12	0
+	.	1	0
+	+	1	0
+	z	12	6
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/frontend/reducers/notes_reducer.js
+	*	1477361622	0
+	"	20	7
+	z	20	8
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/frontend/components/synth/synth_container.jsx
+	*	1477361512	0
+	"	20	8
+	z	20	0
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/frontend/components/synth/synth.jsx
+	*	1477361506	0
+	"	30	0
+	z	30	4
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/frontend/components/synth/note_key.jsx
+	*	1477361374	0
+	"	1	0
+	z	1	0
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/frontend/components/recorder/recorder.jsx
+	*	1477361333	0
+	"	2	0
+	z	2	0
+
+> ~/Dropbox/developer/app-academy/class/projects/synthesizer/frontend/util/tones.js
+	*	1477361275	0
+	"	12	23
+	^	7	14
+	.	12	64
+	+	12	0
+	+	7	8
+	+	8	8
+	+	9	7
+	+	2	12
+	+	3	13
+	+	4	12
+	+	5	13
+	+	6	12
+	+	7	12
+	+	8	12
+	+	9	12
+	+	12	66
+	+	6	13
+	+	4	13
+	+	7	13
+	+	8	3
+	+	9	3
+	+	12	64
+	z	12	0
+
+> ~/Dropbox/developer/app-academy/drag_and_drop/frontend/board_square.jsx
+	*	1477340118	0
+	"	47	4
+	^	51	80
+	.	51	0
+	+	1	0
+	+	2	22
+	+	3	45
+	+	4	29
+	+	51	0
+	z	47	4
