@@ -23,6 +23,9 @@ alias bi='bundle install'
 alias ber='bundle exec rspec'
 alias vimclean='find . -type f -name "\.*sw[klmnop]" -delete; find . -type f -name "*.un~" -delete'
 alias tm='tmux'
+alias ta='tmux attach -t'
+alias tn='tmux new'
+alias dev='cd ~/developer'
 
 # t todo list aliases
 alias t='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks'

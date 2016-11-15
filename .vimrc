@@ -272,11 +272,21 @@ endfunction
 nnoremap <silent> n n:call HLNext(0.4)<cr>
 nnoremap <silent> N N:call HLNext(0.4)<cr>
 
-" use ag instead of ack
 if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
+  " Use ag over grep
   set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects
+  " .gitignore
+  " let g:ctrlp_user_command = 'ag %s -l --nocolor -g "'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  " let g:ctrlp_use_caching = 0
 endif
+
+" bind \ (backward slash) to grep shortcut
+command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+nnoremap \ :Ag<SPACE>
 
 " save undos in a centralized location
 set undodir=~/.vim/undo
@@ -297,10 +307,6 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
-
-" vim-template settings
-let g:email = 'lwassink@gmail.com'
-let g:username = 'Luke Wassink'
 
 " syntastic settings
 let g:syntastic_always_populate_loc_list = 1
@@ -339,13 +345,13 @@ vmap <expr> <up> DVB_Drag('up')
 vmap <expr> <down> DVB_Drag('down')
 
 " ctrlp
-" if executable('ag')
-"   let g:ctrlp_user_command = 'ag --path-to-agignore ~/.agignore %s -l --nocolor -g ""'
-" endif
 let g:ctrp_map = '<c-p>'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_max_files = 0
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_custom_ignore = {
+      \ 'dir': 'node_modules$',
+      \ }
 
 " Gundo
 nnoremap <leader>gu :GundoToggle<cr>
@@ -387,6 +393,7 @@ inoremap "" ""<esc>i
 inoremap '' ''<esc>i
 inoremap [[ []<esc>i
 inoremap {{ {}<esc>i
+inoremap << <><esc>i
 
 " split control commands
 " these allow me to move to the splits above, below, to the left, and to the

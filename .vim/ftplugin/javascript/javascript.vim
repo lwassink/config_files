@@ -1,2 +1,2 @@
-inoremap {{ {<cr><cr>}<esc>kcc
+inoremap {{ { }<esc>hi
 nnoremap <leader>ew :!open %<cr><cr>
