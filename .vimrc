@@ -158,6 +158,8 @@ set formatoptions+=j " easier joining of comments
 " highlight Folded ctermbg=none ctermfg=darkblue
 " highlight ErrorMsg ctermfg=red ctermbg=NONE
 " highlight String ctermbg=none ctermfg=022
+
+syntax enable
 set background=dark
 colorscheme solarized
 
@@ -328,7 +330,7 @@ nnoremap <silent> <space>r :SyntasticReset<cr>
 let g:syntastic_javascript_checkers = ['eslint']
 
 " Allow more general matching with %
-packadd! matchit
+" packadd! matchit
 
 " ultisnips settings
 let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"

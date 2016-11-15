@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/as to
+~MSle0~/ Q\n W\n D\n N\n I\n G\n W\n W\n S\n Q
 
 # Last Substitute Search Pattern:
 ~MSle0&this.props.program
@@ -20,208 +20,208 @@
 $
 
 # Command Line History (newest to oldest):
-:set filetype=javascript
-|2,0,1479175604,,"set filetype=javascript"
-:wall
-|2,0,1478983888,,"wall"
-:Wall
-|2,0,1478983886,,"Wall"
 :w
-|2,0,1478983832,,"w"
+|2,0,1479239361,,"w"
+:q!
+|2,0,1479238997,,"q!"
 :W
-|2,0,1478982913,,"W"
-:e package.json
-|2,0,1478975422,,"e package.json"
-:e docs/future_implementations.md
-|2,0,1478890416,,"e docs/future_implementations.md"
-:e docs/cloudinary.md
-|2,0,1478890257,,"e docs/cloudinary.md"
-:e docs/backend.md
-|2,0,1478889768,,"e docs/backend.md"
-:e docs/frontend.md
-|2,0,1478888667,,"e docs/frontend.md"
-:Ag alert
-|2,0,1478824867,,"Ag alert"
-:b ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/programs/index.json.jbuilder
-|2,0,1478824114,,"b ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/programs/index.json.jbuilder"
-:e entry.jsx
-|2,0,1478815118,,"e entry.jsx"
-:Ag Object.values
-|2,0,1478815014,,"Ag Object.values"
-:grep -F 'Object.values' **/*.jsx
-|2,0,1478814638,,"grep -F 'Object.values' **/*.jsx"
-:copen
-|2,0,1478814593,,"copen"
-:b components/search/search.jsx
-|2,0,1478740289,,"b components/search/search.jsx"
-:b sear
-|2,0,1478739653,,"b sear"
-:e components/search/search_containter.js
-|2,0,1478739636,,"e components/search/search_containter.js"
-:e components/search/search.jsx
-|2,0,1478739592,,"e components/search/search.jsx"
-:e ../app/assets/stylesheets/preview.scss
-|2,0,1478712948,,"e ../app/assets/stylesheets/preview.scss"
-:e ../app/assets/stylesheets/reviews.scss
-|2,0,1478656132,,"e ../app/assets/stylesheets/reviews.scss"
-:e components/reviews/preview.jsx
-|2,0,1478654826,,"e components/reviews/preview.jsx"
-:.,.+2w
-|2,0,1478647007,,".,.+2w"
-:b 
-|2,0,1478636180,,"b "
-:ew
-|2,0,1478632501,,"ew"
-:e components/reviews/review_form.jsx
-|2,0,1478632497,,"e components/reviews/review_form.jsx"
-:e components/reviews/review_form_container.js
-|2,0,1478632490,,"e components/reviews/review_form_container.js"
-:e components/reviews/review_toolbar.jsx
-|2,0,1478631453,,"e components/reviews/review_toolbar.jsx"
-:e util/reviews_api_util.js
-|2,0,1478580249,,"e util/reviews_api_util.js"
-:e ../app/views/api/reviews/index.json.jbuilder
-|2,0,1478575741,,"e ../app/views/api/reviews/index.json.jbuilder"
-:e ../app/views/api/reviews/show.json.jbuilder
-|2,0,1478575667,,"e ../app/views/api/reviews/show.json.jbuilder"
-:e ../app/views/api/reviews/_review.json.jbuilder
-|2,0,1478574814,,"e ../app/views/api/reviews/_review.json.jbuilder"
-:e ../app/views/a
-|2,0,1478574731,,"e ../app/views/a"
-:bd
-|2,0,1478565415,,"bd"
-:e components/util/loading.jsx
-|2,0,1478565246,,"e components/util/loading.jsx"
-:e components/util/loading_container.js
-|2,0,1478565236,,"e components/util/loading_container.js"
-:e ../app/views/api/statuses/show.json.jbuilder
-|2,0,1478539950,,"e ../app/views/api/statuses/show.json.jbuilder"
-:w!
-|2,0,1478502630,,"w!"
-:e components/statuses/status_selector.jsx
-|2,0,1478497674,,"e components/statuses/status_selector.jsx"
-:e components/statuses/status_selector_container.js
-|2,0,1478497666,,"e components/statuses/status_selector_container.js"
-:e ../app/views/api/users/show.json.jbuilder
-|2,0,1478493359,,"e ../app/views/api/users/show.json.jbuilder"
-:e ../app/views/api/statuses/_status.json.jbuilder
-|2,0,1478493238,,"e ../app/views/api/statuses/_status.json.jbuilder"
-:%s/this.props.program/this.state/gc
-|2,0,1478480785,,"%s/this.props.program/this.state/gc"
-:e components/programs/my_programs_container
-|2,0,1478392757,,"e components/programs/my_programs_container"
-:e components/programs/my_programs.jsx
-|2,0,1478392446,,"e components/programs/my_programs.jsx"
-:e components/programs/program_elements.jsx
-|2,0,1478388603,,"e components/programs/program_elements.jsx"
-:cd ../../../frontend/
-|2,0,1478388593,,"cd ../../../frontend/"
+|2,0,1479238896,,"W"
+:q
+|2,0,1479238805,,"q"
+:e test.js
+|2,0,1479235084,,"e test.js"
+:e ../w1d1.txt
+|2,0,1479230951,,"e ../w1d1.txt"
 :pwd
-|2,0,1478388586,,"pwd"
-:grep /thumbnailUrl/ *.js
-|2,0,1478379317,,"grep /thumbnailUrl/ *.js"
+|2,0,1479230935,,"pwd"
+:Q!
+|2,0,0,,"Q!"
+:PluginUpdate
+|2,0,0,,"PluginUpdate"
+:PluginInstall
+|2,0,0,,"PluginInstall"
+:set filetype=javascript
+|2,0,0,,"set filetype=javascript"
+:wall
+|2,0,0,,"wall"
+:Wall
+|2,0,0,,"Wall"
+:e package.json
+|2,0,0,,"e package.json"
+:e docs/future_implementations.md
+|2,0,0,,"e docs/future_implementations.md"
+:e docs/cloudinary.md
+|2,0,0,,"e docs/cloudinary.md"
+:e docs/backend.md
+|2,0,0,,"e docs/backend.md"
+:e docs/frontend.md
+|2,0,0,,"e docs/frontend.md"
+:Ag alert
+|2,0,0,,"Ag alert"
+:b ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/programs/index.json.jbuilder
+|2,0,0,,"b ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/programs/index.json.jbuilder"
+:e entry.jsx
+|2,0,0,,"e entry.jsx"
+:Ag Object.values
+|2,0,0,,"Ag Object.values"
+:grep -F 'Object.values' **/*.jsx
+|2,0,0,,"grep -F 'Object.values' **/*.jsx"
+:copen
+|2,0,0,,"copen"
+:b components/search/search.jsx
+|2,0,0,,"b components/search/search.jsx"
+:b sear
+|2,0,0,,"b sear"
+:e components/search/search_containter.js
+|2,0,0,,"e components/search/search_containter.js"
+:e components/search/search.jsx
+|2,0,0,,"e components/search/search.jsx"
+:e ../app/assets/stylesheets/preview.scss
+|2,0,0,,"e ../app/assets/stylesheets/preview.scss"
+:e ../app/assets/stylesheets/reviews.scss
+|2,0,0,,"e ../app/assets/stylesheets/reviews.scss"
+:e components/reviews/preview.jsx
+|2,0,0,,"e components/reviews/preview.jsx"
+:.,.+2w
+|2,0,0,,".,.+2w"
+:b 
+|2,0,0,,"b "
+:ew
+|2,0,0,,"ew"
+:e components/reviews/review_form.jsx
+|2,0,0,,"e components/reviews/review_form.jsx"
+:e components/reviews/review_form_container.js
+|2,0,0,,"e components/reviews/review_form_container.js"
+:e components/reviews/review_toolbar.jsx
+|2,0,0,,"e components/reviews/review_toolbar.jsx"
+:e util/reviews_api_util.js
+|2,0,0,,"e util/reviews_api_util.js"
+:e ../app/views/api/reviews/index.json.jbuilder
+|2,0,0,,"e ../app/views/api/reviews/index.json.jbuilder"
+:e ../app/views/api/reviews/show.json.jbuilder
+|2,0,0,,"e ../app/views/api/reviews/show.json.jbuilder"
+:e ../app/views/api/reviews/_review.json.jbuilder
+|2,0,0,,"e ../app/views/api/reviews/_review.json.jbuilder"
+:e ../app/views/a
+|2,0,0,,"e ../app/views/a"
+:bd
+|2,0,0,,"bd"
+:e components/util/loading.jsx
+|2,0,0,,"e components/util/loading.jsx"
+:e components/util/loading_container.js
+|2,0,0,,"e components/util/loading_container.js"
+:e ../app/views/api/statuses/show.json.jbuilder
+|2,0,0,,"e ../app/views/api/statuses/show.json.jbuilder"
+:w!
+|2,0,0,,"w!"
+:e components/statuses/status_selector.jsx
+|2,0,0,,"e components/statuses/status_selector.jsx"
+:e components/statuses/status_selector_container.js
+|2,0,0,,"e components/statuses/status_selector_container.js"
+:e ../app/views/api/users/show.json.jbuilder
+|2,0,0,,"e ../app/views/api/users/show.json.jbuilder"
 
 # Search String History (newest to oldest):
+?/ Q\n W\n D\n N\n I\n G\n W\n W\n S\n Q
+|2,1,1479239226,47," Q\\n W\\n D\\n N\\n I\\n G\\n W\\n W\\n S\\n Q"
+?/Vy
+|2,1,1479230683,47,"Vy"
+?/p=
+|2,1,1479230666,47,"p="
+?/=p
+|2,1,1479230663,47,"=p"
+?/reverse
+|2,1,1479190894,47,"reverse"
+?/sol
+|2,1,1479190774,47,"sol"
+?/syntax en
+|2,1,1479190503,47,"syntax en"
+?/syntax
+|2,1,1479190498,47,"syntax"
+?/solarize
+|2,1,1479190244,47,"solarize"
+?/sol	
+|2,1,0,47,"sol	"
 ?/^s*private<cr>mp
-|2,1,1479179977,47,"^s*private<cr>mp"
+|2,1,0,47,"^s*private<cr>mp"
 ?/as to
-|2,1,1478891133,47,"as to"
+|2,1,0,47,"as to"
 ?/ynch
-|2,1,1478891057,47,"ynch"
+|2,1,0,47,"ynch"
 ?/good
-|2,1,1478891040,47,"good"
+|2,1,0,47,"good"
 ?/the
-|2,1,1478891013,47,"the"
+|2,1,0,47,"the"
 ?/code
-|2,1,1478890881,47,"code"
+|2,1,0,47,"code"
 ?/json
-|2,1,1478889914,47,"json"
+|2,1,0,47,"json"
 ?/[
-|2,1,1478888556,47,"["
+|2,1,0,47,"["
 ?/stat
-|2,1,1478884656,47,"stat"
+|2,1,0,47,"stat"
 ?/merge
-|2,1,1478831067,47,"merge"
+|2,1,0,47,"merge"
 ?/strog
-|2,1,1478827975,47,"strog"
+|2,1,0,47,"strog"
 ?/path
-|2,1,1478827300,47,"path"
+|2,1,0,47,"path"
 ?/_
-|2,1,1478826023,47,"_"
+|2,1,0,47,"_"
 ?/alert
-|2,1,1478824839,47,"alert"
+|2,1,0,47,"alert"
 ??1
-|2,1,1478817287,63,"1"
+|2,1,0,63,"1"
 ?/ctrlp_us
-|2,1,1478815083,47,"ctrlp_us"
+|2,1,0,47,"ctrlp_us"
 ?/grep
-|2,1,1478814611,47,"grep"
+|2,1,0,47,"grep"
 ??w
-|2,1,1478807166,63,"w"
+|2,1,0,63,"w"
 ? \$\(cursor\|select\)\$
-|2,1,1478807008,,"\\$\\(cursor\\|select\\)\\$"
+|2,1,0,,"\\$\\(cursor\\|select\\)\\$"
 ?/5
-|2,1,1478749011,47,"5"
+|2,1,0,47,"5"
 ?/props
-|2,1,1478740948,47,"props"
+|2,1,0,47,"props"
 ?/fetch
-|2,1,1478740498,47,"fetch"
+|2,1,0,47,"fetch"
 ?/Lis
-|2,1,1478737281,47,"Lis"
+|2,1,0,47,"Lis"
 ?/list
-|2,1,1478737278,47,"list"
+|2,1,0,47,"list"
 ?/asi
-|2,1,1478732191,47,"asi"
+|2,1,0,47,"asi"
 ?/upda
-|2,1,1478722719,47,"upda"
+|2,1,0,47,"upda"
 ?/updaate
-|2,1,1478722713,47,"updaate"
+|2,1,0,47,"updaate"
 ?/openRev
-|2,1,1478720895,47,"openRev"
+|2,1,0,47,"openRev"
 ?/open
-|2,1,1478720885,47,"open"
+|2,1,0,47,"open"
 ?/link
-|2,1,1478715231,47,"link"
+|2,1,0,47,"link"
 ?/Created
-|2,1,1478710987,47,"Created"
+|2,1,0,47,"Created"
 ?/label
-|2,1,1478678225,47,"label"
+|2,1,0,47,"label"
 ?/ERR
-|2,1,1478656484,47,"ERR"
+|2,1,0,47,"ERR"
 ?/aside
-|2,1,1478655506,47,"aside"
+|2,1,0,47,"aside"
 ?/assid
-|2,1,1478655504,47,"assid"
+|2,1,0,47,"assid"
 ?/_de
-|2,1,1478653718,47,"_de"
+|2,1,0,47,"_de"
 ?/prop
-|2,1,1478652158,47,"prop"
+|2,1,0,47,"prop"
 ?/log
-|2,1,1478649569,47,"log"
+|2,1,0,47,"log"
 ?/rec
-|2,1,1478648756,47,"rec"
+|2,1,0,47,"rec"
 ?/Close
-|2,1,1478647962,47,"Close"
-?/thumbnail
-|2,1,1478644035,47,"thumbnail"
-?/console
-|2,1,1478642708,47,"console"
-?/destroy
-|2,1,1478642415,47,"destroy"
-?/handleDe
-|2,1,1478642363,47,"handleDe"
-?/Dialog
-|2,1,1478642340,47,"Dialog"
-?/editAnd
-|2,1,1478642316,47,"editAnd"
-?/show
-|2,1,1478640513,47,"show"
-?/item
-|2,1,1478640357,47,"item"
-?/keyboar
-|2,1,1478631281,47,"keyboar"
-?/((
-|2,1,1478629497,47,"(("
+|2,1,0,47,"Close"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -233,141 +233,208 @@ $
 
 # Input Line History (newest to oldest):
 @div.preview
-|2,3,1478714121,,"div.preview"
+|2,3,0,,"div.preview"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal_container.js
-|2,3,1478632358,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal_container.js"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal_container.js"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal.jsx
-|2,3,1478632343,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal.jsx"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal.jsx"
 @ToolbarGrou
-|2,3,1478629769,,"ToolbarGrou"
+|2,3,0,,"ToolbarGrou"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index.jsx
-|2,3,1478628720,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index.jsx"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index.jsx"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index_container.js
-|2,3,1478628712,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index_container.js"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index_container.js"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index_container.sj
-|2,3,1478628700,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index_container.sj"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index_container.sj"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item.jsx
-|2,3,1478628600,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item.jsx"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item.jsx"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item_container.js
-|2,3,1478628591,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item_container.js"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item_container.js"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form.jsx
-|2,3,1478628556,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form.jsx"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form.jsx"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form_container.js
-|2,3,1478628547,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form_container.js"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form_container.js"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx
-|2,3,1478538467,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice_container.js
-|2,3,1478538458,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice_container.js"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice_container.js"
 @y
-|2,3,1478294397,,"y"
+|2,3,0,,"y"
 @a
-|2,3,1478279722,,"a"
+|2,3,0,,"a"
 @p
-|2,3,1478234077,,"p"
+|2,3,0,,"p"
 @ul
-|2,3,1478133979,,"ul"
+|2,3,0,,"ul"
 @div
-|2,3,1478069582,,"div"
+|2,3,0,,"div"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/reset.css
-|2,3,1478045256,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/reset.css"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/reset.css"
 @header
-|2,3,1478039073,,"header"
+|2,3,0,,"header"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/users/show.json.jbuilder
-|2,3,1478025758,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/users/show.json.jbuilder"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/users/show.json.jbuilder"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/static_pages/root.html.erb
-|2,3,1478025280,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/static_pages/root.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/static_pages/root.html.erb"
 @/Users/lwassink/Desktop/benchBnB/app/views/api/benches/index.json.jbuilder
-|2,3,1477954523,,"/Users/lwassink/Desktop/benchBnB/app/views/api/benches/index.json.jbuilder"
+|2,3,0,,"/Users/lwassink/Desktop/benchBnB/app/views/api/benches/index.json.jbuilder"
 @yes
-|2,3,1477954220,,"yes"
+|2,3,0,,"yes"
 @/Users/lwassink/Desktop/benchBnB/app/views/benches/
-|2,3,1477954214,,"/Users/lwassink/Desktop/benchBnB/app/views/benches/"
+|2,3,0,,"/Users/lwassink/Desktop/benchBnB/app/views/benches/"
 @/Users/lwassink/Desktop/benchBnB/app/views/benches/index.json.jbuilder
-|2,3,1477954200,,"/Users/lwassink/Desktop/benchBnB/app/views/benches/index.json.jbuilder"
+|2,3,0,,"/Users/lwassink/Desktop/benchBnB/app/views/benches/index.json.jbuilder"
 @span
-|2,3,1477937824,,"span"
+|2,3,0,,"span"
 @/Users/lwassink/Desktop/jbuilder/app/views/api/guests/show.json.jbuilder
-|2,3,1477513353,,"/Users/lwassink/Desktop/jbuilder/app/views/api/guests/show.json.jbuilder"
+|2,3,0,,"/Users/lwassink/Desktop/jbuilder/app/views/api/guests/show.json.jbuilder"
 @/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/jquery_trigger_example.js
-|2,3,1476935581,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/jquery_trigger_example.js"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/jquery_trigger_example.js"
 @/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/
-|2,3,1476935560,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/homework/w6d4/"
 @li>
-|2,3,1476851167,,"li>"
+|2,3,0,,"li>"
 @em>
-|2,3,1476851137,,"em>"
+|2,3,0,,"em>"
 @div.col.cf
-|2,3,1476763944,,"div.col.cf"
+|2,3,0,,"div.col.cf"
 @div.col.col-1-3
-|2,3,1476763234,,"div.col.col-1-3"
+|2,3,0,,"div.col.col-1-3"
 @div.cf
-|2,3,1476763096,,"div.cf"
+|2,3,0,,"div.cf"
 @/Users/lwassink/Desktop/Assesment/firstname_lastname/app/views/shared/_auth_form.html.erb
-|2,3,1476204261,,"/Users/lwassink/Desktop/Assesment/firstname_lastname/app/views/shared/_auth_form.html.erb"
+|2,3,0,,"/Users/lwassink/Desktop/Assesment/firstname_lastname/app/views/shared/_auth_form.html.erb"
 @/Users/lwassink/Desktop/Assesment/firstname_lastname/app/views/shared/
-|2,3,1476204252,,"/Users/lwassink/Desktop/Assesment/firstname_lastname/app/views/shared/"
+|2,3,0,,"/Users/lwassink/Desktop/Assesment/firstname_lastname/app/views/shared/"
 @/Users/lwassink/Desktop/a04-prep-master/skeleton/app/views/layouts/_errors.html.erb
-|2,3,1476154258,,"/Users/lwassink/Desktop/a04-prep-master/skeleton/app/views/layouts/_errors.html.erb"
+|2,3,0,,"/Users/lwassink/Desktop/a04-prep-master/skeleton/app/views/layouts/_errors.html.erb"
 @/Users/lwassink/Desktop/a04-prep-master/skeleton/app/views/links/index.html.erb
-|2,3,1476151761,,"/Users/lwassink/Desktop/a04-prep-master/skeleton/app/views/links/index.html.erb"
+|2,3,0,,"/Users/lwassink/Desktop/a04-prep-master/skeleton/app/views/links/index.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/comments/_comment.html.erb
-|2,3,1476087449,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/comments/_comment.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/comments/_comment.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/comments/_form.html.erb
-|2,3,1476087439,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/comments/_form.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/comments/_form.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/layouts/_errors.html.erb
-|2,3,1476086257,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/layouts/_errors.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/layouts/_errors.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/shared/_form.html.erb
-|2,3,1476085181,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/shared/_form.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/shared/_form.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/shared/
-|2,3,1476085172,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/shared/"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/shared/"
 @/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/links/_link.html.erb
-|2,3,1476074157,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/links/_link.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/links/_link.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/links/_form.html.erb
-|2,3,1476072493,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/links/_form.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/practice_assessments/a04-prep/skeleton/app/views/links/_form.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/edit.html.erb
-|2,3,1475795334,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/edit.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/edit.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/index.html.erb
-|2,3,1475793355,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/index.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/index.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/bands.html.erb
-|2,3,1475793147,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/bands.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/bands.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb
-|2,3,1475792715,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb"
+|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
 "0	CHAR	0
-	 
-|3,0,0,0,1,0,1478983730," "
-"1	LINE	0
-	    debugger
-|3,0,1,1,1,0,1478982904,"    debugger"
-"2	LINE	0
-	        .group
-|3,0,2,1,1,0,1478982863,"        .group"
-"3	LINE	0
-	    @programs
-|3,0,3,1,1,0,1478982652,"    @programs"
-"4	LINE	0
-	  margin: auto;
-|3,0,4,1,1,0,1478982531,"  margin: auto;"
-"5	LINE	0
-	    @count = programs.count
-	
-|3,0,5,1,2,0,1478982275,"    @count = programs.count",""
-"6	LINE	0
-	    @count = programs.count
-|3,0,6,1,1,0,1478982272,"    @count = programs.count"
+	1. 
+	2. 
+	3. 
+	4. 
+	5. 
+	6. 
+	7. 
+	8. 
+	9. 
+	10.
+|3,0,0,0,10,0,1479239226,"1. ","2. ","3. ","4. ","5. ","6. ","7. ","8. ","9. ","10."
+""1	BLOCK	2
+	10.
+	11.
+	12.
+	13.
+	14.
+	15.
+|3,1,1,2,6,2,1479239280,"10.","11.","12.","13.","14.","15."
+"2	BLOCK	1
+	1.
+	2.
+	3.
+	4.
+	5.
+	6.
+	7.
+	8.
+	9.
+|3,0,2,2,9,1,1479239251,"1.","2.","3.","4.","5.","6.","7.","8.","9."
+"3	BLOCK	2
+	1. 
+	2. 
+	3. 
+	4. 
+	5. 
+	6. 
+	7. 
+	8. 
+	9. 
+	10.
+|3,0,3,2,10,2,1479239206,"1. ","2. ","3. ","4. ","5. ","6. ","7. ","8. ","9. ","10."
+"4	BLOCK	1
+	1.
+	2.
+	3.
+	4.
+	5.
+	6.
+	7.
+	8.
+|3,0,4,2,8,1,1479239189,"1.","2.","3.","4.","5.","6.","7.","8."
+"5	BLOCK	2
+	1. 
+	2. 
+	3. 
+	4. 
+	5. 
+	6. 
+	7. 
+	8. 
+	9. 
+	10.
+	11.
+	12.
+	13.
+	14.
+	15.
+	16.
+|3,0,5,2,16,2,1479239162,"1. ","2. ","3. ","4. ","5. ","6. ","7. ","8. ","9. ","10.","11.","12.","13.","14.","15.","16."
+"6	BLOCK	122
+	1. In my_each, why self[i], not self[i-1]. Answer: times starts at 0
+	2. my_rotate: what are drop and take?
+	3. What does sleep(2) do?
+	4. Why the round_over? Method? It's only one line.
+	5. What does next do in a loop?
+	6. First line of display_standings, what does it do? why? how?
+	7. Does underscore as an argument function as a variable?
+	8. How are sets different from other data structures?
+	9. Enumerable methods for sets?
+	10. What does attr_reader do? Why no parens? What about attr_writer? Do you still have to initialize the instance variable?
+	11. Why can we shovel into something coming from a reader?
+	12. How would we write a getter without syntactic sugar?
+	13. Do instance variables need the @ symbol?
+	14. Why not just use attr_accessor?
+	15. getters? method or variable?
+	16. public/private/protected methods? What order should they come in?
+|3,0,6,2,16,122,1479239151,"1. In my_each, why self[i], not self[i-1]. Answer: times starts at 0","2. my_rotate: what are drop and take?","3. What does sleep(2) do?","4. Why the round_over? Method? It's only one line.","5. What does next do in a loop?","6. First line of display_standings, what does it do? why? how?","7. Does underscore as an argument function as a variable?","8. How are sets different from other data structures?",>33
+|<"9. Enumerable methods for sets?","10. What does attr_reader do? Why no parens? What about attr_writer? Do you still have to initialize the instance variable?","11. Why can we shovel into something coming from a reader?","12. How would we write a getter without syntactic sugar?","13. Do instance variables need the @ symbol?","14. Why not just use attr_accessor?","15. getters? method or variable?","16. public/private/protected methods? What order should they come in?"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1478982190,""
+	=======
+|3,0,7,1,1,0,1479239115,"======="
 "8	LINE	0
-	
-|3,0,8,1,1,0,1478894720,""
+	==============
+|3,0,8,1,1,0,1479239113,"=============="
 "9	LINE	0
-	![Search](./docs/images/search.gif)
-	
-|3,0,9,1,2,0,1478894720,"![Search](./docs/images/search.gif)",""
+	=========================
+|3,0,9,1,1,0,1479239111,"========================="
 "a	LINE	0
 	      <Toolbar
 	        backgroundColor={colors.light_brown}>
@@ -384,7 +451,7 @@ $
 	          </Menu>
 	        </Popover>
 	      </Toolbar>
-|3,0,10,1,15,0,1478113381,"      <Toolbar","        backgroundColor={colors.light_brown}>","        <LogoSmall","          onClick={handleLogoClick}/>","","        <FlatButton","          style={modelAnchor}","          label={this.props.user.username}","          onTouchTap={handleTouchTap}/>","","        <Popover>","          <Menu>","          </Menu>","        </Popover>","      </Toolbar>"
+|3,0,10,1,15,0,1479234378,"      <Toolbar","        backgroundColor={colors.light_brown}>","        <LogoSmall","          onClick={handleLogoClick}/>","","        <FlatButton","          style={modelAnchor}","          label={this.props.user.username}","          onTouchTap={handleTouchTap}/>","","        <Popover>","          <Menu>","          </Menu>","        </Popover>","      </Toolbar>"
 "b	CHAR	0
 	   \sin^{-1}(x)' = \frac{1}{\sqrt{1-x^2}},
 	   \ \ \ & \cos^{-1}(x)' = -\frac{1}{\sqrt{1-x^2}},
@@ -393,7 +460,7 @@ $
 	   \ \ \ & \sec^{-1}(x)' = \frac{1}{x\sqrt{x^2-1}},
 	   \ \ \ & \cot^{-1}(x)' = -\frac{1}{1+x^2}.
 	\
-|3,0,11,0,7,0,1469561786,"   \\sin^{-1}(x)' = \\frac{1}{\\sqrt{1-x^2}},","   \\ \\ \\ & \\cos^{-1}(x)' = -\\frac{1}{\\sqrt{1-x^2}},","   \\ \\ \\ & \\tan^{-1}(x)' = \\frac{1}{1+x^2} \\\\","   \\csc^{-1}(x)' = -\\frac{1}{x\\sqrt{x^2-1}},","   \\ \\ \\ & \\sec^{-1}(x)' = \\frac{1}{x\\sqrt{x^2-1}},","   \\ \\ \\ & \\cot^{-1}(x)' = -\\frac{1}{1+x^2}.","\\"
+|3,0,11,0,7,0,0,"   \\sin^{-1}(x)' = \\frac{1}{\\sqrt{1-x^2}},","   \\ \\ \\ & \\cos^{-1}(x)' = -\\frac{1}{\\sqrt{1-x^2}},","   \\ \\ \\ & \\tan^{-1}(x)' = \\frac{1}{1+x^2} \\\\","   \\csc^{-1}(x)' = -\\frac{1}{x\\sqrt{x^2-1}},","   \\ \\ \\ & \\sec^{-1}(x)' = \\frac{1}{x\\sqrt{x^2-1}},","   \\ \\ \\ & \\cot^{-1}(x)' = -\\frac{1}{1+x^2}.","\\"
 "c	CHAR	0
 	%YEAR% %USER% <%MAIL%>
 |3,0,12,0,1,0,0,"%YEAR% %USER% <%MAIL%>"
@@ -441,7 +508,7 @@ $
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,1478739524,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,0,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
 "i@	LINE	0
@@ -456,25 +523,25 @@ $
 	using std::endl;    using std::streamsize;
 	using std::vector;  using std::sort;
 	
-|3,2,18,1,11,0,1470337437,"#include <ios>","#include <iomanip>","#include <string>","#include <vector>","#include <algorithm>","","using std::cin;     using std::setprecision;","using std::cout;    using std::string;","using std::endl;    using std::streamsize;","using std::vector;  using std::sort;",""
+|3,2,18,1,11,0,0,"#include <ios>","#include <iomanip>","#include <string>","#include <vector>","#include <algorithm>","","using std::cin;     using std::setprecision;","using std::cout;    using std::string;","using std::endl;    using std::streamsize;","using std::vector;  using std::sort;",""
 "j	CHAR	0
 	k
-|3,0,19,0,1,0,1478714432,"k"
+|3,0,19,0,1,0,0,"k"
 "k	CHAR	0
 	kkkKsbk
-|3,0,20,0,1,0,1468990049,"kkkKsbk"
+|3,0,20,0,1,0,0,"kkkKsbk"
 "q	CHAR	0
-	yjk
-|3,0,26,0,1,0,1471055773,"yjk"
+	jjjjjjj
+|3,0,26,0,1,0,1479238788,"jjjjjjj"
 "r	CHAR	0
 	I€kr€kb;;j
 |3,0,27,0,1,0,0,"I€kr€kb;;j"
 "s	CHAR	0
 	bsqqjkuu
-|3,0,28,0,1,0,1474326726,"bsqqjkuu"
+|3,0,28,0,1,0,0,"bsqqjkuu"
 "u	CHAR	0
 	ire€kb€kbrequire 'rspec'€ýb€ýaRespec.describe "some stuff" dojkkhxjccit "knowa€kb€kb€kb€kbnows about classes doendjkOjkkfs;;;a"jk:wjccexpect(1).to be_an(IN€kbnteger)jkyypfbcw€ýb€ýa€ýb€ýai€kbjkuea_instance_ofjk:w,ra
-|3,0,30,0,1,0,1474390051,"ire€kb€kbrequire 'rspec'€ýb€ýaRespec.describe \"some stuff\" dojkkhxjccit \"knowa€kb€kb€kb€kbnows about classes doendjkOjkkfs;;;a\"jk:wjccexpect(1).to be_an(IN€kbnteger)jkyypfbcw€ýb€ýa€ýb€ýai€kbjkuea_instance_ofjk:w,ra"
+|3,0,30,0,1,0,0,"ire€kb€kbrequire 'rspec'€ýb€ýaRespec.describe \"some stuff\" dojkkhxjccit \"knowa€kb€kb€kb€kbnows about classes doendjkOjkkfs;;;a\"jk:wjccexpect(1).to be_an(IN€kbnteger)jkyypfbcw€ýb€ýa€ýb€ýai€kbjkuea_instance_ofjk:w,ra"
 "v	LINE	0
 	
 	        <Popover
@@ -488,7 +555,7 @@ $
 	            <MenuItem primaryText="Log out" />
 	          </Menu>
 	        </Popover>
-|3,0,31,1,12,0,1478983730,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
+|3,0,31,1,12,0,0,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
 |<"        </Popover>"
 "w	LINE	0
 	  cout << "Enter a series of words:" << endl;
@@ -500,248 +567,423 @@ $
 	  while (cin >> x)
 	    words.push_back(x);
 	
-|3,0,32,1,9,0,1470337453,"  cout << \"Enter a series of words:\" << endl;","","  string x;","  vector<string> words;","","  /* invariant: words contains all the words entered so far */","  while (cin >> x)","    words.push_back(x);",""
+|3,0,32,1,9,0,0,"  cout << \"Enter a series of words:\" << endl;","","  string x;","  vector<string> words;","","  /* invariant: words contains all the words entered so far */","  while (cin >> x)","    words.push_back(x);",""
 "z	CHAR	0
 	722
 <Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		""rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w
-|3,0,35,0,1,0,1475277418,>723
+|3,0,35,0,1,0,0,>723
 |<"Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		\"\"rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:
 |<w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w"
-""-	CHAR	0
-	 
-|3,1,36,0,1,0,1478983831," "
+"-	CHAR	0
+	3
+|3,0,36,0,1,0,1479238396,"3"
 
 # File marks:
-'L  435  0  ~/.vimrc
-|4,76,435,0,1469084029,"~/.vimrc"
+'L  437  0  ~/.vimrc
+|4,76,437,0,0,"~/.vimrc"
 'U  361  0  /usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt
-|4,85,361,0,1469211868,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
+|4,85,361,0,0,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  75  0  ~/.vimrc
-|4,86,75,0,1468550697,"~/.vimrc"
-'0  2  0  ~/.ghci
-|4,48,2,0,1479186774,"~/.ghci"
-'1  28  24  ~/.bash_aliases
-|4,49,28,24,1479186624,"~/.bash_aliases"
-'2  27  17  ~/.bash_aliases
-|4,50,27,17,1479186576,"~/.bash_aliases"
-'3  27  17  ~/.bash_aliases
-|4,51,27,17,1479186576,"~/.bash_aliases"
-'4  55  0  ~/Downloads/matthew_rivera1.rb
-|4,52,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
-'5  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,53,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
-'6  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,54,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
-'7  47  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/package.json
-|4,55,47,0,1478975493,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/package.json"
-'8  6  6  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/controllers/api/users_controller.rb
-|4,56,6,6,1478912549,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/controllers/api/users_controller.rb"
-'9  20  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md
-|4,57,20,0,1478894753,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/README.md"
+|4,86,75,0,0,"~/.vimrc"
+'0  50  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,48,50,0,1479244262,"~/developer/app_academy/scribe_notes/w1d2.txt"
+'1  1  0  ~/developer/app_academy/scribe_notes/test.js
+|4,49,1,0,1479238997,"~/developer/app_academy/scribe_notes/test.js"
+'2  512  0  ~/.vimrc
+|4,50,512,0,1479191767,"~/.vimrc"
+'3  512  0  ~/.vimrc
+|4,51,512,0,1479191767,"~/.vimrc"
+'4  512  0  ~/.vimrc
+|4,52,512,0,1479191515,"~/.vimrc"
+'5  512  0  ~/.vimrc
+|4,53,512,0,1479191515,"~/.vimrc"
+'6  512  0  ~/.vimrc
+|4,54,512,0,1479191228,"~/.vimrc"
+'7  512  0  ~/.vimrc
+|4,55,512,0,1479191228,"~/.vimrc"
+'8  512  0  ~/.vimrc
+|4,56,512,0,1479191228,"~/.vimrc"
+'9  512  0  ~/.vimrc
+|4,57,512,0,1479191228,"~/.vimrc"
 
 # Jumplist (newest first):
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  27  0  ~/.bash_aliases
-|4,39,27,0,1479186595,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1479186595,"~/.bash_aliases"
--'  27  0  ~/.bash_aliases
-|4,39,27,0,1479186595,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1479186595,"~/.bash_aliases"
--'  27  17  ~/.bash_aliases
-|4,39,27,17,1479186576,"~/.bash_aliases"
--'  27  17  ~/.bash_aliases
-|4,39,27,17,1479186576,"~/.bash_aliases"
--'  5  0  ~/.bash_aliases
-|4,39,5,0,1479186499,"~/.bash_aliases"
--'  5  0  ~/.bash_aliases
-|4,39,5,0,1479186499,"~/.bash_aliases"
--'  5  0  ~/.bash_aliases
-|4,39,5,0,1479186499,"~/.bash_aliases"
--'  5  0  ~/.bash_aliases
-|4,39,5,0,1479186499,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1479186487,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1479186487,"~/.bash_aliases"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  55  0  ~/Downloads/matthew_rivera1.rb
-|4,39,55,0,1479186472,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
-|4,39,1,0,1479186470,"~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  1  0  ~/Downloads/matthew_rivera1.rb
-|4,39,1,0,1479179977,"~/Downloads/matthew_rivera1.rb"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  25  8  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,25,8,1478984438,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,1,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  8  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx
-|4,39,8,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
--'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,1,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  8  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx
-|4,39,8,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
--'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,1,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  8  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx
-|4,39,8,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
--'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,1,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  8  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx
-|4,39,8,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
--'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,1,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  8  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx
-|4,39,8,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
--'  1  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx
-|4,39,1,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list.jsx"
--'  8  0  ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx
-|4,39,8,0,1478983796,"~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
+-'  50  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,50,0,1479244262,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  61  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,61,2,1479239285,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  58  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,58,0,1479239274,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  49  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,49,2,1479239272,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  59  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,59,2,1479239245,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  67  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,67,0,1479239237,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  60  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,60,0,1479239237,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  48  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,48,0,1479239236,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  45  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,45,0,1479239235,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  35  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,35,0,1479239235,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  44  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,44,0,1479239221,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  24  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,24,0,1479239199,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  23  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,23,0,1479239191,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  19  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,19,0,1479239182,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  3  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,3,0,1479239182,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  1  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,1,0,1479239133,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  2  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,2,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  20  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,20,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  22  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,22,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  32  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,32,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  34  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,34,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  46  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,46,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  47  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,47,2,1479239131,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  33  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,33,2,1479239128,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  21  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,21,2,1479239126,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  51  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,51,0,1479239117,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  31  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,31,0,1479239111,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  1  0  ~/developer/app_academy/scribe_notes/test.js
+|4,39,1,0,1479238997,"~/developer/app_academy/scribe_notes/test.js"
+-'  1  0  ~/developer/app_academy/scribe_notes/test.js
+|4,39,1,0,1479238997,"~/developer/app_academy/scribe_notes/test.js"
+-'  71  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,71,0,1479235084,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  1  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,1,0,1479234811,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  14  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,14,0,1479234805,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  15  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,15,0,1479234805,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  50  3  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,50,3,1479234801,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  65  35  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,65,35,1479234190,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  1  0  ~/developer/app_academy/w1d1.txt
+|4,39,1,0,1479232763,"~/developer/app_academy/w1d1.txt"
+-'  1  0  ~/developer/app_academy/w1d1.txt
+|4,39,1,0,1479232763,"~/developer/app_academy/w1d1.txt"
+-'  52  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,52,2,1479232713,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  56  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,56,2,1479232713,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  55  2  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,55,2,1479232624,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  4  10  ~/developer/app_academy/w1d1.txt
+|4,39,4,10,1479232382,"~/developer/app_academy/w1d1.txt"
+-'  4  10  ~/developer/app_academy/w1d1.txt
+|4,39,4,10,1479232382,"~/developer/app_academy/w1d1.txt"
+-'  3  1  ~/developer/app_academy/w1d1.txt
+|4,39,3,1,1479232293,"~/developer/app_academy/w1d1.txt"
+-'  3  1  ~/developer/app_academy/w1d1.txt
+|4,39,3,1,1479232293,"~/developer/app_academy/w1d1.txt"
+-'  53  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,53,0,1479232288,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  47  45  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,47,45,1479232182,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  2  44  ~/developer/app_academy/w1d1.txt
+|4,39,2,44,1479231648,"~/developer/app_academy/w1d1.txt"
+-'  2  44  ~/developer/app_academy/w1d1.txt
+|4,39,2,44,1479231648,"~/developer/app_academy/w1d1.txt"
+-'  38  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,38,0,1479231599,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  2  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,2,0,1479231395,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  35  13  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,35,13,1479231384,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  21  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,21,0,1479231367,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  24  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,24,0,1479231366,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  34  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,34,0,1479231366,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  26  24  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,26,24,1479231328,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  28  24  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,28,24,1479231328,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  25  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,25,0,1479231326,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  17  4  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,17,4,1479231320,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  18  4  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,18,4,1479231320,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  16  26  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,16,26,1479231319,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  17  26  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,17,26,1479231319,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  12  56  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,12,56,1479231318,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  13  56  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,13,56,1479231318,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  10  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,10,0,1479231313,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  11  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,11,0,1479231313,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  11  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,11,0,1479231311,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  12  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,12,0,1479231311,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  6  23  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,6,23,1479231298,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  7  23  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,7,23,1479231298,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  4  3  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,4,3,1479231294,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  5  3  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,5,3,1479231294,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  29  48  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,29,48,1479231291,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  31  48  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,31,48,1479231291,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  26  15  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,26,15,1479230984,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  18  68  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,18,68,1479230951,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  19  68  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,19,68,1479230951,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  3  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,3,0,1479230718,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  4  0  ~/developer/app_academy/scribe_notes/w1d2.txt
+|4,39,4,0,1479230625,"~/developer/app_academy/scribe_notes/w1d2.txt"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191767,"~/.vimrc"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191767,"~/.vimrc"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191767,"~/.vimrc"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191767,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479191756,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479191756,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479191756,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479191756,"~/.vimrc"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191515,"~/.vimrc"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191515,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479191512,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479191512,"~/.vimrc"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191228,"~/.vimrc"
+-'  512  0  ~/.vimrc
+|4,39,512,0,1479191228,"~/.vimrc"
+-'  513  0  ~/.vimrc
+|4,39,513,0,1479191212,"~/.vimrc"
+-'  513  0  ~/.vimrc
+|4,39,513,0,1479191212,"~/.vimrc"
+-'  513  0  ~/.vimrc
+|4,39,513,0,1479191212,"~/.vimrc"
+-'  513  0  ~/.vimrc
+|4,39,513,0,1479191212,"~/.vimrc"
+-'  513  0  ~/.vimrc
+|4,39,513,0,1479191212,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479191208,"~/.vimrc"
+-'  391  0  ~/.vimrc
+|4,39,391,0,1479190774,"~/.vimrc"
+-'  391  0  ~/.vimrc
+|4,39,391,0,1479190774,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/developer/app_academy/scribe_notes/w1d2.txt
+	*	1479244262	0
+	"	50	0
+	^	61	3
+	.	62	0
+	+	3	68
+	+	4	37
+	+	5	25
+	+	1	24
+	+	7	30
+	+	14	55
+	+	1	38
+	+	3	0
+	+	15	43
+	+	16	25
+	+	2	0
+	+	18	68
+	+	21	24
+	+	22	0
+	+	24	45
+	+	29	48
+	+	6	23
+	+	11	0
+	+	8	0
+	+	9	0
+	+	26	24
+	+	27	14
+	+	32	0
+	+	19	0
+	+	33	13
+	+	1	8
+	+	2	0
+	+	34	0
+	+	35	45
+	+	35	152
+	+	37	20
+	+	38	56
+	+	39	11
+	+	40	82
+	+	42	28
+	+	44	45
+	+	47	6
+	+	48	0
+	+	49	41
+	+	51	29
+	+	52	32
+	+	55	35
+	+	57	24
+	+	61	55
+	+	62	47
+	+	63	41
+	+	62	40
+	+	61	35
+	+	67	0
+	+	64	79
+	+	65	33
+	+	67	0
+	+	2	0
+	+	22	0
+	+	34	0
+	+	48	0
+	+	1	2
+	+	21	2
+	+	33	2
+	+	47	2
+	+	3	0
+	+	4	0
+	+	23	2
+	+	24	0
+	+	35	0
+	+	36	0
+	+	43	0
+	+	36	0
+	+	59	2
+	+	50	0
+	+	62	0
+	y	4	2
+	z	50	2
+
+> ~/developer/app_academy/scribe_notes/test.js
+	*	1479238996	0
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	6
+	+	1	0
+	z	1	0
+
+> ~/.vim/UltiSnips/javascript.snippets
+	*	1479238921	0
+	"	28	2
+	^	27	6
+	.	27	5
+	+	25	18
+	+	26	10
+	+	28	23
+	+	28	33
+	+	31	0
+	+	14	37
+	+	28	0
+	+	34	55
+	+	24	18
+	+	25	18
+	+	27	5
+	z	28	2
+
+> ~/.vimrc
+	*	1479238183	0
+	"	387	0
+	.	512	0
+	+	398	0
+	+	293	0
+	+	287	20
+	+	292	0
+	+	286	4
+	+	287	19
+	+	278	0
+	+	287	0
+	+	278	0
+	+	282	0
+	+	290	0
+	+	291	0
+	+	283	0
+	+	286	0
+	+	333	0
+	+	164	0
+	+	161	1
+	+	163	0
+	+	164	0
+	+	162	12
+	+	161	0
+	+	512	76
+	+	511	0
+	+	512	0
+	+	512	47
+	+	512	39
+	+	512	0
+	+	512	60
+	+	512	0
+	+	512	42
+	+	512	0
+	+	512	42
+	+	512	0
+	z	387	0
+
+> ~/developer/app_academy/w1d1.txt
+	*	1479232715	0
+	"	1	0
+	^	4	11
+	.	4	10
+	+	1	13
+	+	2	44
+	+	3	40
+	+	5	0
+	+	4	10
+	z	1	0
+
+> ~/.bash_aliases
+	"	16	7
+	^	14	6
+	.	16	7
+	+	26	23
+	+	27	17
+	+	28	24
+	+	14	5
+	+	15	0
+	+	16	0
+	+	15	8
+	+	16	7
+	z	16	0
+
+> ~/Downloads/solarized/osx-terminal.app-colors-solarized/README.md
+	"	15	0
+	z	15	0
 
 > ~/.ghci
 	*	1479186774	0
@@ -750,16 +992,6 @@ $
 	.	1	20
 	+	1	20
 	z	2	0
-
-> ~/.bash_aliases
-	*	1479186623	0
-	"	28	24
-	^	28	25
-	.	28	24
-	+	26	23
-	+	27	17
-	+	28	24
-	z	28	0
 
 > ~/Dropbox/developer/app-academy/class/assessments/a3/01_sql/data/tabactor.txt
 	*	1479186468	0
@@ -2900,27 +3132,6 @@ $
 	+	7	22
 	z	7	0
 
-> ~/.vimrc
-	*	1478815095	0
-	"	284	2
-	^	289	20
-	.	284	0
-	+	396	0
-	+	291	0
-	+	285	20
-	+	290	0
-	+	284	4
-	+	285	19
-	+	276	0
-	+	285	0
-	+	276	0
-	+	280	0
-	+	288	0
-	+	289	0
-	+	281	0
-	+	284	0
-	z	284	2
-
 > ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_index_item.jsx
 	*	1478813826	0
 	"	14	25
@@ -4324,77 +4535,3 @@ $
 	*	1478640813	0
 	"	1	0
 	z	1	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/styles/headerStyles.js
-	*	1478640617	0
-	"	5	0
-	^	5	19
-	.	5	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	8	0
-	+	6	0
-	+	8	1
-	+	6	20
-	+	7	19
-	+	5	0
-	z	5	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/styles/indexStyle.js
-	*	1478640347	0
-	"	2	21
-	^	2	22
-	.	2	21
-	+	4	0
-	+	2	24
-	+	2	14
-	+	4	1
-	+	2	23
-	+	2	12
-	+	2	10
-	+	2	13
-	+	2	18
-	+	11	24
-	+	2	0
-	+	6	24
-	+	7	11
-	+	8	12
-	+	7	16
-	+	3	10
-	+	2	21
-	z	2	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/NERD_tree_4
-	*	1478636248	0
-	"	17	0
-	.	1	0
-	+	1	0
-	z	17	6
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item_container.js
-	*	1478636196	0
-	"	8	0
-	^	8	17
-	.	8	16
-	+	1	38
-	+	2	47
-	+	4	35
-	+	5	3
-	+	6	0
-	+	10	0
-	+	7	23
-	+	9	13
-	+	2	18
-	+	8	16
-	z	8	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/status_selector.jsx
-	*	1478630486	0
-	"	52	20
-	^	52	22
-	.	52	0
-	+	66	28
-	+	57	55
-	+	52	0
-	z	52	12
