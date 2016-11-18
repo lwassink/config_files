@@ -516,56 +516,88 @@ $
 |4,85,361,0,1469211868,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  75  0  ~/.vimrc
 |4,86,75,0,1468550697,"~/.vimrc"
-'0  19  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
-|4,48,19,0,1479449115,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
-'1  35  0  ~/Dropbox/developer/checkers/board.rb
-|4,49,35,0,1479438628,"~/Dropbox/developer/checkers/board.rb"
-'2  63  0  ~/Dropbox/developer/checkers/board.rb
-|4,50,63,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
-'3  39  0  ~/Dropbox/developer/checkers/board.rb
-|4,51,39,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
-'4  1  0  ~/Dropbox/developer/checkers/piece.rb
-|4,52,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
+'0  12  6  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
+|4,48,12,6,1479449240,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
+'1  19  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+|4,49,19,0,1479449115,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+'2  35  0  ~/Dropbox/developer/checkers/board.rb
+|4,50,35,0,1479438628,"~/Dropbox/developer/checkers/board.rb"
+'3  63  0  ~/Dropbox/developer/checkers/board.rb
+|4,51,63,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
+'4  39  0  ~/Dropbox/developer/checkers/board.rb
+|4,52,39,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
 '5  1  0  ~/Dropbox/developer/checkers/piece.rb
 |4,53,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
-'6  2  0  ~/.ghci
-|4,54,2,0,1479186774,"~/.ghci"
-'7  28  24  ~/.bash_aliases
-|4,55,28,24,1479186624,"~/.bash_aliases"
-'8  27  17  ~/.bash_aliases
-|4,56,27,17,1479186576,"~/.bash_aliases"
+'6  1  0  ~/Dropbox/developer/checkers/piece.rb
+|4,54,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
+'7  2  0  ~/.ghci
+|4,55,2,0,1479186774,"~/.ghci"
+'8  28  24  ~/.bash_aliases
+|4,56,28,24,1479186624,"~/.bash_aliases"
 '9  27  17  ~/.bash_aliases
 |4,57,27,17,1479186576,"~/.bash_aliases"
 
 # Jumplist (newest first):
+-'  12  6  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,12,6,1479449240,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1479449235,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  19  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
 |4,39,19,0,1479449115,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+-'  19  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,19,0,1479449115,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+-'  9  4  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,9,4,1479449081,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
 -'  9  4  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
 |4,39,9,4,1479449081,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
 -'  12  36  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
 |4,39,12,36,1479449013,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  10  4  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
 |4,39,10,4,1479448962,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+-'  10  4  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,10,4,1479448962,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+-'  21  0  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,21,0,1479448909,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  21  0  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
 |4,39,21,0,1479448909,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  13  18  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
 |4,39,13,18,1479448907,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+-'  13  18  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,13,18,1479448907,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
 -'  2  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
 |4,39,2,0,1479448825,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+-'  2  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,2,0,1479448825,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
+-'  1  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,1,0,1479448823,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
 -'  1  0  ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
 |4,39,1,0,1479448823,"~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx"
 -'  1  0  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
 |4,39,1,0,1479448811,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  22  9  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
 |4,39,22,9,1479448731,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
+-'  22  9  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,22,9,1479448731,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  20  31  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
 |4,39,20,31,1479447657,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
+-'  20  31  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,20,31,1479447657,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
+-'  23  6  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,23,6,1479447450,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  23  6  ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
 |4,39,23,6,1479447450,"~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx"
 -'  35  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,35,0,1479438628,"~/Dropbox/developer/checkers/board.rb"
 -'  35  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,35,0,1479438628,"~/Dropbox/developer/checkers/board.rb"
+-'  35  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,35,0,1479438628,"~/Dropbox/developer/checkers/board.rb"
+-'  35  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,35,0,1479438628,"~/Dropbox/developer/checkers/board.rb"
+-'  40  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,40,0,1479356770,"~/Dropbox/developer/checkers/board.rb"
+-'  40  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,40,0,1479356770,"~/Dropbox/developer/checkers/board.rb"
 -'  40  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,40,0,1479356770,"~/Dropbox/developer/checkers/board.rb"
 -'  40  0  ~/Dropbox/developer/checkers/board.rb
@@ -574,6 +606,18 @@ $
 |4,39,52,0,1479356769,"~/Dropbox/developer/checkers/board.rb"
 -'  52  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,52,0,1479356769,"~/Dropbox/developer/checkers/board.rb"
+-'  52  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,52,0,1479356769,"~/Dropbox/developer/checkers/board.rb"
+-'  52  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,52,0,1479356769,"~/Dropbox/developer/checkers/board.rb"
+-'  57  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,57,0,1479356768,"~/Dropbox/developer/checkers/board.rb"
+-'  62  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,62,0,1479356768,"~/Dropbox/developer/checkers/board.rb"
+-'  57  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,57,0,1479356768,"~/Dropbox/developer/checkers/board.rb"
+-'  62  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,62,0,1479356768,"~/Dropbox/developer/checkers/board.rb"
 -'  57  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,57,0,1479356768,"~/Dropbox/developer/checkers/board.rb"
 -'  62  0  ~/Dropbox/developer/checkers/board.rb
@@ -590,10 +634,26 @@ $
 |4,39,30,0,1479356766,"~/Dropbox/developer/checkers/board.rb"
 -'  27  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,27,0,1479356766,"~/Dropbox/developer/checkers/board.rb"
+-'  30  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,30,0,1479356766,"~/Dropbox/developer/checkers/board.rb"
+-'  27  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,27,0,1479356766,"~/Dropbox/developer/checkers/board.rb"
+-'  30  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,30,0,1479356766,"~/Dropbox/developer/checkers/board.rb"
+-'  27  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,27,0,1479356766,"~/Dropbox/developer/checkers/board.rb"
 -'  20  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,20,0,1479356765,"~/Dropbox/developer/checkers/board.rb"
 -'  20  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,20,0,1479356765,"~/Dropbox/developer/checkers/board.rb"
+-'  20  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,20,0,1479356765,"~/Dropbox/developer/checkers/board.rb"
+-'  20  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,20,0,1479356765,"~/Dropbox/developer/checkers/board.rb"
+-'  24  6  ~/Dropbox/developer/checkers/board.rb
+|4,39,24,6,1479355868,"~/Dropbox/developer/checkers/board.rb"
+-'  24  6  ~/Dropbox/developer/checkers/board.rb
+|4,39,24,6,1479355868,"~/Dropbox/developer/checkers/board.rb"
 -'  24  6  ~/Dropbox/developer/checkers/board.rb
 |4,39,24,6,1479355868,"~/Dropbox/developer/checkers/board.rb"
 -'  24  6  ~/Dropbox/developer/checkers/board.rb
@@ -606,6 +666,18 @@ $
 |4,39,1,0,1479355678,"~/Dropbox/developer/checkers/board.rb"
 -'  15  15  ~/Dropbox/developer/checkers/board.rb
 |4,39,15,15,1479355678,"~/Dropbox/developer/checkers/board.rb"
+-'  1  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,1,0,1479355678,"~/Dropbox/developer/checkers/board.rb"
+-'  15  15  ~/Dropbox/developer/checkers/board.rb
+|4,39,15,15,1479355678,"~/Dropbox/developer/checkers/board.rb"
+-'  1  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,1,0,1479355678,"~/Dropbox/developer/checkers/board.rb"
+-'  15  15  ~/Dropbox/developer/checkers/board.rb
+|4,39,15,15,1479355678,"~/Dropbox/developer/checkers/board.rb"
+-'  17  5  ~/Dropbox/developer/checkers/board.rb
+|4,39,17,5,1479355667,"~/Dropbox/developer/checkers/board.rb"
+-'  17  5  ~/Dropbox/developer/checkers/board.rb
+|4,39,17,5,1479355667,"~/Dropbox/developer/checkers/board.rb"
 -'  17  5  ~/Dropbox/developer/checkers/board.rb
 |4,39,17,5,1479355667,"~/Dropbox/developer/checkers/board.rb"
 -'  17  5  ~/Dropbox/developer/checkers/board.rb
@@ -614,6 +686,14 @@ $
 |4,39,18,12,1479355566,"~/Dropbox/developer/checkers/board.rb"
 -'  18  12  ~/Dropbox/developer/checkers/board.rb
 |4,39,18,12,1479355566,"~/Dropbox/developer/checkers/board.rb"
+-'  18  12  ~/Dropbox/developer/checkers/board.rb
+|4,39,18,12,1479355566,"~/Dropbox/developer/checkers/board.rb"
+-'  18  12  ~/Dropbox/developer/checkers/board.rb
+|4,39,18,12,1479355566,"~/Dropbox/developer/checkers/board.rb"
+-'  63  36  ~/Dropbox/developer/checkers/board.rb
+|4,39,63,36,1479355520,"~/Dropbox/developer/checkers/board.rb"
+-'  63  36  ~/Dropbox/developer/checkers/board.rb
+|4,39,63,36,1479355520,"~/Dropbox/developer/checkers/board.rb"
 -'  63  36  ~/Dropbox/developer/checkers/board.rb
 |4,39,63,36,1479355520,"~/Dropbox/developer/checkers/board.rb"
 -'  63  36  ~/Dropbox/developer/checkers/board.rb
@@ -622,10 +702,22 @@ $
 |4,39,1,0,1479355256,"~/Dropbox/developer/checkers/piece.rb"
 -'  1  0  ~/Dropbox/developer/checkers/piece.rb
 |4,39,1,0,1479355256,"~/Dropbox/developer/checkers/piece.rb"
+-'  1  0  ~/Dropbox/developer/checkers/piece.rb
+|4,39,1,0,1479355256,"~/Dropbox/developer/checkers/piece.rb"
+-'  1  0  ~/Dropbox/developer/checkers/piece.rb
+|4,39,1,0,1479355256,"~/Dropbox/developer/checkers/piece.rb"
 -'  39  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,39,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
 -'  39  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,39,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
+-'  39  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,39,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
+-'  39  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,39,0,1479354257,"~/Dropbox/developer/checkers/board.rb"
+-'  1  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,1,0,1479354221,"~/Dropbox/developer/checkers/board.rb"
+-'  1  0  ~/Dropbox/developer/checkers/board.rb
+|4,39,1,0,1479354221,"~/Dropbox/developer/checkers/board.rb"
 -'  1  0  ~/Dropbox/developer/checkers/board.rb
 |4,39,1,0,1479354221,"~/Dropbox/developer/checkers/board.rb"
 -'  1  0  ~/Dropbox/developer/checkers/board.rb
@@ -638,131 +730,20 @@ $
 |4,39,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
 -'  1  0  ~/Dropbox/developer/checkers/piece.rb
 |4,39,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  2  0  ~/.ghci
-|4,39,2,0,1479186774,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  1  0  ~/.ghci
-|4,39,1,0,1479186758,"~/.ghci"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
--'  28  24  ~/.bash_aliases
-|4,39,28,24,1479186624,"~/.bash_aliases"
+-'  1  0  ~/Dropbox/developer/checkers/piece.rb
+|4,39,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
+-'  1  0  ~/Dropbox/developer/checkers/piece.rb
+|4,39,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
+-'  1  0  ~/Dropbox/developer/checkers/piece.rb
+|4,39,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
+-'  1  0  ~/Dropbox/developer/checkers/piece.rb
+|4,39,1,0,1479354192,"~/Dropbox/developer/checkers/piece.rb"
 
 # History of marks within files (newest to oldest):
 
-> ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
-	*	1479449115	0
-	"	19	0
-	^	20	0
-	.	21	0
-	+	10	16
-	+	10	0
-	+	13	23
-	+	9	19
-	+	9	0
-	+	20	0
-	+	21	0
-	z	19	0
-
-> ~/.vim/UltiSnips/javascript.snippets
-	*	1479449109	0
-	"	47	0
-	z	47	0
-
 > ~/Dropbox/developer/checkers/frontend/components/checkers/board.jsx
-	*	1479449009	0
-	"	12	36
+	*	1479449240	0
+	"	12	6
 	^	12	37
 	.	12	36
 	+	16	0
@@ -794,6 +775,25 @@ $
 	+	21	0
 	+	12	36
 	z	12	6
+
+> ~/Dropbox/developer/checkers/frontend/components/checkers/square.jsx
+	*	1479449115	0
+	"	19	0
+	^	20	0
+	.	21	0
+	+	10	16
+	+	10	0
+	+	13	23
+	+	9	19
+	+	9	0
+	+	20	0
+	+	21	0
+	z	19	0
+
+> ~/.vim/UltiSnips/javascript.snippets
+	*	1479449109	0
+	"	47	0
+	z	47	0
 
 > ~/Dropbox/developer/checkers/frontend/ControlP
 	*	1479448819	0
