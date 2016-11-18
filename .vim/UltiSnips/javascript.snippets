@@ -20,12 +20,18 @@ def copy(string):
 		return ''
 	else:
 		return ",\n" + string
+
+def new_line(word):
+	if len(word) == 0:
+		return ''
+	else:
+		return ",\n  " + word
 endglobal
 
 snippet action
 export const `!p snip.rv = to_upper_snake(t[1])` = '`!p snip.rv = to_upper_snake(t[1])`';
 export const $1 = ($2) => ({
-	type: `!p snip.rv = to_upper_snake(t[1])`$3
+	type: `!p snip.rv = to_upper_snake(t[1]) + new_line(t[2])`
 });
 $0
 endsnippet
