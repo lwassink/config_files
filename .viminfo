@@ -21,29 +21,61 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1479239361,,"w"
-:q!
-|2,0,1479238997,,"q!"
-:W
-|2,0,1479238896,,"W"
+|2,0,1479499903,,"w"
+:wall
+|2,0,1479490582,,"wall"
 :q
-|2,0,1479238805,,"q"
+|2,0,1479489101,,"q"
+:e components/checkers/board.jsx
+|2,0,1479433269,,"e components/checkers/board.jsx"
+:e ../app/assets/stylesheets/checkers.scss
+|2,0,1479432036,,"e ../app/assets/stylesheets/checkers.scss"
+:e components/checkers/square.jsx
+|2,0,1479431926,,"e components/checkers/square.jsx"
+:bd!
+|2,0,1479431921,,"bd!"
+:bd
+|2,0,1479431918,,"bd"
+:e components/checkers/square.rb
+|2,0,1479431905,,"e components/checkers/square.rb"
+:e components/root.jsx
+|2,0,1479430226,,"e components/root.jsx"
+:e components/checkers/piece.jsx
+|2,0,1479430198,,"e components/checkers/piece.jsx"
+:e ../app/views/static_pages/root.html.erb
+|2,0,1479413672,,"e ../app/views/static_pages/root.html.erb"
+:ww
+|2,0,1479408440,,"ww"
+:b p
+|2,0,1479345722,,"b p"
+:e game.rb
+|2,0,1479341631,,"e game.rb"
+:e board.rb
+|2,0,1479336450,,"e board.rb"
+:PluginInstall
+|2,0,1479335706,,"PluginInstall"
+:e ~/.vimrc
+|2,0,1479335693,,"e ~/.vimrc"
+:PluginClean
+|2,0,0,,"PluginClean"
+:e ~/.vim/ftplugin/ruby/ruby.vim
+|2,0,0,,"e ~/.vim/ftplugin/ruby/ruby.vim"
+:q!
+|2,0,0,,"q!"
+:W
+|2,0,0,,"W"
 :e test.js
-|2,0,1479235084,,"e test.js"
+|2,0,0,,"e test.js"
 :e ../w1d1.txt
-|2,0,1479230951,,"e ../w1d1.txt"
+|2,0,0,,"e ../w1d1.txt"
 :pwd
-|2,0,1479230935,,"pwd"
+|2,0,0,,"pwd"
 :Q!
 |2,0,0,,"Q!"
 :PluginUpdate
 |2,0,0,,"PluginUpdate"
-:PluginInstall
-|2,0,0,,"PluginInstall"
 :set filetype=javascript
 |2,0,0,,"set filetype=javascript"
-:wall
-|2,0,0,,"wall"
 :Wall
 |2,0,0,,"Wall"
 :e package.json
@@ -88,62 +120,38 @@ $
 |2,0,0,,"b "
 :ew
 |2,0,0,,"ew"
-:e components/reviews/review_form.jsx
-|2,0,0,,"e components/reviews/review_form.jsx"
-:e components/reviews/review_form_container.js
-|2,0,0,,"e components/reviews/review_form_container.js"
-:e components/reviews/review_toolbar.jsx
-|2,0,0,,"e components/reviews/review_toolbar.jsx"
-:e util/reviews_api_util.js
-|2,0,0,,"e util/reviews_api_util.js"
-:e ../app/views/api/reviews/index.json.jbuilder
-|2,0,0,,"e ../app/views/api/reviews/index.json.jbuilder"
-:e ../app/views/api/reviews/show.json.jbuilder
-|2,0,0,,"e ../app/views/api/reviews/show.json.jbuilder"
-:e ../app/views/api/reviews/_review.json.jbuilder
-|2,0,0,,"e ../app/views/api/reviews/_review.json.jbuilder"
-:e ../app/views/a
-|2,0,0,,"e ../app/views/a"
-:bd
-|2,0,0,,"bd"
-:e components/util/loading.jsx
-|2,0,0,,"e components/util/loading.jsx"
-:e components/util/loading_container.js
-|2,0,0,,"e components/util/loading_container.js"
-:e ../app/views/api/statuses/show.json.jbuilder
-|2,0,0,,"e ../app/views/api/statuses/show.json.jbuilder"
-:w!
-|2,0,0,,"w!"
-:e components/statuses/status_selector.jsx
-|2,0,0,,"e components/statuses/status_selector.jsx"
-:e components/statuses/status_selector_container.js
-|2,0,0,,"e components/statuses/status_selector_container.js"
-:e ../app/views/api/users/show.json.jbuilder
-|2,0,0,,"e ../app/views/api/users/show.json.jbuilder"
 
 # Search String History (newest to oldest):
-?/ Q\n W\n D\n N\n I\n G\n W\n W\n S\n Q
-|2,1,1479239226,47," Q\\n W\\n D\\n N\\n I\\n G\\n W\\n W\\n S\\n Q"
-?/Vy
-|2,1,1479230683,47,"Vy"
-?/p=
-|2,1,1479230666,47,"p="
-?/=p
-|2,1,1479230663,47,"=p"
-?/reverse
-|2,1,1479190894,47,"reverse"
-?/sol
-|2,1,1479190774,47,"sol"
-?/syntax en
-|2,1,1479190503,47,"syntax en"
+? \$\(cursor\|select\)\$
+|2,1,1479489448,,"\\$\\(cursor\\|select\\)\\$"
 ?/syntax
-|2,1,1479190498,47,"syntax"
+|2,1,1479422141,47,"syntax"
+?/^s*private<cr>mp
+|2,1,1479431905,47,"^s*private<cr>mp"
+?/Ulti
+|2,1,1479333405,47,"Ulti"
+?/set shell
+|2,1,0,47,"set shell"
+?/vim-ru
+|2,1,0,47,"vim-ru"
+?/ Q\n W\n D\n N\n I\n G\n W\n W\n S\n Q
+|2,1,0,47," Q\\n W\\n D\\n N\\n I\\n G\\n W\\n W\\n S\\n Q"
+?/Vy
+|2,1,0,47,"Vy"
+?/p=
+|2,1,0,47,"p="
+?/=p
+|2,1,0,47,"=p"
+?/reverse
+|2,1,0,47,"reverse"
+?/sol
+|2,1,0,47,"sol"
+?/syntax en
+|2,1,0,47,"syntax en"
 ?/solarize
-|2,1,1479190244,47,"solarize"
+|2,1,0,47,"solarize"
 ?/sol	
 |2,1,0,47,"sol	"
-?/^s*private<cr>mp
-|2,1,0,47,"^s*private<cr>mp"
 ?/as to
 |2,1,0,47,"as to"
 ?/ynch
@@ -178,8 +186,6 @@ $
 |2,1,0,47,"grep"
 ??w
 |2,1,0,63,"w"
-? \$\(cursor\|select\)\$
-|2,1,0,,"\\$\\(cursor\\|select\\)\\$"
 ?/5
 |2,1,0,47,"5"
 ?/props
@@ -216,12 +222,6 @@ $
 |2,1,0,47,"_de"
 ?/prop
 |2,1,0,47,"prop"
-?/log
-|2,1,0,47,"log"
-?/rec
-|2,1,0,47,"rec"
-?/Close
-|2,1,0,47,"Close"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -232,6 +232,10 @@ $
 |2,2,0,,"strftime('%c')<c-m>p"
 
 # Input Line History (newest to oldest):
+@p
+|2,3,1479489448,,"p"
+@y
+|2,3,0,,"y"
 @div.preview
 |2,3,0,,"div.preview"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal_container.js
@@ -258,12 +262,8 @@ $
 |2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice.jsx"
 @/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice_container.js
 |2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/statuses/list_choice_container.js"
-@y
-|2,3,0,,"y"
 @a
 |2,3,0,,"a"
-@p
-|2,3,0,,"p"
 @ul
 |2,3,0,,"ul"
 @div
@@ -336,105 +336,50 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	1. 
-	2. 
-	3. 
-	4. 
-	5. 
-	6. 
-	7. 
-	8. 
-	9. 
-	10.
-|3,0,0,0,10,0,1479239226,"1. ","2. ","3. ","4. ","5. ","6. ","7. ","8. ","9. ","10."
-""1	BLOCK	2
-	10.
-	11.
-	12.
-	13.
-	14.
-	15.
-|3,1,1,2,6,2,1479239280,"10.","11.","12.","13.","14.","15."
-"2	BLOCK	1
-	1.
-	2.
-	3.
-	4.
-	5.
-	6.
-	7.
-	8.
-	9.
-|3,0,2,2,9,1,1479239251,"1.","2.","3.","4.","5.","6.","7.","8.","9."
-"3	BLOCK	2
-	1. 
-	2. 
-	3. 
-	4. 
-	5. 
-	6. 
-	7. 
-	8. 
-	9. 
-	10.
-|3,0,3,2,10,2,1479239206,"1. ","2. ","3. ","4. ","5. ","6. ","7. ","8. ","9. ","10."
-"4	BLOCK	1
-	1.
-	2.
-	3.
-	4.
-	5.
-	6.
-	7.
-	8.
-|3,0,4,2,8,1,1479239189,"1.","2.","3.","4.","5.","6.","7.","8."
-"5	BLOCK	2
-	1. 
-	2. 
-	3. 
-	4. 
-	5. 
-	6. 
-	7. 
-	8. 
-	9. 
-	10.
-	11.
-	12.
-	13.
-	14.
-	15.
-	16.
-|3,0,5,2,16,2,1479239162,"1. ","2. ","3. ","4. ","5. ","6. ","7. ","8. ","9. ","10.","11.","12.","13.","14.","15.","16."
-"6	BLOCK	122
-	1. In my_each, why self[i], not self[i-1]. Answer: times starts at 0
-	2. my_rotate: what are drop and take?
-	3. What does sleep(2) do?
-	4. Why the round_over? Method? It's only one line.
-	5. What does next do in a loop?
-	6. First line of display_standings, what does it do? why? how?
-	7. Does underscore as an argument function as a variable?
-	8. How are sets different from other data structures?
-	9. Enumerable methods for sets?
-	10. What does attr_reader do? Why no parens? What about attr_writer? Do you still have to initialize the instance variable?
-	11. Why can we shovel into something coming from a reader?
-	12. How would we write a getter without syntactic sugar?
-	13. Do instance variables need the @ symbol?
-	14. Why not just use attr_accessor?
-	15. getters? method or variable?
-	16. public/private/protected methods? What order should they come in?
-|3,0,6,2,16,122,1479239151,"1. In my_each, why self[i], not self[i-1]. Answer: times starts at 0","2. my_rotate: what are drop and take?","3. What does sleep(2) do?","4. Why the round_over? Method? It's only one line.","5. What does next do in a loop?","6. First line of display_standings, what does it do? why? how?","7. Does underscore as an argument function as a variable?","8. How are sets different from other data structures?",>33
-|<"9. Enumerable methods for sets?","10. What does attr_reader do? Why no parens? What about attr_writer? Do you still have to initialize the instance variable?","11. Why can we shovel into something coming from a reader?","12. How would we write a getter without syntactic sugar?","13. Do instance variables need the @ symbol?","14. Why not just use attr_accessor?","15. getters? method or variable?","16. public/private/protected methods? What order should they come in?"
+"0	LINE	0
+	  );
+	};
+|3,0,0,1,2,0,1479499906,"  );","};"
+"1	LINE	0
+	  );
+	};
+|3,0,1,1,2,0,1479498664,"  );","};"
+"2	LINE	0
+	          RootMiddleware
+|3,0,2,1,1,0,1479498641,"          RootMiddleware"
+"3	LINE	0
+	import RootMiddleware from '../middleware/root_middleware.js';
+|3,0,3,1,1,0,1479498640,"import RootMiddleware from '../middleware/root_middleware.js';"
+"4	LINE	0
+	    
+|3,0,4,1,1,0,1479491355,"    "
+"5	LINE	0
+	
+|3,0,5,1,1,0,1479491032,""
+"6	LINE	0
+	    window.setInterval(() => {
+	      location = [
+	        Math.floor(Math.random() * 8),
+	        Math.floor(Math.random() * 8)
+	      ];
+	    }, 1000)
+|3,0,6,1,6,0,1479491026,"    window.setInterval(() => {","      location = [","        Math.floor(Math.random() * 8),","        Math.floor(Math.random() * 8)","      ];","    }, 1000)"
 "7	LINE	0
-	=======
-|3,0,7,1,1,0,1479239115,"======="
+	import location from '../../game/piece.js';
+|3,0,7,1,1,0,1479490907,"import location from '../../game/piece.js';"
 "8	LINE	0
-	==============
-|3,0,8,1,1,0,1479239113,"=============="
+	window.setInterval(() => {
+	  location = [
+	    Math.floor(math.random() * 8),
+	    Math.floor(math.random() * 8)
+	  ];
+	}, 10000)
+	
+|3,0,8,1,7,0,1479490885,"window.setInterval(() => {","  location = [","    Math.floor(math.random() * 8),","    Math.floor(math.random() * 8)","  ];","}, 10000)",""
 "9	LINE	0
-	=========================
-|3,0,9,1,1,0,1479239111,"========================="
+	  console.log(pos);
+	  console.log(knight);
+|3,0,9,1,2,0,1479490823,"  console.log(pos);","  console.log(knight);"
 "a	LINE	0
 	      <Toolbar
 	        backgroundColor={colors.light_brown}>
@@ -508,7 +453,7 @@ $
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,0,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,1479489092,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
 "i@	LINE	0
@@ -555,7 +500,7 @@ $
 	            <MenuItem primaryText="Log out" />
 	          </Menu>
 	        </Popover>
-|3,0,31,1,12,0,0,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
+|3,0,31,1,12,0,1479499906,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
 |<"        </Popover>"
 "w	LINE	0
 	  cout << "Enter a series of words:" << endl;
@@ -574,9 +519,9 @@ $
 |3,0,35,0,1,0,0,>723
 |<"Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		\"\"rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:
 |<w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w"
-"-	CHAR	0
-	3
-|3,0,36,0,1,0,1479238396,"3"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1479499943," "
 
 # File marks:
 'L  437  0  ~/.vimrc
@@ -585,230 +530,797 @@ $
 |4,85,361,0,0,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  75  0  ~/.vimrc
 |4,86,75,0,0,"~/.vimrc"
-'0  50  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,48,50,0,1479244262,"~/developer/app_academy/scribe_notes/w1d2.txt"
-'1  1  0  ~/developer/app_academy/scribe_notes/test.js
-|4,49,1,0,1479238997,"~/developer/app_academy/scribe_notes/test.js"
-'2  512  0  ~/.vimrc
-|4,50,512,0,1479191767,"~/.vimrc"
-'3  512  0  ~/.vimrc
-|4,51,512,0,1479191767,"~/.vimrc"
-'4  512  0  ~/.vimrc
-|4,52,512,0,1479191515,"~/.vimrc"
-'5  512  0  ~/.vimrc
-|4,53,512,0,1479191515,"~/.vimrc"
-'6  512  0  ~/.vimrc
-|4,54,512,0,1479191228,"~/.vimrc"
-'7  512  0  ~/.vimrc
-|4,55,512,0,1479191228,"~/.vimrc"
-'8  512  0  ~/.vimrc
-|4,56,512,0,1479191228,"~/.vimrc"
-'9  512  0  ~/.vimrc
-|4,57,512,0,1479191228,"~/.vimrc"
+'0  4  14  ~/developer/checkers/frontend/reducers/checkers_reducer.js
+|4,48,4,14,1479499965,"~/developer/checkers/frontend/reducers/checkers_reducer.js"
+'1  14  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,49,14,0,1479493720,"~/developer/checkers/frontend/components/checkers/board.jsx"
+'2  164  0  ~/.vimrc
+|4,50,164,0,1479489618,"~/.vimrc"
+'3  1  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,51,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
+'4  17  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,52,17,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+'5  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,53,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+'6  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,54,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+'7  9  0  ~/developer/checkers/.gitignore
+|4,55,9,0,1479412491,"~/developer/checkers/.gitignore"
+'8  2  0  ~/developer/checkers/.gitignore
+|4,56,2,0,1479412413,"~/developer/checkers/.gitignore"
+'9  5  0  ~/developer/checkers/.gitignore
+|4,57,5,0,1479412413,"~/developer/checkers/.gitignore"
 
 # Jumplist (newest first):
--'  50  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,50,0,1479244262,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  61  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,61,2,1479239285,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  58  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,58,0,1479239274,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  49  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,49,2,1479239272,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  59  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,59,2,1479239245,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  67  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,67,0,1479239237,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  60  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,60,0,1479239237,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  48  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,48,0,1479239236,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  45  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,45,0,1479239235,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  35  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,35,0,1479239235,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  44  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,44,0,1479239221,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  24  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,24,0,1479239199,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  23  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,23,0,1479239191,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  19  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,19,0,1479239182,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  3  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,3,0,1479239182,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  1  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,1,0,1479239133,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  2  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,2,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  20  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,20,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  22  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,22,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  32  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,32,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  34  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,34,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  46  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,46,0,1479239132,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  47  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,47,2,1479239131,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  33  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,33,2,1479239128,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  21  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,21,2,1479239126,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  51  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,51,0,1479239117,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  31  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,31,0,1479239111,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  1  0  ~/developer/app_academy/scribe_notes/test.js
-|4,39,1,0,1479238997,"~/developer/app_academy/scribe_notes/test.js"
--'  1  0  ~/developer/app_academy/scribe_notes/test.js
-|4,39,1,0,1479238997,"~/developer/app_academy/scribe_notes/test.js"
--'  71  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,71,0,1479235084,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  1  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,1,0,1479234811,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  14  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,14,0,1479234805,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  15  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,15,0,1479234805,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  50  3  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,50,3,1479234801,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  65  35  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,65,35,1479234190,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  1  0  ~/developer/app_academy/w1d1.txt
-|4,39,1,0,1479232763,"~/developer/app_academy/w1d1.txt"
--'  1  0  ~/developer/app_academy/w1d1.txt
-|4,39,1,0,1479232763,"~/developer/app_academy/w1d1.txt"
--'  52  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,52,2,1479232713,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  56  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,56,2,1479232713,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  55  2  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,55,2,1479232624,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  4  10  ~/developer/app_academy/w1d1.txt
-|4,39,4,10,1479232382,"~/developer/app_academy/w1d1.txt"
--'  4  10  ~/developer/app_academy/w1d1.txt
-|4,39,4,10,1479232382,"~/developer/app_academy/w1d1.txt"
--'  3  1  ~/developer/app_academy/w1d1.txt
-|4,39,3,1,1479232293,"~/developer/app_academy/w1d1.txt"
--'  3  1  ~/developer/app_academy/w1d1.txt
-|4,39,3,1,1479232293,"~/developer/app_academy/w1d1.txt"
--'  53  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,53,0,1479232288,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  47  45  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,47,45,1479232182,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  2  44  ~/developer/app_academy/w1d1.txt
-|4,39,2,44,1479231648,"~/developer/app_academy/w1d1.txt"
--'  2  44  ~/developer/app_academy/w1d1.txt
-|4,39,2,44,1479231648,"~/developer/app_academy/w1d1.txt"
--'  38  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,38,0,1479231599,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  2  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,2,0,1479231395,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  35  13  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,35,13,1479231384,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  21  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,21,0,1479231367,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  24  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,24,0,1479231366,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  34  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,34,0,1479231366,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  26  24  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,26,24,1479231328,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  28  24  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,28,24,1479231328,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  25  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,25,0,1479231326,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  17  4  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,17,4,1479231320,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  18  4  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,18,4,1479231320,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  16  26  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,16,26,1479231319,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  17  26  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,17,26,1479231319,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  12  56  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,12,56,1479231318,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  13  56  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,13,56,1479231318,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  10  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,10,0,1479231313,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  11  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,11,0,1479231313,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  11  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,11,0,1479231311,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  12  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,12,0,1479231311,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  6  23  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,6,23,1479231298,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  7  23  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,7,23,1479231298,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  4  3  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,4,3,1479231294,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  5  3  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,5,3,1479231294,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  29  48  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,29,48,1479231291,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  31  48  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,31,48,1479231291,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  26  15  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,26,15,1479230984,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  18  68  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,18,68,1479230951,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  19  68  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,19,68,1479230951,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  3  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,3,0,1479230718,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  4  0  ~/developer/app_academy/scribe_notes/w1d2.txt
-|4,39,4,0,1479230625,"~/developer/app_academy/scribe_notes/w1d2.txt"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191767,"~/.vimrc"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191767,"~/.vimrc"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191767,"~/.vimrc"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191767,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1479191756,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1479191756,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1479191756,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1479191756,"~/.vimrc"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191515,"~/.vimrc"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191515,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1479191512,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1479191512,"~/.vimrc"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191228,"~/.vimrc"
--'  512  0  ~/.vimrc
-|4,39,512,0,1479191228,"~/.vimrc"
--'  513  0  ~/.vimrc
-|4,39,513,0,1479191212,"~/.vimrc"
--'  513  0  ~/.vimrc
-|4,39,513,0,1479191212,"~/.vimrc"
--'  513  0  ~/.vimrc
-|4,39,513,0,1479191212,"~/.vimrc"
--'  513  0  ~/.vimrc
-|4,39,513,0,1479191212,"~/.vimrc"
--'  513  0  ~/.vimrc
-|4,39,513,0,1479191212,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1479191208,"~/.vimrc"
--'  391  0  ~/.vimrc
-|4,39,391,0,1479190774,"~/.vimrc"
--'  391  0  ~/.vimrc
-|4,39,391,0,1479190774,"~/.vimrc"
+-'  4  14  ~/developer/checkers/frontend/reducers/checkers_reducer.js
+|4,39,4,14,1479499965,"~/developer/checkers/frontend/reducers/checkers_reducer.js"
+-'  5  0  ~/developer/checkers/frontend/actions/checkers_actions.js
+|4,39,5,0,1479499912,"~/developer/checkers/frontend/actions/checkers_actions.js"
+-'  1  8  ~/developer/checkers/frontend/reducers/checkers_reducer.js
+|4,39,1,8,1479499911,"~/developer/checkers/frontend/reducers/checkers_reducer.js"
+-'  5  0  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,39,5,0,1479499894,"~/developer/checkers/frontend/reducers/root_reducer.js"
+-'  8  3  ~/developer/checkers/frontend/store/store.js
+|4,39,8,3,1479498685,"~/developer/checkers/frontend/store/store.js"
+-'  7  0  ~/developer/checkers/frontend/store/store.js
+|4,39,7,0,1479498666,"~/developer/checkers/frontend/store/store.js"
+-'  1  0  ~/developer/checkers/frontend/store/store.js
+|4,39,1,0,1479498644,"~/developer/checkers/frontend/store/store.js"
+-'  10  8  ~/developer/checkers/frontend/store/store.js
+|4,39,10,8,1479498644,"~/developer/checkers/frontend/store/store.js"
+-'  1  0  ~/developer/checkers/frontend/actions/checkers_actions.js
+|4,39,1,0,1479493838,"~/developer/checkers/frontend/actions/checkers_actions.js"
+-'  14  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,14,0,1479493720,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  14  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,14,0,1479493720,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  11  21  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,11,21,1479493702,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  11  21  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,11,21,1479493702,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  20  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,20,0,1479490923,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  20  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,20,0,1479490923,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  21  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,21,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  21  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,21,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  5  0  ~/developer/checkers/frontend/game/piece.js
+|4,39,5,0,1479490891,"~/developer/checkers/frontend/game/piece.js"
+-'  5  0  ~/developer/checkers/frontend/game/piece.js
+|4,39,5,0,1479490891,"~/developer/checkers/frontend/game/piece.js"
+-'  8  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,8,0,1479490845,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  8  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,8,0,1479490845,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  7  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,7,0,1479490624,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  7  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,7,0,1479490624,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  26  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,26,0,1479490620,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  26  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,26,0,1479490620,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  164  0  ~/.vimrc
+|4,39,164,0,1479489618,"~/.vimrc"
+-'  164  0  ~/.vimrc
+|4,39,164,0,1479489618,"~/.vimrc"
+-'  33  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,33,0,1479489555,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  33  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,33,0,1479489555,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  9  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,9,0,1479489554,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  9  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,9,0,1479489554,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,3,0,1479489521,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,3,0,1479489521,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,2,0,1479489517,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,2,0,1479489517,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  8  16  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,8,16,1479489483,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  8  16  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,8,16,1479489483,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  1  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,1,0,1479489456,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  13  8  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,13,8,1479489456,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  1  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,1,0,1479489456,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  13  8  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,13,8,1479489456,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,1,0,1479489331,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,1,0,1479489331,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  1  0  ~/developer/checkers/frontend/game/piece.js
+|4,39,1,0,1479489108,"~/developer/checkers/frontend/game/piece.js"
+-'  1  0  ~/developer/checkers/frontend/game/piece.js
+|4,39,1,0,1479489108,"~/developer/checkers/frontend/game/piece.js"
+-'  1  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
+-'  1  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
+-'  1  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
+-'  1  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
+-'  5  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
+-'  5  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
+-'  5  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
+-'  5  0  ~/developer/checkers/frontend/NERD_tree_1
+|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
+-'  17  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,17,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  17  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,17,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  80  0  ~/developer/checkers/log/development_BASE_16456.log
+|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  2  34  ~/developer/checkers/frontend/components/root.jsx
+|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  7  14  ~/developer/checkers/frontend/components/root.jsx
+|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
+-'  23  29  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,23,29,1479433297,"~/developer/checkers/frontend/components/checkers/board.jsx"
 
 # History of marks within files (newest to oldest):
+
+> ~/developer/checkers/frontend/reducers/checkers_reducer.js
+	*	1479499965	0
+	"	4	14
+	^	4	15
+	.	4	14
+	+	1	60
+	+	3	43
+	+	6	0
+	+	4	14
+	z	4	2
+
+> ~/developer/checkers/frontend/actions/checkers_actions.js
+	*	1479499911	0
+	"	5	0
+	^	5	2
+	.	4	10
+	+	1	0
+	+	7	0
+	+	3	0
+	+	4	10
+	z	5	2
+
+> ~/developer/checkers/frontend/ControlP
+	*	1479499910	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/developer/checkers/frontend/reducers/root_reducer.js
+	*	1479499821	0
+	"	5	0
+	^	5	27
+	.	7	0
+	+	1	39
+	+	2	52
+	+	4	32
+	+	6	2
+	+	5	26
+	+	7	0
+	z	5	2
+
+> ~/developer/checkers/frontend/store/store.js
+	*	1479498669	0
+	"	8	3
+	^	1	1
+	.	8	0
+	+	10	2
+	+	1	0
+	+	3	0
+	+	10	0
+	+	5	0
+	+	8	0
+	z	8	2
+
+> ~/developer/checkers/frontend/components/checkers/board.jsx
+	*	1479493719	0
+	"	14	0
+	^	14	10
+	.	14	9
+	+	1	0
+	+	28	0
+	+	4	10
+	+	23	29
+	+	2	0
+	+	3	0
+	+	33	30
+	+	26	0
+	+	21	0
+	+	3	0
+	+	19	22
+	+	20	0
+	+	21	19
+	+	21	0
+	+	7	0
+	+	10	0
+	+	8	33
+	+	9	0
+	+	11	28
+	+	14	7
+	+	15	12
+	+	33	32
+	+	14	7
+	+	11	20
+	+	14	9
+	z	14	6
+
+> ~/developer/checkers/app/assets/stylesheets/checkers.scss
+	*	1479491409	0
+	"	11	21
+	^	11	22
+	.	11	21
+	+	1	9
+	+	4	14
+	+	14	3
+	+	5	0
+	+	14	10
+	+	15	27
+	+	18	0
+	+	17	0
+	+	18	7
+	+	19	26
+	+	21	0
+	+	5	0
+	+	13	0
+	+	14	0
+	+	21	0
+	+	3	14
+	+	4	13
+	+	7	5
+	+	8	16
+	+	12	0
+	+	10	15
+	+	11	21
+	z	11	4
+
+> ~/developer/checkers/frontend/game/piece.js
+	*	1479490887	0
+	"	5	0
+	.	5	0
+	+	1	20
+	+	5	0
+	+	3	16
+	+	5	23
+	+	5	26
+	+	5	7
+	+	5	14
+	+	5	2
+	+	5	33
+	+	5	0
+	z	5	0
+
+> ~/developer/checkers/frontend/components/checkers/square.jsx
+	*	1479490826	0
+	"	8	0
+	^	7	65
+	.	8	0
+	+	1	0
+	+	22	0
+	+	16	26
+	+	17	11
+	+	4	20
+	+	4	0
+	+	16	19
+	+	14	39
+	+	16	28
+	+	14	20
+	+	11	13
+	+	2	42
+	+	7	41
+	+	13	0
+	+	3	30
+	+	2	0
+	+	8	19
+	+	8	23
+	+	8	17
+	+	7	64
+	+	8	0
+	z	8	0
+
+> ~/.vimrc
+	*	1479489618	0
+	"	164	0
+	^	13	19
+	.	313	0
+	+	398	0
+	+	293	0
+	+	287	20
+	+	292	0
+	+	286	4
+	+	287	19
+	+	278	0
+	+	287	0
+	+	278	0
+	+	282	0
+	+	290	0
+	+	291	0
+	+	283	0
+	+	286	0
+	+	337	0
+	+	164	0
+	+	161	1
+	+	163	0
+	+	164	0
+	+	162	12
+	+	161	0
+	+	512	76
+	+	511	0
+	+	512	0
+	+	512	47
+	+	512	39
+	+	512	0
+	+	512	60
+	+	512	0
+	+	512	42
+	+	512	0
+	+	512	42
+	+	512	0
+	+	51	0
+	+	14	11
+	+	14	0
+	+	13	18
+	+	339	0
+	+	313	0
+	z	164	0
+
+> ~/developer/checkers/frontend/NERD_tree_1
+	*	1479489099	0
+	"	1	0
+	.	1	0
+	+	1	0
+	z	1	0
+
+> ~/developer/checkers/log/development_BASE_16456.log
+	*	1479488618	0
+	"	80	0
+	z	80	0
+
+> ~/developer/checkers/log/development_REMOTE_16456.log
+	*	1479488617	0
+	"	92	0
+	z	92	0
+
+> ~/developer/checkers/log/development_LOCAL_16456.log
+	*	1479488608	0
+	"	87	0
+	z	87	0
+
+> ~/developer/checkers/log/development.log
+	*	1479488603	0
+	"	375	0
+	z	375	0
+
+> ~/developer/checkers/frontend/components/root.jsx
+	*	1479433430	0
+	"	2	34
+	^	2	35
+	.	2	34
+	+	1	0
+	+	6	9
+	+	7	17
+	+	2	42
+	+	7	14
+	+	2	34
+	z	2	0
+
+> ~/developer/checkers/frontend/components/checkers/square.rb
+	*	1479431918	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+	z	1	0
+
+> ~/developer/checkers/frontend/entry.jsx
+	*	1479431835	0
+	"	9	26
+	^	9	27
+	.	9	26
+	+	11	3
+	+	3	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	7	14
+	+	9	38
+	+	4	40
+	+	9	26
+	z	9	2
+
+> ~/.vim/UltiSnips/javascript.snippets
+	*	1479431411	0
+	"	99	1
+	^	99	2
+	.	99	1
+	+	21	18
+	+	22	10
+	+	24	23
+	+	24	33
+	+	27	0
+	+	10	37
+	+	24	0
+	+	27	55
+	+	20	18
+	+	21	18
+	+	23	5
+	+	55	11
+	+	53	0
+	+	54	0
+	+	27	0
+	+	45	0
+	+	44	0
+	+	56	26
+	+	57	0
+	+	58	34
+	+	59	21
+	+	62	0
+	+	60	14
+	+	63	11
+	+	66	2
+	+	70	14
+	+	5	0
+	+	65	4
+	+	70	17
+	+	66	3
+	+	101	0
+	+	75	25
+	+	56	27
+	+	58	7
+	+	65	4
+	+	77	32
+	+	82	0
+	+	78	9
+	+	80	1
+	+	79	3
+	+	70	16
+	+	86	38
+	+	87	20
+	+	89	46
+	+	90	1
+	+	90	0
+	+	89	47
+	+	92	53
+	+	95	23
+	+	98	5
+	+	96	17
+	+	97	18
+	+	100	9
+	+	99	1
+	z	99	0
+
+> components/checkers/piece.jsx
+	*	1479430200	0
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/webpack.config.js
+	*	1479430172	0
+	"	27	0
+	^	25	19
+	.	27	1
+	+	27	1
+	+	2	0
+	+	25	18
+	+	27	1
+	z	27	0
+
+> ~/developer/checkers/app/views/static_pages/root.html.erb
+	*	1479413694	0
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	26
+	z	1	0
+
+> ~/developer/checkers/config/routes.rb
+	*	1479413662	0
+	"	2	29
+	^	2	30
+	.	2	29
+	+	3	0
+	+	2	29
+	z	2	2
+
+> ~/developer/checkers/.gitignore
+	*	1479412491	0
+	"	9	0
+	^	9	5
+	.	10	0
+	+	1	5
+	+	2	4
+	+	2	1
+	+	2	11
+	+	2	1
+	+	2	8
+	+	2	0
+	+	9	4
+	+	10	0
+	z	9	0
+
+> ~/.bashrc
+	*	1479409653	0
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/game.rb
+	*	1479408831	0
+	"	11	4
+	^	6	30
+	.	6	29
+	+	2	23
+	+	3	17
+	+	2	39
+	+	5	21
+	+	12	5
+	+	13	0
+	+	12	0
+	+	10	0
+	+	6	29
+	z	11	2
+
+> ~/.bash_aliases
+	*	1479405257	0
+	"	20	0
+	.	25	0
+	+	22	23
+	+	23	17
+	+	24	24
+	+	14	5
+	+	14	0
+	+	14	8
+	+	14	53
+	+	14	67
+	+	14	0
+	+	23	20
+	+	14	0
+	+	21	0
+	+	32	0
+	+	34	0
+	+	33	31
+	+	25	0
+	z	20	0
+
+> ~/developer/checkers/board.rb
+	*	1479348649	0
+	"	50	17
+	^	50	18
+	.	50	17
+	+	4	0
+	+	1	13
+	+	2	0
+	+	4	0
+	+	53	0
+	+	5	3
+	+	4	26
+	+	5	27
+	+	9	22
+	+	10	4
+	+	9	4
+	+	10	11
+	+	27	11
+	+	30	4
+	+	30	0
+	+	28	13
+	+	29	22
+	+	28	6
+	+	32	19
+	+	34	29
+	+	52	0
+	+	13	0
+	+	26	0
+	+	52	0
+	+	15	19
+	+	16	9
+	+	14	19
+	+	17	6
+	+	16	41
+	+	19	19
+	+	20	21
+	+	21	42
+	+	16	39
+	+	14	0
+	+	15	0
+	+	52	0
+	+	4	27
+	+	38	24
+	+	39	35
+	+	43	8
+	+	41	33
+	+	43	12
+	+	24	0
+	+	16	6
+	+	21	6
+	+	24	61
+	+	43	24
+	+	39	36
+	+	41	25
+	+	37	9
+	+	43	42
+	+	46	4
+	+	50	17
+	z	50	4
+
+> ~/developer/checkers/piece.rb
+	*	1479346581	0
+	"	40	5
+	^	40	6
+	.	40	5
+	+	32	2
+	+	4	0
+	+	5	0
+	+	4	21
+	+	6	16
+	+	2	26
+	+	3	0
+	+	10	15
+	+	18	0
+	+	2	19
+	+	14	8
+	+	18	32
+	+	22	11
+	+	21	0
+	+	23	21
+	+	25	21
+	+	30	39
+	+	43	0
+	+	35	16
+	+	42	0
+	+	35	20
+	+	36	6
+	+	40	5
+	z	40	4
+
+> ~/.bash_rc
+	"	1	0
+	z	1	0
+
+> /usr/local/bin/.vimrc
+	"	1	0
+	z	1	0
+
+> /usr/local/Cellar/macvim/8.0-114/MacVim.app/Contents/Resources/vim/runtime/ftplugin/ruby.vim
+	*	1479327647	0
+	"	123	31
+	z	123	6
+
+> ~/test.rb
+	"	1	0
+
+> /usr/local/bin/python
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/.vimrc
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/link
+	*	1479321688	0
+	"	1	0
+	z	1	0
+
+> ~/developer/piece.rb
+	"	1	0
+	z	1	0
+
+> ~/.vim/bundle/vim-ruby/ftplugin/ruby.vim
+	"	37	0
+	z	37	8
+
+> ~/developer/checkers/peice.rb
+	"	1	0
+	z	1	0
+
+> /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin/ruby.vim
+	*	1479256395	0
+	"	1	0
+	z	1	0
+
+> ~/.vim/ftplugin/ruby/ruby.vim
+	*	1479255811	0
+	"	2	0
+	.	2	0
+	+	15	0
+	+	11	0
+	+	2	0
+	z	2	0
 
 > ~/developer/app_academy/scribe_notes/w1d2.txt
 	*	1479244262	0
@@ -898,63 +1410,6 @@ $
 	+	1	0
 	z	1	0
 
-> ~/.vim/UltiSnips/javascript.snippets
-	*	1479238921	0
-	"	28	2
-	^	27	6
-	.	27	5
-	+	25	18
-	+	26	10
-	+	28	23
-	+	28	33
-	+	31	0
-	+	14	37
-	+	28	0
-	+	34	55
-	+	24	18
-	+	25	18
-	+	27	5
-	z	28	2
-
-> ~/.vimrc
-	*	1479238183	0
-	"	387	0
-	.	512	0
-	+	398	0
-	+	293	0
-	+	287	20
-	+	292	0
-	+	286	4
-	+	287	19
-	+	278	0
-	+	287	0
-	+	278	0
-	+	282	0
-	+	290	0
-	+	291	0
-	+	283	0
-	+	286	0
-	+	333	0
-	+	164	0
-	+	161	1
-	+	163	0
-	+	164	0
-	+	162	12
-	+	161	0
-	+	512	76
-	+	511	0
-	+	512	0
-	+	512	47
-	+	512	39
-	+	512	0
-	+	512	60
-	+	512	0
-	+	512	42
-	+	512	0
-	+	512	42
-	+	512	0
-	z	387	0
-
 > ~/developer/app_academy/w1d1.txt
 	*	1479232715	0
 	"	1	0
@@ -966,20 +1421,6 @@ $
 	+	5	0
 	+	4	10
 	z	1	0
-
-> ~/.bash_aliases
-	"	16	7
-	^	14	6
-	.	16	7
-	+	26	23
-	+	27	17
-	+	28	24
-	+	14	5
-	+	15	0
-	+	16	0
-	+	15	8
-	+	16	7
-	z	16	0
 
 > ~/Downloads/solarized/osx-terminal.app-colors-solarized/README.md
 	"	15	0
@@ -3090,1448 +3531,3 @@ $
 	.	12	57
 	+	12	57
 	z	12	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_list_container.js
-	*	1478817487	0
-	"	15	55
-	^	15	56
-	.	15	55
-	+	1	0
-	+	2	44
-	+	15	12
-	+	7	0
-	+	22	12
-	+	15	12
-	+	16	0
-	+	15	18
-	+	16	0
-	+	15	56
-	+	10	0
-	+	8	39
-	+	15	74
-	+	9	33
-	+	15	55
-	z	15	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/search/search.jsx
-	*	1478816119	0
-	"	31	26
-	^	31	28
-	.	31	26
-	+	13	49
-	+	32	0
-	+	34	50
-	+	31	26
-	z	31	10
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/entry.jsx
-	*	1478816021	0
-	"	7	0
-	^	7	23
-	.	7	22
-	+	7	22
-	z	7	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_index_item.jsx
-	*	1478813826	0
-	"	14	25
-	^	36	18
-	.	14	25
-	+	23	13
-	+	23	14
-	+	23	47
-	+	4	35
-	+	23	48
-	+	23	28
-	+	23	0
-	+	23	37
-	+	23	0
-	+	23	9
-	+	47	0
-	+	6	32
-	+	23	0
-	+	23	24
-	+	47	9
-	+	23	0
-	+	23	35
-	+	23	25
-	+	47	0
-	+	25	0
-	+	24	6
-	+	25	0
-	+	23	0
-	+	6	20
-	+	23	0
-	+	27	0
-	+	25	0
-	+	24	6
-	+	25	0
-	+	47	0
-	+	47	23
-	+	47	0
-	+	47	22
-	+	47	49
-	+	47	0
-	+	47	32
-	+	47	48
-	+	47	33
-	+	47	0
-	+	25	0
-	+	24	6
-	+	24	0
-	+	25	0
-	+	19	0
-	+	14	45
-	+	17	39
-	+	14	0
-	+	19	0
-	+	9	0
-	+	27	0
-	+	26	0
-	+	34	16
-	+	34	0
-	+	9	35
-	+	14	25
-	z	14	10
-
-> components/search/search.jsx
-	*	1478742920	0
-	"	33	51
-	^	33	52
-	.	33	51
-	+	1	0
-	+	2	44
-	+	36	17
-	+	8	0
-	+	30	22
-	+	36	45
-	+	30	20
-	+	3	45
-	+	8	37
-	+	9	22
-	+	15	0
-	+	10	16
-	+	25	0
-	+	26	11
-	+	39	0
-	+	27	0
-	+	43	0
-	+	42	21
-	+	11	27
-	+	30	20
-	+	34	34
-	+	31	12
-	+	36	0
-	+	9	18
-	+	10	14
-	+	9	14
-	+	10	10
-	+	31	35
-	+	34	0
-	+	32	33
-	+	21	12
-	+	24	0
-	+	24	39
-	+	22	48
-	+	30	0
-	+	35	0
-	+	30	0
-	+	13	40
-	+	24	25
-	+	21	13
-	+	24	0
-	+	24	41
-	+	19	0
-	+	20	0
-	+	18	30
-	+	6	33
-	+	13	41
-	+	13	39
-	+	24	0
-	+	23	0
-	+	13	52
-	+	14	40
-	+	33	51
-	z	33	10
-
-> components/search/search_containter.js
-	*	1478741813	0
-	"	3	39
-	^	3	30
-	.	3	29
-	+	1	0
-	+	3	14
-	+	2	35
-	+	4	0
-	+	6	0
-	+	10	36
-	+	12	41
-	+	11	0
-	+	10	41
-	+	15	0
-	+	11	0
-	+	7	0
-	+	12	0
-	+	2	33
-	+	19	7
-	+	13	46
-	+	3	29
-	z	3	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/header/nav_header.jsx
-	*	1478741670	0
-	"	62	14
-	^	66	15
-	.	62	0
-	+	84	42
-	+	85	42
-	+	92	0
-	+	92	40
-	+	92	0
-	+	89	0
-	+	89	55
-	+	45	49
-	+	43	44
-	+	40	0
-	+	26	0
-	+	45	21
-	+	45	40
-	+	45	55
-	+	45	43
-	+	45	22
-	+	45	32
-	+	45	43
-	+	45	52
-	+	46	0
-	+	45	0
-	+	89	37
-	+	76	20
-	+	12	69
-	+	76	13
-	+	78	0
-	+	77	31
-	+	84	42
-	+	85	41
-	+	85	0
-	+	78	0
-	+	40	32
-	+	40	0
-	+	40	33
-	+	40	32
-	+	37	28
-	+	37	31
-	+	38	0
-	+	37	30
-	+	26	70
-	+	45	50
-	+	45	0
-	+	89	49
-	+	81	20
-	+	4	29
-	+	81	0
-	+	81	9
-	+	81	0
-	+	81	29
-	+	81	0
-	+	81	30
-	+	81	0
-	+	81	33
-	+	81	0
-	+	81	32
-	+	81	0
-	+	81	23
-	+	81	0
-	+	81	14
-	+	81	0
-	+	81	11
-	+	81	0
-	+	81	31
-	+	2	35
-	+	71	0
-	+	79	0
-	+	72	27
-	+	81	0
-	+	47	0
-	+	73	0
-	+	50	23
-	+	55	0
-	+	56	27
-	+	50	27
-	+	10	27
-	+	57	23
-	+	69	0
-	+	14	6
-	+	69	23
-	+	14	52
-	+	14	0
-	+	92	0
-	+	89	0
-	+	40	0
-	+	26	0
-	+	59	0
-	+	67	22
-	+	14	0
-	+	13	0
-	+	63	34
-	+	67	0
-	+	64	32
-	+	67	0
-	+	65	0
-	+	60	27
-	+	65	0
-	+	66	14
-	+	61	0
-	+	62	0
-	x	93	0
-	y	98	0
-	z	62	14
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/root.jsx
-	*	1478741549	0
-	"	34	0
-	^	34	63
-	.	34	62
-	+	1	26
-	+	2	39
-	+	3	70
-	+	16	0
-	+	40	1
-	+	41	0
-	+	39	3
-	+	39	0
-	+	23	8
-	+	39	0
-	+	26	33
-	+	36	12
-	+	27	36
-	+	8	27
-	+	16	13
-	+	27	39
-	+	16	15
-	+	25	21
-	+	37	0
-	+	26	0
-	+	4	0
-	+	24	27
-	+	16	22
-	+	38	12
-	+	25	0
-	+	27	0
-	+	25	55
-	+	5	56
-	+	6	18
-	+	35	17
-	+	28	58
-	+	9	78
-	+	28	33
-	+	25	56
-	+	8	58
-	+	8	0
-	+	32	57
-	+	16	1
-	+	16	0
-	+	17	0
-	+	16	0
-	+	23	0
-	+	17	0
-	+	18	53
-	+	20	0
-	+	19	30
-	+	18	22
-	+	18	23
-	+	32	25
-	+	9	44
-	+	35	72
-	+	10	71
-	+	35	71
-	+	35	0
-	+	31	0
-	+	23	19
-	+	7	60
-	+	23	3
-	+	23	0
-	+	23	30
-	+	23	0
-	+	23	32
-	+	23	41
-	+	23	57
-	+	23	11
-	+	31	93
-	+	23	0
-	+	23	31
-	+	23	0
-	+	31	72
-	+	23	0
-	+	32	82
-	+	11	52
-	+	32	90
-	+	28	47
-	+	29	73
-	+	12	16
-	+	29	25
-	+	31	72
-	+	35	17
-	+	29	0
-	+	31	72
-	+	32	93
-	+	31	0
-	+	12	71
-	+	29	0
-	+	31	0
-	+	30	78
-	+	31	39
-	+	30	44
-	+	29	39
-	+	31	39
-	+	32	35
-	+	9	51
-	+	9	0
-	+	33	67
-	+	13	71
-	+	34	59
-	+	14	59
-	+	34	62
-	z	34	12
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form.jsx
-	*	1478741338	0
-	"	82	0
-	^	90	77
-	.	90	76
-	+	71	0
-	+	111	26
-	+	1	25
-	+	76	0
-	+	7	0
-	+	76	10
-	+	76	0
-	+	3	8
-	+	4	11
-	+	5	10
-	+	82	38
-	+	78	63
-	+	85	36
-	+	91	0
-	+	78	0
-	+	79	28
-	+	23	0
-	+	20	0
-	+	20	15
-	+	20	27
-	+	22	0
-	+	21	18
-	+	68	14
-	+	68	0
-	+	68	25
-	+	68	0
-	+	32	0
-	+	33	0
-	+	68	0
-	+	26	0
-	+	34	27
-	+	38	33
-	+	39	0
-	+	45	38
-	+	59	35
-	+	60	11
-	+	61	21
-	+	82	0
-	+	86	0
-	+	87	41
-	+	80	51
-	+	81	52
-	+	88	0
-	+	89	45
-	+	88	38
-	+	95	13
-	+	95	0
-	+	95	28
-	+	95	20
-	+	95	12
-	+	95	13
-	+	95	18
-	+	95	0
-	+	95	20
-	+	95	0
-	+	95	37
-	+	95	0
-	+	95	15
-	+	95	14
-	+	95	0
-	+	95	25
-	+	95	0
-	+	95	15
-	+	95	32
-	+	95	0
-	+	96	24
-	+	2	27
-	+	19	31
-	+	20	0
-	+	26	0
-	+	24	54
-	+	26	0
-	+	96	22
-	+	104	12
-	+	97	0
-	+	95	0
-	+	98	0
-	+	9	47
-	+	103	0
-	+	95	0
-	+	95	25
-	+	4	0
-	+	5	9
-	+	67	0
-	+	66	28
-	+	103	39
-	+	30	50
-	+	66	40
-	+	102	0
-	+	32	0
-	+	95	0
-	+	12	35
-	+	94	50
-	+	5	0
-	+	70	0
-	+	101	26
-	+	64	0
-	+	70	0
-	+	101	24
-	+	90	76
-	z	82	12
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/search/search_index_item.jsx
-	*	1478740076	0
-	"	25	8
-	^	6	26
-	.	25	0
-	+	1	0
-	+	7	0
-	+	6	25
-	+	25	0
-	z	25	8
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/NERD_tree_1
-	*	1478739530	0
-	"	25	0
-	.	1	0
-	+	1	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/config/routes.rb
-	*	1478739427	0
-	"	7	4
-	^	7	74
-	.	7	0
-	+	13	0
-	+	2	28
-	+	13	0
-	+	4	48
-	+	6	35
-	+	5	46
-	+	7	12
-	+	5	0
-	+	7	56
-	+	9	40
-	+	8	0
-	+	7	0
-	+	8	0
-	+	12	0
-	+	8	0
-	+	7	0
-	+	12	0
-	+	13	0
-	+	8	0
-	+	7	74
-	+	8	0
-	+	11	0
-	+	12	0
-	+	10	0
-	+	11	0
-	+	7	0
-	z	7	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/muiTheme.js
-	*	1478734589	0
-	"	4	2
-	^	18	14
-	.	18	13
-	+	20	1
-	+	8	0
-	+	12	0
-	+	11	28
-	+	8	0
-	+	7	0
-	+	8	0
-	+	12	3
-	+	11	12
-	+	10	28
-	+	11	15
-	+	16	0
-	+	15	8
-	+	14	14
-	+	13	0
-	+	21	16
-	+	21	1
-	+	21	12
-	+	21	11
-	+	21	25
-	+	21	21
-	+	15	20
-	+	21	16
-	+	21	23
-	+	21	16
-	+	11	28
-	+	10	36
-	+	7	23
-	+	21	0
-	+	1	0
-	+	6	0
-	+	3	0
-	+	2	0
-	+	7	0
-	+	17	12
-	+	19	0
-	+	16	3
-	+	18	13
-	z	4	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/styles/formStyles.js
-	*	1478734584	0
-	"	1	0
-	^	11	20
-	.	11	19
-	+	4	21
-	+	4	16
-	+	4	21
-	+	4	0
-	+	17	11
-	+	2	10
-	+	17	21
-	+	19	0
-	+	40	0
-	+	32	0
-	+	33	0
-	+	40	0
-	+	33	27
-	+	35	14
-	+	6	20
-	+	7	10
-	+	40	0
-	+	19	0
-	+	35	17
-	+	36	18
-	+	24	0
-	+	22	17
-	+	23	14
-	+	7	10
-	+	36	13
-	+	18	14
-	+	37	19
-	+	36	15
-	+	7	11
-	+	40	0
-	+	39	0
-	+	40	0
-	+	30	17
-	+	29	28
-	+	11	0
-	+	12	11
-	+	15	0
-	+	11	19
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/preview.jsx
-	*	1478732829	0
-	"	12	12
-	^	12	13
-	.	12	12
-	+	1	26
-	+	6	30
-	+	17	0
-	+	18	0
-	+	7	0
-	+	9	0
-	+	7	11
-	+	16	12
-	+	9	0
-	+	7	9
-	+	16	8
-	+	9	0
-	+	15	0
-	+	15	5
-	+	8	8
-	+	9	0
-	+	2	35
-	+	3	49
-	+	15	15
-	+	5	29
-	+	7	0
-	+	7	44
-	+	15	34
-	+	15	0
-	+	15	70
-	+	15	0
-	+	15	29
-	+	15	8
-	+	15	0
-	+	15	64
-	+	15	0
-	+	15	29
-	+	15	0
-	+	15	23
-	+	5	42
-	+	12	34
-	+	5	0
-	+	4	0
-	+	7	0
-	+	12	0
-	+	14	0
-	+	12	0
-	+	15	0
-	+	12	12
-	z	12	6
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/reviews.scss
-	*	1478732398	0
-	"	30	0
-	.	31	0
-	+	4	14
-	+	4	5
-	+	4	23
-	+	4	18
-	+	4	8
-	+	4	10
-	+	1	0
-	+	3	0
-	+	4	23
-	+	1	0
-	+	4	15
-	+	2	0
-	+	4	15
-	+	2	6
-	+	31	0
-	+	4	15
-	+	5	5
-	+	9	16
-	+	9	9
-	+	9	10
-	+	9	0
-	+	9	14
-	+	9	17
-	+	29	0
-	+	4	20
-	+	4	0
-	+	4	11
-	+	6	18
-	+	9	0
-	+	7	24
-	+	4	9
-	+	4	22
-	+	7	25
-	+	8	24
-	+	4	14
-	+	4	0
-	+	10	0
-	+	4	0
-	+	14	0
-	+	31	0
-	+	11	0
-	+	31	0
-	+	28	0
-	+	28	18
-	+	28	0
-	+	12	0
-	+	31	0
-	z	30	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal.jsx
-	*	1478730472	0
-	"	49	10
-	^	52	30
-	.	49	0
-	+	5	6
-	+	6	16
-	+	5	0
-	+	59	25
-	+	53	0
-	+	53	32
-	+	4	60
-	+	2	0
-	+	44	34
-	+	5	41
-	+	53	0
-	+	52	0
-	+	5	0
-	+	34	0
-	+	33	37
-	+	10	39
-	+	5	0
-	+	21	21
-	+	25	22
-	+	21	24
-	+	25	25
-	+	10	20
-	+	18	0
-	+	17	27
-	+	10	0
-	+	46	0
-	+	45	37
-	+	46	38
-	+	48	48
-	+	49	34
-	+	48	21
-	+	52	29
-	+	46	0
-	+	49	0
-	z	49	10
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/util/reviews_api_util.js
-	*	1478726355	0
-	"	36	19
-	^	36	20
-	.	36	20
-	+	1	0
-	+	9	0
-	+	10	0
-	+	19	0
-	+	10	24
-	+	16	23
-	+	20	0
-	+	29	0
-	+	26	17
-	+	30	0
-	+	39	0
-	+	40	0
-	+	48	0
-	+	43	16
-	+	42	22
-	+	36	20
-	z	36	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_form_container.js
-	*	1478722614	0
-	"	4	35
-	^	4	36
-	.	4	35
-	+	1	0
-	+	2	42
-	+	25	11
-	+	20	2
-	+	21	0
-	+	13	29
-	+	11	40
-	+	22	21
-	+	27	24
-	+	3	0
-	+	27	46
-	+	22	5
-	+	13	10
-	+	9	0
-	+	7	0
-	+	14	24
-	+	7	11
-	+	8	22
-	+	9	0
-	+	4	62
-	+	19	47
-	+	13	10
-	+	20	46
-	+	5	0
-	+	4	37
-	+	24	19
-	+	20	0
-	+	19	50
-	+	14	36
-	+	18	0
-	+	18	29
-	+	18	27
-	+	19	0
-	+	18	0
-	+	14	70
-	+	16	0
-	+	12	0
-	+	12	8
-	+	12	0
-	+	19	0
-	+	14	0
-	+	12	0
-	+	15	0
-	+	14	100
-	+	18	46
-	+	19	46
-	+	4	35
-	z	4	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_toolbar.jsx
-	*	1478721683	0
-	"	18	48
-	^	18	60
-	.	18	48
-	+	8	0
-	+	1	25
-	+	6	26
-	+	7	9
-	+	22	0
-	+	8	0
-	+	23	0
-	+	2	0
-	+	8	0
-	+	4	60
-	+	18	30
-	+	3	0
-	+	18	28
-	+	4	62
-	+	8	12
-	+	9	14
-	+	11	7
-	+	10	21
-	+	18	48
-	z	18	8
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_modal_container.js
-	*	1478721167	0
-	"	5	44
-	.	6	0
-	+	2	38
-	+	17	12
-	+	6	7
-	+	12	2
-	+	11	7
-	+	3	81
-	+	10	38
-	+	11	0
-	+	16	19
-	+	10	11
-	+	11	12
-	+	6	29
-	+	10	44
-	+	11	46
-	+	7	8
-	+	6	30
-	+	5	40
-	+	7	24
-	+	5	43
-	+	8	0
-	+	5	51
-	+	5	71
-	+	5	43
-	+	7	0
-	+	8	0
-	+	5	45
-	+	6	0
-	z	5	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/static_pages/root.html.erb
-	*	1478719345	0
-	"	8	0
-	.	8	0
-	+	8	0
-	+	7	0
-	+	8	46
-	+	8	30
-	+	8	12
-	+	8	0
-	+	8	94
-	+	8	0
-	z	8	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/layouts/application.html.erb
-	*	1478719335	0
-	"	12	0
-	^	9	80
-	.	9	79
-	+	20	0
-	+	20	80
-	+	20	89
-	+	20	0
-	+	10	64
-	+	20	0
-	+	11	62
-	+	9	70
-	+	11	61
-	+	9	79
-	+	20	35
-	+	20	0
-	+	20	29
-	+	20	33
-	+	20	39
-	+	20	0
-	+	20	40
-	+	20	32
-	+	20	45
-	+	20	23
-	+	20	0
-	+	13	0
-	+	15	45
-	+	16	23
-	+	15	40
-	+	16	53
-	+	17	25
-	+	18	126
-	+	18	91
-	+	18	105
-	+	18	123
-	+	18	125
-	+	18	0
-	+	17	24
-	+	11	21
-	+	9	79
-	z	12	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/reset.scss
-	*	1478714722	0
-	"	4	0
-	^	52	20
-	.	4	19
-	+	51	4
-	+	53	18
-	+	52	19
-	+	1	0
-	+	2	17
-	+	4	19
-	z	4	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/controllers/application_controller.rb
-	*	1478710588	0
-	"	17	0
-	^	18	26
-	.	18	0
-	+	14	21
-	+	15	0
-	+	19	72
-	+	18	11
-	+	18	0
-	z	17	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/models/user.rb
-	*	1478710509	0
-	"	33	4
-	^	18	28
-	.	18	27
-	+	2	66
-	+	3	60
-	+	24	48
-	+	28	4
-	+	25	42
-	+	27	6
-	+	26	52
-	+	30	25
-	+	32	58
-	+	33	0
-	+	35	28
-	+	36	62
-	+	42	21
-	+	48	53
-	+	4	38
-	+	9	0
-	+	8	26
-	+	20	0
-	+	10	19
-	+	15	19
-	+	45	0
-	+	17	18
-	+	11	22
-	+	19	0
-	+	17	19
-	+	18	27
-	z	33	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/controllers/api/statuses_controller.rb
-	*	1478710096	0
-	"	4	59
-	^	4	60
-	.	4	59
-	+	47	54
-	+	7	26
-	+	11	0
-	+	32	0
-	+	11	37
-	+	15	17
-	+	14	17
-	+	17	46
-	+	32	36
-	+	34	18
-	+	22	35
-	+	23	31
-	+	28	0
-	+	23	6
-	+	27	6
-	+	24	17
-	+	26	40
-	+	7	19
-	+	12	36
-	+	32	24
-	+	31	18
-	+	33	6
-	+	32	58
-	+	47	48
-	+	32	13
-	+	32	0
-	+	22	79
-	+	46	0
-	+	2	47
-	+	5	0
-	+	2	64
-	+	39	0
-	+	41	18
-	+	40	63
-	+	41	47
-	+	42	69
-	+	4	59
-	z	4	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/middleware/review_middleware.js
-	*	1478681993	0
-	"	25	65
-	^	25	66
-	.	25	65
-	+	12	37
-	+	11	15
-	+	20	0
-	+	21	0
-	+	50	0
-	+	51	0
-	+	31	23
-	+	49	0
-	+	48	25
-	+	46	0
-	+	43	0
-	+	40	0
-	+	37	0
-	+	34	0
-	+	23	34
-	+	22	53
-	+	5	21
-	+	23	67
-	+	24	74
-	+	25	72
-	+	26	40
-	+	27	0
-	+	29	3
-	+	27	25
-	+	23	60
-	+	27	36
-	+	28	31
-	+	6	17
-	+	35	0
-	+	33	0
-	+	19	36
-	+	16	15
-	+	18	14
-	+	33	55
-	+	36	35
-	+	39	36
-	+	26	24
-	+	39	57
-	+	42	57
-	+	39	59
-	+	42	59
-	+	45	32
-	+	25	68
-	+	45	30
-	+	25	63
-	+	45	59
-	+	25	32
-	+	27	11
-	+	23	52
-	+	24	54
-	+	27	0
-	+	31	0
-	+	36	49
-	+	6	0
-	+	5	0
-	+	22	48
-	+	5	6
-	+	25	65
-	z	25	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/test/models/review_test.rb
-	*	1478678552	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/static_pages.scss
-	*	1478660886	0
-	"	7	0
-	z	7	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/api/reviews.scss
-	*	1478660809	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/db/schema.rb
-	*	1478656623	0
-	"	35	4
-	z	35	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/forms.scss
-	*	1478655412	0
-	"	11	0
-	.	41	0
-	+	9	0
-	+	11	10
-	+	4	6
-	+	11	13
-	+	12	14
-	+	41	0
-	+	17	20
-	+	18	8
-	+	19	17
-	+	1	0
-	+	3	0
-	+	20	20
-	+	16	14
-	+	43	0
-	+	19	0
-	+	22	7
-	+	24	13
-	+	25	20
-	+	23	18
-	+	24	19
-	+	25	16
-	+	28	3
-	+	27	0
-	+	21	0
-	+	28	6
-	+	30	22
-	+	30	16
-	+	31	30
-	+	30	0
-	+	34	5
-	+	35	20
-	+	37	19
-	+	37	13
-	+	39	0
-	+	39	14
-	+	39	15
-	+	39	16
-	+	39	0
-	+	37	10
-	+	38	26
-	+	43	6
-	+	43	10
-	+	43	27
-	+	43	0
-	+	41	9
-	+	41	0
-	z	11	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/middleware/root_middleware.js
-	*	1478651217	0
-	"	11	2
-	^	11	18
-	.	11	17
-	+	1	40
-	+	2	56
-	+	7	31
-	+	12	1
-	+	8	18
-	+	3	55
-	+	9	20
-	+	10	17
-	+	4	22
-	+	5	53
-	+	11	17
-	z	11	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_index_container.js
-	*	1478649320	0
-	"	5	0
-	^	11	65
-	.	11	0
-	+	11	0
-	+	5	40
-	+	7	35
-	+	8	0
-	+	7	33
-	+	11	39
-	+	11	52
-	+	11	0
-	z	5	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_form_container.js
-	*	1478648075	0
-	"	13	2
-	^	23	38
-	.	23	38
-	+	21	32
-	+	21	0
-	+	5	0
-	+	14	0
-	+	5	56
-	+	9	0
-	+	5	43
-	+	8	0
-	+	5	33
-	+	7	0
-	+	9	18
-	+	10	0
-	+	6	0
-	+	10	15
-	+	11	20
-	+	13	0
-	+	11	19
-	+	33	0
-	+	25	0
-	+	35	0
-	+	25	0
-	+	41	0
-	+	39	16
-	+	21	33
-	+	3	0
-	+	35	0
-	+	24	68
-	+	25	0
-	+	27	1
-	+	15	8
-	+	15	9
-	+	21	0
-	+	27	0
-	+	24	41
-	+	2	22
-	+	40	19
-	+	24	67
-	+	15	0
-	+	22	0
-	+	15	46
-	+	20	8
-	+	20	9
-	+	26	0
-	+	21	0
-	+	20	0
-	+	22	12
-	+	16	73
-	+	20	9
-	+	22	11
-	+	20	0
-	+	21	0
-	+	34	57
-	+	34	102
-	+	34	144
-	+	33	64
-	+	34	55
-	+	34	101
-	+	10	10
-	+	11	22
-	+	12	18
-	+	34	104
-	+	35	0
-	+	34	58
-	+	28	0
-	+	28	52
-	+	32	8
-	+	36	0
-	+	33	0
-	+	29	60
-	+	30	49
-	+	34	74
-	+	33	49
-	+	34	0
-	+	33	0
-	+	33	48
-	+	33	13
-	+	33	17
-	+	31	71
-	+	32	28
-	+	33	90
-	+	31	52
-	+	24	0
-	+	31	0
-	+	32	0
-	+	33	73
-	+	31	0
-	+	33	60
-	+	31	0
-	+	33	23
-	+	20	9
-	+	24	41
-	+	34	43
-	+	24	51
-	+	34	38
-	+	20	0
-	+	16	74
-	+	19	0
-	+	18	9
-	+	16	85
-	+	23	38
-	z	13	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/program_show_container.js
-	*	1478642404	0
-	"	10	0
-	^	10	13
-	.	8	0
-	+	1	5
-	+	19	0
-	+	2	44
-	+	19	25
-	+	19	26
-	+	19	2
-	+	19	10
-	+	19	2
-	+	19	0
-	+	7	39
-	+	12	13
-	+	7	0
-	+	12	22
-	+	19	61
-	+	19	50
-	+	7	44
-	+	19	23
-	+	23	0
-	+	22	1
-	+	22	19
-	+	19	52
-	+	19	8
-	+	19	9
-	+	19	0
-	+	12	8
-	+	12	9
-	+	12	1
-	+	12	18
-	+	12	0
-	+	19	0
-	+	22	0
-	+	20	16
-	+	12	45
-	+	19	0
-	+	12	0
-	+	12	66
-	+	5	0
-	+	4	0
-	+	6	0
-	+	5	24
-	+	13	40
-	+	17	0
-	+	16	2
-	+	14	61
-	+	13	46
-	+	21	19
-	+	3	63
-	+	8	0
-	+	12	1
-	+	7	45
-	+	8	36
-	+	15	32
-	+	3	35
-	+	15	15
-	+	3	36
-	+	15	65
-	+	10	8
-	+	9	67
-	+	10	53
-	+	7	78
-	+	7	45
-	+	10	33
-	+	12	0
-	+	8	0
-	+	7	45
-	+	8	0
-	k	11	0
-	z	10	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/.git/MERGE_MSG
-	*	1478640813	0
-	"	1	0
-	z	1	0

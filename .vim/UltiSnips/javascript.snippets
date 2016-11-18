@@ -2,10 +2,6 @@ snippet log
 console.log($0);
 endsnippet
 
-snippet atype
-export const ${1:ACTION_TYPE} = "$1";
-endsnippet
-
 global !p
 def to_upper_snake(string):
 	new_word = ""
@@ -28,14 +24,6 @@ def new_line(word):
 		return ",\n  " + word
 endglobal
 
-snippet action
-export const `!p snip.rv = to_upper_snake(t[1])` = '`!p snip.rv = to_upper_snake(t[1])`';
-export const $1 = ($2) => ({
-	type: `!p snip.rv = to_upper_snake(t[1]) + new_line(t[2])`
-});
-$0
-endsnippet
-
 snippet ed
 export default $0
 endsnippet
@@ -51,3 +39,63 @@ export const $1 = ($2success, error) => {
 };
 $0
 endsnippet
+
+# Redux stuff
+
+snippet action
+export const `!p snip.rv = to_upper_snake(t[1])` = '`!p snip.rv = to_upper_snake(t[1])`';
+export const $1 = ($2) => ({
+	type: `!p snip.rv = to_upper_snake(t[1]) + new_line(t[2])`
+});
+$0
+endsnippet
+
+# React stuff
+
+snippet component
+import React from 'react';$1
+
+class $2 extends React.Component {
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (
+			$0
+		);
+	}
+}
+
+export default $2;
+
+endsnippet
+
+snippet fcomponent
+import React from 'react';$1
+
+export default (${2:props}) => {
+	return (
+		$0
+	)
+}
+
+endsnippet
+
+snippet ccomponent
+import { connect } from 'react-redux';
+import $1 from '$2';
+
+const mapStateToProps = (state, ownProps) => {$3
+};
+
+const mapDispatchToProps = (dispatch, ownProps) => {$4
+}
+
+export default connect(
+	mapStateToProps,
+	mapDispatchToProps
+)($1);
+$0
+endsnippet
+
