@@ -10,7 +10,7 @@ set history=500
 set noignorecase
 set t_Co=256
 set sessionoptions+=resize
-set ttyfast
+set shell=/bin/bash
 
 " save and close this vimrc when closing its window
 augroup vimrc_commands
@@ -310,6 +310,10 @@ let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
+" ultisnips settings
+let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
+let g:UltiSnipsEditSplit="horizontal"
+
 " syntastic settings
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 2
@@ -331,10 +335,6 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 " Allow more general matching with %
 " packadd! matchit
-
-" ultisnips settings
-let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
-let g:UltiSnipsEditSplit="horizontal"
 
 " vim-ruby-doc
 let g:ruby_doc_command='open'

@@ -11,9 +11,6 @@ alias ls="ls -GF"
 alias la="ls -GFA"
 alias ll="ls -lFG"
 alias shoes='/Applications/Shoes.app/Contents/MacOS/shoes'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias v='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias g="g++"
 alias ..='cd ..'
 alias gpp='g++'
@@ -21,10 +18,9 @@ alias ag='ag --path-to-agignore ~/.agignore'
 alias be='bundle exec'
 alias bi='bundle install'
 alias ber='bundle exec rspec'
-alias vimclean='find . -type f -name "\.*sw[klmnop]" -delete; find . -type f -name "*.un~" -delete'
 alias tm='tmux'
 alias ta='tmux attach -t'
-alias tn='tmux new'
+alias tn='tmux new -s'
 alias dev='cd ~/developer'
 
 # t todo list aliases
@@ -33,3 +29,6 @@ alias tcount='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list ta
 
 # add standard gitignore
 alias gitignore='source /Users/lwassink/configuration_files/git_init_setup.bash'
+
+# clean up undo and delete files
+alias vimclean='find . -type f -name "\.*sw[klmnop]" -delete; find . -type f -name "*.un~" -delete'
