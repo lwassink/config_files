@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ Q\n W\n D\n N\n I\n G\n W\n W\n S\n Q
+~MSle0~/red
 
 # Last Substitute Search Pattern:
 ~MSle0&this.props.program
@@ -21,11 +21,39 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1479499903,,"w"
+|2,0,1480307262,,"w"
+:e components/checkers/piece_container.js
+|2,0,1480307259,,"e components/checkers/piece_container.js"
 :wall
-|2,0,1479490582,,"wall"
+|2,0,1480306352,,"wall"
+:e store/preloaded_state.js
+|2,0,1480305503,,"e store/preloaded_state.js"
+:retab
+|2,0,1480191821,,"retab"
+:s
+|2,0,1479937515,,"s"
+:!atom .
+|2,0,1479875748,,"!atom ."
 :q
-|2,0,1479489101,,"q"
+|2,0,1479871134,,"q"
+:e ../app/models/actor.rb
+|2,0,1479844508,,"e ../app/models/actor.rb"
+:bd
+|2,0,1479690709,,"bd"
+:e components/checkers/pieces.jsx
+|2,0,1479690212,,"e components/checkers/pieces.jsx"
+:b 
+|2,0,1479602532,,"b "
+:message
+|2,0,1479601598,,"message"
+:split
+|2,0,1479588731,,"split"
+:e selectors/checkers_selectors.js
+|2,0,1479507808,,"e selectors/checkers_selectors.js"
+:e components/checkers/board_container.js
+|2,0,1479506637,,"e components/checkers/board_container.js"
+:b red
+|2,0,1479506133,,"b red"
 :e components/checkers/board.jsx
 |2,0,1479433269,,"e components/checkers/board.jsx"
 :e ../app/assets/stylesheets/checkers.scss
@@ -34,8 +62,6 @@ $
 |2,0,1479431926,,"e components/checkers/square.jsx"
 :bd!
 |2,0,1479431921,,"bd!"
-:bd
-|2,0,1479431918,,"bd"
 :e components/checkers/square.rb
 |2,0,1479431905,,"e components/checkers/square.rb"
 :e components/root.jsx
@@ -94,40 +120,32 @@ $
 |2,0,0,,"b ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/programs/index.json.jbuilder"
 :e entry.jsx
 |2,0,0,,"e entry.jsx"
-:Ag Object.values
-|2,0,0,,"Ag Object.values"
-:grep -F 'Object.values' **/*.jsx
-|2,0,0,,"grep -F 'Object.values' **/*.jsx"
-:copen
-|2,0,0,,"copen"
-:b components/search/search.jsx
-|2,0,0,,"b components/search/search.jsx"
-:b sear
-|2,0,0,,"b sear"
-:e components/search/search_containter.js
-|2,0,0,,"e components/search/search_containter.js"
-:e components/search/search.jsx
-|2,0,0,,"e components/search/search.jsx"
-:e ../app/assets/stylesheets/preview.scss
-|2,0,0,,"e ../app/assets/stylesheets/preview.scss"
-:e ../app/assets/stylesheets/reviews.scss
-|2,0,0,,"e ../app/assets/stylesheets/reviews.scss"
-:e components/reviews/preview.jsx
-|2,0,0,,"e components/reviews/preview.jsx"
-:.,.+2w
-|2,0,0,,".,.+2w"
-:b 
-|2,0,0,,"b "
-:ew
-|2,0,0,,"ew"
 
 # Search String History (newest to oldest):
+?/red
+|2,1,1480306575,47,"red"
+?/action
+|2,1,1480295588,47,"action"
+?/^s*private<cr>mp
+|2,1,1479951255,47,"^s*private<cr>mp"
+?/piece
+|2,1,1479937629,47,"piece"
 ? \$\(cursor\|select\)\$
-|2,1,1479489448,,"\\$\\(cursor\\|select\\)\\$"
+|2,1,1479931496,,"\\$\\(cursor\\|select\\)\\$"
+?/img
+|2,1,1479931032,47,"img"
+??Hash
+|2,1,1479922901,63,"Hash"
+?/AVE
+|2,1,1479875610,47,"AVE"
+?/av
+|2,1,1479875504,47,"av"
+?/AV
+|2,1,1479875498,47,"AV"
+?/log
+|2,1,1479523995,47,"log"
 ?/syntax
 |2,1,1479422141,47,"syntax"
-?/^s*private<cr>mp
-|2,1,1479431905,47,"^s*private<cr>mp"
 ?/Ulti
 |2,1,1479333405,47,"Ulti"
 ?/set shell
@@ -204,24 +222,6 @@ $
 |2,1,0,47,"updaate"
 ?/openRev
 |2,1,0,47,"openRev"
-?/open
-|2,1,0,47,"open"
-?/link
-|2,1,0,47,"link"
-?/Created
-|2,1,0,47,"Created"
-?/label
-|2,1,0,47,"label"
-?/ERR
-|2,1,0,47,"ERR"
-?/aside
-|2,1,0,47,"aside"
-?/assid
-|2,1,0,47,"assid"
-?/_de
-|2,1,0,47,"_de"
-?/prop
-|2,1,0,47,"prop"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -232,6 +232,8 @@ $
 |2,2,0,,"strftime('%c')<c-m>p"
 
 # Input Line History (newest to oldest):
+@div.piece
+|2,3,1479931496,,"div.piece"
 @p
 |2,3,1479489448,,"p"
 @y
@@ -330,56 +332,55 @@ $
 |2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/index.html.erb"
 @/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/bands.html.erb
 |2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/bands.html.erb"
-@/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb
-|2,3,0,,"/Users/lwassink/Dropbox/developer/app-academy/class/projects/musicApp/app/views/bands/_band.html.erb"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	  );
-	};
-|3,0,0,1,2,0,1479499906,"  );","};"
+"0	CHAR	0
+	k
+|3,0,0,0,1,0,1480306564,"k"
 "1	LINE	0
-	  );
-	};
-|3,0,1,1,2,0,1479498664,"  );","};"
+	  1: {
+	    id: 1,
+	    color: 'white',
+	    pos: [0, 0]
+	  }
+|3,0,1,1,5,0,1480305783,"  1: {","    id: 1,","    color: 'white',","    pos: [0, 0]","  }"
 "2	LINE	0
-	          RootMiddleware
-|3,0,2,1,1,0,1479498641,"          RootMiddleware"
+	
+|3,0,2,1,1,0,1480305627,""
 "3	LINE	0
-	import RootMiddleware from '../middleware/root_middleware.js';
-|3,0,3,1,1,0,1479498640,"import RootMiddleware from '../middleware/root_middleware.js';"
+	
+|3,0,3,1,1,0,1480305528,""
 "4	LINE	0
-	    
-|3,0,4,1,1,0,1479491355,"    "
+	
+|3,0,4,1,1,0,1480305523,""
 "5	LINE	0
+	const boardSetup = {
+	  1: {
+	    id: 1,
+	    color: 'white',
+	    pos: [0, 0]
+	  }
+	};
 	
-|3,0,5,1,1,0,1479491032,""
+	const initialState = {
+	  pieces: boardSetup
+	};
+|3,0,5,1,11,0,1480305520,"const boardSetup = {","  1: {","    id: 1,","    color: 'white',","    pos: [0, 0]","  }","};","","const initialState = {","  pieces: boardSetup","};"
 "6	LINE	0
-	    window.setInterval(() => {
-	      location = [
-	        Math.floor(Math.random() * 8),
-	        Math.floor(Math.random() * 8)
-	      ];
-	    }, 1000)
-|3,0,6,1,6,0,1479491026,"    window.setInterval(() => {","      location = [","        Math.floor(Math.random() * 8),","        Math.floor(Math.random() * 8)","      ];","    }, 1000)"
+	      newState[action.id].Y = action.Y;
+|3,0,6,1,1,0,1480305405,"      newState[action.id].Y = action.Y;"
 "7	LINE	0
-	import location from '../../game/piece.js';
-|3,0,7,1,1,0,1479490907,"import location from '../../game/piece.js';"
+	    alert('drop');
+|3,0,7,1,1,0,1480305259,"    alert('drop');"
 "8	LINE	0
-	window.setInterval(() => {
-	  location = [
-	    Math.floor(math.random() * 8),
-	    Math.floor(math.random() * 8)
-	  ];
-	}, 10000)
 	
-|3,0,8,1,7,0,1479490885,"window.setInterval(() => {","  location = [","    Math.floor(math.random() * 8),","    Math.floor(math.random() * 8)","  ];","}, 10000)",""
+|3,0,8,1,1,0,1480305240,""
 "9	LINE	0
-	  console.log(pos);
-	  console.log(knight);
-|3,0,9,1,2,0,1479490823,"  console.log(pos);","  console.log(knight);"
+	  X,
+	  Y
+|3,0,9,1,2,0,1480296225,"  X,","  Y"
 "a	LINE	0
 	      <Toolbar
 	        backgroundColor={colors.light_brown}>
@@ -453,7 +454,7 @@ $
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,1479489092,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,1479863094,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
 "i@	LINE	0
@@ -500,7 +501,7 @@ $
 	            <MenuItem primaryText="Log out" />
 	          </Menu>
 	        </Popover>
-|3,0,31,1,12,0,1479499906,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
+|3,0,31,1,12,0,1480306564,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
 |<"        </Popover>"
 "w	LINE	0
 	  cout << "Enter a series of words:" << endl;
@@ -520,8 +521,8 @@ $
 |<"Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		\"\"rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:
 |<w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1479499943," "
+	darkred
+|3,1,36,0,1,0,1480306669,"darkred"
 
 # File marks:
 'L  437  0  ~/.vimrc
@@ -530,505 +531,903 @@ $
 |4,85,361,0,0,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  75  0  ~/.vimrc
 |4,86,75,0,0,"~/.vimrc"
-'0  4  14  ~/developer/checkers/frontend/reducers/checkers_reducer.js
-|4,48,4,14,1479499965,"~/developer/checkers/frontend/reducers/checkers_reducer.js"
-'1  14  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,49,14,0,1479493720,"~/developer/checkers/frontend/components/checkers/board.jsx"
-'2  164  0  ~/.vimrc
-|4,50,164,0,1479489618,"~/.vimrc"
-'3  1  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,51,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
-'4  17  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,52,17,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
-'5  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,53,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
-'6  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,54,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
-'7  9  0  ~/developer/checkers/.gitignore
-|4,55,9,0,1479412491,"~/developer/checkers/.gitignore"
-'8  2  0  ~/developer/checkers/.gitignore
-|4,56,2,0,1479412413,"~/developer/checkers/.gitignore"
-'9  5  0  ~/developer/checkers/.gitignore
-|4,57,5,0,1479412413,"~/developer/checkers/.gitignore"
+'0  1  0  ~/developer/checkers/frontend/components/checkers/piece_container.js
+|4,48,1,0,1480307263,"~/developer/checkers/frontend/components/checkers/piece_container.js"
+'1  2  33  ~/developer/checkers/frontend/actions/checkers_actions.js
+|4,49,2,33,1480295383,"~/developer/checkers/frontend/actions/checkers_actions.js"
+'2  5  22  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,50,5,22,1480295152,"~/developer/checkers/frontend/reducers/root_reducer.js"
+'3  5  22  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,51,5,22,1480295152,"~/developer/checkers/frontend/reducers/root_reducer.js"
+'4  79  0  ~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb
+|4,52,79,0,1480193475,"~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb"
+'5  55  0  ~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb
+|4,53,55,0,1480193423,"~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb"
+'6  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
+|4,54,1,0,1480190940,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
+'7  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
+|4,55,1,0,1480190732,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
+'8  15  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,56,15,0,1479940671,"~/developer/checkers/frontend/components/checkers/square.jsx"
+'9  14  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,57,14,0,1479940671,"~/developer/checkers/frontend/components/checkers/square.jsx"
 
 # Jumplist (newest first):
--'  4  14  ~/developer/checkers/frontend/reducers/checkers_reducer.js
-|4,39,4,14,1479499965,"~/developer/checkers/frontend/reducers/checkers_reducer.js"
--'  5  0  ~/developer/checkers/frontend/actions/checkers_actions.js
-|4,39,5,0,1479499912,"~/developer/checkers/frontend/actions/checkers_actions.js"
--'  1  8  ~/developer/checkers/frontend/reducers/checkers_reducer.js
-|4,39,1,8,1479499911,"~/developer/checkers/frontend/reducers/checkers_reducer.js"
--'  5  0  ~/developer/checkers/frontend/reducers/root_reducer.js
-|4,39,5,0,1479499894,"~/developer/checkers/frontend/reducers/root_reducer.js"
--'  8  3  ~/developer/checkers/frontend/store/store.js
-|4,39,8,3,1479498685,"~/developer/checkers/frontend/store/store.js"
--'  7  0  ~/developer/checkers/frontend/store/store.js
-|4,39,7,0,1479498666,"~/developer/checkers/frontend/store/store.js"
--'  1  0  ~/developer/checkers/frontend/store/store.js
-|4,39,1,0,1479498644,"~/developer/checkers/frontend/store/store.js"
--'  10  8  ~/developer/checkers/frontend/store/store.js
-|4,39,10,8,1479498644,"~/developer/checkers/frontend/store/store.js"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/piece_container.js
+|4,39,1,0,1480307263,"~/developer/checkers/frontend/components/checkers/piece_container.js"
+-'  46  23  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,46,23,1480307259,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  36  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,36,0,1480306575,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  1  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,1,0,1480306570,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  19  11  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,19,11,1480306570,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  13  5  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,13,5,1480306533,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  14  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,14,0,1480306488,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,1,0,1480306401,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  21  40  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,21,40,1480306400,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  32  47  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,32,47,1480306334,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  25  2  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,25,2,1480306284,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  12  9  ~/developer/checkers/frontend/components/checkers/board_container.js
+|4,39,12,9,1480306269,"~/developer/checkers/frontend/components/checkers/board_container.js"
+-'  11  34  ~/developer/checkers/frontend/drag/specs.js
+|4,39,11,34,1480306222,"~/developer/checkers/frontend/drag/specs.js"
+-'  42  3  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,42,3,1480306052,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  53  1  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,53,1,1480305969,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  33  0  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,33,0,1480305938,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  15  0  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,15,0,1480305737,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  1  19  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,1,19,1480305736,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  16  18  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,16,18,1480305733,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  9  44  ~/developer/checkers/frontend/entry.jsx
+|4,39,9,44,1480305563,"~/developer/checkers/frontend/entry.jsx"
+-'  6  6  ~/developer/checkers/frontend/entry.jsx
+|4,39,6,6,1480305534,"~/developer/checkers/frontend/entry.jsx"
+-'  31  0  ~/developer/checkers/frontend/store/preloaded_state.js
+|4,39,31,0,1480305524,"~/developer/checkers/frontend/store/preloaded_state.js"
+-'  8  0  ~/developer/checkers/frontend/entry.jsx
+|4,39,8,0,1480305521,"~/developer/checkers/frontend/entry.jsx"
+-'  9  41  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,9,41,1480305441,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  7  0  ~/developer/checkers/frontend/components/checkers/board_container.js
+|4,39,7,0,1480305400,"~/developer/checkers/frontend/components/checkers/board_container.js"
+-'  2  0  ~/developer/checkers/frontend/actions/pieces_actions.js
+|4,39,2,0,1480305224,"~/developer/checkers/frontend/actions/pieces_actions.js"
+-'  24  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,24,0,1480305136,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  1  0  ~/developer/checkers/frontend/drag/specs.js
+|4,39,1,0,1480305056,"~/developer/checkers/frontend/drag/specs.js"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,1,0,1480305041,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  13  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,13,0,1480296364,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  23  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,23,0,1480296203,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/entry.jsx
+|4,39,1,0,1480296149,"~/developer/checkers/frontend/entry.jsx"
+-'  20  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,20,0,1480296148,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,1,0,1480296058,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  2  0  ~/developer/checkers/frontend/selectors/pieces_selectors.js
+|4,39,2,0,1480295904,"~/developer/checkers/frontend/selectors/pieces_selectors.js"
+-'  4  51  ~/developer/checkers/frontend/components/checkers/board_container.js
+|4,39,4,51,1480295890,"~/developer/checkers/frontend/components/checkers/board_container.js"
+-'  3  40  ~/developer/checkers/frontend/components/checkers/board_container.js
+|4,39,3,40,1480295878,"~/developer/checkers/frontend/components/checkers/board_container.js"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/board_container.js
+|4,39,1,0,1480295856,"~/developer/checkers/frontend/components/checkers/board_container.js"
+-'  13  21  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,13,21,1480295855,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  6  0  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,6,0,1480295812,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  2  0  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,2,0,1480295811,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  1  32  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,1,32,1480295811,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  4  0  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,4,0,1480295807,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  10  0  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,10,0,1480295806,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  13  0  ~/developer/checkers/frontend/actions/pieces_actions.js
+|4,39,13,0,1480295802,"~/developer/checkers/frontend/actions/pieces_actions.js"
+-'  7  0  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,7,0,1480295801,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  8  18  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,8,18,1480295558,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  6  1  ~/developer/checkers/frontend/actions/pieces_actions.js
+|4,39,6,1,1480295533,"~/developer/checkers/frontend/actions/pieces_actions.js"
+-'  8  5  ~/developer/checkers/frontend/actions/pieces_actions.js
+|4,39,8,5,1480295494,"~/developer/checkers/frontend/actions/pieces_actions.js"
+-'  1  0  ~/developer/checkers/frontend/middleware/root_middleware.js
+|4,39,1,0,1480295472,"~/developer/checkers/frontend/middleware/root_middleware.js"
+-'  1  0  ~/developer/checkers/frontend/middleware/pieces_middleware.js
+|4,39,1,0,1480295464,"~/developer/checkers/frontend/middleware/pieces_middleware.js"
+-'  1  0  ~/developer/checkers/frontend/selectors/pieces_selectors.js
+|4,39,1,0,1480295459,"~/developer/checkers/frontend/selectors/pieces_selectors.js"
+-'  2  33  ~/developer/checkers/frontend/actions/checkers_actions.js
+|4,39,2,33,1480295383,"~/developer/checkers/frontend/actions/checkers_actions.js"
 -'  1  0  ~/developer/checkers/frontend/actions/checkers_actions.js
-|4,39,1,0,1479493838,"~/developer/checkers/frontend/actions/checkers_actions.js"
--'  14  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,14,0,1479493720,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  14  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,14,0,1479493720,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  11  21  ~/developer/checkers/app/assets/stylesheets/checkers.scss
-|4,39,11,21,1479493702,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
--'  11  21  ~/developer/checkers/app/assets/stylesheets/checkers.scss
-|4,39,11,21,1479493702,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
--'  20  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,20,0,1479490923,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  20  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,20,0,1479490923,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,1,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  21  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,21,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,1,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  21  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,21,0,1479490900,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  5  0  ~/developer/checkers/frontend/game/piece.js
-|4,39,5,0,1479490891,"~/developer/checkers/frontend/game/piece.js"
--'  5  0  ~/developer/checkers/frontend/game/piece.js
-|4,39,5,0,1479490891,"~/developer/checkers/frontend/game/piece.js"
--'  8  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,8,0,1479490845,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  8  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,8,0,1479490845,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  7  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,7,0,1479490624,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  7  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,7,0,1479490624,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  26  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,26,0,1479490620,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  26  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,26,0,1479490620,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  164  0  ~/.vimrc
-|4,39,164,0,1479489618,"~/.vimrc"
--'  164  0  ~/.vimrc
-|4,39,164,0,1479489618,"~/.vimrc"
--'  33  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,33,0,1479489555,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  33  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,33,0,1479489555,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  9  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,9,0,1479489554,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  9  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,9,0,1479489554,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,3,0,1479489521,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,3,0,1479489521,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  2  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,2,0,1479489517,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  2  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,2,0,1479489517,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  8  16  ~/developer/checkers/app/assets/stylesheets/checkers.scss
-|4,39,8,16,1479489483,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
--'  8  16  ~/developer/checkers/app/assets/stylesheets/checkers.scss
-|4,39,8,16,1479489483,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
--'  1  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
-|4,39,1,0,1479489456,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
--'  13  8  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,13,8,1479489456,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  1  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
-|4,39,1,0,1479489456,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
--'  13  8  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,13,8,1479489456,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,1,0,1479489331,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/square.jsx
-|4,39,1,0,1479489331,"~/developer/checkers/frontend/components/checkers/square.jsx"
--'  1  0  ~/developer/checkers/frontend/game/piece.js
-|4,39,1,0,1479489108,"~/developer/checkers/frontend/game/piece.js"
--'  1  0  ~/developer/checkers/frontend/game/piece.js
-|4,39,1,0,1479489108,"~/developer/checkers/frontend/game/piece.js"
--'  1  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
--'  1  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
--'  1  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
--'  1  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,1,0,1479489101,"~/developer/checkers/frontend/NERD_tree_1"
--'  5  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
--'  5  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
--'  5  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
--'  5  0  ~/developer/checkers/frontend/NERD_tree_1
-|4,39,5,0,1479489092,"~/developer/checkers/frontend/NERD_tree_1"
--'  17  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,17,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+|4,39,1,0,1480295339,"~/developer/checkers/frontend/actions/checkers_actions.js"
+-'  2  47  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,39,2,47,1480295339,"~/developer/checkers/frontend/reducers/root_reducer.js"
+-'  1  0  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,39,1,0,1480295308,"~/developer/checkers/frontend/reducers/root_reducer.js"
+-'  10  37  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,10,37,1480295308,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  1  38  ~/developer/checkers/frontend/reducers/pieces_reducer.js
+|4,39,1,38,1480295245,"~/developer/checkers/frontend/reducers/pieces_reducer.js"
+-'  5  22  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,39,5,22,1480295152,"~/developer/checkers/frontend/reducers/root_reducer.js"
+-'  5  22  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,39,5,22,1480295152,"~/developer/checkers/frontend/reducers/root_reducer.js"
+-'  1  0  ~/developer/checkers/frontend/reducers/root_reducer.js
+|4,39,1,0,1480295126,"~/developer/checkers/frontend/reducers/root_reducer.js"
+-'  18  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,18,0,1480295125,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  18  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,18,0,1480295125,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  7  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,7,0,1480294431,"~/developer/checkers/frontend/components/checkers/board.jsx"
 -'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
+|4,39,8,0,1480294431,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  9  2  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,9,2,1480294431,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  7  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,7,0,1480294431,"~/developer/checkers/frontend/components/checkers/board.jsx"
 -'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  17  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,17,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  8  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,8,0,1479488652,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  1  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,1,0,1479488644,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  80  0  ~/developer/checkers/log/development_BASE_16456.log
-|4,39,80,0,1479488618,"~/developer/checkers/log/development_BASE_16456.log"
--'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  3  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,3,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  2  0  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,2,0,1479433446,"~/developer/checkers/frontend/components/checkers/board.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  2  34  ~/developer/checkers/frontend/components/root.jsx
-|4,39,2,34,1479433443,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  7  14  ~/developer/checkers/frontend/components/root.jsx
-|4,39,7,14,1479433395,"~/developer/checkers/frontend/components/root.jsx"
--'  23  29  ~/developer/checkers/frontend/components/checkers/board.jsx
-|4,39,23,29,1479433297,"~/developer/checkers/frontend/components/checkers/board.jsx"
+|4,39,8,0,1480294431,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  9  2  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,9,2,1480294431,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  14  2  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,14,2,1480294428,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  14  2  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,14,2,1480294428,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  32  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,32,0,1480294405,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  32  0  ~/developer/checkers/frontend/components/checkers/board.jsx
+|4,39,32,0,1480294405,"~/developer/checkers/frontend/components/checkers/board.jsx"
+-'  24  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,24,0,1480294404,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  24  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,24,0,1480294404,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  25  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,25,0,1480294389,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  25  0  ~/developer/checkers/frontend/components/checkers/square.jsx
+|4,39,25,0,1480294389,"~/developer/checkers/frontend/components/checkers/square.jsx"
+-'  11  0  ~/developer/checkers/frontend/drag/specs.js
+|4,39,11,0,1480294383,"~/developer/checkers/frontend/drag/specs.js"
+-'  11  0  ~/developer/checkers/frontend/drag/specs.js
+|4,39,11,0,1480294383,"~/developer/checkers/frontend/drag/specs.js"
+-'  14  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,14,0,1480294292,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  14  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,14,0,1480294292,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  23  28  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,23,28,1480292148,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  23  28  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,23,28,1480292148,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  26  2  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,26,2,1480292104,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  26  2  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,26,2,1480292104,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  27  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,27,0,1480292103,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  27  0  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,27,0,1480292103,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
+-'  25  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,25,0,1480292102,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  25  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,25,0,1480292102,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  22  5  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,22,5,1480291950,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  22  5  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,22,5,1480291950,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,1,0,1480291679,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  26  7  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,26,7,1480291679,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  1  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,1,0,1480291679,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  26  7  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,26,7,1480291679,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  24  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,24,0,1480291677,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  24  0  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,24,0,1480291677,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  28  9  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,28,9,1480291673,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  28  9  ~/developer/checkers/frontend/components/checkers/pieces.jsx
+|4,39,28,9,1480291673,"~/developer/checkers/frontend/components/checkers/pieces.jsx"
+-'  25  11  ~/developer/checkers/app/assets/stylesheets/checkers.scss
+|4,39,25,11,1480291188,"~/developer/checkers/app/assets/stylesheets/checkers.scss"
 
 # History of marks within files (newest to oldest):
 
-> ~/developer/checkers/frontend/reducers/checkers_reducer.js
-	*	1479499965	0
-	"	4	14
-	^	4	15
-	.	4	14
-	+	1	60
-	+	3	43
-	+	6	0
-	+	4	14
-	z	4	2
-
-> ~/developer/checkers/frontend/actions/checkers_actions.js
-	*	1479499911	0
-	"	5	0
-	^	5	2
-	.	4	10
-	+	1	0
-	+	7	0
-	+	3	0
-	+	4	10
-	z	5	2
-
-> ~/developer/checkers/frontend/ControlP
-	*	1479499910	0
+> ~/developer/checkers/frontend/components/checkers/piece_container.js
+	*	1480307263	0
 	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/developer/checkers/frontend/reducers/root_reducer.js
-	*	1479499821	0
-	"	5	0
-	^	5	27
-	.	7	0
-	+	1	39
-	+	2	52
-	+	4	32
-	+	6	2
-	+	5	26
-	+	7	0
-	z	5	2
-
-> ~/developer/checkers/frontend/store/store.js
-	*	1479498669	0
-	"	8	3
-	^	1	1
-	.	8	0
-	+	10	2
-	+	1	0
-	+	3	0
-	+	10	0
-	+	5	0
-	+	8	0
-	z	8	2
-
-> ~/developer/checkers/frontend/components/checkers/board.jsx
-	*	1479493719	0
-	"	14	0
-	^	14	10
-	.	14	9
-	+	1	0
-	+	28	0
-	+	4	10
-	+	23	29
-	+	2	0
-	+	3	0
-	+	33	30
-	+	26	0
-	+	21	0
-	+	3	0
-	+	19	22
-	+	20	0
-	+	21	19
-	+	21	0
-	+	7	0
-	+	10	0
-	+	8	33
-	+	9	0
-	+	11	28
-	+	14	7
-	+	15	12
-	+	33	32
-	+	14	7
-	+	11	20
-	+	14	9
-	z	14	6
+	z	1	0
 
 > ~/developer/checkers/app/assets/stylesheets/checkers.scss
-	*	1479491409	0
-	"	11	21
-	^	11	22
-	.	11	21
-	+	1	9
-	+	4	14
-	+	14	3
-	+	5	0
-	+	14	10
-	+	15	27
-	+	18	0
-	+	17	0
-	+	18	7
-	+	19	26
-	+	21	0
-	+	5	0
-	+	13	0
-	+	14	0
-	+	21	0
-	+	3	14
-	+	4	13
-	+	7	5
-	+	8	16
-	+	12	0
-	+	10	15
-	+	11	21
-	z	11	4
-
-> ~/developer/checkers/frontend/game/piece.js
-	*	1479490887	0
-	"	5	0
-	.	5	0
-	+	1	20
-	+	5	0
-	+	3	16
-	+	5	23
-	+	5	26
-	+	5	7
+	*	1480306677	0
+	"	46	23
+	^	46	24
+	.	46	23
+	+	7	0
+	+	33	10
+	+	33	27
+	+	36	0
+	+	35	0
+	+	36	7
+	+	37	26
+	+	39	0
+	+	7	0
+	+	33	0
+	+	39	0
 	+	5	14
-	+	5	2
-	+	5	33
-	+	5	0
-	z	5	0
-
-> ~/developer/checkers/frontend/components/checkers/square.jsx
-	*	1479490826	0
-	"	8	0
-	^	7	65
-	.	8	0
-	+	1	0
-	+	22	0
-	+	16	26
-	+	17	11
-	+	4	20
-	+	4	0
-	+	16	19
-	+	14	39
-	+	16	28
-	+	14	20
-	+	11	13
-	+	2	42
-	+	7	41
-	+	13	0
-	+	3	30
+	+	6	13
+	+	10	5
+	+	11	16
+	+	15	0
+	+	13	15
+	+	14	21
+	+	33	13
+	+	33	0
+	+	59	0
+	+	33	0
+	+	49	0
+	+	44	0
+	+	33	0
+	+	59	0
+	+	16	0
+	+	33	0
+	+	33	8
+	+	33	7
+	+	33	10
+	+	33	0
+	+	18	0
+	+	27	12
+	+	27	0
+	+	60	24
 	+	2	0
-	+	8	19
-	+	8	23
-	+	8	17
-	+	7	64
-	+	8	0
-	z	8	0
+	+	1	12
+	+	27	25
+	+	27	11
+	+	27	28
+	+	27	0
+	+	20	19
+	+	27	28
+	+	27	0
+	+	33	0
+	+	27	0
+	+	29	0
+	+	28	0
+	+	30	14
+	+	53	10
+	+	56	14
+	+	57	6
+	+	55	16
+	+	56	20
+	+	54	24
+	+	53	2
+	+	53	0
+	+	56	0
+	+	54	24
+	+	34	28
+	+	33	0
+	+	34	0
+	+	35	0
+	+	30	14
+	+	34	20
+	+	38	22
+	+	34	26
+	+	20	0
+	+	27	0
+	+	20	0
+	+	27	0
+	+	21	21
+	+	22	34
+	+	23	7
+	+	27	11
+	+	27	0
+	+	33	11
+	+	37	12
+	+	41	13
+	+	42	25
+	+	45	0
+	+	46	22
+	+	22	13
+	+	23	14
+	+	45	5
+	+	27	0
+	+	22	0
+	+	45	0
+	+	27	0
+	+	22	13
+	+	23	14
+	+	8	20
+	+	24	10
+	+	19	20
+	+	24	0
+	+	25	11
+	+	27	0
+	+	26	0
+	+	46	23
+	z	46	2
 
-> ~/.vimrc
-	*	1479489618	0
-	"	164	0
-	^	13	19
-	.	313	0
-	+	398	0
-	+	293	0
-	+	287	20
-	+	292	0
-	+	286	4
-	+	287	19
-	+	278	0
-	+	287	0
-	+	278	0
-	+	282	0
-	+	290	0
-	+	291	0
-	+	283	0
-	+	286	0
-	+	337	0
-	+	164	0
-	+	161	1
-	+	163	0
-	+	164	0
-	+	162	12
-	+	161	0
-	+	512	76
-	+	511	0
-	+	512	0
-	+	512	47
-	+	512	39
-	+	512	0
-	+	512	60
-	+	512	0
-	+	512	42
-	+	512	0
-	+	512	42
-	+	512	0
-	+	51	0
-	+	14	11
+> ~/developer/checkers/frontend/ControlP
+	*	1480306570	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/developer/checkers/frontend/components/checkers/pieces.jsx
+	*	1480306545	0
+	"	19	11
+	^	19	12
+	.	19	11
+	+	15	14
+	+	15	108
+	+	15	57
+	+	22	0
+	+	28	0
+	+	28	113
+	+	15	30
+	+	15	31
+	+	14	23
+	+	14	1
+	+	14	26
+	+	14	7
+	+	15	0
 	+	14	0
-	+	13	18
-	+	339	0
-	+	313	0
-	z	164	0
+	+	14	24
+	+	14	13
+	+	14	109
+	+	14	6
+	+	15	0
+	+	22	0
+	+	15	0
+	+	17	0
+	+	14	0
+	+	14	4
+	+	14	0
+	+	14	6
+	+	14	107
+	+	14	0
+	+	15	0
+	+	17	44
+	+	16	60
+	+	17	30
+	+	17	33
+	+	18	7
+	+	22	0
+	+	18	29
+	+	17	0
+	+	25	30
+	+	22	11
+	+	17	0
+	+	28	0
+	+	22	0
+	+	28	0
+	+	28	26
+	+	28	0
+	+	22	31
+	+	22	0
+	+	22	49
+	+	22	17
+	+	22	23
+	+	22	0
+	+	22	19
+	+	22	112
+	+	22	33
+	+	22	0
+	+	22	19
+	+	22	13
+	+	22	49
+	+	22	35
+	+	22	0
+	+	18	33
+	+	20	4
+	+	19	17
+	+	28	0
+	+	19	10
+	+	22	0
+	+	22	35
+	+	22	28
+	+	25	24
+	+	28	7
+	+	25	0
+	+	28	0
+	+	25	33
+	+	23	0
+	+	28	0
+	+	22	0
+	+	25	0
+	+	24	0
+	+	24	10
+	+	27	0
+	+	24	0
+	+	23	0
+	+	28	0
+	+	24	26
+	+	22	27
+	+	23	18
+	+	23	20
+	+	23	0
+	+	22	21
+	+	23	0
+	+	22	0
+	+	14	0
+	+	19	11
+	z	19	6
 
-> ~/developer/checkers/frontend/NERD_tree_1
-	*	1479489099	0
-	"	1	0
-	.	1	0
-	+	1	0
-	z	1	0
-
-> ~/developer/checkers/log/development_BASE_16456.log
-	*	1479488618	0
-	"	80	0
-	z	80	0
-
-> ~/developer/checkers/log/development_REMOTE_16456.log
-	*	1479488617	0
-	"	92	0
-	z	92	0
-
-> ~/developer/checkers/log/development_LOCAL_16456.log
-	*	1479488608	0
-	"	87	0
-	z	87	0
-
-> ~/developer/checkers/log/development.log
-	*	1479488603	0
-	"	375	0
-	z	375	0
-
-> ~/developer/checkers/frontend/components/root.jsx
-	*	1479433430	0
-	"	2	34
-	^	2	35
-	.	2	34
-	+	1	0
-	+	6	9
-	+	7	17
-	+	2	42
-	+	7	14
-	+	2	34
-	z	2	0
-
-> ~/developer/checkers/frontend/components/checkers/square.rb
-	*	1479431918	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-	z	1	0
-
-> ~/developer/checkers/frontend/entry.jsx
-	*	1479431835	0
-	"	9	26
-	^	9	27
-	.	9	26
-	+	11	3
+> ~/developer/checkers/frontend/store/preloaded_state.js
+	*	1480306517	0
+	"	13	5
+	^	45	16
+	.	13	5
+	+	31	0
+	+	54	0
+	+	51	15
+	+	1	23
+	+	2	8
+	+	14	0
 	+	3	0
+	+	4	0
+	+	5	0
 	+	6	0
 	+	7	0
 	+	8	0
-	+	7	14
-	+	9	38
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	3	5
+	+	4	5
+	+	5	5
+	+	6	5
+	+	7	5
+	+	8	5
+	+	9	5
+	+	11	5
+	+	12	5
+	+	13	3
+	+	12	3
+	+	11	3
+	+	10	3
+	+	9	3
+	+	8	3
+	+	7	3
+	+	15	0
+	+	16	0
+	+	17	3
+	+	18	3
+	+	19	3
+	+	20	3
+	+	21	3
+	+	22	3
+	+	23	3
+	+	24	3
+	+	25	3
+	+	26	3
+	+	27	3
+	+	28	3
+	+	16	18
+	+	1	19
+	+	31	20
+	+	41	0
+	+	31	20
+	+	33	36
+	+	40	0
+	+	33	36
+	+	41	0
+	+	34	25
+	+	39	3
+	+	33	36
+	+	35	16
+	+	36	19
+	+	38	14
+	+	42	4
+	+	43	20
+	+	44	15
+	+	45	15
+	+	42	3
+	+	2	5
+	+	3	5
+	+	4	5
+	+	5	5
+	+	6	5
+	+	7	5
+	+	8	5
+	+	9	5
+	+	10	5
+	+	11	5
+	+	12	5
+	+	13	5
+	z	13	2
+
+> ~/developer/checkers/frontend/components/checkers/square.jsx
+	*	1480306372	0
+	"	21	40
+	^	19	45
+	.	25	0
+	+	1	0
+	+	38	0
+	+	29	26
+	+	33	11
+	+	18	20
+	+	18	0
+	+	29	19
+	+	28	39
+	+	29	28
+	+	28	20
+	+	28	13
+	+	15	42
+	+	22	41
+	+	28	0
+	+	15	30
+	+	15	0
+	+	23	19
+	+	23	23
+	+	23	17
+	+	22	64
+	+	23	0
+	+	15	29
+	+	22	23
+	+	23	0
+	+	22	0
+	+	23	0
+	+	15	39
+	+	24	7
+	+	25	0
+	+	25	22
+	+	19	41
+	+	15	48
+	+	19	0
+	+	23	0
+	+	23	20
+	+	23	0
+	+	22	34
+	+	15	16
+	+	22	39
+	+	28	9
+	+	15	6
+	+	22	27
+	+	15	0
+	+	28	13
+	+	2	46
+	+	22	30
+	+	28	16
+	+	22	8
+	+	2	41
+	+	22	26
+	+	2	9
+	+	22	39
+	+	28	14
+	+	22	44
+	+	23	0
+	+	22	0
+	+	23	0
+	+	22	12
+	+	2	13
+	+	22	31
+	+	28	9
+	+	28	0
+	+	23	0
+	+	2	13
+	+	3	14
+	+	7	0
+	+	9	0
+	+	11	0
+	+	10	7
+	+	7	0
+	+	6	0
+	+	12	0
+	+	7	0
+	+	4	38
+	+	3	27
+	+	33	0
+	+	13	37
+	+	15	48
+	+	14	11
+	+	30	0
+	+	15	0
+	+	32	21
+	+	17	0
+	+	15	9
+	+	28	0
+	+	26	0
+	+	16	30
+	+	23	27
+	+	32	63
+	+	5	0
+	+	19	54
+	+	18	75
+	+	19	44
+	+	15	24
+	+	25	0
+	z	21	4
+
+> ~/developer/checkers/frontend/components/checkers/board.jsx
+	*	1480306321	0
+	"	32	47
+	^	32	48
+	.	32	47
+	+	9	13
+	+	11	10
+	+	9	12
+	+	11	18
+	+	32	36
+	+	11	28
+	+	7	0
+	+	17	18
+	+	17	0
+	+	11	58
+	+	7	0
+	+	7	22
+	+	7	0
+	+	32	0
+	+	7	18
+	+	7	20
+	+	7	5
+	+	9	17
+	+	9	0
+	+	9	16
+	+	9	21
+	+	9	31
+	+	11	42
+	+	9	55
+	+	9	6
+	+	9	15
+	+	7	19
+	+	9	23
+	+	9	10
+	+	9	22
+	+	19	9
+	+	19	37
+	+	19	14
+	+	19	0
+	+	19	38
+	+	32	30
+	+	19	56
+	+	32	26
+	+	32	36
+	+	7	50
+	+	32	38
+	+	11	18
+	+	11	0
+	+	25	0
+	+	24	0
+	+	11	11
+	+	11	0
+	+	11	40
+	+	11	38
+	+	15	6
+	+	15	5
+	+	17	0
+	+	12	57
+	+	13	19
+	+	14	14
+	+	14	0
+	+	16	16
+	+	12	20
+	+	12	23
+	+	13	22
+	+	12	0
+	+	13	0
+	+	13	22
+	+	16	17
+	+	13	22
+	+	10	23
+	+	13	0
+	+	9	17
+	+	42	0
+	+	9	27
+	+	19	0
+	+	19	15
+	+	19	26
+	+	19	38
+	+	19	59
+	+	19	17
+	+	19	12
+	+	19	18
+	+	19	0
+	+	19	18
+	+	19	22
+	+	19	14
+	+	9	6
+	+	9	0
+	+	9	12
+	+	9	13
+	+	9	0
+	+	9	32
+	+	9	28
+	+	9	23
+	+	9	10
+	+	9	23
+	+	24	0
+	+	32	42
+	+	32	0
+	+	31	0
+	+	19	0
+	+	9	0
+	+	7	0
+	+	32	47
+	z	32	12
+
+> ~/developer/checkers/frontend/components/checkers/board_container.js
+	*	1480306268	0
+	"	12	9
+	^	12	16
+	.	12	0
+	+	1	0
+	+	19	0
+	+	2	29
+	+	12	24
+	+	3	61
+	+	12	36
+	+	6	0
+	+	4	27
+	+	6	26
+	+	5	45
+	+	9	1
+	+	13	2
+	+	11	51
+	+	4	67
+	+	12	36
+	+	6	53
+	+	9	18
+	+	6	17
+	+	6	0
+	+	8	0
+	+	3	47
+	+	4	0
+	+	6	36
+	+	7	46
+	+	6	44
+	+	7	22
+	+	12	48
+	+	7	45
+	+	12	48
+	+	7	23
+	+	12	0
+	z	12	2
+
+> ~/developer/checkers/frontend/drag/specs.js
+	*	1480306208	0
+	"	11	34
+	^	11	35
+	.	11	34
+	+	1	29
+	+	3	58
+	+	15	0
+	+	7	13
+	+	15	0
+	+	3	19
+	+	7	0
+	+	4	37
+	+	7	0
+	+	4	44
+	+	5	0
+	+	7	1
+	+	5	7
+	+	3	20
+	+	4	12
+	+	5	15
+	+	3	23
+	+	9	29
+	+	13	1
+	+	10	19
+	+	12	0
+	+	11	16
+	+	11	0
+	+	10	33
+	+	11	34
+	z	11	4
+
+> ~/developer/checkers/frontend/entry.jsx
+	*	1480305563	0
+	"	9	44
+	^	9	45
+	.	9	44
+	+	16	3
+	+	3	0
+	+	8	0
+	+	11	0
+	+	13	0
+	+	11	14
+	+	14	38
 	+	4	40
+	+	14	26
+	+	5	45
 	+	9	26
+	+	14	35
+	+	12	4
+	+	9	0
+	+	10	0
+	+	12	21
+	+	9	7
+	+	8	0
+	+	8	20
+	+	8	1
+	+	8	6
+	+	8	0
+	+	8	17
+	+	8	12
+	+	8	22
+	+	8	0
+	+	8	1
+	+	8	21
+	+	9	42
+	+	8	9
+	+	8	0
+	+	6	55
+	+	9	44
 	z	9	2
 
+> ~/developer/checkers/frontend/reducers/pieces_reducer.js
+	*	1480305417	0
+	"	9	41
+	^	9	42
+	.	9	41
+	+	1	13
+	+	8	13
+	+	9	37
+	+	10	37
+	+	1	18
+	+	8	18
+	+	1	32
+	+	12	33
+	+	13	21
+	+	10	0
+	+	9	41
+	z	9	6
+
+> ~/developer/checkers/frontend/actions/pieces_actions.js
+	*	1480305219	0
+	"	2	0
+	^	2	33
+	.	2	32
+	+	8	0
+	+	1	0
+	+	7	0
+	+	2	33
+	+	4	5
+	+	5	4
+	+	8	0
+	+	13	0
+	+	9	29
+	+	14	0
+	+	5	4
+	+	2	32
+	z	2	0
+
+> ~/developer/checkers/frontend/selectors/pieces_selectors.js
+	*	1480295903	0
+	"	2	0
+	.	3	0
+	+	3	0
+	z	2	0
+
 > ~/.vim/UltiSnips/javascript.snippets
-	*	1479431411	0
-	"	99	1
-	^	99	2
-	.	99	1
+	*	1480295756	0
+	"	24	41
+	^	24	42
+	.	24	41
 	+	21	18
 	+	22	10
 	+	24	23
@@ -1083,7 +1482,567 @@ $
 	+	97	18
 	+	100	9
 	+	99	1
-	z	99	0
+	+	24	41
+	z	24	2
+
+> ~/developer/checkers/frontend/middleware/root_middleware.js
+	*	1480295466	0
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/frontend/middleware/pieces_middleware.js
+	*	1480295460	0
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/frontend/actions/checkers_actions.js
+	*	1480295383	0
+	"	2	33
+	^	2	34
+	.	2	33
+	+	1	0
+	+	8	0
+	+	3	0
+	+	4	3
+	+	6	2
+	+	3	12
+	+	1	17
+	+	2	33
+	z	2	0
+
+> ~/developer/checkers/frontend/reducers/root_reducer.js
+	*	1480295322	0
+	"	2	47
+	^	2	48
+	.	2	47
+	+	1	39
+	+	2	52
+	+	4	32
+	+	6	2
+	+	5	26
+	+	7	0
+	+	5	22
+	+	2	47
+	z	2	0
+
+> ~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb
+	*	1480193475	0
+	"	79	0
+	.	32	2
+	+	6	50
+	+	23	0
+	+	40	39
+	+	55	2
+	+	56	62
+	+	66	26
+	+	75	62
+	+	79	0
+	+	72	73
+	+	73	11
+	+	32	2
+	z	79	0
+
+> ~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb
+	*	1480193423	0
+	"	55	0
+	.	56	0
+	+	2	0
+	+	56	0
+	z	55	0
+
+> ~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/03_queries.rb
+	*	1480193336	0
+	"	70	0
+	^	70	0
+	.	70	0
+	+	2	0
+	+	70	0
+	z	70	0
+
+> ~/developer/app_academy/curriculum/.git/MERGE_MSG
+	*	1480190940	0
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/db/schema.rb
+	*	1479951257	0
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/app/assets/config/manifest.js
+	*	1479945513	0
+	"	1	0
+	z	1	0
+
+> ~/developer/checkers/frontend/game/piece.js
+	*	1479940665	0
+	"	5	0
+	.	5	0
+	+	1	20
+	+	5	0
+	+	3	16
+	+	5	23
+	+	5	26
+	+	5	7
+	+	5	14
+	+	5	2
+	+	5	33
+	+	5	0
+	z	5	0
+
+> ~/developer/app_academy/scribe_notes/w2d3.md
+	*	1479924050	0
+	"	1	0
+	^	49	73
+	.	49	72
+	+	11	91
+	+	15	1
+	+	14	0
+	+	52	0
+	+	16	0
+	+	17	31
+	+	19	92
+	+	21	28
+	+	24	1
+	+	20	20
+	+	24	41
+	+	30	0
+	+	31	72
+	+	33	3
+	+	32	16
+	+	33	20
+	+	34	66
+	+	35	60
+	+	41	47
+	+	40	44
+	+	43	54
+	+	44	2
+	+	30	12
+	+	44	35
+	+	46	14
+	+	47	96
+	+	48	0
+	+	49	16
+	+	50	27
+	+	49	72
+	z	1	0
+
+> ~/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb
+	*	1479875904	0
+	"	61	2
+	^	78	10
+	.	78	9
+	+	24	0
+	+	32	27
+	+	38	56
+	+	40	7
+	+	41	19
+	+	43	35
+	+	44	9
+	+	44	0
+	+	39	2
+	+	48	0
+	+	46	57
+	+	50	0
+	+	53	0
+	+	50	21
+	+	51	32
+	+	52	9
+	+	56	0
+	+	69	0
+	+	71	0
+	+	57	68
+	+	68	0
+	+	60	7
+	+	60	14
+	+	57	72
+	+	60	33
+	+	61	3
+	+	60	0
+	+	63	44
+	+	62	44
+	+	63	44
+	+	65	8
+	+	67	0
+	+	65	6
+	+	67	4
+	+	66	20
+	+	67	36
+	+	71	3
+	+	64	0
+	+	47	0
+	+	31	0
+	+	71	83
+	+	72	9
+	+	56	4
+	+	36	4
+	+	57	4
+	+	25	4
+	+	26	4
+	+	72	47
+	+	74	0
+	+	72	43
+	+	70	7
+	+	74	2
+	+	37	22
+	+	75	19
+	+	76	15
+	+	78	9
+	z	61	2
+
+> ~/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/NERD_tree_1
+	*	1479863095	0
+	"	14	0
+	.	1	0
+	+	1	0
+
+> ~/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb
+	*	1479863088	0
+	"	25	0
+	^	31	47
+	.	31	46
+	+	23	0
+	+	27	76
+	+	29	0
+	+	30	3
+	+	31	12
+	+	28	2
+	+	31	31
+	+	25	12
+	+	31	46
+	z	25	0
+
+> ~/developer/app_academy/chess/ai.rb
+	*	1479859973	0
+	"	42	0
+	z	42	4
+
+> ~/Desktop/skeleton/movie_buff/queries.rb
+	*	1479853923	0
+	"	136	22
+	^	136	23
+	.	136	22
+	+	39	19
+	+	40	7
+	+	39	4
+	+	40	4
+	+	38	53
+	+	40	41
+	+	41	26
+	+	39	18
+	+	41	18
+	+	49	28
+	+	50	13
+	+	52	11
+	+	54	20
+	+	55	17
+	+	56	51
+	+	54	6
+	+	54	18
+	+	54	24
+	+	54	0
+	+	53	39
+	+	54	0
+	+	62	7
+	+	63	14
+	+	63	13
+	+	64	13
+	+	63	0
+	+	67	0
+	+	65	14
+	+	66	13
+	+	66	0
+	+	65	13
+	+	71	38
+	+	73	9
+	+	71	48
+	+	73	18
+	+	74	9
+	+	73	12
+	+	72	17
+	+	73	20
+	+	74	11
+	+	76	17
+	+	72	11
+	+	76	18
+	+	74	9
+	+	76	0
+	+	75	10
+	+	73	26
+	+	82	22
+	+	83	17
+	+	84	26
+	+	85	22
+	+	84	25
+	+	85	30
+	+	84	34
+	+	85	27
+	+	89	0
+	+	90	21
+	+	93	28
+	+	94	34
+	+	92	4
+	+	90	7
+	+	91	21
+	+	101	19
+	+	107	27
+	+	107	31
+	+	107	11
+	+	107	22
+	+	107	0
+	+	107	51
+	+	107	23
+	+	104	0
+	+	103	23
+	+	102	51
+	+	105	16
+	+	112	7
+	+	113	22
+	+	114	18
+	+	115	42
+	+	116	13
+	+	117	54
+	+	122	2
+	+	115	29
+	+	122	8
+	+	123	19
+	+	124	5
+	+	123	70
+	+	124	35
+	+	125	9
+	+	122	6
+	+	124	36
+	+	133	17
+	+	135	68
+	+	136	17
+	+	137	11
+	+	138	15
+	+	139	0
+	+	135	58
+	+	136	19
+	+	134	22
+	+	136	22
+	z	136	4
+
+> ~/Desktop/skeleton/app/models/actor.rb
+	*	1479844511	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/skeleton/movie_buff/ControlP
+	*	1479844496	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/developer/app_academy/chess/Gemfile
+	*	1479773445	0
+	"	5	12
+	^	5	13
+	.	5	12
+	+	5	12
+	z	5	0
+
+> ~/developer/checkers/frontend/components/root.jsx
+	*	1479746499	0
+	"	11	27
+	^	11	28
+	.	11	27
+	+	1	0
+	+	10	9
+	+	12	17
+	+	2	42
+	+	12	14
+	+	2	34
+	+	3	38
+	+	11	29
+	+	13	14
+	+	12	0
+	+	11	28
+	+	2	58
+	+	12	22
+	+	4	43
+	+	5	25
+	+	7	12
+	+	19	50
+	+	7	11
+	+	8	7
+	+	7	35
+	+	17	0
+	+	8	8
+	+	11	27
+	z	11	6
+
+> ~/developer/checkers/frontend/components/checkers/pieces.jsx.erb
+	*	1479690706	0
+	"	8	0
+	^	8	12
+	.	8	12
+	+	5	0
+	+	4	38
+	+	7	20
+	+	8	31
+	+	4	11
+	+	8	12
+	z	8	2
+
+> ~/developer/checkers/frontend/components/checkers/piece.jsx
+	*	1479690367	0
+	"	1	0
+	z	1	0
+
+> ~/.vimrc
+	*	1479602697	0
+	"	164	0
+	^	13	19
+	.	313	0
+	+	398	0
+	+	293	0
+	+	287	20
+	+	292	0
+	+	286	4
+	+	287	19
+	+	278	0
+	+	287	0
+	+	278	0
+	+	282	0
+	+	290	0
+	+	291	0
+	+	283	0
+	+	286	0
+	+	337	0
+	+	164	0
+	+	161	1
+	+	163	0
+	+	164	0
+	+	162	12
+	+	161	0
+	+	512	76
+	+	511	0
+	+	512	0
+	+	512	47
+	+	512	39
+	+	512	0
+	+	512	60
+	+	512	0
+	+	512	42
+	+	512	0
+	+	512	42
+	+	512	0
+	+	51	0
+	+	14	11
+	+	14	0
+	+	13	18
+	+	339	0
+	+	313	0
+	z	164	0
+
+> ~/.tmux.conf
+	*	1479581917	0
+	"	16	0
+	z	16	0
+
+> ~/developer/checkers/frontend/selectors/checkers_selectors.js
+	*	1479529305	0
+	"	8	22
+	z	8	6
+
+> selectors/checkers_selectors.js
+	*	1479524672	0
+	"	3	13
+	^	3	27
+	.	3	0
+	+	1	39
+	+	2	0
+	+	13	0
+	+	3	42
+	+	12	1
+	+	4	8
+	+	5	0
+	+	4	26
+	+	5	15
+	+	7	11
+	+	6	9
+	+	7	31
+	+	7	30
+	+	9	4
+	+	8	13
+	+	7	37
+	+	8	34
+	+	10	17
+	+	9	6
+	+	3	0
+	z	3	0
+
+> ~/developer/checkers/frontend/reducers/checkers_reducer.js
+	*	1479524398	0
+	"	9	6
+	.	9	0
+	+	1	60
+	+	3	43
+	+	15	0
+	+	4	26
+	+	5	35
+	+	7	22
+	+	11	10
+	+	7	0
+	+	12	11
+	+	7	7
+	+	12	21
+	+	8	20
+	+	9	54
+	+	10	21
+	+	5	5
+	+	9	0
+	z	9	6
+
+> ~/developer/checkers/frontend/store/store.js
+	*	1479506377	0
+	"	8	0
+	^	1	1
+	.	8	0
+	+	10	2
+	+	1	0
+	+	3	0
+	+	10	0
+	+	5	0
+	+	8	0
+	z	8	2
+
+> ~/developer/checkers/frontend/NERD_tree_1
+	*	1479489099	0
+	"	1	0
+	.	1	0
+	+	1	0
+	z	1	0
+
+> ~/developer/checkers/log/development_BASE_16456.log
+	*	1479488618	0
+	"	80	0
+	z	80	0
+
+> ~/developer/checkers/log/development_REMOTE_16456.log
+	*	1479488617	0
+	"	92	0
+	z	92	0
+
+> ~/developer/checkers/log/development_LOCAL_16456.log
+	*	1479488608	0
+	"	87	0
+	z	87	0
+
+> ~/developer/checkers/log/development.log
+	*	1479488603	0
+	"	375	0
+	z	375	0
+
+> ~/developer/checkers/frontend/components/checkers/square.rb
+	*	1479431918	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+	z	1	0
 
 > components/checkers/piece.jsx
 	*	1479430200	0
@@ -2376,1158 +3335,3 @@ $
 	+	14	28
 	+	18	36
 	z	18	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/webpack.config.js
-	*	1478891234	0
-	"	19	8
-	^	19	21
-	.	19	20
-	+	10	44
-	+	12	0
-	+	10	0
-	+	20	0
-	+	19	20
-	z	19	8
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/future_implementations.md
-	*	1478890874	0
-	"	11	53
-	^	11	54
-	.	11	53
-	+	5	0
-	+	12	0
-	+	6	124
-	+	7	4
-	+	6	24
-	+	10	3
-	+	9	89
-	+	11	53
-	z	11	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/cloudinary.md
-	*	1478890394	0
-	"	6	44
-	^	6	45
-	.	6	44
-	+	3	91
-	+	6	44
-	z	6	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/docs/README.md
-	*	1478887109	0
-	"	34	10
-	.	34	10
-	+	30	14
-	+	31	14
-	+	32	16
-	+	33	17
-	+	34	10
-	z	34	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/models/review.rb
-	*	1478887068	0
-	"	16	0
-	^	15	27
-	.	15	26
-	+	2	51
-	+	19	0
-	+	3	53
-	+	8	20
-	+	5	26
-	+	2	33
-	+	3	21
-	+	4	19
-	+	6	20
-	+	3	0
-	+	19	0
-	+	9	0
-	+	12	20
-	+	15	21
-	+	16	6
-	+	14	12
-	+	16	14
-	+	17	32
-	+	15	49
-	+	16	39
-	+	15	26
-	z	16	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/models/program.rb
-	*	1478884706	0
-	"	10	18
-	^	10	24
-	.	10	17
-	+	3	0
-	+	2	64
-	+	7	26
-	+	9	19
-	+	15	0
-	+	14	22
-	+	15	16
-	+	13	29
-	+	13	24
-	+	13	0
-	+	13	24
-	+	11	22
-	+	13	22
-	+	13	0
-	+	13	23
-	+	13	18
-	+	19	0
-	+	13	0
-	+	17	0
-	+	16	0
-	+	18	22
-	+	10	23
-	+	11	14
-	+	10	17
-	z	10	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/models/status.rb
-	*	1478884613	0
-	"	6	2
-	^	2	33
-	.	2	32
-	+	3	53
-	+	9	0
-	+	5	0
-	+	4	38
-	+	2	20
-	+	3	0
-	+	3	15
-	+	4	14
-	+	6	120
-	+	2	27
-	+	3	0
-	+	2	32
-	z	6	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/reviews/_review.json.jbuilder
-	*	1478884215	0
-	"	2	0
-	^	3	32
-	.	3	31
-	+	1	26
-	+	2	33
-	+	4	0
-	+	3	31
-	z	2	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/controllers/api/reviews_controller.rb
-	*	1478884176	0
-	"	8	0
-	^	2	65
-	.	2	64
-	+	1	0
-	+	8	0
-	+	17	20
-	+	1	8
-	+	12	13
-	+	37	26
-	+	8	0
-	+	7	0
-	+	8	0
-	+	44	26
-	+	43	0
-	+	44	21
-	+	37	18
-	+	44	49
-	+	45	84
-	+	3	0
-	+	2	64
-	z	8	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/reviews/index.json.jbuilder
-	*	1478884172	0
-	"	3	0
-	^	3	40
-	.	3	39
-	+	3	39
-	z	3	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/util/loading_container.js
-	*	1478883690	0
-	"	6	0
-	^	9	17
-	.	9	16
-	+	1	38
-	+	2	36
-	+	6	2
-	+	5	0
-	+	4	32
-	+	5	28
-	+	11	0
-	+	8	23
-	+	10	10
-	+	9	16
-	z	6	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index.jsx
-	*	1478883675	0
-	"	40	31
-	^	16	103
-	.	16	102
-	+	47	0
-	+	54	0
-	+	47	64
-	+	33	0
-	+	54	0
-	+	47	52
-	+	48	24
-	+	53	0
-	+	54	0
-	+	48	0
-	+	54	0
-	+	48	45
-	+	53	0
-	+	48	0
-	+	53	10
-	+	48	24
-	+	4	17
-	+	53	10
-	+	47	51
-	+	48	0
-	+	4	40
-	+	34	34
-	+	38	0
-	+	35	31
-	+	36	33
-	+	47	38
-	+	34	44
-	+	50	0
-	+	49	28
-	+	52	0
-	+	33	0
-	+	11	0
-	+	33	0
-	+	33	52
-	+	33	0
-	+	11	18
-	+	13	0
-	+	33	37
-	+	9	21
-	+	33	47
-	+	34	51
-	+	9	47
-	+	9	0
-	+	33	0
-	+	13	0
-	+	9	0
-	+	33	0
-	+	33	29
-	+	33	0
-	+	34	43
-	+	34	25
-	+	12	26
-	+	33	0
-	+	12	0
-	+	34	0
-	+	33	0
-	+	51	42
-	+	31	0
-	+	26	35
-	+	28	0
-	+	27	39
-	+	30	0
-	+	29	15
-	+	46	0
-	+	45	30
-	+	25	14
-	+	26	12
-	+	26	11
-	+	26	0
-	+	40	30
-	+	29	16
-	+	43	45
-	+	47	49
-	+	43	0
-	+	38	0
-	+	26	8
-	+	47	11
-	+	19	39
-	+	23	0
-	+	21	53
-	+	23	0
-	+	21	29
-	+	38	0
-	+	34	0
-	+	38	0
-	+	21	35
-	+	21	0
-	+	20	0
-	+	20	28
-	+	20	30
-	+	19	20
-	+	20	39
-	+	9	0
-	+	12	0
-	+	20	93
-	+	19	26
-	+	20	39
-	+	15	26
-	+	17	0
-	+	16	102
-	z	40	8
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/reducers/review_reducer.js
-	*	1478831074	0
-	"	29	6
-	^	10	15
-	.	10	14
-	+	1	24
-	+	4	13
-	+	1	8
-	+	2	0
-	+	3	0
-	+	11	38
-	+	19	0
-	+	55	0
-	+	19	34
-	+	54	0
-	+	22	0
-	+	19	16
-	+	20	4
-	+	19	36
-	+	20	25
-	+	12	30
-	+	23	23
-	+	53	0
-	+	52	21
-	+	21	36
-	+	42	0
-	+	17	1
-	+	15	17
-	+	19	41
-	+	15	16
-	+	25	49
-	+	26	21
-	+	30	0
-	+	16	11
-	+	29	40
-	+	30	24
-	+	32	33
-	+	33	21
-	+	40	30
-	+	43	30
-	+	44	21
-	+	41	0
-	+	15	17
-	+	7	18
-	+	36	21
-	+	30	13
-	+	29	0
-	+	23	0
-	+	29	0
-	+	30	0
-	+	30	13
-	+	29	0
-	+	30	0
-	+	34	13
-	+	5	6
-	+	16	17
-	+	45	10
-	+	9	18
-	+	48	0
-	+	47	0
-	+	50	0
-	+	46	22
-	+	49	41
-	+	46	23
-	+	16	0
-	+	48	0
-	+	45	0
-	+	38	27
-	+	10	14
-	z	29	6
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_index_container.js
-	*	1478830994	0
-	"	15	45
-	^	14	67
-	.	15	45
-	+	1	39
-	+	6	2
-	+	18	23
-	+	21	14
-	+	19	16
-	+	2	44
-	+	1	35
-	+	6	0
-	+	17	0
-	+	20	19
-	+	24	0
-	+	11	0
-	+	14	17
-	+	16	0
-	+	14	0
-	+	13	51
-	+	17	0
-	+	14	38
-	+	3	22
-	+	14	57
-	+	18	4
-	+	4	40
-	+	23	46
-	+	18	27
-	+	23	36
-	+	4	39
-	+	7	23
-	+	14	60
-	+	13	58
-	+	13	60
-	+	17	1
-	+	14	57
-	+	13	52
-	+	14	0
-	+	13	51
-	+	17	0
-	+	14	0
-	+	8	30
-	+	7	24
-	+	8	26
-	+	8	31
-	+	9	48
-	+	10	33
-	+	8	0
-	+	15	46
-	+	3	36
-	+	14	66
-	+	15	45
-	z	15	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/actions/review_actions.js
-	*	1478830875	0
-	"	78	24
-	^	78	25
-	.	78	24
-	+	1	0
-	+	6	0
-	+	7	0
-	+	12	0
-	+	13	0
-	+	18	0
-	+	19	0
-	+	24	0
-	+	25	0
-	+	30	0
-	+	31	0
-	+	36	0
-	+	37	0
-	+	42	0
-	+	40	8
-	+	38	37
-	+	43	0
-	+	48	0
-	+	46	3
-	+	49	0
-	+	54	0
-	+	52	7
-	+	55	0
-	+	59	0
-	+	55	26
-	+	60	0
-	+	71	0
-	+	61	27
-	+	55	42
-	+	58	5
-	+	49	42
-	+	50	17
-	+	51	12
-	+	55	0
-	+	56	31
-	+	58	0
-	+	57	23
-	+	65	0
-	+	70	0
-	+	66	26
-	+	71	0
-	+	76	0
-	+	72	27
-	+	66	32
-	+	68	3
-	+	72	33
-	+	74	3
-	+	77	0
-	+	81	0
-	+	78	24
-	z	78	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/edit_review_modal.jsx
-	*	1478829072	0
-	"	29	0
-	.	29	0
-	+	39	0
-	+	43	0
-	+	41	0
-	+	40	35
-	+	41	27
-	+	39	0
-	+	41	0
-	+	41	34
-	+	6	9
-	+	60	18
-	+	41	0
-	+	40	35
-	+	38	30
-	+	47	0
-	+	50	0
-	+	29	0
-	z	29	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/edit_review_modal_container.js
-	*	1478829035	0
-	"	6	2
-	.	6	0
-	+	7	0
-	+	5	45
-	+	11	0
-	+	5	45
-	+	2	10
-	+	20	5
-	+	3	39
-	+	13	42
-	+	14	44
-	+	7	29
-	+	13	61
-	+	14	63
-	+	12	46
-	+	7	37
-	+	6	7
-	+	6	0
-	+	10	0
-	+	6	0
-	z	6	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/edit_and_delete.jsx
-	*	1478828539	0
-	"	6	2
-	^	13	52
-	.	6	0
-	+	1	26
-	+	4	0
-	+	5	27
-	+	25	0
-	+	8	0
-	+	26	0
-	+	8	0
-	+	2	41
-	+	8	14
-	+	7	9
-	+	21	3
-	+	8	0
-	+	20	0
-	+	14	0
-	+	8	0
-	+	14	11
-	+	15	0
-	+	16	0
-	+	18	13
-	+	20	0
-	+	7	24
-	+	7	0
-	+	8	0
-	+	6	20
-	+	23	14
-	+	24	0
-	+	7	0
-	+	23	14
-	+	6	0
-	+	5	36
-	+	6	6
-	+	6	0
-	+	16	30
-	+	17	23
-	+	5	48
-	+	17	28
-	+	5	64
-	+	14	31
-	+	14	0
-	+	3	62
-	+	14	45
-	+	5	25
-	+	14	38
-	+	6	0
-	+	3	10
-	+	14	0
-	+	3	44
-	+	14	0
-	+	14	11
-	+	13	51
-	+	14	0
-	+	13	0
-	+	6	0
-	z	6	2
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/edit_and_delete_container.js
-	*	1478828506	0
-	"	13	0
-	.	6	0
-	+	1	37
-	+	2	80
-	+	9	2
-	+	10	0
-	+	11	45
-	+	3	42
-	+	4	49
-	+	21	0
-	+	15	39
-	+	17	19
-	+	18	14
-	+	20	49
-	+	6	51
-	+	6	40
-	+	6	61
-	+	12	56
-	+	5	0
-	+	12	13
-	+	5	0
-	+	13	97
-	+	13	0
-	+	8	24
-	+	6	62
-	+	6	4
-	+	6	7
-	+	6	9
-	+	6	8
-	+	10	0
-	+	6	0
-	z	13	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/reviews/review_item.jsx
-	*	1478828500	0
-	"	37	0
-	.	22	0
-	+	32	50
-	+	38	15
-	+	38	0
-	+	38	15
-	+	38	0
-	+	38	34
-	+	22	0
-	+	9	25
-	+	21	0
-	+	10	13
-	+	21	0
-	+	13	0
-	+	16	0
-	+	13	10
-	+	16	10
-	+	11	50
-	+	7	32
-	+	11	53
-	+	14	0
-	+	17	0
-	+	14	41
-	+	17	44
-	+	11	53
-	+	14	42
-	+	17	15
-	+	14	15
-	+	11	15
-	+	22	36
-	+	17	31
-	+	14	27
-	+	11	37
-	+	38	0
-	+	32	21
-	+	22	0
-	+	32	62
-	+	12	11
-	+	15	0
-	+	18	0
-	+	34	36
-	+	34	34
-	+	34	47
-	+	34	15
-	+	34	34
-	+	34	15
-	+	32	29
-	+	33	37
-	+	34	0
-	+	34	15
-	+	34	0
-	+	33	17
-	+	34	17
-	+	34	32
-	+	34	15
-	+	34	0
-	+	33	0
-	+	34	15
-	+	34	0
-	+	33	34
-	+	34	15
-	+	34	26
-	+	34	29
-	+	34	0
-	+	33	0
-	+	34	27
-	+	38	0
-	+	37	37
-	+	4	67
-	+	33	36
-	+	34	0
-	+	33	0
-	+	34	23
-	+	34	15
-	+	37	50
-	+	19	13
-	+	20	34
-	+	34	15
-	+	34	29
-	+	35	0
-	+	34	27
-	+	32	37
-	+	5	0
-	+	43	53
-	+	42	38
-	+	44	19
-	+	42	0
-	+	46	0
-	+	44	0
-	+	42	0
-	+	24	0
-	+	42	38
-	+	44	19
-	+	42	0
-	+	46	0
-	+	42	0
-	+	44	0
-	+	24	30
-	+	42	0
-	+	45	0
-	+	42	47
-	+	22	0
-	z	37	12
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/assets/stylesheets/preview.scss
-	*	1478827982	0
-	"	28	0
-	.	43	0
-	+	3	0
-	+	12	4
-	+	17	0
-	+	22	0
-	+	27	0
-	+	32	0
-	+	37	0
-	+	17	1
-	+	22	1
-	+	27	1
-	+	32	1
-	+	37	1
-	+	12	3
-	+	13	18
-	+	17	3
-	+	22	3
-	+	27	3
-	+	32	3
-	+	37	3
-	+	18	0
-	+	23	0
-	+	28	0
-	+	33	0
-	+	38	0
-	+	10	0
-	+	7	19
-	+	3	9
-	+	57	0
-	+	5	0
-	+	14	17
-	+	19	0
-	+	24	0
-	+	29	0
-	+	34	0
-	+	39	0
-	+	34	16
-	+	29	16
-	+	24	16
-	+	34	16
-	+	29	16
-	+	24	16
-	+	19	16
-	+	14	16
-	+	3	18
-	+	14	18
-	+	19	18
-	+	24	18
-	+	29	18
-	+	34	18
-	+	19	15
-	+	3	5
-	+	3	21
-	+	3	0
-	+	3	16
-	+	3	22
-	+	7	19
-	+	16	0
-	+	21	0
-	+	26	0
-	+	31	0
-	+	36	0
-	+	57	0
-	+	4	19
-	+	4	0
-	+	41	10
-	+	42	20
-	+	45	6
-	+	46	22
-	+	4	0
-	+	8	15
-	+	3	15
-	+	8	0
-	+	49	3
-	+	49	0
-	+	50	0
-	+	57	0
-	+	53	0
-	+	57	0
-	+	54	10
-	+	57	0
-	+	54	11
-	+	55	25
-	+	3	0
-	+	54	3
-	+	55	19
-	+	57	0
-	+	3	0
-	+	1	0
-	+	10	0
-	+	9	0
-	+	58	0
-	+	57	5
-	+	57	0
-	+	6	15
-	+	1	3
-	+	1	1
-	+	43	0
-	j	49	2
-	z	28	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/Gemfile
-	*	1478827795	0
-	"	1	0
-	z	1	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/reducers/programs_reducer.js
-	*	1478826985	0
-	"	38	6
-	^	37	41
-	.	38	0
-	+	32	30
-	+	1	32
-	+	2	18
-	+	3	17
-	+	4	16
-	+	14	5
-	+	4	17
-	+	27	49
-	+	28	0
-	+	27	0
-	+	28	36
-	+	49	0
-	+	11	0
-	+	10	14
-	+	11	39
-	+	41	0
-	+	44	21
-	+	42	62
-	+	43	21
-	+	42	63
-	+	45	46
-	+	42	13
-	+	42	0
-	+	42	25
-	+	42	37
-	+	22	0
-	+	7	6
-	+	5	8
-	+	49	0
-	+	7	7
-	+	49	0
-	+	7	0
-	+	5	9
-	+	6	15
-	+	48	15
-	+	24	13
-	+	25	20
-	+	24	0
-	+	24	51
-	+	25	20
-	+	37	16
-	+	13	30
-	+	37	16
-	+	38	29
-	+	38	0
-	+	37	40
-	+	38	0
-	z	38	6
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/middleware/program_middleware.js
-	*	1478825595	0
-	"	78	48
-	^	78	49
-	.	78	48
-	+	73	0
-	+	70	0
-	+	67	0
-	+	63	0
-	+	81	0
-	+	58	45
-	+	38	68
-	+	62	34
-	+	28	7
-	+	38	7
-	+	54	46
-	+	58	35
-	+	62	55
-	+	66	63
-	+	38	0
-	+	69	56
-	+	38	69
-	+	72	19
-	+	69	18
-	+	72	60
-	+	47	7
-	+	26	63
-	+	28	0
-	+	26	21
-	+	47	71
-	+	16	19
-	+	58	24
-	+	4	15
-	+	38	64
-	+	26	43
-	+	38	42
-	+	42	39
-	+	44	0
-	+	43	0
-	+	42	38
-	+	44	0
-	+	43	14
-	+	23	42
-	+	43	46
-	+	47	0
-	+	48	0
-	+	47	0
-	+	45	0
-	+	44	0
-	+	25	0
-	+	58	65
-	+	22	70
-	+	35	41
-	+	36	0
-	+	34	0
-	+	35	40
-	+	36	0
-	+	34	27
-	+	39	0
-	+	40	0
-	+	41	0
-	+	27	0
-	+	57	30
-	+	61	0
-	+	65	0
-	+	39	0
-	+	50	28
-	+	48	32
-	+	49	17
-	+	52	0
-	+	50	0
-	+	75	62
-	+	12	7
-	+	78	0
-	+	20	7
-	+	78	56
-	+	79	25
-	+	58	32
-	+	62	36
-	+	34	10
-	+	37	0
-	+	34	0
-	+	28	39
-	+	37	0
-	+	30	21
-	+	32	0
-	+	31	31
-	+	21	14
-	+	33	0
-	+	58	57
-	+	62	61
-	+	30	17
-	+	58	60
-	+	62	64
-	+	21	0
-	+	5	15
-	+	20	7
-	+	34	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	65	0
-	+	61	9
-	+	57	0
-	+	78	48
-	z	78	6
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/app/views/api/programs/index.json.jbuilder
-	*	1478825380	0
-	"	6	0
-	^	6	24
-	.	6	23
-	+	1	57
-	+	1	0
-	+	1	42
-	+	1	0
-	+	4	0
-	+	6	23
-	z	6	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/search/search_index.jsx
-	*	1478825290	0
-	"	14	32
-	^	14	33
-	.	14	32
-	+	1	0
-	+	19	0
-	+	22	66
-	+	31	32
-	+	4	54
-	+	33	0
-	+	30	37
-	+	4	31
-	+	12	0
-	+	30	13
-	+	14	32
-	z	14	4
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/actions/program_actions.js
-	*	1478823096	0
-	"	45	0
-	^	10	7
-	.	10	6
-	+	1	0
-	+	26	0
-	+	31	0
-	+	27	25
-	+	44	0
-	+	38	0
-	+	42	3
-	+	41	8
-	+	43	0
-	+	42	3
-	+	44	0
-	+	49	0
-	+	50	0
-	+	55	0
-	+	56	0
-	+	61	0
-	+	59	7
-	+	56	28
-	+	58	29
-	+	57	26
-	+	2	34
-	+	3	26
-	+	5	0
-	+	27	36
-	+	29	8
-	+	8	35
-	+	11	11
-	+	8	39
-	+	68	0
-	+	73	0
-	+	71	6
-	+	74	0
-	+	78	0
-	+	75	25
-	+	2	37
-	+	4	5
-	+	8	35
-	+	10	6
-	z	45	0
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/home/home_container.js
-	*	1478822749	0
-	"	17	8
-	^	17	47
-	.	17	46
-	+	18	77
-	+	3	21
-	+	4	56
-	+	18	11
-	+	17	11
-	+	19	0
-	+	16	0
-	+	18	42
-	+	17	46
-	z	17	6
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/util/programs_api_util.js
-	*	1478818469	0
-	"	8	6
-	^	8	5
-	.	8	0
-	+	1	0
-	+	1	39
-	+	1	7
-	+	1	0
-	+	13	0
-	+	1	29
-	+	4	13
-	+	7	15
-	+	3	21
-	+	1	41
-	+	14	0
-	+	26	0
-	+	16	21
-	+	14	25
-	+	17	13
-	+	27	0
-	+	46	0
-	+	27	32
-	+	47	0
-	+	56	0
-	+	57	0
-	+	75	0
-	+	60	16
-	+	62	8
-	+	50	14
-	+	36	0
-	+	45	0
-	+	42	18
-	+	7	29
-	+	1	34
-	+	37	0
-	+	20	17
-	+	14	59
-	+	20	0
-	+	14	56
-	+	66	50
-	+	74	0
-	+	73	4
-	+	74	1
-	+	68	31
-	+	69	16
-	+	72	15
-	+	68	14
-	+	14	35
-	+	1	39
-	+	7	11
-	+	9	0
-	+	8	10
-	+	9	24
-	+	10	0
-	+	20	11
-	+	22	0
-	+	21	10
-	+	22	12
-	+	23	0
-	+	8	0
-	z	8	6
-
-> ~/Dropbox/developer/app-academy/full_stack_project/goodCode/frontend/components/programs/my_programs_container.jsx
-	*	1478818455	0
-	"	12	57
-	^	12	58
-	.	12	57
-	+	12	57
-	z	12	4

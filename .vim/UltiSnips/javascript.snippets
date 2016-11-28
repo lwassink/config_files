@@ -21,7 +21,7 @@ def new_line(word):
 	if len(word) == 0:
 		return ''
 	else:
-		return ",\n  " + word
+		return ",\n  " + word.replace(' ', "\n  ")
 endglobal
 
 snippet ed
