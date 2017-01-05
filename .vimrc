@@ -11,6 +11,7 @@ set noignorecase
 set t_Co=256
 set sessionoptions+=resize
 set shell=/bin/bash
+set directory^=$HOME/.vim/tmp//
 
 " save and close this vimrc when closing its window
 augroup vimrc_commands

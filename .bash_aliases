@@ -22,6 +22,7 @@ alias tm='tmux'
 alias ta='tmux attach -t'
 alias tn='tmux new -s'
 alias dev='cd ~/developer'
+alias cur='cd ~/developer/app_academy/curriculum'
 
 # t todo list aliases
 alias t='/usr/bin/python ~/tasks/t_by_sjl/t.py --task-dir ~/tasks --list tasks'
