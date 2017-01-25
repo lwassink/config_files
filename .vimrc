@@ -396,7 +396,6 @@ inoremap "" ""<esc>i
 inoremap '' ''<esc>i
 inoremap [[ []<esc>i
 inoremap {{ {}<esc>i
-inoremap << <><esc>i
 
 " split control commands
 " these allow me to move to the splits above, below, to the left, and to the

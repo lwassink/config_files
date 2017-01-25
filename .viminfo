@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ins
+~MSle0~/in_bou
 
 # Last Substitute Search Pattern:
 ~MSle0&this.props.program
@@ -21,7 +21,89 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1483564237,,"w"
+|2,0,1485370426,,"w"
+:e lib/ai.rb
+|2,0,1485370062,,"e lib/ai.rb"
+:e lib/game.rb
+|2,0,1485369888,,"e lib/game.rb"
+:wall
+|2,0,1485369844,,"wall"
+:vsplit lib/board.rb
+|2,0,1485363756,,"vsplit lib/board.rb"
+:e spec/spec_helper.rb
+|2,0,1485299877,,"e spec/spec_helper.rb"
+:e spec_helper
+|2,0,1485299871,,"e spec_helper"
+:e ~/.vim/ftplugin/ruby/switch.vim
+|2,0,1485299764,,"e ~/.vim/ftplugin/ruby/switch.vim"
+:b ai
+|2,0,1485299167,,"b ai"
+:b gam
+|2,0,1485299013,,"b gam"
+:b min
+|2,0,1485298846,,"b min"
+:b boa
+|2,0,1485298749,,"b boa"
+:b hum
+|2,0,1485298724,,"b hum"
+:b game
+|2,0,1485298720,,"b game"
+:!ls
+|2,0,1485298535,,"!ls"
+:e game.rb
+|2,0,1485297035,,"e game.rb"
+:b boar
+|2,0,1485296805,,"b boar"
+:b minimax.rb
+|2,0,1485288839,,"b minimax.rb"
+:bd!
+|2,0,1485286820,,"bd!"
+:bd
+|2,0,1485286817,,"bd"
+:e player.rb
+|2,0,1485286715,,"e player.rb"
+:e pla
+|2,0,1485286711,,"e pla"
+:e
+|2,0,1485286707,,"e"
+:e human_player.rb
+|2,0,1485286681,,"e human_player.rb"
+:e board.rb
+|2,0,1485285969,,"e board.rb"
+:e ai.rb
+|2,0,1485285945,,"e ai.rb"
+:b bor
+|2,0,1485211517,,"b bor"
+:b ga
+|2,0,1485206721,,"b ga"
+:inoremap << <<
+|2,0,1485203575,,"inoremap << <<"
+:inoreamap << <<
+|2,0,1485203567,,"inoreamap << <<"
+:inoreamp << <<
+|2,0,1485203556,,"inoreamp << <<"
+:nnoremap <<
+|2,0,1485203544,,"nnoremap <<"
+:nnoremap << <<
+|2,0,1485203531,,"nnoremap << <<"
+:b components/todos.jsx
+|2,0,1484705772,,"b components/todos.jsx"
+:e components/todo_item.jsx
+|2,0,1484619585,,"e components/todo_item.jsx"
+:e todo_item.jsx
+|2,0,1484601817,,"e todo_item.jsx"
+:e components/todos.jsx
+|2,0,1484597025,,"e components/todos.jsx"
+:e components/Todos.jsx
+|2,0,1484595132,,"e components/Todos.jsx"
+:e delayed-job.md
+|2,0,1484024253,,"e delayed-job.md"
+:e ui_ux.md
+|2,0,1483749236,,"e ui_ux.md"
+:'<,'>set textwidth=80
+|2,0,1483746313,,"'<,'>set textwidth=80"
+:set textwidth=80
+|2,0,1483746300,,"set textwidth=80"
 :we
 |2,0,1483483049,,"we"
 :b Line.java
@@ -34,98 +116,84 @@ $
 |2,0,1482938853,,"open ."
 :e Line.java
 |2,0,1482938845,,"e Line.java"
-:wall
-|2,0,1482873058,,"wall"
-:e player.rb
-|2,0,1482872998,,"e player.rb"
 :b Deque.j
 |2,0,1482792316,,"b Deque.j"
 :b De
 |2,0,1482792311,,"b De"
-:e Subset.java
-|2,0,1482775727,,"e Subset.java"
-:e
-|2,0,1482772289,,"e"
-:2
-|2,0,1482032704,,"2"
-:e game/ai.js
-|2,0,1481999854,,"e game/ai.js"
-:bd!
-|2,0,1481999849,,"bd!"
-:bd
-|2,0,1481999844,,"bd"
-:e game/ai.rb
-|2,0,1481999794,,"e game/ai.rb"
-:split
-|2,0,1482299699,,"split"
-:!atom .
-|2,0,1481926924,,"!atom ."
-:e ../../bench_bnb_ii.md
-|2,0,1481922827,,"e ../../bench_bnb_ii.md"
-:GWrite
-|2,0,1481831069,,"GWrite"
-:b 
-|2,0,1481829562,,"b "
-:b reviewjson
-|2,0,1481826624,,"b reviewjson"
-:e ../app/views/api/reviews/show.json.jbuilder
-|2,0,1481826584,,"e ../app/views/api/reviews/show.json.jbuilder"
-:b revred
-|2,0,1481823977,,"b revred"
-:b rev
-|2,0,1481741013,,"b rev"
-:b revredu
-|2,0,1481741007,,"b revredu"
-:e actions/review_actions.js
-|2,0,1481736501,,"e actions/review_actions.js"
-:b act
-|2,0,1481652136,,"b act"
-:e ../spec/player_spec.rb
-|2,0,1481417839,,"e ../spec/player_spec.rb"
-:vsplit ../../solution/lib/p01_int_set.rb
-|2,0,1481238758,,"vsplit ../../solution/lib/p01_int_set.rb"
-:e package.json
-|2,0,1481140688,,"e package.json"
-:e Gemfile
-|2,0,1481140649,,"e Gemfile"
-:e ../server.js
-|2,0,1480525599,,"e ../server.js"
-:q!
-|2,0,1480525023,,"q!"
-:e 02_queries.rb
-|2,0,1480395417,,"e 02_queries.rb"
-:e ../spec/01_queries_spec.rb
-|2,0,1480395384,,"e ../spec/01_queries_spec.rb"
-:wq
-|2,0,1480464184,,"wq"
-:q
-|2,0,1480382749,,"q"
-:e 09_self_joins.rb
-|2,0,1480372396,,"e 09_self_joins.rb"
-:e ../app/assets/stylesheets/players.scss
-|2,0,1480362128,,"e ../app/assets/stylesheets/players.scss"
-:e components/home.jsx
-|2,0,1480361127,,"e components/home.jsx"
-:e components/players/display_container.js
-|2,0,1480360306,,"e components/players/display_container.js"
-:e components/players/display.jsx
-|2,0,1480360171,,"e components/players/display.jsx"
-:e 08_using_null.rb
-|2,0,1480359267,,"e 08_using_null.rb"
-:e 07_joins_exercises.rb
-|2,0,1480358965,,"e 07_joins_exercises.rb"
-:e 06_joins_warmup.rb
-|2,0,1480358762,,"e 06_joins_warmup.rb"
-:e 05_aggregates.rb
-|2,0,1480357763,,"e 05_aggregates.rb"
-:e 04_select_within_select.rb
-|2,0,1480356838,,"e 04_select_within_select.rb"
 
 # Search String History (newest to oldest):
+?/^s*private<cr>mp
+|2,1,1485370063,47,"^s*private<cr>mp"
+?/in_bou
+|2,1,1485369796,47,"in_bou"
+?/can_move
+|2,1,1485369538,47,"can_move"
+?/coords
+|2,1,1485368444,47,"coords"
+?/priva
+|2,1,1485368267,47,"priva"
+?/debu
+|2,1,1485368249,47,"debu"
+?/valid_moves
+|2,1,1485367771,47,"valid_moves"
+?/:w
+|2,1,1485367721,47,":w"
+?/:b
+|2,1,1485367710,47,":b"
+?/puts
+|2,1,1485367306,47,"puts"
+?/p 
+|2,1,1485367299,47,"p "
+?/other_color
+|2,1,1485366423,47,"other_color"
+?/sl
+|2,1,1485363668,47,"sl"
+?/self[
+|2,1,1485306667,47,"self["
+?/all
+|2,1,1485306631,47,"all"
+?/200
+|2,1,1485298994,47,"200"
+?/boa
+|2,1,1485294893,47,"boa"
+??emp
+|2,1,1485283733,63,"emp"
+?/valid
+|2,1,1485213829,47,"valid"
+?/make
+|2,1,1485212604,47,"make"
+?/filter
+|2,1,1485206835,47,"filter"
+?/board
+|2,1,1485206725,47,"board"
+?/player
+|2,1,1485206707,47,"player"
+?/<<
+|2,1,1485203514,47,"<<"
+?/idx
+|2,1,1484602130,47,"idx"
+?/comp
+|2,1,1484602106,47,"comp"
+?/id
+|2,1,1484599045,47,"id"
+?/test
+|2,1,1484597746,47,"test"
+?/ange
+|2,1,1484597684,47,"ange"
+?/change
+|2,1,1484597680,47,"change"
+?/new
+|2,1,1484597623,47,"new"
+? \$\(cursor\|select\)\$
+|2,1,1484597411,,"\\$\\(cursor\\|select\\)\\$"
+?/NOTE
+|2,1,1484348029,47,"NOTE"
+??[
+|2,1,1484347758,63,"["
+?/Jen
+|2,1,1483749353,47,"Jen"
 ?/ins
 |2,1,1483564589,47,"ins"
-?/^s*private<cr>mp
-|2,1,1483554220,47,"^s*private<cr>mp"
 ? \<CLOUD_NAME\>
 |2,1,1483481268,,"\\<CLOUD_NAME\\>"
 ?/CLOUD_NAME: dxpvdn7tw\nUPLOAD_PRESET: lqvi4si1\n
@@ -154,74 +222,6 @@ $
 |2,1,1482793014,47,"remove"
 ?/NoSuc
 |2,1,1482792931,47,"NoSuc"
-?/content
-|2,1,1482792336,47,"content"
-?/randIn
-|2,1,1482719747,47,"randIn"
-?/Item[]
-|2,1,1482719654,47,"Item[]"
-?/dI
-|2,1,1482718391,47,"dI"
-?/size
-|2,1,1482718359,47,"size"
-?/Deque1
-|2,1,1482637860,47,"Deque1"
-?/Int
-|2,1,1482637743,47,"Int"
-?/int
-|2,1,1482473011,47,"int"
-?/Iter
-|2,1,1482472927,47,"Iter"
-?/1000
-|2,1,1482032701,47,"1000"
-?/validM
-|2,1,1482018563,47,"validM"
-?/id
-|2,1,1482018358,47,"id"
-?/games
-|2,1,1482018030,47,"games"
-?/CanM
-|2,1,1482005297,47,"CanM"
-?/other
-|2,1,1481995748,47,"other"
-?/success
-|2,1,1481922834,47,"success"
-?/meth
-|2,1,1481921763,47,"meth"
-?/NB
-|2,1,1481832229,47,"NB"
-?/start
-|2,1,1481838808,47,"start"
-?/merged
-|2,1,1481837879,47,"merged"
-?/;
-|2,1,1481829856,47,";"
-?/,
-|2,1,1481829850,47,","
-?/withRouter
-|2,1,1481652020,47,"withRouter"
-?/Map
-|2,1,1481651899,47,"Map"
-?/map
-|2,1,1481651895,47,"map"
-?/take_bet
-|2,1,1481417962,47,"take_bet"
-?/fold
-|2,1,1481417841,47,"fold"
-?/deal
-|2,1,1481417797,47,"deal"
-?/Curr
-|2,1,1481417529,47,"Curr"
-?/take_be
-|2,1,1481416347,47,"take_be"
-?/pot
-|2,1,1481416242,47,"pot"
-? \<end_round\>
-|2,1,1481416126,,"\\<end_round\\>"
-? \<high_bet\>
-|2,1,1481415933,,"\\<high_bet\\>"
-?/reset
-|2,1,1481415610,47,"reset"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -336,65 +336,44 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	BLOCK	23
-	<%= ENV['CLOUD_NAME'] %>
-|3,0,0,2,1,23,1483489783,"<%= ENV['CLOUD_NAME'] %>"
+"0	LINE	0
+	    p "#########"
+|3,0,0,1,1,0,1485369597,"    p \"#########\""
 ""1	LINE	0
-	button {
-	  font-size: 12px;
-	}
-|3,1,1,1,3,0,1483564360,"button {","  font-size: 12px;","}"
+	    p "#########"
+	    p valid_moves(color)
+	    p "#########"
+|3,1,1,1,3,0,1485369842,"    p \"#########\"","    p valid_moves(color)","    p \"#########\""
 "2	LINE	0
-	
-	button {
-	  font-size: 12px;
-	}
-|3,0,2,1,4,0,1483564234,"","button {","  font-size: 12px;","}"
+	      puts
+	      puts "---------------"
+	      puts over_but_not_full.to_s
+	      p over_but_not_full.valid_moves(:b)
+	      puts over_but_not_full.can_move?(:b)
+	      puts "---------------"
+|3,0,2,1,6,0,1485369838,"      puts","      puts \"---------------\"","      puts over_but_not_full.to_s","      p over_but_not_full.valid_moves(:b)","      puts over_but_not_full.can_move?(:b)","      puts \"---------------\""
 "3	LINE	0
-	#
-|3,0,3,1,1,0,1483552034,"#"
+	    (7..63).step(8).each { |i| grid[i] = nil }
+|3,0,3,1,1,0,1485369171,"    (7..63).step(8).each { |i| grid[i] = nil }"
 "4	LINE	0
-	Bench.create!(
-	  description: "alamo square, many dogs",
-	  seating: 4,
-	  lat: 37.775769,
-	  lng: -122.434960,
-	  picture_url: "https://c2.staticflickr.com/4/3035/2309664044_486f5a0327_z.jpg?zz=1",
-	)
-	
-	Bench.create!(
-	  description: "UN plaza, food truck access",
-	  seating: 2,
-	  lat: 37.779760,
-	  lng: -122.413820,
-	  picture_url: "http://www.concretedecor.net/CD/assets/Image/archives/CD1405/1405i_Page_32_Image_0001_600.jpg",
-	)
-	
-	Bench.create!(
-	  description: "Ocean Beach, gnarly breh",
-	  seating: 3,
-	  lat: 37.769996,
-	  lng: -122.511281,
-	  picture_url: "http://marmaladeandmileposts.com/wp-content/uploads/2012/05/2012-4-16-San-Francisco-Road-Trip-San-Francisco-1301.jpg",
-	)
-	
-|3,0,4,1,24,0,1483551744,"Bench.create!(","  description: \"alamo square, many dogs\",","  seating: 4,","  lat: 37.775769,","  lng: -122.434960,","  picture_url: \"https://c2.staticflickr.com/4/3035/2309664044_486f5a0327_z.jpg?zz=1\",",")","","Bench.create!(","  description: \"UN plaza, food truck access\",","  seating: 2,","  lat: 37.779760,","  lng: -122.413820,",>115
-|<"  picture_url: \"http://www.concretedecor.net/CD/assets/Image/archives/CD1405/1405i_Page_32_Image_0001_600.jpg\",",")","","Bench.create!(","  description: \"Ocean Beach, gnarly breh\",","  seating: 3,","  lat: 37.769996,","  lng: -122.511281,","  picture_url: \"http://marmaladeandmileposts.com/wp-content/uploads/2012/05/2012-4-16-San-Francisco-Road-Trip-San-Francisco-1301.jpg\",",")",""
+	    [7, 15, ]
+|3,0,4,1,1,0,1485369035,"    [7, 15, ]"
 "5	LINE	0
-	    console.log(this.state);
-|3,0,5,1,1,0,1483491377,"    console.log(this.state);"
+	      p delta
+|3,0,5,1,1,0,1485368535,"      p delta"
 "6	LINE	0
-	      console.log(this.state);
-|3,0,6,1,1,0,1483491375,"      console.log(this.state);"
-"7	LINE	0
-	    console.log(CLOUDINARY_OPTIONS);
-|3,0,7,1,1,0,1483491373,"    console.log(CLOUDINARY_OPTIONS);"
-"8	LINE	0
+	require 'byebug'
 	
-|3,0,8,1,1,0,1483490940,""
+|3,0,6,1,2,0,1485368518,"require 'byebug'",""
+"7	LINE	0
+	      debugger
+|3,0,7,1,1,0,1485368250,"      debugger"
+"8	LINE	0
+	      puts starting.to_s
+|3,0,8,1,1,0,1485367310,"      puts starting.to_s"
 "9	LINE	0
-	      }
-|3,0,9,1,1,0,1483483283,"      }"
+	      puts over_but_not_full.to_s
+|3,0,9,1,1,0,1485367308,"      puts over_but_not_full.to_s"
 "a	LINE	0
 	      <Toolbar
 	        backgroundColor={colors.light_brown}>
@@ -468,10 +447,10 @@ $
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,1483492020,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,1484698795,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
-"i@	LINE	0
+"i	LINE	0
 	#include <ios>
 	#include <iomanip>
 	#include <string>
@@ -483,19 +462,19 @@ $
 	using std::endl;    using std::streamsize;
 	using std::vector;  using std::sort;
 	
-|3,2,18,1,11,0,0,"#include <ios>","#include <iomanip>","#include <string>","#include <vector>","#include <algorithm>","","using std::cin;     using std::setprecision;","using std::cout;    using std::string;","using std::endl;    using std::streamsize;","using std::vector;  using std::sort;",""
+|3,0,18,1,11,0,0,"#include <ios>","#include <iomanip>","#include <string>","#include <vector>","#include <algorithm>","","using std::cin;     using std::setprecision;","using std::cout;    using std::string;","using std::endl;    using std::streamsize;","using std::vector;  using std::sort;",""
 "j	CHAR	0
-	k
-|3,0,19,0,1,0,0,"k"
+	771
+<jkrqjddkkkkkkkkkkkkkkkob.parent = ajkyyjprcjod.parent = bjkjoda€kb.€kb€kb€kb	fa€kb.parent = bjkjog.parent = cjkjog.€kb€kbh.paretn €kb€kb€kbnt = cjkjoi.paretn €kb€kb€kbnt = djkjoj.paer€kb€kbrent = djkjok.parent = ejkjol.par	 = ejkjomp€kb.pare	 = fjkjon.pa	 = fjkzzjjjyypkkkkjoo.par	 = gjkjop.par	 = gjkjoq.par	 = hjkjor.parent = hjkk0rr:wkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjor.value = 4jkkkkoq.value = 7jkkkOp.para€kbent = 5jkkkOo.parent = -1jkkkOn.parent = 3jkkkOm.paer€kb€kbrent = 5jkkkOl.value = 2jkkkkjOk.value = 1jkjjjjjjbbcwvaluejkjjjb.jjjciwvaluejkjjj.:wjjjjjjoa.mini	puts a.valueputs b.valueputs c.valuejk:w ekkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhhhhhhhhhhrejrejrfjrfjrgjrgjrhjrhjrijrijrjjrjjrkjrkjrljrljkkkkkjrjjjrkjrkjrlj.j.jrmj.j.jrnj.j.jrojjk.j.jrpj.j.j
+|3,0,19,0,1,0,1485282870,>770
+|<"jkrqjddkkkkkkkkkkkkkkkob.parent = ajkyyjprcjod.parent = bjkjoda€kb.€kb€kb€kb	fa€kb.parent = bjkjog.parent = cjkjog.€kb€kbh.paretn €kb€kb€kbnt = cjkjoi.paretn €kb€kb€kbnt = djkjoj.paer€kb€kbrent = djkjok.parent = ejkjol.par	 = ejkjomp€kb.pare	 = fjkjon.pa	 = fjkzzjjjyypkkkkjoo.par	 = gjkjop.par	 = gjkjoq.par	 = hjkjor.parent = hjkk0rr:wkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjor.value = 4jkkkkoq.value = 7jkkkOp.para€kbent = 5jkkkOo.parent = -1jkkkOn.parent = 3jkkkOm.paer€kb€kbrent = 5jkkkOl.valu
+|<e = 2jkkkkjOk.value = 1jkjjjjjjbbcwvaluejkjjjb.jjjciwvaluejkjjj.:wjjjjjjoa.mini	puts a.valueputs b.valueputs c.valuejk:w ekkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhhhhhhhhhhrejrejrfjrfjrgjrgjrhjrhjrijrijrjjrjjrkjrkjrljrljkkkkkjrjjjrkjrkjrlj.j.jrmj.j.jrnj.j.jrojjk.j.jrpj.j.j"
 "k	CHAR	0
 	kkkKsbk
 |3,0,20,0,1,0,0,"kkkKsbk"
 "q	CHAR	0
 	w
 |3,0,26,0,1,0,1481306700,"w"
-"r	CHAR	0
-	I€kr€kb;;j
-|3,0,27,0,1,0,0,"I€kr€kb;;j"
 "s	CHAR	0
 	bsqqjkuu
 |3,0,28,0,1,0,0,"bsqqjkuu"
@@ -515,7 +494,7 @@ $
 	            <MenuItem primaryText="Log out" />
 	          </Menu>
 	        </Popover>
-|3,0,31,1,12,0,1483477715,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
+|3,0,31,1,12,0,1484705758,"","        <Popover","          open={this.state.open}","          anchorEl={this.state.anchorEl}","          anchorOrigin={{horisontal: 'right', vertical: 'bottom'}}","          targetOrigin={{horisontal: 'right', vertical: 'top'}}","          onRequestClose={this.handleRequestClose}>","          <Menu>","            <MenuItem primaryText=\"Home\" />","            <MenuItem primaryText=\"Log out\" />","          </Menu>",>20
 |<"        </Popover>"
 "w	LINE	0
 	  cout << "Enter a series of words:" << endl;
@@ -534,241 +513,1399 @@ $
 |3,0,35,0,1,0,0,>723
 |<"Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		\"\"rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:
 |<w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w"
-"-	BLOCK	27
-	    <%= ENV['CLOUD_NAME'] %>
-|3,0,36,2,1,27,1483491559,"    <%= ENV['CLOUD_NAME'] %>"
+"-	CHAR	0
+	puts
+|3,0,36,0,1,0,1485369527,"puts"
 
 # File marks:
-'L  437  0  ~/.vimrc
-|4,76,437,0,0,"~/.vimrc"
+'L  436  0  ~/.vimrc
+|4,76,436,0,0,"~/.vimrc"
 'U  361  0  /usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt
 |4,85,361,0,0,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  75  0  ~/.vimrc
 |4,86,75,0,0,"~/.vimrc"
-'0  25  48  ~/.bash_aliases
-|4,48,25,48,1483579011,"~/.bash_aliases"
-'1  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,49,1,0,1483564678,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
-'2  11  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,50,11,0,1483564590,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
-'3  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,51,1,0,1483564419,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
-'4  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,52,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
-'5  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,53,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
-'6  7  0  ~/developer/app_academy/aa-benchbnb/frontend/components/root.jsx
-|4,54,7,0,1483554977,"~/developer/app_academy/aa-benchbnb/frontend/components/root.jsx"
-'7  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/config/routes.rb
-|4,55,1,0,1483554282,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/config/routes.rb"
-'8  12  21  ~/developer/app_academy/aa-benchbnb/app/views/layouts/application.html.erb
-|4,56,12,21,1483552614,"~/developer/app_academy/aa-benchbnb/app/views/layouts/application.html.erb"
-'9  14  22  ~/developer/app_academy/aa-benchbnb/config/application.yml
-|4,57,14,22,1483552036,"~/developer/app_academy/aa-benchbnb/config/application.yml"
+'0  3  14  ~/.rspec
+|4,48,3,14,1485388293,"~/.rspec"
+'1  1  24  ~/developer/reversi/lib/ai.rb
+|4,49,1,24,1485379563,"~/developer/reversi/lib/ai.rb"
+'2  78  4  ~/developer/reversi/lib/board.rb
+|4,50,78,4,1485363523,"~/developer/reversi/lib/board.rb"
+'3  77  4  ~/developer/reversi/lib/board.rb
+|4,51,77,4,1485363523,"~/developer/reversi/lib/board.rb"
+'4  4  9  ~/developer/reversi/Gemfile
+|4,52,4,9,1485300501,"~/developer/reversi/Gemfile"
+'5  5  0  ~/developer/reversi/spec/board_spec.rb
+|4,53,5,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
+'6  4  0  ~/developer/reversi/spec/board_spec.rb
+|4,54,4,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
+'7  5  0  ~/developer/reversi/spec/board_spec.rb
+|4,55,5,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
+'8  4  0  ~/developer/reversi/spec/board_spec.rb
+|4,56,4,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
+'9  1  0  ~/developer/reversi/spec/board.rb
+|4,57,1,0,1485299794,"~/developer/reversi/spec/board.rb"
 
 # Jumplist (newest first):
--'  25  48  ~/.bash_aliases
-|4,39,25,48,1483579011,"~/.bash_aliases"
--'  4  0  ~/.bash_aliases
-|4,39,4,0,1483578966,"~/.bash_aliases"
--'  2  0  ~/.bash_aliases
-|4,39,2,0,1483578959,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1483578955,"~/.bash_aliases"
--'  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,39,1,0,1483564678,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
--'  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,39,1,0,1483564678,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
--'  11  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,11,0,1483564590,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  11  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,11,0,1483564590,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  11  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,11,0,1483564590,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  11  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,11,0,1483564590,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,1,0,1483564578,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,1,0,1483564578,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,1,0,1483564578,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-|4,39,1,0,1483564578,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js"
--'  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,39,1,0,1483564419,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
--'  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,39,1,0,1483564419,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
--'  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,39,1,0,1483564419,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
--'  1  0  ~/developer/app_academy/curriculum/.git/MERGE_MSG
-|4,39,1,0,1483564419,"~/developer/app_academy/curriculum/.git/MERGE_MSG"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  233  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,233,0,1483564363,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  50  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,50,0,1483564359,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-|4,39,1,0,1483564357,"~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  232  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,232,0,1483564256,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,1,0,1483564231,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
--'  1  0  ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-|4,39,1,0,1483564231,"~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css"
+-'  3  14  ~/.rspec
+|4,39,3,14,1485388293,"~/.rspec"
+-'  1  0  ~/.rspec
+|4,39,1,0,1485388288,"~/.rspec"
+-'  1  24  ~/developer/reversi/lib/ai.rb
+|4,39,1,24,1485379563,"~/developer/reversi/lib/ai.rb"
+-'  1  24  ~/developer/reversi/lib/ai.rb
+|4,39,1,24,1485379563,"~/developer/reversi/lib/ai.rb"
+-'  67  29  ~/developer/reversi/lib/game.rb
+|4,39,67,29,1485370523,"~/developer/reversi/lib/game.rb"
+-'  67  29  ~/developer/reversi/lib/game.rb
+|4,39,67,29,1485370523,"~/developer/reversi/lib/game.rb"
+-'  57  0  ~/developer/reversi/lib/ai.rb
+|4,39,57,0,1485370414,"~/developer/reversi/lib/ai.rb"
+-'  57  0  ~/developer/reversi/lib/ai.rb
+|4,39,57,0,1485370414,"~/developer/reversi/lib/ai.rb"
+-'  46  0  ~/developer/reversi/lib/ai.rb
+|4,39,46,0,1485370410,"~/developer/reversi/lib/ai.rb"
+-'  46  0  ~/developer/reversi/lib/ai.rb
+|4,39,46,0,1485370410,"~/developer/reversi/lib/ai.rb"
+-'  68  29  ~/developer/reversi/lib/game.rb
+|4,39,68,29,1485370062,"~/developer/reversi/lib/game.rb"
+-'  68  29  ~/developer/reversi/lib/game.rb
+|4,39,68,29,1485370062,"~/developer/reversi/lib/game.rb"
+-'  1  0  ~/developer/reversi/lib/game.rb
+|4,39,1,0,1485369889,"~/developer/reversi/lib/game.rb"
+-'  1  0  ~/developer/reversi/lib/game.rb
+|4,39,1,0,1485369889,"~/developer/reversi/lib/game.rb"
+-'  49  4  ~/developer/reversi/lib/board.rb
+|4,39,49,4,1485369888,"~/developer/reversi/lib/board.rb"
+-'  49  4  ~/developer/reversi/lib/board.rb
+|4,39,49,4,1485369888,"~/developer/reversi/lib/board.rb"
+-'  115  10  ~/developer/reversi/lib/board.rb
+|4,39,115,10,1485369803,"~/developer/reversi/lib/board.rb"
+-'  115  10  ~/developer/reversi/lib/board.rb
+|4,39,115,10,1485369803,"~/developer/reversi/lib/board.rb"
+-'  53  30  ~/developer/reversi/lib/board.rb
+|4,39,53,30,1485369796,"~/developer/reversi/lib/board.rb"
+-'  53  30  ~/developer/reversi/lib/board.rb
+|4,39,53,30,1485369796,"~/developer/reversi/lib/board.rb"
+-'  51  0  ~/developer/reversi/lib/board.rb
+|4,39,51,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  47  0  ~/developer/reversi/lib/board.rb
+|4,39,47,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  43  0  ~/developer/reversi/lib/board.rb
+|4,39,43,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  40  0  ~/developer/reversi/lib/board.rb
+|4,39,40,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  51  0  ~/developer/reversi/lib/board.rb
+|4,39,51,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  47  0  ~/developer/reversi/lib/board.rb
+|4,39,47,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  43  0  ~/developer/reversi/lib/board.rb
+|4,39,43,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  40  0  ~/developer/reversi/lib/board.rb
+|4,39,40,0,1485369747,"~/developer/reversi/lib/board.rb"
+-'  33  0  ~/developer/reversi/lib/board.rb
+|4,39,33,0,1485369746,"~/developer/reversi/lib/board.rb"
+-'  33  0  ~/developer/reversi/lib/board.rb
+|4,39,33,0,1485369746,"~/developer/reversi/lib/board.rb"
+-'  56  0  ~/developer/reversi/lib/board.rb
+|4,39,56,0,1485369737,"~/developer/reversi/lib/board.rb"
+-'  56  0  ~/developer/reversi/lib/board.rb
+|4,39,56,0,1485369737,"~/developer/reversi/lib/board.rb"
+-'  61  0  ~/developer/reversi/lib/board.rb
+|4,39,61,0,1485369735,"~/developer/reversi/lib/board.rb"
+-'  65  0  ~/developer/reversi/lib/board.rb
+|4,39,65,0,1485369735,"~/developer/reversi/lib/board.rb"
+-'  61  0  ~/developer/reversi/lib/board.rb
+|4,39,61,0,1485369735,"~/developer/reversi/lib/board.rb"
+-'  65  0  ~/developer/reversi/lib/board.rb
+|4,39,65,0,1485369735,"~/developer/reversi/lib/board.rb"
+-'  69  0  ~/developer/reversi/lib/board.rb
+|4,39,69,0,1485369734,"~/developer/reversi/lib/board.rb"
+-'  76  0  ~/developer/reversi/lib/board.rb
+|4,39,76,0,1485369734,"~/developer/reversi/lib/board.rb"
+-'  69  0  ~/developer/reversi/lib/board.rb
+|4,39,69,0,1485369734,"~/developer/reversi/lib/board.rb"
+-'  76  0  ~/developer/reversi/lib/board.rb
+|4,39,76,0,1485369734,"~/developer/reversi/lib/board.rb"
+-'  80  0  ~/developer/reversi/lib/board.rb
+|4,39,80,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  84  0  ~/developer/reversi/lib/board.rb
+|4,39,84,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  92  0  ~/developer/reversi/lib/board.rb
+|4,39,92,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  96  0  ~/developer/reversi/lib/board.rb
+|4,39,96,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  98  0  ~/developer/reversi/lib/board.rb
+|4,39,98,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  80  0  ~/developer/reversi/lib/board.rb
+|4,39,80,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  84  0  ~/developer/reversi/lib/board.rb
+|4,39,84,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  92  0  ~/developer/reversi/lib/board.rb
+|4,39,92,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  96  0  ~/developer/reversi/lib/board.rb
+|4,39,96,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  98  0  ~/developer/reversi/lib/board.rb
+|4,39,98,0,1485369733,"~/developer/reversi/lib/board.rb"
+-'  101  0  ~/developer/reversi/lib/board.rb
+|4,39,101,0,1485369732,"~/developer/reversi/lib/board.rb"
+-'  101  0  ~/developer/reversi/lib/board.rb
+|4,39,101,0,1485369732,"~/developer/reversi/lib/board.rb"
+-'  105  9  ~/developer/reversi/lib/board.rb
+|4,39,105,9,1485369731,"~/developer/reversi/lib/board.rb"
+-'  105  9  ~/developer/reversi/lib/board.rb
+|4,39,105,9,1485369731,"~/developer/reversi/lib/board.rb"
+-'  155  6  ~/developer/reversi/lib/board.rb
+|4,39,155,6,1485369540,"~/developer/reversi/lib/board.rb"
+-'  150  6  ~/developer/reversi/lib/board.rb
+|4,39,150,6,1485369540,"~/developer/reversi/lib/board.rb"
+-'  155  6  ~/developer/reversi/lib/board.rb
+|4,39,155,6,1485369540,"~/developer/reversi/lib/board.rb"
+-'  150  6  ~/developer/reversi/lib/board.rb
+|4,39,150,6,1485369540,"~/developer/reversi/lib/board.rb"
+-'  134  0  ~/developer/reversi/lib/board.rb
+|4,39,134,0,1485369538,"~/developer/reversi/lib/board.rb"
+-'  134  0  ~/developer/reversi/lib/board.rb
+|4,39,134,0,1485369538,"~/developer/reversi/lib/board.rb"
+-'  152  0  ~/developer/reversi/lib/board.rb
+|4,39,152,0,1485368555,"~/developer/reversi/lib/board.rb"
+-'  152  0  ~/developer/reversi/lib/board.rb
+|4,39,152,0,1485368555,"~/developer/reversi/lib/board.rb"
+-'  104  6  ~/developer/reversi/lib/board.rb
+|4,39,104,6,1485368550,"~/developer/reversi/lib/board.rb"
+-'  104  6  ~/developer/reversi/lib/board.rb
+|4,39,104,6,1485368550,"~/developer/reversi/lib/board.rb"
+-'  107  0  ~/developer/reversi/lib/board.rb
+|4,39,107,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  110  0  ~/developer/reversi/lib/board.rb
+|4,39,110,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  114  0  ~/developer/reversi/lib/board.rb
+|4,39,114,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  119  0  ~/developer/reversi/lib/board.rb
+|4,39,119,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  122  0  ~/developer/reversi/lib/board.rb
+|4,39,122,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  107  0  ~/developer/reversi/lib/board.rb
+|4,39,107,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  110  0  ~/developer/reversi/lib/board.rb
+|4,39,110,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  114  0  ~/developer/reversi/lib/board.rb
+|4,39,114,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  119  0  ~/developer/reversi/lib/board.rb
+|4,39,119,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  122  0  ~/developer/reversi/lib/board.rb
+|4,39,122,0,1485368531,"~/developer/reversi/lib/board.rb"
+-'  128  0  ~/developer/reversi/lib/board.rb
+|4,39,128,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  132  0  ~/developer/reversi/lib/board.rb
+|4,39,132,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  137  0  ~/developer/reversi/lib/board.rb
+|4,39,137,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  143  0  ~/developer/reversi/lib/board.rb
+|4,39,143,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  146  0  ~/developer/reversi/lib/board.rb
+|4,39,146,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  151  0  ~/developer/reversi/lib/board.rb
+|4,39,151,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  128  0  ~/developer/reversi/lib/board.rb
+|4,39,128,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  132  0  ~/developer/reversi/lib/board.rb
+|4,39,132,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  137  0  ~/developer/reversi/lib/board.rb
+|4,39,137,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  143  0  ~/developer/reversi/lib/board.rb
+|4,39,143,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  146  0  ~/developer/reversi/lib/board.rb
+|4,39,146,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  151  0  ~/developer/reversi/lib/board.rb
+|4,39,151,0,1485368530,"~/developer/reversi/lib/board.rb"
+-'  10  0  ~/developer/reversi/lib/board.rb
+|4,39,10,0,1485368527,"~/developer/reversi/lib/board.rb"
+-'  10  0  ~/developer/reversi/lib/board.rb
+|4,39,10,0,1485368527,"~/developer/reversi/lib/board.rb"
+-'  156  0  ~/developer/reversi/lib/board.rb
+|4,39,156,0,1485368492,"~/developer/reversi/lib/board.rb"
+-'  162  0  ~/developer/reversi/lib/board.rb
+|4,39,162,0,1485368492,"~/developer/reversi/lib/board.rb"
+-'  156  0  ~/developer/reversi/lib/board.rb
+|4,39,156,0,1485368492,"~/developer/reversi/lib/board.rb"
+-'  162  0  ~/developer/reversi/lib/board.rb
+|4,39,162,0,1485368492,"~/developer/reversi/lib/board.rb"
+-'  64  4  ~/developer/reversi/lib/board.rb
+|4,39,64,4,1485368491,"~/developer/reversi/lib/board.rb"
+-'  64  4  ~/developer/reversi/lib/board.rb
+|4,39,64,4,1485368491,"~/developer/reversi/lib/board.rb"
+-'  22  15  ~/developer/reversi/lib/board.rb
+|4,39,22,15,1485368454,"~/developer/reversi/lib/board.rb"
+-'  22  15  ~/developer/reversi/lib/board.rb
+|4,39,22,15,1485368454,"~/developer/reversi/lib/board.rb"
+-'  21  15  ~/developer/reversi/lib/board.rb
+|4,39,21,15,1485368453,"~/developer/reversi/lib/board.rb"
+-'  21  15  ~/developer/reversi/lib/board.rb
+|4,39,21,15,1485368453,"~/developer/reversi/lib/board.rb"
+-'  1  0  ~/developer/reversi/lib/board.rb
+|4,39,1,0,1485368451,"~/developer/reversi/lib/board.rb"
+-'  149  42  ~/developer/reversi/lib/board.rb
+|4,39,149,42,1485368451,"~/developer/reversi/lib/board.rb"
 
 # History of marks within files (newest to oldest):
+
+> ~/.rspec
+	*	1485388293	0
+	"	3	14
+	^	3	15
+	.	3	14
+	+	3	14
+	z	3	0
+
+> ~/developer/reversi/lib/ai.rb
+	*	1485379563	0
+	"	1	24
+	z	1	0
+
+> ~/developer/reversi/lib/game.rb
+	*	1485370428	0
+	"	67	29
+	.	67	29
+	+	67	29
+	+	68	29
+	+	67	29
+	+	68	30
+	+	67	29
+	z	67	2
+
+> ~/developer/reversi/lib/board.rb
+	*	1485369884	0
+	"	49	4
+	^	54	7
+	.	49	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	6
+	+	9	8
+	+	10	8
+	+	11	8
+	+	12	9
+	+	13	9
+	+	14	10
+	+	15	9
+	+	16	9
+	+	8	11
+	+	129	20
+	+	130	45
+	+	133	21
+	+	134	23
+	+	135	20
+	+	112	19
+	+	133	10
+	+	112	48
+	+	115	13
+	+	142	21
+	+	142	0
+	+	137	0
+	+	142	0
+	+	138	22
+	+	140	12
+	+	116	19
+	+	115	32
+	+	116	32
+	+	117	42
+	+	130	11
+	+	52	0
+	+	115	38
+	+	105	48
+	+	78	0
+	+	79	0
+	+	78	0
+	+	160	0
+	+	149	0
+	+	154	0
+	+	147	0
+	+	150	17
+	+	155	17
+	+	103	22
+	+	108	4
+	+	150	0
+	+	155	0
+	+	153	0
+	+	148	0
+	+	103	49
+	+	103	0
+	+	105	0
+	+	106	0
+	+	106	7
+	+	106	11
+	+	106	46
+	+	106	35
+	+	105	81
+	+	106	0
+	+	154	0
+	+	149	0
+	+	147	0
+	+	155	0
+	+	3	20
+	+	6	20
+	+	5	20
+	+	3	0
+	+	152	24
+	+	150	0
+	+	155	0
+	+	103	7
+	+	105	13
+	+	1	14
+	+	1	0
+	+	151	0
+	+	105	0
+	+	97	0
+	+	103	0
+	+	152	0
+	+	103	12
+	+	104	0
+	+	103	0
+	+	63	18
+	+	152	0
+	+	151	0
+	+	1	0
+	+	103	6
+	+	104	6
+	+	152	0
+	+	147	0
+	+	155	0
+	+	49	22
+	+	49	15
+	+	49	0
+	+	53	10
+	+	54	6
+	+	49	0
+	z	49	4
+
+> ~/developer/reversi/spec/board_spec.rb
+	*	1485369883	0
+	"	55	6
+	.	55	0
+	+	1	13
+	+	3	0
+	+	4	18
+	+	5	20
+	+	2	28
+	+	5	28
+	+	7	21
+	+	8	22
+	+	9	35
+	+	10	35
+	+	28	20
+	+	29	38
+	+	33	43
+	+	30	39
+	+	11	17
+	+	30	36
+	+	34	11
+	+	6	0
+	+	13	0
+	+	14	9
+	+	16	9
+	+	17	6
+	+	18	0
+	+	34	35
+	+	21	27
+	+	22	0
+	+	23	5
+	+	24	10
+	+	38	22
+	+	39	38
+	+	40	42
+	+	41	15
+	+	44	0
+	+	43	0
+	+	44	50
+	+	46	0
+	+	45	29
+	+	48	45
+	+	49	26
+	+	45	32
+	+	49	18
+	+	53	26
+	+	54	55
+	+	55	57
+	+	56	42
+	+	75	0
+	+	59	8
+	+	54	19
+	+	59	45
+	+	60	48
+	+	61	33
+	+	60	0
+	+	55	0
+	+	56	0
+	+	60	0
+	+	66	28
+	+	67	29
+	+	68	43
+	+	72	43
+	+	71	0
+	+	69	6
+	+	70	0
+	+	71	24
+	+	45	0
+	+	49	0
+	+	55	25
+	+	23	5
+	+	24	10
+	+	25	36
+	+	55	32
+	+	25	19
+	+	23	8
+	+	24	114
+	+	24	6
+	+	25	0
+	+	24	6
+	+	55	9
+	+	55	42
+	+	55	27
+	+	55	0
+	+	55	37
+	+	55	39
+	+	55	0
+	z	55	6
+
+> ~/developer/reversi/Gemfile
+	*	1485300501	0
+	"	4	9
+	^	4	10
+	.	4	9
+	+	4	9
+	z	4	0
+
+> ~/developer/reversi/spec/spec_helper.rb
+	*	1485299910	0
+	"	1	0
+	^	1	33
+	.	2	0
+	+	1	24
+	+	2	0
+	+	1	32
+	+	2	0
+	z	1	0
+
+> ~/developer/reversi/spec/board.rb
+	*	1485299794	0
+	"	1	0
+	z	1	0
+
+> ~/.vim/ftplugin/ruby/switch.vim
+	*	1485299774	0
+	"	20	0
+	z	20	4
+
+> ~/developer/reversi/game.rb
+	*	1485299689	0
+	"	68	28
+	^	68	33
+	.	68	29
+	+	48	7
+	+	47	48
+	+	48	0
+	+	64	0
+	+	15	0
+	+	6	39
+	+	9	17
+	+	15	12
+	+	13	14
+	+	16	6
+	+	15	0
+	+	16	19
+	+	18	4
+	+	16	0
+	+	18	11
+	+	32	5
+	+	36	4
+	+	47	31
+	+	47	30
+	+	48	30
+	+	48	6
+	+	33	0
+	+	43	48
+	+	47	0
+	+	21	8
+	+	33	4
+	+	46	20
+	+	32	15
+	+	15	15
+	+	33	18
+	+	33	32
+	+	34	15
+	+	32	14
+	+	15	14
+	+	34	18
+	+	35	38
+	+	36	0
+	+	52	0
+	+	59	52
+	+	78	0
+	+	33	39
+	+	34	35
+	+	35	57
+	+	7	24
+	+	8	24
+	+	59	70
+	+	59	0
+	+	58	19
+	+	59	0
+	+	61	22
+	+	62	6
+	+	14	18
+	+	30	4
+	+	30	0
+	+	25	7
+	+	28	50
+	+	29	0
+	+	1	29
+	+	3	0
+	+	4	0
+	+	3	22
+	+	65	0
+	+	66	0
+	+	75	18
+	+	67	29
+	+	68	29
+	+	73	18
+	+	75	40
+	+	76	9
+	+	68	8
+	+	7	21
+	+	8	21
+	+	39	24
+	+	43	44
+	+	70	20
+	+	71	0
+	+	70	22
+	+	71	13
+	+	72	5
+	+	69	0
+	+	74	0
+	+	72	14
+	+	73	22
+	+	59	47
+	+	59	0
+	+	55	7
+	+	56	0
+	+	57	0
+	+	56	19
+	+	73	18
+	+	68	19
+	+	2	20
+	+	67	19
+	+	24	18
+	+	67	32
+	+	68	29
+	+	67	29
+	+	68	29
+	+	67	29
+	+	68	29
+	z	68	2
+
+> ~/developer/reversi/ai.rb
+	*	1485299295	0
+	"	26	31
+	^	25	55
+	.	25	54
+	+	11	0
+	+	1	18
+	+	4	0
+	+	57	0
+	+	11	21
+	+	13	0
+	+	19	21
+	+	20	0
+	+	2	24
+	+	46	0
+	+	13	8
+	+	12	17
+	+	13	18
+	+	14	40
+	+	20	21
+	+	21	22
+	+	23	0
+	+	6	35
+	+	7	5
+	+	10	0
+	+	7	14
+	+	8	27
+	+	6	39
+	+	23	21
+	+	25	38
+	+	31	0
+	+	24	17
+	+	31	0
+	+	30	24
+	+	30	6
+	+	25	13
+	+	30	19
+	+	3	22
+	+	30	36
+	+	27	55
+	+	29	0
+	+	27	62
+	+	28	35
+	+	46	18
+	+	25	11
+	+	30	47
+	+	27	65
+	+	34	17
+	+	36	0
+	+	34	15
+	+	27	41
+	+	34	20
+	+	37	27
+	+	38	17
+	+	34	27
+	+	38	27
+	+	39	0
+	+	40	22
+	+	21	31
+	+	25	0
+	+	30	0
+	+	36	14
+	+	34	21
+	+	27	55
+	+	35	27
+	+	36	8
+	+	35	15
+	+	38	21
+	+	40	18
+	+	37	26
+	+	38	9
+	+	39	9
+	+	40	63
+	+	46	33
+	+	47	27
+	+	52	0
+	+	50	39
+	+	53	23
+	+	54	59
+	+	36	31
+	+	27	30
+	+	41	13
+	+	27	0
+	+	46	31
+	+	47	17
+	+	6	39
+	+	25	54
+	z	26	6
+
+> ~/developer/reversi/minimax.rb
+	*	1485298858	0
+	"	27	35
+	^	65	30
+	.	65	29
+	+	93	2
+	+	94	2
+	+	91	2
+	+	93	2
+	+	94	2
+	+	95	2
+	+	96	2
+	+	97	2
+	+	98	2
+	+	99	2
+	+	100	2
+	+	101	2
+	+	102	2
+	+	103	2
+	+	104	2
+	+	105	2
+	+	106	2
+	+	107	2
+	+	4	14
+	+	5	20
+	+	51	23
+	+	54	48
+	+	59	38
+	+	57	29
+	+	57	0
+	+	59	47
+	+	60	31
+	+	108	16
+	+	31	45
+	+	33	13
+	+	37	13
+	+	37	0
+	+	39	0
+	+	37	0
+	+	38	0
+	+	39	37
+	+	43	16
+	+	45	11
+	+	47	10
+	+	45	25
+	+	46	15
+	+	47	27
+	+	42	7
+	+	36	7
+	+	30	7
+	+	109	31
+	+	44	21
+	+	109	23
+	+	45	23
+	+	109	27
+	+	59	8
+	+	51	35
+	+	52	0
+	+	53	0
+	+	54	51
+	+	59	16
+	+	51	17
+	+	54	49
+	+	59	0
+	+	57	0
+	+	59	0
+	+	108	15
+	+	107	0
+	+	85	8
+	+	88	2
+	+	85	12
+	+	88	12
+	+	91	12
+	+	94	12
+	+	97	14
+	+	100	12
+	+	103	12
+	+	106	12
+	+	109	0
+	+	111	0
+	+	110	5
+	+	111	16
+	+	59	0
+	+	56	0
+	+	57	0
+	+	56	4
+	+	57	0
+	+	58	7
+	+	61	6
+	+	57	0
+	+	55	0
+	+	57	15
+	+	52	25
+	+	57	39
+	+	26	26
+	+	27	45
+	+	7	14
+	+	64	16
+	+	65	29
+	z	27	4
+
+> ~/developer/reversi/board.rb
+	*	1485298831	0
+	"	95	6
+	.	95	0
+	+	107	13
+	+	92	0
+	+	107	21
+	+	111	4
+	+	110	0
+	+	105	0
+	+	108	22
+	+	92	0
+	+	91	23
+	+	92	17
+	+	95	53
+	+	95	9
+	+	96	58
+	+	99	12
+	+	115	0
+	+	114	37
+	+	115	48
+	+	116	19
+	+	115	25
+	+	119	29
+	+	119	2
+	+	116	20
+	+	115	0
+	+	116	23
+	+	115	47
+	+	116	15
+	+	119	41
+	+	36	62
+	+	135	8
+	+	47	15
+	+	48	17
+	+	35	22
+	+	36	44
+	+	135	0
+	+	125	22
+	+	127	22
+	+	52	17
+	+	53	20
+	+	125	23
+	+	36	22
+	+	103	25
+	+	95	11
+	+	96	0
+	+	95	6
+	+	96	41
+	+	126	0
+	+	135	0
+	+	126	48
+	+	135	24
+	+	52	10
+	+	126	42
+	+	135	42
+	+	125	2
+	+	126	2
+	+	127	2
+	+	135	0
+	+	128	0
+	+	119	0
+	+	55	0
+	+	61	24
+	+	62	24
+	+	63	34
+	+	64	35
+	+	21	0
+	+	12	22
+	+	14	16
+	+	67	11
+	+	68	24
+	+	39	22
+	+	40	29
+	+	49	0
+	+	57	21
+	+	68	23
+	+	71	0
+	+	68	29
+	+	69	36
+	+	119	0
+	+	74	8
+	+	131	13
+	+	132	12
+	+	133	7
+	+	131	0
+	+	133	0
+	+	128	0
+	+	123	0
+	+	131	13
+	+	133	0
+	+	77	22
+	+	77	24
+	+	79	29
+	+	81	16
+	+	80	20
+	+	81	18
+	+	80	7
+	+	81	22
+	+	85	0
+	+	89	0
+	+	85	10
+	+	95	27
+	+	95	0
+	z	95	6
+
+> ~/developer/reversi/human_player.rb
+	*	1485298727	0
+	"	5	0
+	^	30	28
+	.	5	0
+	+	4	10
+	+	32	2
+	+	4	25
+	+	33	0
+	+	3	0
+	+	1	23
+	+	5	0
+	+	5	17
+	+	5	0
+	+	5	14
+	+	8	9
+	+	6	22
+	+	8	10
+	+	5	19
+	+	8	40
+	+	9	30
+	+	2	22
+	+	12	7
+	+	7	0
+	+	17	18
+	+	18	49
+	+	21	0
+	+	24	8
+	+	18	8
+	+	19	33
+	+	20	6
+	+	20	0
+	+	19	33
+	+	16	0
+	+	29	21
+	+	30	46
+	+	20	19
+	+	25	0
+	+	15	33
+	+	30	27
+	+	15	0
+	+	5	0
+	z	5	2
+
+> ~/developer/reversi/player.rb
+	*	1485286891	0
+	"	12	2
+	^	16	0
+	.	12	0
+	+	8	14
+	+	9	0
+	+	8	15
+	+	9	55
+	+	12	53
+	+	15	0
+	+	12	0
+	+	15	3
+	+	2	0
+	+	12	0
+	z	12	2
+
+> ~/developer/reversi/pla
+	*	1485286817	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+	z	1	0
+
+> ~/.vimrc
+	*	1485206709	0
+	"	399	0
+	^	14	31
+	.	399	0
+	+	15	0
+	+	14	30
+	+	399	0
+	z	399	0
+
+> ~/developer/reversi/api.md
+	*	1485197633	0
+	"	7	56
+	^	7	57
+	.	7	56
+	+	6	77
+	+	2	71
+	+	4	14
+	+	9	0
+	+	8	101
+	+	7	56
+	z	7	0
+
+> ~/developer/testing-reading/jest/src/components/todos.jsx
+	*	1484946336	0
+	"	60	8
+	.	68	0
+	+	27	30
+	+	9	14
+	+	68	27
+	+	68	0
+	+	68	26
+	+	68	33
+	+	10	12
+	+	9	15
+	+	32	17
+	+	34	0
+	+	33	51
+	+	10	9
+	+	68	33
+	+	68	37
+	+	15	29
+	+	68	0
+	+	68	17
+	+	10	13
+	+	27	28
+	+	55	25
+	+	33	42
+	+	33	54
+	+	55	0
+	+	74	0
+	+	12	18
+	+	33	58
+	+	33	56
+	+	33	52
+	+	33	38
+	+	33	60
+	+	33	72
+	+	74	39
+	+	33	32
+	+	33	52
+	+	33	40
+	+	33	55
+	+	34	0
+	+	21	18
+	+	25	5
+	+	23	26
+	+	27	14
+	+	23	26
+	+	74	28
+	+	24	21
+	+	74	0
+	+	2	38
+	+	70	45
+	+	24	9
+	+	70	54
+	+	22	8
+	+	70	56
+	+	74	0
+	+	71	26
+	+	72	29
+	+	73	18
+	+	73	31
+	+	36	18
+	+	17	48
+	+	37	0
+	+	70	12
+	+	73	33
+	+	70	12
+	+	73	32
+	+	52	0
+	+	37	0
+	+	74	0
+	+	55	0
+	+	13	0
+	+	37	17
+	+	51	5
+	+	44	18
+	+	22	0
+	+	44	20
+	+	41	18
+	+	41	0
+	+	40	13
+	+	41	58
+	+	42	44
+	+	44	21
+	+	45	41
+	+	50	0
+	+	45	52
+	+	44	0
+	+	39	36
+	+	42	12
+	+	45	47
+	+	47	52
+	+	49	0
+	+	48	25
+	+	45	44
+	+	48	31
+	+	46	0
+	+	45	8
+	+	28	13
+	+	68	0
+	+	59	0
+	+	66	0
+	+	68	0
+	z	60	10
+
+> ~/developer/checkers/frontend/drag/specs.js
+	*	1484946042	0
+	"	61	0
+	^	41	2
+	.	41	1
+	+	3	38
+	+	52	24
+	+	3	10
+	+	52	37
+	+	52	0
+	+	53	0
+	+	50	37
+	+	51	16
+	+	1	10
+	+	47	0
+	+	51	42
+	+	51	35
+	+	51	0
+	+	17	7
+	+	14	39
+	+	17	33
+	+	17	0
+	+	36	0
+	+	17	73
+	+	28	35
+	+	28	0
+	+	36	0
+	+	36	24
+	+	17	75
+	+	36	0
+	+	48	0
+	+	36	0
+	+	28	0
+	+	36	11
+	+	48	0
+	+	45	0
+	+	42	51
+	+	44	0
+	+	43	37
+	+	48	31
+	+	17	0
+	+	19	0
+	+	29	0
+	+	31	0
+	+	30	28
+	+	16	35
+	+	17	41
+	+	43	21
+	+	30	31
+	+	48	0
+	+	36	0
+	+	40	0
+	+	36	0
+	+	31	11
+	+	40	0
+	+	32	0
+	+	34	10
+	+	37	0
+	+	36	0
+	+	34	70
+	+	27	24
+	+	33	65
+	+	41	46
+	+	46	20
+	+	37	0
+	+	40	0
+	+	34	27
+	+	34	54
+	+	34	21
+	+	34	27
+	+	31	0
+	+	19	24
+	+	31	0
+	+	19	0
+	+	18	27
+	+	30	23
+	+	34	20
+	+	14	37
+	+	34	24
+	+	35	0
+	+	36	0
+	+	35	12
+	+	18	40
+	+	37	0
+	+	40	0
+	+	33	0
+	+	34	0
+	+	30	0
+	+	38	0
+	+	37	11
+	+	39	0
+	+	18	27
+	+	34	24
+	+	35	51
+	+	27	0
+	+	25	24
+	+	23	0
+	+	22	19
+	+	24	24
+	+	20	19
+	+	21	24
+	+	25	0
+	+	27	0
+	+	15	0
+	+	41	1
+	z	61	0
+
+> ~/developer/checkers/frontend/drag/collects.js
+	*	1484930322	0
+	"	1	0
+	z	1	0
+
+> ~/developer/testing-reading/jest/src/App.css
+	*	1484705764	0
+	"	24	0
+	z	24	0
+
+> ~/developer/testing-reading/jest/src/ControlP
+	*	1484705763	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/developer/testing-reading/jest/src/index.css
+	*	1484705754	0
+	"	8	31
+	^	8	32
+	.	8	31
+	+	9	0
+	+	8	31
+	z	8	2
+
+> ~/developer/testing-reading/jest/src/NERD_tree_1
+	*	1484698808	0
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/developer/testing-reading/jest/src/components/todo_item.jsx
+	*	1484698791	0
+	"	6	6
+	.	6	0
+	+	8	0
+	+	7	38
+	+	10	3
+	+	8	9
+	+	4	17
+	+	8	11
+	+	3	17
+	+	4	0
+	+	6	0
+	z	6	6
+
+> ~/developer/testing-reading/jest/src/todo_item.jsx
+	*	1484602050	0
+	"	3	16
+	.	9	7
+	+	1	0
+	+	11	0
+	+	3	34
+	+	11	0
+	+	5	8
+	+	10	0
+	+	6	23
+	+	7	38
+	+	8	0
+	+	9	7
+	z	3	0
+
+> ~/developer/testing-reading/jest/src/App.jsx
+	*	1484597046	0
+	"	2	17
+	^	2	18
+	.	2	17
+	+	2	17
+	z	2	0
+
+> ~/developer/testing-reading/jest/src/App.js
+	*	1484596933	0
+	"	4	0
+	^	4	24
+	.	4	23
+	+	9	14
+	+	4	23
+	z	4	0
+
+> components/Todos.jsx
+	*	1484596908	0
+	"	11	0
+	^	11	17
+	.	11	16
+	+	1	0
+	+	17	0
+	+	12	11
+	+	11	16
+	z	11	8
+
+> ~/developer/test/ia.rb
+	*	1484348114	0
+	"	71	75
+	^	43	82
+	.	43	81
+	+	1	0
+	+	216	2
+	+	206	0
+	+	217	0
+	+	217	24
+	+	224	79
+	+	217	14
+	+	30	0
+	+	29	0
+	+	43	85
+	+	71	98
+	+	110	48
+	+	71	79
+	+	43	81
+	z	71	0
+
+> ~/developer/test/incoming_assessment.rb
+	*	1484347189	0
+	"	1	0
+	.	1	0
+	+	1	168
+	+	1	0
+	z	1	0
+
+> ~/Desktop/fruit_stand/frontend/store.js
+	*	1484250837	0
+	"	7	50
+	z	7	0
+
+> ~/developer/app_academy/curriculum/.git/MERGE_MSG
+	*	1484073759	0
+	"	1	0
+	z	1	0
+
+> ~/developer/app_academy/curriculum/full-stack-project/readings_to_copy/delayed-job.md
+	*	1484024284	0
+	"	50	21
+	^	50	22
+	.	50	21
+	+	49	0
+	+	50	21
+	z	50	0
+
+> ~/developer/app_academy/curriculum/full-stack-project/readings_to_copy/delayed-job-2.md
+	*	1484024248	0
+	"	1	0
+	.	1	0
+	+	1	0
+	z	1	0
+
+> ~/developer/app_academy/scribe_notes/ui_ux.md
+	*	1483770321	0
+	"	9	0
+	^	9	2
+	.	9	0
+	+	1	0
+	+	15	1
+	+	3	15
+	+	15	34
+	+	19	90
+	+	3	90
+	+	3	0
+	+	13	34
+	+	23	9
+	+	21	41
+	+	23	30
+	+	24	2
+	+	25	20
+	+	9	0
+	z	9	0
+
+> ~/developer/app_academy/scribe_notes/fsp.md
+	*	1483749357	0
+	"	45	29
+	^	45	30
+	.	45	29
+	+	4	1
+	+	3	0
+	+	7	2
+	+	9	2
+	+	10	0
+	+	11	3
+	+	10	0
+	+	9	4
+	+	13	2
+	+	12	0
+	+	13	43
+	+	15	36
+	+	23	2
+	+	48	0
+	+	23	8
+	+	27	26
+	+	31	18
+	+	33	63
+	+	35	26
+	+	43	8
+	+	47	79
+	+	48	0
+	+	3	15
+	+	45	29
+	z	45	0
+
+> ~/developer/app_academy/curriculum/react/readings/redux_nontech.md
+	*	1483746347	0
+	"	12	0
+	.	290	24
+	+	290	24
+	z	12	0
 
 > ~/.bash_aliases
 	*	1483579011	0
@@ -777,11 +1914,6 @@ $
 	.	25	48
 	+	25	48
 	z	25	0
-
-> ~/developer/app_academy/curriculum/.git/MERGE_MSG
-	*	1483564678	0
-	"	1	0
-	z	1	0
 
 > ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
 	*	1483564590	0
@@ -1768,113 +2900,6 @@ $
 	+	100	19
 	z	52	0
 
-> ~/developer/checkers/frontend/drag/specs.js
-	*	1482033037	0
-	"	12	25
-	^	41	2
-	.	41	1
-	+	3	38
-	+	52	24
-	+	3	10
-	+	52	37
-	+	52	0
-	+	53	0
-	+	50	37
-	+	51	16
-	+	1	10
-	+	47	0
-	+	51	42
-	+	51	35
-	+	51	0
-	+	17	7
-	+	14	39
-	+	17	33
-	+	17	0
-	+	36	0
-	+	17	73
-	+	28	35
-	+	28	0
-	+	36	0
-	+	36	24
-	+	17	75
-	+	36	0
-	+	48	0
-	+	36	0
-	+	28	0
-	+	36	11
-	+	48	0
-	+	45	0
-	+	42	51
-	+	44	0
-	+	43	37
-	+	48	31
-	+	17	0
-	+	19	0
-	+	29	0
-	+	31	0
-	+	30	28
-	+	16	35
-	+	17	41
-	+	43	21
-	+	30	31
-	+	48	0
-	+	36	0
-	+	40	0
-	+	36	0
-	+	31	11
-	+	40	0
-	+	32	0
-	+	34	10
-	+	37	0
-	+	36	0
-	+	34	70
-	+	27	24
-	+	33	65
-	+	41	46
-	+	46	20
-	+	37	0
-	+	40	0
-	+	34	27
-	+	34	54
-	+	34	21
-	+	34	27
-	+	31	0
-	+	19	24
-	+	31	0
-	+	19	0
-	+	18	27
-	+	30	23
-	+	34	20
-	+	14	37
-	+	34	24
-	+	35	0
-	+	36	0
-	+	35	12
-	+	18	40
-	+	37	0
-	+	40	0
-	+	33	0
-	+	34	0
-	+	30	0
-	+	38	0
-	+	37	11
-	+	39	0
-	+	18	27
-	+	34	24
-	+	35	51
-	+	27	0
-	+	25	24
-	+	23	0
-	+	22	19
-	+	24	24
-	+	20	19
-	+	21	24
-	+	25	0
-	+	27	0
-	+	15	0
-	+	41	1
-	z	41	4
-
 > ~/developer/checkers/frontend/game/ai.js
 	*	1482032942	0
 	"	63	0
@@ -2435,440 +3460,9 @@ $
 	+	164	10
 	z	187	0
 
-> ~/.vimrc
-	*	1481922345	0
-	"	14	30
-	^	14	31
-	.	14	30
-	+	15	0
-	+	14	30
-	z	14	0
-
 > ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/NERD_tree_8
 	*	1481830772	0
 	"	14	0
 	.	1	0
 	+	1	0
 	z	14	4
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/store/store.js
-	*	1481830771	0
-	"	4	0
-	^	11	2
-	.	4	0
-	+	4	32
-	+	10	1
-	+	13	0
-	+	7	14
-	+	13	3
-	+	9	43
-	+	13	0
-	+	5	0
-	+	11	0
-	+	13	0
-	+	11	1
-	+	6	2
-	+	10	2
-	+	12	0
-	+	11	0
-	+	9	25
-	+	5	0
-	+	4	0
-	z	4	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/bench_bnb.jsx
-	*	1481830452	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/reducers/session_reducer.js
-	*	1481830300	0
-	"	4	1
-	^	4	2
-	.	3	9
-	+	33	0
-	+	1	8
-	+	2	23
-	+	3	9
-	z	4	2
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/reducers/selectors.js
-	*	1481830075	0
-	"	6	0
-	.	7	0
-	+	3	0
-	+	7	0
-	z	6	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/reducers/root_reducer.js
-	*	1481830067	0
-	"	13	0
-	.	14	0
-	+	6	0
-	+	14	0
-	z	13	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/reducers/filters_reducer.js
-	*	1481830062	0
-	"	22	0
-	.	23	0
-	+	23	0
-	z	22	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/reducers/benches_reducer.js
-	*	1481830056	0
-	"	19	6
-	.	19	0
-	+	27	0
-	+	28	0
-	+	11	21
-	+	7	9
-	+	1	23
-	+	2	17
-	+	3	18
-	+	7	0
-	+	17	0
-	+	7	0
-	+	20	13
-	+	9	34
-	+	10	0
-	+	19	58
-	+	20	0
-	+	28	0
-	+	19	13
-	+	19	0
-	z	19	6
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/reducers/reviews_reducer.js
-	*	1481830045	0
-	"	1	0
-	.	1	0
-	+	1	37
-	+	1	22
-	+	1	0
-	+	1	74
-	+	1	0
-	+	1	35
-	+	1	22
-	+	1	0
-	+	1	13
-	+	1	34
-	+	1	59
-	+	1	21
-	+	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/actions/bench_actions.js
-	*	1481830034	0
-	"	25	0
-	^	25	0
-	.	25	0
-	+	5	0
-	+	13	0
-	+	5	0
-	+	13	0
-	+	18	0
-	+	5	0
-	+	27	0
-	+	5	0
-	+	27	0
-	+	36	0
-	+	14	44
-	+	5	0
-	+	12	0
-	+	37	0
-	+	11	0
-	+	12	41
-	+	13	0
-	+	12	55
-	+	15	0
-	+	13	4
-	+	9	0
-	+	14	0
-	+	9	0
-	+	12	27
-	+	17	11
-	+	22	11
-	+	21	0
-	+	26	0
-	+	17	31
-	+	18	0
-	+	17	44
-	+	20	2
-	+	18	4
-	+	9	0
-	+	22	36
-	+	23	0
-	+	22	48
-	+	23	4
-	+	25	2
-	+	23	0
-	+	24	0
-	+	19	0
-	+	14	0
-	+	9	0
-	+	12	0
-	+	14	54
-	+	19	48
-	+	24	48
-	+	15	1
-	+	20	1
-	+	25	0
-	z	25	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/actions/filter_actions.js
-	*	1481829989	0
-	"	8	1
-	^	8	2
-	.	8	1
-	+	5	47
-	+	6	0
-	+	5	71
-	+	8	0
-	+	5	71
-	+	6	0
-	+	8	1
-	z	8	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/actions/session_actions.js
-	*	1481829973	0
-	"	10	1
-	^	10	2
-	.	10	1
-	+	6	29
-	+	7	0
-	+	6	42
-	+	10	2
-	+	11	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	7	2
-	+	9	54
-	+	12	28
-	+	13	0
-	+	12	41
-	+	16	0
-	+	13	4
-	+	15	56
-	+	19	75
-	+	18	27
-	+	19	0
-	+	18	40
-	+	20	2
-	+	21	0
-	+	19	4
-	+	7	0
-	+	14	0
-	+	8	0
-	+	20	1
-	+	16	1
-	+	10	1
-	z	10	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/views/api/reviews/_review.json.jbuilder
-	*	1481828982	0
-	"	1	51
-	^	1	52
-	.	1	51
-	+	1	51
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/controllers/api/reviews_controller.rb
-	*	1481828821	0
-	"	5	4
-	^	5	5
-	.	5	4
-	+	8	17
-	+	7	7
-	+	10	19
-	+	5	4
-	z	5	4
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/controllers/api/benches_controller.rb
-	*	1481828775	0
-	"	4	4
-	z	4	4
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_show/bench_show_container.js
-	*	1481828608	0
-	"	9	0
-	z	9	2
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_show/review_show.jsx
-	*	1481828514	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_show/bench_detail.jsx
-	*	1481828508	0
-	"	12	2
-	.	12	0
-	+	25	0
-	+	12	8
-	+	29	0
-	+	13	0
-	+	12	0
-	z	12	2
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/views/api/benches/show.json.jbuilder
-	*	1481828310	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/controllers/api/favorites_controller.rb
-	*	1481826744	0
-	"	3	0
-	z	3	2
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/views/api/reviews/show.json.jbuilder
-	*	1481826641	0
-	"	1	51
-	^	1	52
-	.	1	51
-	+	1	51
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_show/review_form_container.js
-	*	1481825814	0
-	"	2	44
-	^	2	57
-	.	2	56
-	+	2	56
-	z	2	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/actions/review_actions.js
-	*	1481824954	0
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	40
-	+	1	0
-	+	1	49
-	+	1	0
-	+	1	53
-	+	1	2
-	+	1	12
-	+	1	1
-	+	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_show/bench_show.jsx
-	*	1481738371	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/ControlP
-	*	1481738069	0
-	"	8	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/developer/app_academy/aa-benchbnb/frontend/middleware/bench_middleware.js
-	*	1481654439	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/aa-benchbnb/frontend/actions/ControlP
-	*	1481654436	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/developer/app_academy/aa-benchbnb/frontend/actions/bench_actions.js
-	*	1481654431	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_map/bench_map.jsx
-	*	1481652127	0
-	"	67	0
-	^	68	35
-	.	68	34
-	+	69	0
-	+	57	0
-	+	68	34
-	z	69	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/search/search.jsx
-	*	1481651988	0
-	"	11	0
-	z	11	6
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/search/bench_index.jsx
-	*	1481651676	0
-	"	8	0
-	z	8	6
-
-> ~/developer/app_academy/curriculum/ruby/projects/poker/solution/spec/player_spec.rb
-	*	1481590915	0
-	"	38	45
-	^	38	46
-	.	38	45
-	+	96	45
-	+	94	21
-	+	94	10
-	+	98	25
-	+	102	14
-	+	94	14
-	+	98	0
-	+	97	16
-	+	98	18
-	+	102	18
-	+	28	79
-	+	34	69
-	+	36	25
-	+	35	23
-	+	36	29
-	+	36	14
-	+	39	0
-	+	36	36
-	+	38	19
-	+	36	15
-	+	37	27
-	+	38	9
-	+	39	0
-	+	38	45
-	z	38	6
-
-> ~/Downloads/proj7/lib/dijkstra2.rb
-	*	1481410385	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/NERD_tree_1
-	*	1481305618	0
-	"	9	0
-	.	1	0
-	+	1	0
-
-> ~/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/ControlP
-	*	1481305613	0
-	"	10	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/developer/app_academy/curriculum/ruby/projects/hash_map_lru_cache/solution/lib/p01_int_set.rb
-	*	1481241010	0
-	"	106	0
-	z	106	2
-
-> ~/developer/app_academy/curriculum/ruby/projects/hash_map_lru_cache/skeleton/spec/p01_int_set_spec.rb
-	*	1481241007	0
-	"	98	17
-	^	98	18
-	.	98	17
-	+	102	0
-	+	95	70
-	+	91	18
-	+	92	0
-	+	91	30
-	+	92	30
-	+	101	0
-	+	96	17
-	+	97	0
-	+	99	0
-	+	98	17
-	z	98	6
