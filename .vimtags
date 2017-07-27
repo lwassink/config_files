@@ -1,0 +1,716 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+""	/Users/lwassink/.vimrc	/^inoremap "" ""<esc>i$/;"	m	language:Vim
+%	/Users/lwassink/.vimrc	/^onoremap % VggG$/;"	m	language:Vim
+'	/Users/lwassink/.vimrc	/^nnoremap ' `$/;"	m	language:Vim
+''	/Users/lwassink/.vimrc	/^inoremap '' ''<esc>i$/;"	m	language:Vim
+((	/Users/lwassink/.vimrc	/^inoremap (( ()<esc>i$/;"	m	language:Vim
+,=	/Users/lwassink/.vimrc	/^nnoremap ,= m'gg=G`'$/;"	m	language:Vim
+,h	/Users/lwassink/.vimrc	/^nnoremap ,h :nohlsearch<cr>$/;"	m	language:Vim
+,tw	/Users/lwassink/.vimrc	/^nnoremap ,tw :call TrimWhitespace()<cr>$/;"	m	language:Vim
+-	/Users/lwassink/.vimrc	/^onoremap - f_$/;"	m	language:Vim
+.	/Users/lwassink/.vimrc	/^onoremap . f.$/;"	m	language:Vim
+0	/Users/lwassink/.vimrc	/^nnoremap 0 ^$/;"	m	language:Vim
+<=>	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def <=>(other_player)$/;"	f	language:Ruby	class:Player
+<=>	/Users/lwassink/developer/reversi/minimax.rb	/^  def <=>(other)$/;"	f	language:Ruby
+<c-,>	/Users/lwassink/.vimrc	/^nnoremap <c-,>  <c-w>10>$/;"	m	language:Vim
+<c-.>	/Users/lwassink/.vimrc	/^nnoremap <c-.>  <c-w>10<$/;"	m	language:Vim
+<c-c>	/Users/lwassink/.vimrc	/^nnoremap <c-c> <c-w>c$/;"	m	language:Vim
+<c-h>	/Users/lwassink/.vimrc	/^nnoremap <c-h>  <c-w>h$/;"	m	language:Vim
+<c-j>	/Users/lwassink/.vimrc	/^nnoremap <c-j>  <c-w>j$/;"	m	language:Vim
+<c-k>	/Users/lwassink/.vimrc	/^nnoremap <c-k>  <c-w>k$/;"	m	language:Vim
+<c-l>	/Users/lwassink/.vimrc	/^nnoremap <c-l>  <c-w>l$/;"	m	language:Vim
+<c-s>	/Users/lwassink/.vimrc	/^inoremap <c-s> <esc>:w<cr>a$/;"	m	language:Vim
+<c-s>	/Users/lwassink/.vimrc	/^nnoremap <c-s> :w<cr>$/;"	m	language:Vim
+<c-u>	/Users/lwassink/.vimrc	/^inoremap <c-u> <esc>viw~ea$/;"	m	language:Vim
+<c-u>	/Users/lwassink/.vimrc	/^noremap <c-u> viw~e$/;"	m	language:Vim
+<c-v>	/Users/lwassink/.vimrc	/^nnoremap <c-v> v$/;"	m	language:Vim
+<c-v>	/Users/lwassink/.vimrc	/^vnoremap <c-v> v$/;"	m	language:Vim
+<cr>	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/lists.vim	/^imap <buffer> <cr> <cr><esc>:call <SID>PrintLeader()<cr>A$/;"	m	language:Vim
+<cr>	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim	/^imap <buffer> <cr> <cr><esc>:call <SID>PrintLeader()<cr>A$/;"	m	language:Vim
+<down>	/Users/lwassink/.vimrc	/^vmap <expr> <down> DVB_Drag('down')$/;"	m	language:Vim
+<leader><leader>	/Users/lwassink/.vimrc	/^inoremap <leader><leader> <esc>cc$/;"	m	language:Vim
+<leader>=	/Users/lwassink/.vimrc	/^noremap <silent> <leader>= mxLmygg=G`yzb`x$/;"	m	language:Vim
+<leader>ec	/Users/lwassink/.vimrc	/^nnoremap <leader>ec :execute "split ~\/.vim\/ftplugin\/".&filetype."\/".&filetype.".vim"<cr>$/;"	m	language:Vim
+<leader>eu	/Users/lwassink/.vimrc	/^nnoremap <leader>eu :UltiSnipsEdit<cr>$/;"	m	language:Vim
+<leader>ev	/Users/lwassink/.vimrc	/^noremap <leader>ev :split $MYVIMRC<cr>$/;"	m	language:Vim
+<leader>gu	/Users/lwassink/.vimrc	/^nnoremap <leader>gu :GundoToggle<cr>$/;"	m	language:Vim
+<leader>h	/Users/lwassink/.vimrc	/^nnoremap <leader>h :nohlsearch<cr>$/;"	m	language:Vim
+<leader>l	/Users/lwassink/.vimrc	/^nnoremap <leader>l :ls<cr>:b<space>$/;"	m	language:Vim
+<leader>nt	/Users/lwassink/.vimrc	/^nnoremap <leader>nt :NERDTree<cr>$/;"	m	language:Vim
+<leader>o	/Users/lwassink/.vimrc	/^noremap <leader>o o<esc>0Di$/;"	m	language:Vim
+<leader>ra	/Users/lwassink/.vim/ftplugin/ruby/ruby.vim	/^nnoremap <buffer> <leader>ra :call RunAllSpecs()<cr>$/;"	m	language:Vim
+<leader>rc	/Users/lwassink/.vim/ftplugin/ruby/ruby.vim	/^nnoremap <buffer> <leader>rc :call RunCurrentSpecFile()<cr>$/;"	m	language:Vim
+<leader>rn	/Users/lwassink/.vim/ftplugin/ruby/ruby.vim	/^nnoremap <buffer> <leader>rn :call RunNearestSpec()<cr>$/;"	m	language:Vim
+<leader>sv	/Users/lwassink/.vimrc	/^noremap <leader>sv :source $MYVIMRC<cr>$/;"	m	language:Vim
+<left>	/Users/lwassink/.vimrc	/^vmap <expr> <left> DVB_Drag('left')$/;"	m	language:Vim
+<right>	/Users/lwassink/.vimrc	/^vmap <expr> <right> DVB_Drag('right')$/;"	m	language:Vim
+<space>=	/Users/lwassink/.vimrc	/^nnoremap <space>= VypVr=$/;"	m	language:Vim
+<space>e	/Users/lwassink/.vim/ftplugin/ruby/ruby.vim	/^nnoremap <buffer> <space>e :!ruby %<cr>$/;"	m	language:Vim
+<space>e	/Users/lwassink/.vimrc	/^nnoremap <space>e :Errors<cr>$/;"	m	language:Vim
+<space>j	/Users/lwassink/.vimrc	/^nnoremap <space>j a<space><esc>h$/;"	m	language:Vim
+<space>k	/Users/lwassink/.vimrc	/^nnoremap <space>k i<space><esc>l$/;"	m	language:Vim
+<space>r	/Users/lwassink/.vimrc	/^nnoremap <silent> <space>r :SyntasticReset<cr>$/;"	m	language:Vim
+<space>r	/Users/lwassink/.vimrc	/^nnoremap <space>r :SyntasticReset<cr>$/;"	m	language:Vim
+<space>ts	/Users/lwassink/.vimrc	/^nnoremap <space>ts :SyntasticToggleMode<cr>$/;"	m	language:Vim
+<tab>p	/Users/lwassink/.vimrc	/^nnoremap <tab>p "0p$/;"	m	language:Vim
+<up>	/Users/lwassink/.vimrc	/^vmap <expr> <up> DVB_Drag('up')$/;"	m	language:Vim
+absolute_sum	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def absolute_sum(num_one, num_two)$/;"	f	language:Ruby
+actor_out_of_work	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def actor_out_of_work$/;"	f	language:Ruby
+actor_out_of_work	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def actor_out_of_work$/;"	f	language:Ruby
+actor_out_of_work	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/03_queries.rb	/^def actor_out_of_work$/;"	f	language:Ruby
+actor_out_of_work	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def actor_out_of_work$/;"	f	language:Ruby
+add	/Users/lwassink/developer/reversi/lib/board.rb	/^  def self.add(pos1, pos2)$/;"	F	language:Ruby	class:Board
+addFirst	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public void addFirst(Item item) {$/;"	m	language:Java	class:Deque
+addLast	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public void addLast(Item item) {$/;"	m	language:Java	class:Deque
+addSegments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java	/^  private LineSegment[] addSegments(Point[] points, LineSegment[] tempSegments) {$/;"	m	language:Java	class:FastCollinearPoints	file:
+add_child	/Users/lwassink/developer/reversi/minimax.rb	/^  def add_child(other)$/;"	f	language:Ruby	class:MNode
+add_children	/Users/lwassink/developer/reversi/minimax.rb	/^  def add_children(others)$/;"	f	language:Ruby	class:MNode
+add_players	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def add_players(n, buy_in)$/;"	f	language:Ruby
+add_to_pot	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def add_to_pot(amount)$/;"	f	language:Ruby
+africa_gdp	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def africa_gdp$/;"	f	language:Ruby
+Ag	/Users/lwassink/.vimrc	/^command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!$/;"	c	language:Vim
+aiMove	/Users/lwassink/developer/checkers/frontend/game/ai.js	/^function aiMove(game, player) {$/;"	f	language:JavaScript
+AIPlayer	/Users/lwassink/developer/reversi/ai.rb	/^class AIPlayer < Player$/;"	c	language:Ruby
+alien_cast	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def alien_cast$/;"	f	language:Ruby
+all_depts_join	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def all_depts_join$/;"	f	language:Ruby
+all_teachers_join	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def all_teachers_join$/;"	f	language:Ruby
+andrews_films_and_leads	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def andrews_films_and_leads$/;"	f	language:Ruby
+Api	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/controllers/api/reviews_controller.rb	/^class Api::ReviewsController < ApplicationController$/;"	c	language:Ruby
+app	/Users/lwassink/developer/checkers/server.js	/^var app = express();$/;"	v	language:JavaScript
+append	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public DoubleNode<Item> append(Item item) {$/;"	m	language:Java	class:Deque.DoubleNode
+area_count	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def area_count$/;"	f	language:Ruby
+Array	/Users/lwassink/developer/app_academy/curriculum/javascript/projects/intro_js_exercises/solution/phase_1_arrays.js	/^\/\/ Array.prototype.uniq$/;"	c	language:JavaScript
+Array.transpose	/Users/lwassink/developer/app_academy/curriculum/javascript/projects/intro_js_exercises/solution/phase_1_arrays.js	/^Array.prototype.transpose = function() {$/;"	m	language:JavaScript
+Array.twoSum	/Users/lwassink/developer/app_academy/curriculum/javascript/projects/intro_js_exercises/solution/phase_1_arrays.js	/^Array.prototype.twoSum = function() {$/;"	m	language:JavaScript
+Array.twoSum2	/Users/lwassink/developer/app_academy/curriculum/javascript/projects/intro_js_exercises/solution/phase_1_arrays.js	/^Array.prototype.twoSum2 = function() {$/;"	m	language:JavaScript
+Array.uniq	/Users/lwassink/developer/app_academy/curriculum/javascript/projects/intro_js_exercises/solution/phase_1_arrays.js	/^Array.prototype.uniq = function() {$/;"	m	language:JavaScript
+Array.uniq2	/Users/lwassink/developer/app_academy/curriculum/javascript/projects/intro_js_exercises/solution/phase_1_arrays.js	/^Array.prototype.uniq2 = function() {$/;"	m	language:JavaScript
+array_product	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def array_product(array)$/;"	f	language:Ruby
+array_sum	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def array_sum(arr)$/;"	f	language:Ruby
+array_sum_with_index	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def array_sum_with_index(arr)$/;"	f	language:Ruby
+at_least_n_factors	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def at_least_n_factors(numbers, n)$/;"	f	language:Ruby
+b:lists_loaded	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/lists.vim	/^let b:lists_loaded = 1$/;"	v	language:Vim
+b:lists_loaded	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim	/^let b:lists_loaded = 1$/;"	v	language:Vim
+bad_taste	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def bad_taste$/;"	f	language:Ruby
+bad_years	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def bad_years$/;"	f	language:Ruby
+bad_years	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def bad_years$/;"	f	language:Ruby
+bad_years	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/03_queries.rb	/^def bad_years$/;"	f	language:Ruby
+bad_years	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def bad_years$/;"	f	language:Ruby
+bark	/Users/lwassink/test/dog.rb	/^  def bark$/;"	f	language:Ruby	class:Dog
+base2to10	/Users/lwassink/developer/test/ia.rb	/^def base2to10(binary)$/;"	f	language:Ruby
+bf	/Users/lwassink/developer/reversi/minimax.rb	/^  def bf$/;"	f	language:Ruby	class:MNode
+biggest_cast	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/01_queries.rb	/^def biggest_cast$/;"	f	language:Ruby
+biggest_cast	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb	/^def biggest_cast$/;"	f	language:Ruby
+biggest_cast	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def biggest_cast$/;"	f	language:Ruby
+biodiversity_index	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def biodiversity_index(specimens)$/;"	f	language:Ruby
+Board	/Users/lwassink/Desktop/luke_alpha_projects/tic-tac-toe/lib/board.rb	/^class Board$/;"	c	language:Ruby
+Board	/Users/lwassink/developer/checkers/board.rb	/^class Board$/;"	c	language:Ruby
+Board	/Users/lwassink/developer/reversi/board.rb	/^class Board$/;"	c	language:Ruby
+Board	/Users/lwassink/developer/reversi/lib/board.rb	/^class Board$/;"	c	language:Ruby
+BruteCollinearPoints	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/BruteCollinearPoints.java	/^  public BruteCollinearPoints(Point[] points) {$/;"	m	language:Java	class:BruteCollinearPoints
+BruteCollinearPoints	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/BruteCollinearPoints.java	/^public class BruteCollinearPoints {$/;"	c	language:Java
+bubble_sort	/Users/lwassink/developer/app_academy/lecture_demos/w2d4/big_o.rb	/^def bubble_sort ary_to_sort$/;"	f	language:Ruby
+build_move_tree	/Users/lwassink/developer/reversi/ai.rb	/^  def build_move_tree$/;"	f	language:Ruby	class:AIPlayer
+buy_in	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def self.buy_in(bankroll)$/;"	F	language:Ruby	class:Player
+calculate_doubles	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def calculate_doubles(arr)$/;"	f	language:Ruby
+calculate_doubles!	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def calculate_doubles!(arr)$/;"	f	language:Ruby
+can_move?	/Users/lwassink/developer/reversi/board.rb	/^  def can_move?(color)$/;"	f	language:Ruby	class:Board
+can_move?	/Users/lwassink/developer/reversi/lib/board.rb	/^  def can_move?(color)$/;"	f	language:Ruby	class:Board
+can_tweak_sign?	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def can_tweak_sign?(normal_sign, vandalized_sign)$/;"	f	language:Ruby
+capacity	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  private int capacity;$/;"	f	language:Java	class:RandomizedQueue	file:
+captured_positions	/Users/lwassink/developer/reversi/board.rb	/^  def captured_positions(color, pos)$/;"	f	language:Ruby	class:Board
+captured_positions	/Users/lwassink/developer/reversi/lib/board.rb	/^  def captured_positions(color, pos)$/;"	f	language:Ruby	class:Board
+casablanca_cast	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def casablanca_cast$/;"	f	language:Ruby
+casablanca_id	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def casablanca_id$/;"	f	language:Ruby
+cast_list	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def cast_list(title)$/;"	f	language:Ruby
+cast_list	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def cast_list(title)$/;"	f	language:Ruby
+cast_list	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb	/^def cast_list(title)$/;"	f	language:Ruby
+cast_list	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def cast_list(title)$/;"	f	language:Ruby
+character_count	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def character_count(str)$/;"	f	language:Ruby
+check_80_lines	/Users/lwassink/.vimrc	/^augroup check_80_lines$/;"	a	language:Vim
+children	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def children: Char => Node[Val] = kids withDefaultValue new Node[Val](Map(), None)$/;"	f	language:Ruby	class:Node
+children	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def children: Char => Node[Val] = kids withDefaultValue new Node[Val](Map(), None)$/;"	f	language:Ruby	class:Node
+cl_to_lr	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def cl_to_lr$/;"	f	language:Ruby
+cl_to_lr_by_name	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def cl_to_lr_by_name$/;"	f	language:Ruby
+Cnext	/Users/lwassink/.vimrc	/^command! Cnext try | cnext | catch | silent! cfirst | endtry$/;"	c	language:Vim
+Code	/Users/lwassink/developer/app_academy/alpha/mastermind/lib/mastermind.rb	/^class Code$/;"	c	language:Ruby
+colleagues_of_garfunkel	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def colleagues_of_garfunkel$/;"	f	language:Ruby
+collect	/Users/lwassink/developer/checkers/frontend/components/checkers/piece.jsx	/^function collect(connect, monitor) {$/;"	f	language:JavaScript
+collect	/Users/lwassink/developer/checkers/frontend/components/checkers/pieces.jsx	/^function collect(connect, monitor) {$/;"	f	language:JavaScript
+collect	/Users/lwassink/developer/checkers/frontend/components/checkers/square.jsx	/^function collect(connect, monitor) {$/;"	f	language:JavaScript
+ColorColumnEighty	/Users/lwassink/.vimrc	/^function! s:ColorColumnEighty()$/;"	f	language:Vim
+compare	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^      public int compare(Point a, Point b) {$/;"	m	language:Java	class:Point.SlopeOrder
+compareTo	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public int compareTo(Point that) {$/;"	m	language:Java	class:Point
+compiler	/Users/lwassink/developer/checkers/server.js	/^var compiler = webpack(config);$/;"	v	language:JavaScript
+ComputerPlayer	/Users/lwassink/Desktop/luke_alpha_projects/tic-tac-toe/lib/computer_player.rb	/^class ComputerPlayer$/;"	c	language:Ruby
+ComputerPlayer	/Users/lwassink/developer/app_academy/screencast_demos/hangman/lib/hangman.rb	/^class ComputerPlayer$/;"	c	language:Ruby
+confidenceHi	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  public double confidenceHi() {$/;"	m	language:Java	class:PercolationStats
+confidenceLo	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  public double confidenceLo() {$/;"	m	language:Java	class:PercolationStats
+config	/Users/lwassink/developer/checkers/server.js	/^var config = require('.\/webpack.config');$/;"	v	language:JavaScript
+connecting_routes	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def connecting_routes$/;"	f	language:Ruby
+const.1	/Users/lwassink/developer/checkers/frontend/entry.jsx	/^const boardSetup = {$/;"	p	language:JavaScript
+const.1	/Users/lwassink/developer/checkers/frontend/store/preloaded_state.js	/^const players = {$/;"	p	language:JavaScript
+const.currentPiece	/Users/lwassink/developer/checkers/frontend/reducers/player_reducer.js	/^  currentPlayer: 1,$/;"	p	language:JavaScript
+const.currentPlayer	/Users/lwassink/developer/checkers/frontend/reducers/player_reducer.js	/^const defaultState = {$/;"	p	language:JavaScript
+const.id	/Users/lwassink/developer/testing-reading/jest/src/components/todos.jsx	/^    const todo = {$/;"	p	language:JavaScript
+const.pieces	/Users/lwassink/developer/checkers/frontend/entry.jsx	/^const initialState = {$/;"	p	language:JavaScript
+contains?	/Users/lwassink/test/linked_list.rb	/^  def contains?(key)$/;"	f	language:Ruby	class:List
+content	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public Item content;$/;"	f	language:Java	class:Deque.DoubleNode
+continents	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def continents$/;"	f	language:Ruby
+coords	/Users/lwassink/developer/reversi/board.rb	/^  def self.coords(pos)$/;"	F	language:Ruby	class:Board
+coords	/Users/lwassink/developer/reversi/lib/board.rb	/^  def self.coords(pos)$/;"	F	language:Ruby	class:Board
+coords	/Users/lwassink/test/flip_ranges.rb	/^def coords(range)$/;"	f	language:Ruby
+coords.lat	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_form/bench_form.jsx	/^    this.coords = {lat: props.lat, lng: props.lng};$/;"	p	language:JavaScript
+costars	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def costars(name)$/;"	f	language:Ruby
+costars	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def costars(name)$/;"	f	language:Ruby
+costars	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/03_queries.rb	/^def costars(name)$/;"	f	language:Ruby
+costars	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def costars(name)$/;"	f	language:Ruby
+count	/Users/lwassink/developer/reversi/board.rb	/^  def count(color = nil)$/;"	f	language:Ruby	class:Board
+count	/Users/lwassink/developer/reversi/lib/board.rb	/^  def count(color = nil)$/;"	f	language:Ruby	class:Board
+country_counts	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def country_counts$/;"	f	language:Ruby
+Cprev	/Users/lwassink/.vimrc	/^command! Cprev try | cprev | catch | silent! clast | endtry$/;"	c	language:Vim
+craiglockhart_and_tollcross	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def craiglockhart_and_tollcross$/;"	f	language:Ruby
+craiglockhart_id	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def craiglockhart_id$/;"	f	language:Ruby
+craiglockhart_to_sighthill	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def craiglockhart_to_sighthill$/;"	f	language:Ruby
+create	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/controllers/api/reviews_controller.rb	/^  def create$/;"	f	language:Ruby	class:Api
+current_player	/Users/lwassink/developer/reversi/game.rb	/^  def current_player$/;"	f	language:Ruby
+current_player	/Users/lwassink/developer/reversi/lib/game.rb	/^  def current_player$/;"	f	language:Ruby
+c_distance	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def c_distance(word)$/;"	f	language:Ruby
+deal_cards	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def deal_cards$/;"	f	language:Ruby	class:Game
+deal_in	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def deal_in(hand)$/;"	f	language:Ruby	class:Player
+dec_remainder_of_two_floats	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def dec_remainder_of_two_floats(f_dividend, f_divisor)$/;"	f	language:Ruby
+dec_remainder_of_two_integers	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def dec_remainder_of_two_integers(i_dividend, i_divisor)$/;"	f	language:Ruby
+delete	/Users/lwassink/test/linked_list.rb	/^  def delete(key)$/;"	f	language:Ruby	class:List
+dept_staff_counts	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def dept_staff_counts$/;"	f	language:Ruby
+Deque	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public Deque() {$/;"	m	language:Java	class:Deque
+Deque	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^public class Deque<Item> implements Iterable<Item> {$/;"	c	language:Java
+DequeIterator	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public DequeIterator() {$/;"	m	language:Java	class:Deque.DequeIterator
+DequeIterator	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  private class DequeIterator implements Iterator<Item> {$/;"	c	language:Java	class:Deque
+dequeue	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public Item dequeue() {$/;"	m	language:Java	class:RandomizedQueue
+df	/Users/lwassink/developer/reversi/minimax.rb	/^  def df$/;"	f	language:Ruby	class:MNode
+directed_by_one_of	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/01_queries.rb	/^def directed_by_one_of(them)$/;"	f	language:Ruby
+directed_by_one_of	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb	/^def directed_by_one_of(them)$/;"	f	language:Ruby
+directed_by_one_of	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def directed_by_one_of(them)$/;"	f	language:Ruby
+display_state	/Users/lwassink/developer/reversi/game.rb	/^  def display_state$/;"	f	language:Ruby
+display_state	/Users/lwassink/developer/reversi/lib/game.rb	/^  def display_state$/;"	f	language:Ruby
+display_status	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def display_status(index, high_bet)$/;"	f	language:Ruby
+Divs	/Users/lwassink/test/divisors.rb	/^class Divs$/;"	c	language:Ruby
+dl	/Users/lwassink/.vimrc	/^nnoremap dl 0<c-v>$d$/;"	m	language:Vim
+Dog	/Users/lwassink/test/dog.rb	/^class Dog$/;"	c	language:Ruby
+DoubleNode	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public DoubleNode(Item item) {$/;"	m	language:Java	class:Deque.DoubleNode
+DoubleNode	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  private class DoubleNode<Item> {$/;"	c	language:Java	class:Deque
+draw	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Line.java	/^    public void draw() {$/;"	m	language:Java	class:LineSegment
+draw	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public void draw() {$/;"	m	language:Java	class:Point
+drawTo	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public void drawTo(Point that) {$/;"	m	language:Java	class:Point
+dup	/Users/lwassink/developer/reversi/board.rb	/^  def dup$/;"	f	language:Ruby	class:Board
+dup	/Users/lwassink/developer/reversi/lib/board.rb	/^  def dup$/;"	f	language:Ruby	class:Board
+each	/Users/lwassink/Desktop/link_sort.rb	/^  def each(&prc)$/;"	f	language:Ruby
+each	/Users/lwassink/test/linked_list.rb	/^  def each(&prc)$/;"	f	language:Ruby	class:List
+eighties_b_movies	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def eighties_b_movies$/;"	f	language:Ruby
+eighties_b_movies	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def eighties_b_movies$/;"	f	language:Ruby
+eighties_b_movies	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb	/^def eighties_b_movies$/;"	f	language:Ruby
+eighties_b_movies	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def eighties_b_movies$/;"	f	language:Ruby
+empty?	/Users/lwassink/test/linked_list.rb	/^  def empty?$/;"	f	language:Ruby	class:List
+end_game	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def end_game$/;"	f	language:Ruby
+end_game	/Users/lwassink/developer/reversi/game.rb	/^  def end_game$/;"	f	language:Ruby
+end_game	/Users/lwassink/developer/reversi/lib/game.rb	/^  def end_game$/;"	f	language:Ruby
+end_round	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def end_round$/;"	f	language:Ruby
+enqueue	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public void enqueue(Item item) {$/;"	m	language:Java	class:RandomizedQueue
+evens_and_odds	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def evens_and_odds(numbers)$/;"	f	language:Ruby
+example_join	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def example_join$/;"	f	language:Ruby
+example_query	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def example_query$/;"	f	language:Ruby
+example_select	/Users/lwassink/Desktop/skeleton 2/lib/01_select_basics.rb	/^def example_select$/;"	f	language:Ruby
+example_select	/Users/lwassink/Desktop/skeleton 2/lib/02_select_countries.rb	/^def example_select$/;"	f	language:Ruby
+example_select_with_subquery	/Users/lwassink/Desktop/skeleton 2/lib/04_select_within_select.rb	/^def example_select_with_subquery$/;"	f	language:Ruby
+example_sum	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def example_sum$/;"	f	language:Ruby
+export.beginDrag	/Users/lwassink/developer/checkers/frontend/drag/specs.js	/^export const pieceSource = {$/;"	p	language:JavaScript
+export.drop	/Users/lwassink/developer/checkers/frontend/drag/specs.js	/^export const squareTarget = {$/;"	p	language:JavaScript
+express	/Users/lwassink/developer/checkers/server.js	/^var express = require('express');$/;"	v	language:JavaScript
+fall_and_winter_birthdays	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def fall_and_winter_birthdays(students)$/;"	f	language:Ruby
+FastCollinearPoints	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java	/^  public FastCollinearPoints(Point[] points) {$/;"	m	language:Java	class:FastCollinearPoints
+FastCollinearPoints	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java	/^public class FastCollinearPoints {$/;"	c	language:Java
+filetype_vim	/Users/lwassink/.vimrc	/^augroup filetype_vim$/;"	a	language:Vim
+films_and_stars_from_sixty_two	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def films_and_stars_from_sixty_two$/;"	f	language:Ruby
+films_by_cast_size	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def films_by_cast_size$/;"	f	language:Ruby
+films_by_id	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def films_by_id$/;"	f	language:Ruby
+films_from_sixty_two	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def films_from_sixty_two$/;"	f	language:Ruby
+find	/Users/lwassink/test/linked_list.rb	/^  def find(key)$/;"	f	language:Ruby
+first	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  private DoubleNode<Item> first;$/;"	f	language:Java	class:Deque	file:
+first	/Users/lwassink/test/linked_list.rb	/^  def first$/;"	f	language:Ruby	class:List
+flip	/Users/lwassink/test/flip_ranges.rb	/^def flip(ranges, block)$/;"	f	language:Ruby
+flip_captured_pieces!	/Users/lwassink/developer/reversi/board.rb	/^  def flip_captured_pieces!(color, pos)$/;"	f	language:Ruby	class:Board
+flip_captured_pieces!	/Users/lwassink/developer/reversi/lib/board.rb	/^  def flip_captured_pieces!(color, pos)$/;"	f	language:Ruby	class:Board
+fold	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def fold$/;"	f	language:Ruby	class:Player
+folded?	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def folded?$/;"	f	language:Ruby	class:Player
+ford_films	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def ford_films$/;"	f	language:Ruby
+ford_supporting_films	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def ford_supporting_films$/;"	f	language:Ruby
+for_cs_sake	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def for_cs_sake(string)$/;"	f	language:Ruby
+from.fontWeight	/Users/lwassink/test/react_router_4/router_test/src/App.js	/^    const active = { fontWeight: 'bold' };$/;"	p	language:JavaScript
+g:ctrlp_cmd	/Users/lwassink/.vimrc	/^let g:ctrlp_cmd = 'CtrlP'$/;"	v	language:Vim
+g:ctrlp_custom_ignore	/Users/lwassink/.vimrc	/^let g:ctrlp_custom_ignore = {$/;"	v	language:Vim
+g:ctrlp_max_files	/Users/lwassink/.vimrc	/^let g:ctrlp_max_files = 0$/;"	v	language:Vim
+g:ctrlp_working_path_mode	/Users/lwassink/.vimrc	/^let g:ctrlp_working_path_mode = 'ra'$/;"	v	language:Vim
+g:ctrp_map	/Users/lwassink/.vimrc	/^let g:ctrp_map = '<c-p>'$/;"	v	language:Vim
+g:ruby_doc_command	/Users/lwassink/.vimrc	/^let g:ruby_doc_command='open'$/;"	v	language:Vim
+g:SuperTabDefaultCompletionType	/Users/lwassink/.vimrc	/^let g:SuperTabDefaultCompletionType = "<c-l>"$/;"	v	language:Vim
+g:SuperTabDefaultCompletionType	/Users/lwassink/.vimrc	/^let g:SuperTabDefaultCompletionType = '<C-n>'$/;"	v	language:Vim
+g:syntastic_always_populate_loc_list	/Users/lwassink/.vimrc	/^let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/Users/lwassink/.vimrc	/^let g:syntastic_auto_loc_list = 2$/;"	v	language:Vim
+g:syntastic_check_on_open	/Users/lwassink/.vimrc	/^let g:syntastic_check_on_open = 1$/;"	v	language:Vim
+g:syntastic_check_on_wq	/Users/lwassink/.vimrc	/^let g:syntastic_check_on_wq = 0$/;"	v	language:Vim
+g:syntastic_error_symbol	/Users/lwassink/.vimrc	/^let g:syntastic_error_symbol = '❌'$/;"	v	language:Vim
+g:syntastic_javascript_checkers	/Users/lwassink/.vimrc	/^let g:syntastic_javascript_checkers = ['eslint']$/;"	v	language:Vim
+g:syntastic_style_error_symbol	/Users/lwassink/.vimrc	/^let g:syntastic_style_error_symbol = '⁉️'$/;"	v	language:Vim
+g:syntastic_style_warning_symbol	/Users/lwassink/.vimrc	/^let g:syntastic_style_warning_symbol = '💩'$/;"	v	language:Vim
+g:syntastic_warning_symbol	/Users/lwassink/.vimrc	/^let g:syntastic_warning_symbol = '⚠️'$/;"	v	language:Vim
+g:Tex_CompileRule_pdf	/Users/lwassink/.vimrc	/^let g:Tex_CompileRule_pdf='\/Library\/TeX\/texbin\/lualatex'$/;"	v	language:Vim
+g:tex_flavors	/Users/lwassink/.vimrc	/^let g:tex_flavors='latex' " prevent vim from assuming plaintex$/;"	v	language:Vim
+g:Tex_FoldedEnvironments	/Users/lwassink/.vimrc	/^let g:Tex_FoldedEnvironments='verbatim,comment,eq,gather,align,align*,figure,table,thebibliography, keywords,abstract,titlepage,frame'$/;"	v	language:Vim
+g:UltiSnipsEditSplit	/Users/lwassink/.vimrc	/^let g:UltiSnipsEditSplit="horizontal"$/;"	v	language:Vim
+g:UltiSnipsExpandTrigger	/Users/lwassink/.vimrc	/^let g:UltiSnipsExpandTrigger = "<tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpBackwardTrigger	/Users/lwassink/.vimrc	/^let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpForwardTrigger	/Users/lwassink/.vimrc	/^let g:UltiSnipsJumpForwardTrigger = "<tab>"$/;"	v	language:Vim
+g:UltiSnipsSnippetsDir	/Users/lwassink/.vimrc	/^let g:UltiSnipsSnippetsDir = "~\/.vim\/UltiSnips"$/;"	v	language:Vim
+g:ycm_key_list_previous_completion	/Users/lwassink/.vimrc	/^let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']$/;"	v	language:Vim
+g:ycm_key_list_select_completion	/Users/lwassink/.vimrc	/^let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']$/;"	v	language:Vim
+g:ycm_server_python_interpreter	/Users/lwassink/.vimrc	/^let g:ycm_server_python_interpreter = '\/usr\/local\/bin\/python'$/;"	v	language:Vim
+Game	/Users/lwassink/Desktop/luke_alpha_projects/tic-tac-toe/lib/game.rb	/^class Game$/;"	c	language:Ruby
+Game	/Users/lwassink/developer/app_academy/alpha/mastermind/lib/mastermind.rb	/^class Game$/;"	c	language:Ruby
+Game	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^class Game$/;"	c	language:Ruby
+Game	/Users/lwassink/developer/checkers/game.rb	/^class Game$/;"	c	language:Ruby
+Game	/Users/lwassink/developer/reversi/game.rb	/^class Game$/;"	c	language:Ruby
+Game	/Users/lwassink/developer/reversi/lib/game.rb	/^class Game$/;"	c	language:Ruby
+game_over?	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def game_over?$/;"	f	language:Ruby
+gcd_of_last_digits	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def gcd_of_last_digits(int_one, int_two)$/;"	f	language:Ruby
+get	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def get(key: String): Node[Val] = get(key, 0)$/;"	f	language:Ruby	class:Node.children.put.put.get
+get	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def get(key: String): Option[Val] = store.get(key).contents$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie.put
+get	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def get(key: String, pos: Int): Node[Val] =$/;"	f	language:Ruby	class:Node.children.put.put
+get	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def get(key: String): Node[Val] = get(key, 0)$/;"	f	language:Ruby	class:Node.children.put.put.get
+get	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def get(key: String): Option[Val] = store.get(key).contents$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie.put
+get	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def get(key: String, pos: Int): Node[Val] =$/;"	f	language:Ruby	class:Node.children.put.put
+get_bet	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def get_bet$/;"	f	language:Ruby	class:Player
+get_cards_to_trade	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def get_cards_to_trade$/;"	f	language:Ruby	class:Player
+get_evens	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def get_evens(arr)$/;"	f	language:Ruby
+get_move	/Users/lwassink/developer/reversi/ai.rb	/^  def get_move(board)$/;"	f	language:Ruby	class:AIPlayer
+get_move	/Users/lwassink/developer/reversi/human_player.rb	/^  def get_move(board)$/;"	f	language:Ruby	class:HumanPlayer
+get_move	/Users/lwassink/developer/reversi/player.rb	/^  def get_move(_)$/;"	f	language:Ruby	class:Player
+git_settings	/Users/lwassink/.vimrc	/^augroup git_settings$/;"	a	language:Vim
+glenn_close_id	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def glenn_close_id$/;"	f	language:Ruby
+golden_age	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def golden_age$/;"	f	language:Ruby
+golden_age	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def golden_age$/;"	f	language:Ruby
+golden_age	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/03_queries.rb	/^def golden_age$/;"	f	language:Ruby
+golden_age	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def golden_age$/;"	f	language:Ruby
+greatest_key_by_val	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def greatest_key_by_val(hash)$/;"	f	language:Ruby
+group_population	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def group_population$/;"	f	language:Ruby
+grow	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  private void grow() {$/;"	m	language:Java	class:RandomizedQueue	file:
+Hangman	/Users/lwassink/Desktop/luke_alpha_projects/hangman/lib/hangman.rb	/^class Hangman$/;"	c	language:Ruby
+Hangman	/Users/lwassink/developer/app_academy/screencast_demos/hangman/lib/hangman.rb	/^class Hangman$/;"	c	language:Ruby
+harrison_ford	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/01_queries.rb	/^def harrison_ford$/;"	f	language:Ruby
+harrison_ford	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb	/^def harrison_ford$/;"	f	language:Ruby
+Hash	/Users/lwassink/developer/test/ia.rb	/^class Hash$/;"	c	language:Ruby
+Hash	/Users/lwassink/developer/test/ia.rb	/^class Hash$/;"	c	language:Ruby
+hashCode	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Line.java	/^    public int hashCode() {$/;"	m	language:Java	class:LineSegment
+hasNext	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public boolean hasNext() {$/;"	m	language:Java	class:Deque.DequeIterator
+hasNext	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^    public boolean hasNext() {$/;"	m	language:Java	class:RandomizedQueue.RandomizedQueueIterator
+haymarket_and_leith	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def haymarket_and_leith$/;"	f	language:Ruby
+HelloWorld	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/HelloWorld.java	/^public class HelloWorld {$/;"	c	language:Java
+high_population_gdps	/Users/lwassink/Desktop/skeleton 2/lib/02_select_countries.rb	/^def high_population_gdps$/;"	f	language:Ruby
+HLNext	/Users/lwassink/.vimrc	/^function! HLNext (blinktime)$/;"	f	language:Vim
+HumanPlayer	/Users/lwassink/Desktop/luke_alpha_projects/tic-tac-toe/lib/human_player.rb	/^class HumanPlayer$/;"	c	language:Ruby
+HumanPlayer	/Users/lwassink/developer/app_academy/screencast_demos/hangman/lib/hangman.rb	/^class HumanPlayer$/;"	c	language:Ruby
+HumanPlayer	/Users/lwassink/developer/reversi/human_player.rb	/^class HumanPlayer < Player$/;"	c	language:Ruby
+idx	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  private int idx;$/;"	f	language:Java	class:RandomizedQueue	file:
+il(	/Users/lwassink/.vimrc	/^onoremap il( :<c-u>execute "normal! ?)\\rvi("<cr>$/;"	m	language:Vim
+il{	/Users/lwassink/.vimrc	/^onoremap il{ :<c-u>execute "normal! ?}\\rvi("<cr>$/;"	m	language:Vim
+in(	/Users/lwassink/.vimrc	/^onoremap in( :<c-u>execute "normal! \/(\\rvi("<cr>$/;"	m	language:Vim
+initialize	/Users/lwassink/Desktop/link_sort.rb	/^  def initialize(content = nil)$/;"	f	language:Ruby	class:Node
+initialize	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def initialize$/;"	f	language:Ruby	class:Game
+initialize	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def initialize(bankroll)$/;"	f	language:Ruby	class:Player
+initialize	/Users/lwassink/developer/checkers/board.rb	/^  def initialize(board = nil)$/;"	f	language:Ruby	class:Board
+initialize	/Users/lwassink/developer/checkers/game.rb	/^  def initialize(board, player1, player2)$/;"	f	language:Ruby	class:Game
+initialize	/Users/lwassink/developer/checkers/piece.rb	/^  def initialize(color)$/;"	f	language:Ruby	class:Piece
+initialize	/Users/lwassink/developer/reversi/ai.rb	/^  def initialize(color, node_limit = 500)$/;"	f	language:Ruby	class:AIPlayer
+initialize	/Users/lwassink/developer/reversi/board.rb	/^  def initialize(state = nil)$/;"	f	language:Ruby	class:Board
+initialize	/Users/lwassink/developer/reversi/game.rb	/^  def initialize(player1, player2, board)$/;"	f	language:Ruby	class:Game
+initialize	/Users/lwassink/developer/reversi/lib/board.rb	/^  def initialize(state = nil)$/;"	f	language:Ruby	class:Board
+initialize	/Users/lwassink/developer/reversi/lib/game.rb	/^  def initialize(player1, player2, board)$/;"	f	language:Ruby	class:Game
+initialize	/Users/lwassink/developer/reversi/minimax.rb	/^  def initialize(data = nil, value = 0)$/;"	f	language:Ruby	class:MNode
+initialize	/Users/lwassink/developer/reversi/player.rb	/^  def initialize(color)$/;"	f	language:Ruby	class:Player
+initialize	/Users/lwassink/test/divisors.rb	/^  def initialize(num)$/;"	f	language:Ruby	class:Divs
+initialize	/Users/lwassink/test/linked_list.rb	/^  def initialize$/;"	f	language:Ruby	class:List
+initialize	/Users/lwassink/test/linked_list.rb	/^  def initialize(key, val, tail)$/;"	f	language:Ruby	class:Node
+insert	/Users/lwassink/test/linked_list.rb	/^  def insert(key, val)$/;"	f	language:Ruby	class:List
+inspect	/Users/lwassink/Desktop/link_sort.rb	/^  def inspect$/;"	f	language:Ruby
+inspect	/Users/lwassink/developer/checkers/piece.rb	/^  def inspect$/;"	f	language:Ruby	class:Piece
+int_remainder_without_modulo	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def int_remainder_without_modulo(i_dividend, i_divisor)$/;"	f	language:Ruby
+in_all_strings?	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def in_all_strings?(long_strings, substring)$/;"	f	language:Ruby
+in_bounds	/Users/lwassink/developer/reversi/lib/board.rb	/^  def in_bounds(pos)$/;"	f	language:Ruby	class:Board
+in{	/Users/lwassink/.vimrc	/^onoremap in{ :<c-u>execute "normal! \/{\\rvi("<cr>$/;"	m	language:Vim
+isEmpty	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public boolean isEmpty() {$/;"	m	language:Java	class:Deque
+isEmpty	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public boolean isEmpty() {$/;"	m	language:Java	class:RandomizedQueue
+isFull	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  public boolean isFull(int row, int col) {$/;"	m	language:Java	class:Percolation
+isOpen	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  public boolean isOpen(int row, int col) {$/;"	m	language:Java	class:Percolation
+items	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  private Item [] items;$/;"	f	language:Java	class:RandomizedQueue	file:
+iterator	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public Iterator<Item> iterator() {$/;"	m	language:Java	class:Deque
+iterator	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public Iterator<Item> iterator() {$/;"	m	language:Java	class:RandomizedQueue
+iterIdx	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^    private int iterIdx;$/;"	f	language:Java	class:RandomizedQueue.RandomizedQueueIterator	file:
+it_was_ok	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/01_queries.rb	/^def it_was_ok$/;"	f	language:Ruby
+it_was_ok	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def it_was_ok$/;"	f	language:Ruby
+it_was_ok	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb	/^def it_was_ok$/;"	f	language:Ruby
+it_was_ok	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def it_was_ok$/;"	f	language:Ruby
+jk	/Users/lwassink/.ideavimrc	/^nnoremap jk <esc>$/;"	m	language:Vim
+jk	/Users/lwassink/.vimrc	/^inoremap jk <Esc>$/;"	m	language:Vim
+just_the_right_size	/Users/lwassink/Desktop/skeleton 2/lib/01_select_basics.rb	/^def just_the_right_size$/;"	f	language:Ruby
+keys	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def keys: Stream[String] = store.keysWithPrefix("")$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie.put.get.keysWithPrefix
+keys	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def keys: Stream[String] = store.keysWithPrefix("")$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie.put.get.keysWithPrefix
+keysWithPrefix	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def keysWithPrefix(pre: String): Stream[String] = store.keysWithPrefix(pre)$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie.put.get
+keysWithPrefix	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def keysWithPrefix(prefix: String): Stream[String] = get(prefix).traverse(toStream, prefix)$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream
+keysWithPrefix	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def keysWithPrefix(pre: String): Stream[String] = store.keysWithPrefix(pre)$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie.put.get
+keysWithPrefix	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def keysWithPrefix(prefix: String): Stream[String] = get(prefix).traverse(toStream, prefix)$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream
+king	/Users/lwassink/developer/checkers/piece.rb	/^  def king$/;"	f	language:Ruby	class:Piece
+king?	/Users/lwassink/developer/checkers/piece.rb	/^  def king?$/;"	f	language:Ruby	class:Piece
+larger_than_russia	/Users/lwassink/Desktop/skeleton 2/lib/04_select_within_select.rb	/^def larger_than_russia$/;"	f	language:Ruby
+large_countries	/Users/lwassink/Desktop/skeleton 2/lib/02_select_countries.rb	/^def large_countries$/;"	f	language:Ruby
+last	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  private DoubleNode<Item> last;$/;"	f	language:Java	class:Deque	file:
+last_digit	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def last_digit(int)$/;"	f	language:Ruby
+last_digit_odd?	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def last_digit_odd?(int)$/;"	f	language:Ruby
+last_n_digits	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def last_n_digits(num, n)$/;"	f	language:Ruby
+Leader	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/lists.vim	/^function! s:Leader()$/;"	f	language:Vim
+Leader	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim	/^function! s:Leader()$/;"	f	language:Vim
+leaf_value	/Users/lwassink/developer/reversi/ai.rb	/^  def leaf_value(board)$/;"	f	language:Ruby	class:AIPlayer
+length	/Users/lwassink/Desktop/link_sort.rb	/^  def length$/;"	f	language:Ruby
+less?	/Users/lwassink/test/flip_ranges.rb	/^def less?(x, y)$/;"	f	language:Ruby
+let.center	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_map/bench_map.jsx	/^let _mapOptions = {$/;"	p	language:JavaScript
+letter_counts	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def letter_counts(word)$/;"	f	language:Ruby
+line	/Users/lwassink/developer/reversi/board.rb	/^  def line(color, delta, pos)$/;"	f	language:Ruby	class:Board
+line	/Users/lwassink/developer/reversi/lib/board.rb	/^  def line(color, delta, pos)$/;"	f	language:Ruby	class:Board
+lineCount	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/BruteCollinearPoints.java	/^  private int lineCount;$/;"	f	language:Java	class:BruteCollinearPoints	file:
+LineSegment	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Line.java	/^    public LineSegment(Point p, Point q) {$/;"	m	language:Java	class:LineSegment
+LineSegment	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Line.java	/^public class LineSegment {$/;"	c	language:Java
+List	/Users/lwassink/test/linked_list.rb	/^class List$/;"	c	language:Ruby
+Lnext	/Users/lwassink/.vimrc	/^command! Lnext try | lnext | catch | silent! lfirst | endtry$/;"	c	language:Vim
+longest_career	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def longest_career$/;"	f	language:Ruby
+longest_career	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def longest_career$/;"	f	language:Ruby
+longest_career	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/03_queries.rb	/^def longest_career$/;"	f	language:Ruby
+longest_career	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def longest_career$/;"	f	language:Ruby
+longest_palindrome	/Users/lwassink/developer/test/ia.rb	/^def longest_palindrome(string)$/;"	f	language:Ruby
+longest_two_words	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def longest_two_words(string)$/;"	f	language:Ruby
+Lprev	/Users/lwassink/.vimrc	/^command! Lprev try | lprev | catch | silent! llast | endtry$/;"	c	language:Vim
+lrt_stops	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def lrt_stops$/;"	f	language:Ruby
+lucas_numbers	/Users/lwassink/developer/test/ia.rb	/^def lucas_numbers(n)$/;"	f	language:Ruby
+main	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/HelloWorld.java	/^    public static void main(String[] agrs) {$/;"	m	language:Java	class:HelloWorld
+main	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  public static void main(String[] args) {$/;"	m	language:Java	class:Percolation
+main	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  public static void main(String[] args) {$/;"	m	language:Java	class:PercolationStats
+main	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public static void main(String[] args) {$/;"	m	language:Java	class:Deque
+main	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public static void main(String[] args) {$/;"	m	language:Java	class:RandomizedQueue
+main	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Subset.java	/^  public static void main(String[] args) {$/;"	m	language:Java	class:Subset
+main	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public static void main(String[] args) {$/;"	m	language:Java	class:Point
+main	/Users/lwassink/developer/test/java/double_v_Double.java	/^  public static void main(String [] args) {$/;"	m	language:Java	class:Test
+main	/Users/lwassink/developer/test/java/Test.java	/^  public static void main(String [] args) {$/;"	m	language:Java	class:Test
+make_move	/Users/lwassink/developer/reversi/game.rb	/^  def make_move$/;"	f	language:Ruby
+make_move	/Users/lwassink/developer/reversi/lib/game.rb	/^  def make_move$/;"	f	language:Ruby
+mapleader	/Users/lwassink/.vimrc	/^let mapleader = ","$/;"	v	language:Vim
+maplocalleader	/Users/lwassink/.vimrc	/^let maplocalleader = ","$/;"	v	language:Vim
+mean	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  public double mean() {$/;"	m	language:Java	class:PercolationStats
+merge	/Users/lwassink/Desktop/link_sort.rb	/^  def self.merge(x, y, compare)$/;"	F	language:Ruby	class:Node
+merge	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def merge(left, right)$/;"	f	language:Ruby
+merge	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def merge(left, right)$/;"	f	language:Ruby
+Message	/Users/lwassink/test/chat/app/models/message.rb	/^class Message < ApplicationRecord$/;"	c	language:Ruby
+MessageBroadcastJob	/Users/lwassink/test/chat/app/jobs/message_broadcast_job.rb	/^class MessageBroadcastJob < ApplicationJob$/;"	c	language:Ruby
+method_missing	/Users/lwassink/developer/checkers/piece.rb	/^  def method_missing$/;"	f	language:Ruby	class:NullPiece
+minimax	/Users/lwassink/developer/reversi/minimax.rb	/^  def minimax(max, &prc)$/;"	f	language:Ruby
+missing_letters	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def missing_letters(string)$/;"	f	language:Ruby
+missing_numbers	/Users/lwassink/developer/test/ia.rb	/^def missing_numbers(nums)$/;"	f	language:Ruby
+MNode	/Users/lwassink/developer/reversi/minimax.rb	/^class MNode$/;"	c	language:Ruby
+module.exports.context	/Users/lwassink/Desktop/solution/webpack.config.js	/^module.exports = {$/;"	p	language:JavaScript
+module.exports.context	/Users/lwassink/developer/personal_page/frontend/webpack.config.js	/^module.exports = {$/;"	p	language:JavaScript
+module.exports.entry	/Users/lwassink/Desktop/solution/webpack.config.js	/^  context: __dirname,$/;"	p	language:JavaScript
+module.exports.entry	/Users/lwassink/developer/checkers/webpack.config.js	/^module.exports = {$/;"	p	language:JavaScript
+module.exports.entry	/Users/lwassink/developer/personal_page/frontend/webpack.config.js	/^  context: __dirname,$/;"	p	language:JavaScript
+module.exports.output	/Users/lwassink/Desktop/solution/webpack.config.js	/^  entry: ".\/frontend\/bench_bnb.jsx",$/;"	p	language:JavaScript
+module.exports.output	/Users/lwassink/developer/checkers/webpack.config.js	/^  entry: '.\/frontend\/entry.jsx',$/;"	p	language:JavaScript
+module.exports.output	/Users/lwassink/developer/personal_page/frontend/webpack.config.js	/^  entry: ".\/src\/index.jsx",$/;"	p	language:JavaScript
+most_common_vowel	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def most_common_vowel(string)$/;"	f	language:Ruby
+most_supportive	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def most_supportive$/;"	f	language:Ruby
+most_supportive	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def most_supportive$/;"	f	language:Ruby
+most_supportive	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb	/^def most_supportive$/;"	f	language:Ruby
+most_supportive	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def most_supportive$/;"	f	language:Ruby
+move	/Users/lwassink/developer/reversi/board.rb	/^  def move(color, pos)$/;"	f	language:Ruby	class:Board
+move	/Users/lwassink/developer/reversi/lib/board.rb	/^  def move(color, pos)$/;"	f	language:Ruby	class:Board
+Movie	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/app/models/movie.rb	/^class Movie < ActiveRecord::Base$/;"	c	language:Ruby
+movie_names_before_1940	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def movie_names_before_1940$/;"	f	language:Ruby
+movie_names_before_1940	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/01_queries.rb	/^def movie_names_before_1940$/;"	f	language:Ruby
+movie_names_before_1940	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def movie_names_before_1940$/;"	f	language:Ruby
+movie_names_before_1940	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/01_queries.rb	/^def movie_names_before_1940$/;"	f	language:Ruby
+movie_names_before_1940	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def movie_names_before_1940$/;"	f	language:Ruby
+my_lcm	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def my_lcm(int_one, int_two)$/;"	f	language:Ruby
+my_merge	/Users/lwassink/developer/test/ia.rb	/^  def my_merge(hash, &prc)$/;"	f	language:Ruby	class:Hash
+my_modulo	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def my_modulo(dividend, divisor)$/;"	f	language:Ruby
+my_round	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def my_round(num)$/;"	f	language:Ruby
+my_select	/Users/lwassink/developer/test/ia.rb	/^  def my_select(&prc)$/;"	f	language:Ruby	class:Hash
+my_to_s	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def my_to_s(arg)$/;"	f	language:Ruby
+my_uniq	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def my_uniq(arr)$/;"	f	language:Ruby
+n	/Users/lwassink/.vimrc	/^nnoremap <silent> n n:call HLNext(0.4)<cr>$/;"	m	language:Vim
+N	/Users/lwassink/.vimrc	/^nnoremap <silent> N N:call HLNext(0.4)<cr>$/;"	m	language:Vim
+name_and_population	/Users/lwassink/Desktop/skeleton 2/lib/02_select_countries.rb	/^def name_and_population$/;"	f	language:Ruby
+negative	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def negative(num)$/;"	f	language:Ruby
+neighbors_of_certain_b_countries	/Users/lwassink/Desktop/skeleton 2/lib/04_select_within_select.rb	/^def neighbors_of_certain_b_countries$/;"	f	language:Ruby
+next	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public DoubleNode<Item> next;$/;"	f	language:Java	class:Deque.DoubleNode
+next	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public Item next() {$/;"	m	language:Java	class:Deque.DequeIterator
+next	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^    public Item next() {$/;"	m	language:Java	class:RandomizedQueue.RandomizedQueueIterator
+next	/Users/lwassink/test/flip_ranges.rb	/^def next(range, block)$/;"	f	language:Ruby
+next_nodes	/Users/lwassink/developer/reversi/ai.rb	/^  def next_nodes(node)$/;"	f	language:Ruby	class:AIPlayer
+Node	/Users/lwassink/Desktop/link_sort.rb	/^class Node$/;"	c	language:Ruby
+node	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    private DoubleNode<Item> node;$/;"	f	language:Java	class:Deque.DequeIterator	file:
+Node	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^class Node[Val](kids: Map[Char, Node[Val]], val contents: Option[Val]) {$/;"	c	language:Ruby
+Node	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^class Node[Val](kids: Map[Char, Node[Val]], val contents: Option[Val]) {$/;"	c	language:Ruby
+Node	/Users/lwassink/test/linked_list.rb	/^class Node$/;"	c	language:Ruby
+non_unique_letters	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def non_unique_letters(string)$/;"	f	language:Ruby
+not_repeat_year?	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def not_repeat_year?(year)$/;"	f	language:Ruby
+no_repeats?	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def no_repeats?(song_name, songs)$/;"	f	language:Ruby
+no_repeat_years	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def no_repeat_years(first_yr, last_yr)$/;"	f	language:Ruby
+NullPiece	/Users/lwassink/developer/checkers/piece.rb	/^class NullPiece$/;"	c	language:Ruby
+null_dept	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def null_dept$/;"	f	language:Ruby
+numberOfSegments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/BruteCollinearPoints.java	/^  public int numberOfSegments() {$/;"	m	language:Java	class:BruteCollinearPoints
+numberOfSegments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java	/^  public int numberOfSegments() {$/;"	m	language:Java	class:FastCollinearPoints
+numSegments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java	/^  private int numSegments;$/;"	f	language:Java	class:FastCollinearPoints	file:
+num_factors	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def num_factors(number)$/;"	f	language:Ruby
+num_stops	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def num_stops$/;"	f	language:Ruby
+num_teachers_and_mobiles	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def num_teachers_and_mobiles$/;"	f	language:Ruby
+o	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/lists.vim	/^nmap <buffer> o o<esc>:call <SID>PrintLeader()<cr>A$/;"	m	language:Vim
+o	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim	/^nmap <buffer> o o<esc>:call <SID>PrintLeader()<cr>A$/;"	m	language:Vim
+one_week_wonders	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def one_week_wonders(songs)$/;"	f	language:Ruby
+open	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  private boolean [] open;$/;"	f	language:Java	class:Percolation	file:
+open	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  public void open(int row, int col) {$/;"	m	language:Java	class:Percolation
+open_folded	/Users/lwassink/.vimrc	/^augroup open_folded$/;"	a	language:Vim
+ordered_vowel_word?	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def ordered_vowel_word?(word)$/;"	f	language:Ruby
+ordered_vowel_words	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def ordered_vowel_words(words)$/;"	f	language:Ruby
+other	/Users/lwassink/developer/checkers/frontend/middleware/players_middleware.js	/^function other(id) {$/;"	f	language:JavaScript
+other_color	/Users/lwassink/developer/checkers/piece.rb	/^  def other_color$/;"	f	language:Ruby	class:Piece
+other_color	/Users/lwassink/developer/reversi/board.rb	/^  def self.other_color(color)$/;"	F	language:Ruby	class:Board
+other_color	/Users/lwassink/developer/reversi/lib/board.rb	/^  def self.other_color(color)$/;"	F	language:Ruby	class:Board
+other_player	/Users/lwassink/developer/reversi/game.rb	/^  def other_player$/;"	f	language:Ruby
+other_player	/Users/lwassink/developer/reversi/lib/game.rb	/^  def other_player$/;"	f	language:Ruby
+over?	/Users/lwassink/developer/reversi/board.rb	/^  def over?$/;"	f	language:Ruby	class:Board
+over?	/Users/lwassink/developer/reversi/game.rb	/^  def over?$/;"	f	language:Ruby
+over?	/Users/lwassink/developer/reversi/lib/board.rb	/^  def over?$/;"	f	language:Ruby	class:Board
+over?	/Users/lwassink/developer/reversi/lib/game.rb	/^  def over?$/;"	f	language:Ruby
+p	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  private double [] p;$/;"	f	language:Java	class:PercolationStats	file:
+p	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Line.java	/^    private final Point p;   \/\/ one endpoint of this line segment$/;"	f	language:Java	class:LineSegment	file:
+parent=	/Users/lwassink/developer/reversi/minimax.rb	/^  def parent=(other)$/;"	f	language:Ruby	class:MNode
+parse_git_branch	/Users/lwassink/.bashrc	/^parse_git_branch() {$/;"	f	language:Sh
+parse_pos	/Users/lwassink/developer/reversi/human_player.rb	/^  def parse_pos(move)$/;"	f	language:Ruby
+path	/Users/lwassink/Desktop/solution/webpack.config.js	/^var path = require("path");$/;"	v	language:JavaScript
+path	/Users/lwassink/developer/checkers/server.js	/^var path = require('path');$/;"	v	language:JavaScript
+path	/Users/lwassink/developer/personal_page/frontend/webpack.config.js	/^var path = require("path");$/;"	v	language:JavaScript
+percolates	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  public boolean percolates() {$/;"	m	language:Java	class:Percolation
+Percolation	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  public Percolation(int n) {$/;"	m	language:Java	class:Percolation
+Percolation	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^public class Percolation {$/;"	c	language:Java
+PercolationStats	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  public PercolationStats(int n, int trials) {$/;"	m	language:Java	class:PercolationStats
+PercolationStats	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^public class PercolationStats {$/;"	c	language:Java
+perform	/Users/lwassink/test/chat/app/jobs/message_broadcast_job.rb	/^  def perform(message)$/;"	f	language:Ruby	class:MessageBroadcastJob
+per_capita_gdp	/Users/lwassink/Desktop/skeleton 2/lib/01_select_basics.rb	/^def per_capita_gdp$/;"	f	language:Ruby
+pick_child	/Users/lwassink/developer/reversi/ai.rb	/^  def pick_child$/;"	f	language:Ruby	class:AIPlayer
+Piece	/Users/lwassink/developer/checkers/piece.rb	/^class Piece$/;"	c	language:Ruby
+play	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def play$/;"	f	language:Ruby	class:Game
+play	/Users/lwassink/developer/checkers/game.rb	/^  def play$/;"	f	language:Ruby	class:Game
+Player	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^class Player$/;"	c	language:Ruby
+Player	/Users/lwassink/developer/reversi/player.rb	/^class Player$/;"	c	language:Ruby
+play_round	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def play_round$/;"	f	language:Ruby	class:Game
+po	/Users/lwassink/developer/reversi/minimax.rb	/^  def po$/;"	f	language:Ruby	class:MNode
+Point	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public Point(int x, int y) {$/;"	m	language:Java	class:Point
+Point	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^public class Point implements Comparable<Point> {$/;"	c	language:Java
+populate	/Users/lwassink/developer/checkers/board.rb	/^  def populate$/;"	f	language:Ruby	class:Board
+population_constraint	/Users/lwassink/Desktop/skeleton 2/lib/04_select_within_select.rb	/^def population_constraint$/;"	f	language:Ruby
+population_in_millions	/Users/lwassink/Desktop/skeleton 2/lib/02_select_countries.rb	/^def population_in_millions$/;"	f	language:Ruby
+populous_continents	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def populous_continents$/;"	f	language:Ruby
+populous_country_counts	/Users/lwassink/Desktop/skeleton 2/lib/05_aggregates.rb	/^def populous_country_counts$/;"	f	language:Ruby
+pos	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  private int pos(int row, int col) {$/;"	m	language:Java	class:Percolation	file:
+pos	/Users/lwassink/developer/reversi/board.rb	/^  def self.pos(coords)$/;"	F	language:Ruby	class:Board
+pos	/Users/lwassink/developer/reversi/lib/board.rb	/^  def self.pos(coords)$/;"	F	language:Ruby	class:Board
+pos	/Users/lwassink/developer/reversi/lib/board.rb	/^  def self.pos(coords)$/;"	F	language:Ruby	class:Board
+prepend	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public DoubleNode<Item> prepend(Item item) {$/;"	m	language:Java	class:Deque.DoubleNode
+prev	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public DoubleNode<Item> prev;$/;"	f	language:Java	class:Deque.DoubleNode
+prev	/Users/lwassink/test/flip_ranges.rb	/^def prev(range, block)$/;"	f	language:Ruby
+price_is_right	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def price_is_right(bids, actual_retail_price)$/;"	f	language:Ruby
+PrintLeader	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/lists.vim	/^function! s:PrintLeader()$/;"	f	language:Vim
+PrintLeader	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim	/^function! s:PrintLeader()$/;"	f	language:Vim
+products_except_me	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables1.rb	/^def products_except_me(numbers)$/;"	f	language:Ruby
+prolific_actors	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def prolific_actors$/;"	f	language:Ruby
+put	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def put(key: String, value: Val): Node[Val] = put(key, value, 0)$/;"	f	language:Ruby	class:Node.children.put
+put	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def put(key: String, value: Val): Unit = store = store.put(key, value, 0)$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie
+put	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def put(key: String, value: Val, pos: Int): Node[Val] =$/;"	f	language:Ruby	class:Node.children
+put	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def put(key: String, value: Val): Node[Val] = put(key, value, 0)$/;"	f	language:Ruby	class:Node.children.put
+put	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def put(key: String, value: Val): Unit = store = store.put(key, value, 0)$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix.Trie
+put	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def put(key: String, value: Val, pos: Int): Node[Val] =$/;"	f	language:Ruby	class:Node.children
+Q	/Users/lwassink/.vimrc	/^command! Q q$/;"	c	language:Vim
+q	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Line.java	/^    private final Point q;   \/\/ the other endpoint of this line segment$/;"	f	language:Java	class:LineSegment	file:
+quick_sort	/Users/lwassink/developer/app_academy/lecture_demos/w2d4/big_o.rb	/^def quick_sort(ary)$/;"	f	language:Ruby
+RandomizedQueue	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public RandomizedQueue() {$/;"	m	language:Java	class:RandomizedQueue
+RandomizedQueue	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^public class RandomizedQueue<Item> implements Iterable<Item> {$/;"	c	language:Java
+RandomizedQueueIterator	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^    public RandomizedQueueIterator() {$/;"	m	language:Java	class:RandomizedQueue.RandomizedQueueIterator
+RandomizedQueueIterator	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  private class RandomizedQueueIterator implements Iterator<Item> {$/;"	c	language:Java	class:RandomizedQueue
+randomMove	/Users/lwassink/developer/checkers/frontend/game/ai.js	/^function randomMove(game, player) {$/;"	f	language:JavaScript
+receive_winnings	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def receive_winnings(amount)$/;"	f	language:Ruby	class:Player
+remove	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^    public void remove() {$/;"	m	language:Java	class:Deque.DequeIterator
+remove	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^    public void remove() {$/;"	m	language:Java	class:RandomizedQueue.RandomizedQueueIterator
+removeFirst	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public Item removeFirst() {$/;"	m	language:Java	class:Deque
+removeLast	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public Item removeLast() {$/;"	m	language:Java	class:Deque
+render	/Users/lwassink/developer/checkers/board.rb	/^  def render$/;"	f	language:Ruby	class:Board
+render_message	/Users/lwassink/test/chat/app/jobs/message_broadcast_job.rb	/^  def render_message(message)$/;"	f	language:Ruby	class:MessageBroadcastJob
+repeated_number_ranges	/Users/lwassink/Desktop/luke_alpha_projects/enumerables/lib/enumerables2.rb	/^def repeated_number_ranges(arr)$/;"	f	language:Ruby
+request_move	/Users/lwassink/developer/reversi/human_player.rb	/^  def request_move$/;"	f	language:Ruby
+request_valid_move	/Users/lwassink/developer/reversi/human_player.rb	/^  def request_valid_move$/;"	f	language:Ruby
+reset_current_bet	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def reset_current_bet$/;"	f	language:Ruby	class:Player
+reset_players	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def reset_players$/;"	f	language:Ruby	class:Game
+respond_bet	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def respond_bet$/;"	f	language:Ruby	class:Player
+restore_cursor	/Users/lwassink/.vimrc	/^augroup restore_cursor$/;"	a	language:Vim
+return_cards	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def return_cards$/;"	f	language:Ruby	class:Player
+review_params	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/controllers/api/reviews_controller.rb	/^  def review_params$/;"	f	language:Ruby	class:Api
+richer_than_england	/Users/lwassink/Desktop/skeleton 2/lib/04_select_within_select.rb	/^def richer_than_england$/;"	f	language:Ruby
+RoomChannel	/Users/lwassink/test/chat/app/channels/room_channel.rb	/^class RoomChannel < ApplicationCable::Channel$/;"	c	language:Ruby
+RoomsController	/Users/lwassink/test/chat/app/controllers/rooms_controller.rb	/^class RoomsController < ApplicationController$/;"	c	language:Ruby
+round_over?	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def round_over?$/;"	f	language:Ruby
+ruby	/Users/lwassink/.vimrc	/^augroup ruby$/;"	a	language:Vim
+run	/Users/lwassink/developer/reversi/game.rb	/^  def run$/;"	f	language:Ruby	class:Game
+run	/Users/lwassink/developer/reversi/lib/game.rb	/^  def run$/;"	f	language:Ruby	class:Game
+run	/Users/lwassink/test/arg-parser-test.rb	/^  def run$/;"	f	language:Ruby	class:Test
+runTrial	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  private double runTrial(int n) {$/;"	m	language:Java	class:PercolationStats	file:
+s:path	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/lists.vim	/^let s:path = expand('<sfile>:p:h')$/;"	v	language:Vim
+s:path	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/markdown.vim	/^let s:path = expand('<sfile>:p:h')$/;"	v	language:Vim
+s:path	/Users/lwassink/.vim/bundle/vim-text-lists/ftplugin/text.vim	/^let s:path = expand('<sfile>:p:h')$/;"	v	language:Vim
+sample	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public Item sample() {$/;"	m	language:Java	class:RandomizedQueue
+sb	/Users/lwassink/.vimrc	/^nnoremap sb :b#<cr>$/;"	m	language:Vim
+scandinavia	/Users/lwassink/Desktop/skeleton 2/lib/01_select_basics.rb	/^def scandinavia$/;"	f	language:Ruby
+segments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/BruteCollinearPoints.java	/^  private LineSegment[] segments;$/;"	f	language:Java	class:BruteCollinearPoints	file:
+segments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/BruteCollinearPoints.java	/^  public LineSegment[] segments() {$/;"	m	language:Java	class:BruteCollinearPoints
+segments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java	/^  private LineSegment[] segments;$/;"	f	language:Java	class:FastCollinearPoints	file:
+segments	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java	/^  public LineSegment[] segments() {$/;"	m	language:Java	class:FastCollinearPoints
+select_population_of_germany	/Users/lwassink/Desktop/skeleton 2/lib/01_select_basics.rb	/^def select_population_of_germany$/;"	f	language:Ruby
+show	/Users/lwassink/test/chat/app/controllers/rooms_controller.rb	/^  def show$/;"	f	language:Ruby	class:RoomsController
+show_hands	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def show_hands$/;"	f	language:Ruby
+shrink	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  private void shrink() {$/;"	m	language:Java	class:RandomizedQueue	file:
+shuffledIndices	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^    private int [] shuffledIndices;$/;"	f	language:Java	class:RandomizedQueue.RandomizedQueueIterator	file:
+size	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  private int size;$/;"	f	language:Java	class:Percolation	file:
+size	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  private int size;$/;"	f	language:Java	class:Deque	file:
+size	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Deque.java	/^  public int size() {$/;"	m	language:Java	class:Deque
+size	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java	/^  public int size() {$/;"	m	language:Java	class:RandomizedQueue
+SlopeOrder	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    private class SlopeOrder implements Comparator<Point> {$/;"	c	language:Java	class:Point
+slopeOrder	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public Comparator<Point> slopeOrder() {$/;"	m	language:Java	class:Point
+slopeTo	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public double slopeTo(Point that) {$/;"	m	language:Java	class:Point
+small_and_wealthy	/Users/lwassink/Desktop/skeleton 2/lib/01_select_basics.rb	/^def small_and_wealthy$/;"	f	language:Ruby
+sort	/Users/lwassink/Desktop/link_sort.rb	/^  def self.sort(left, length = nil, &compare)$/;"	F	language:Ruby
+sort	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def sort(array)$/;"	f	language:Ruby
+sort	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def sort(array)$/;"	f	language:Ruby
+sparse_continents	/Users/lwassink/Desktop/skeleton 2/lib/04_select_within_select.rb	/^def sparse_continents$/;"	f	language:Ruby
+speak	/Users/lwassink/test/chat/app/channels/room_channel.rb	/^  def speak(data)$/;"	f	language:Ruby	class:RoomChannel
+spiral_order	/Users/lwassink/test/spiral.rb	/^def spiral_order(mat, start = nil, length = nil)$/;"	f	language:Ruby
+starring	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def starring(whazzername)$/;"	f	language:Ruby
+starring	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def starring(whazzername)$/;"	f	language:Ruby
+starring	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/03_queries.rb	/^def starring(whazzername)$/;"	f	language:Ruby
+starring	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def starring(whazzername)$/;"	f	language:Ruby
+starting_board	/Users/lwassink/developer/checkers/board.rb	/^  def starting_board$/;"	f	language:Ruby	class:Board
+starts_with_g	/Users/lwassink/Desktop/skeleton 2/lib/01_select_basics.rb	/^def starts_with_g$/;"	f	language:Ruby
+start_at_craiglockhart	/Users/lwassink/Desktop/skeleton 2/lib/09_self_joins.rb	/^def start_at_craiglockhart$/;"	f	language:Ruby
+state.currentSlide	/Users/lwassink/developer/slides/components/edit.jsx	/^    this.state = { input, slides, currentSlide: 0, present: false };$/;"	p	language:JavaScript
+state.currentSlide	/Users/lwassink/developer/slides/components/presentation.jsx	/^    this.state = { currentSlide: 0, slides };$/;"	p	language:JavaScript
+state.description	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_form/bench_form.jsx	/^    this.state = {$/;"	p	language:JavaScript
+state.picture_url	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_form/bench_form.jsx	/^      description: "",$/;"	p	language:JavaScript
+state.present	/Users/lwassink/developer/slides/components/edit.jsx	/^    this.state = { input, slides, currentSlide: 0, present: false };$/;"	p	language:JavaScript
+state.seating	/Users/lwassink/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_form/bench_form.jsx	/^      picture_url: "",$/;"	p	language:JavaScript
+state.selected	/Users/lwassink/developer/checkers/frontend/components/checkers/board.jsx	/^    this.state = {$/;"	p	language:JavaScript
+state.todos	/Users/lwassink/developer/testing-reading/jest/src/components/todos.jsx	/^    this.state = {$/;"	p	language:JavaScript
+stddev	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  public double stddev() {$/;"	m	language:Java	class:PercolationStats
+subscribed	/Users/lwassink/test/chat/app/channels/room_channel.rb	/^  def subscribed$/;"	f	language:Ruby	class:RoomChannel
+Subset	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week2/Subset.java	/^public class Subset {$/;"	c	language:Java
+surroundings	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  private int[] surroundings(int row, int col) {$/;"	m	language:Java	class:Percolation	file:
+sw	/Users/lwassink/.vimrc	/^nnoremap sw <c-w>W$/;"	m	language:Vim
+switch_players!	/Users/lwassink/developer/reversi/game.rb	/^  def switch_players!$/;"	f	language:Ruby
+switch_players!	/Users/lwassink/developer/reversi/lib/game.rb	/^  def switch_players!$/;"	f	language:Ruby
+T	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java	/^  private int T;$/;"	f	language:Java	class:PercolationStats	file:
+take_bet	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def take_bet(total_bet)$/;"	f	language:Ruby	class:Player
+take_bets	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def take_bets$/;"	f	language:Ruby	class:Game
+teachers_and_depts	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def teachers_and_depts$/;"	f	language:Ruby
+teachers_and_divisions	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def teachers_and_divisions$/;"	f	language:Ruby
+teachers_and_divisions_two	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def teachers_and_divisions_two$/;"	f	language:Ruby
+teachers_and_mobiles	/Users/lwassink/Desktop/skeleton 2/lib/08_using_null.rb	/^def teachers_and_mobiles$/;"	f	language:Ruby
+test	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^def test$/;"	f	language:Ruby
+Test	/Users/lwassink/developer/test/java/double_v_Double.java	/^public class Test {$/;"	c	language:Java
+Test	/Users/lwassink/developer/test/java/Test.java	/^public class Test {$/;"	c	language:Java
+Test	/Users/lwassink/test/arg-parser-test.rb	/^class Test$/;"	c	language:Ruby
+TeX	/Users/lwassink/.vimrc	/^augroup TeX$/;"	a	language:Vim
+toStream	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def toStream(node: Node[Val], v: Stream[Stream[String]], p: String): Stream[String] = {$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse
+toStream	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def toStream(node: Node[Val], v: Stream[Stream[String]], p: String): Stream[String] = {$/;"	f	language:Ruby	class:Node.children.put.put.get.get.traverse
+toString	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Line.java	/^    public String toString() {$/;"	m	language:Java	class:LineSegment
+toString	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    public String toString() {$/;"	m	language:Java	class:Point
+to_s	/Users/lwassink/Desktop/link_sort.rb	/^  def to_s$/;"	f	language:Ruby
+to_s	/Users/lwassink/developer/checkers/board.rb	/^  def to_s$/;"	f	language:Ruby	class:Board
+to_s	/Users/lwassink/developer/checkers/piece.rb	/^  def to_s$/;"	f	language:Ruby	class:NullPiece
+to_s	/Users/lwassink/developer/checkers/piece.rb	/^  def to_s$/;"	f	language:Ruby	class:Piece
+to_s	/Users/lwassink/developer/reversi/board.rb	/^  def to_s$/;"	f	language:Ruby	class:Board
+to_s	/Users/lwassink/developer/reversi/lib/board.rb	/^  def to_s$/;"	f	language:Ruby	class:Board
+to_s	/Users/lwassink/developer/reversi/player.rb	/^  def to_s$/;"	f	language:Ruby	class:Player
+to_stringified_float	/Users/lwassink/developer/app_academy/alpha-projects/upload/methods/lib/methods.rb	/^def to_stringified_float(int)$/;"	f	language:Ruby
+trade_cards	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def trade_cards$/;"	f	language:Ruby
+trade_cards	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def trade_cards(old_cards, new_cards)$/;"	f	language:Ruby	class:Player
+traverse	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^  def traverse[T](f: (Node[Val], Stream[T], String) => T, prefix: String): T = {$/;"	f	language:Ruby	class:Node.children.put.put.get.get
+traverse	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^  def traverse[T](f: (Node[Val], Stream[T], String) => T, prefix: String): T = {$/;"	f	language:Ruby	class:Node.children.put.put.get.get
+travoltas_busiest_years	/Users/lwassink/Desktop/skeleton 2/lib/07_joins_exercises.rb	/^def travoltas_busiest_years$/;"	f	language:Ruby
+trek_films	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def trek_films$/;"	f	language:Ruby
+Trie	/Users/lwassink/developer/personal_page/backend/db/seeds.rb	/^class Trie[Val] {$/;"	c	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix
+Trie	/Users/lwassink/developer/personal_page/luke_api/db/seeds.rb	/^class Trie[Val] {$/;"	c	language:Ruby	class:Node.children.put.put.get.get.traverse.toStream.keysWithPrefix
+U	/Users/lwassink/.vimrc	/^nnoremap U :redo<cr>$/;"	m	language:Vim
+U	/Users/lwassink/.vimrc	/^nnoremap U :redo<cr>$/;"	m	language:Vim
+uf	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  private WeightedQuickUnionUF uf;$/;"	f	language:Java	class:Percolation	file:
+unfold	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb	/^  def unfold$/;"	f	language:Ruby	class:Player
+united_we_stand	/Users/lwassink/Desktop/skeleton 2/lib/02_select_countries.rb	/^def united_we_stand$/;"	f	language:Ruby
+unsubscribed	/Users/lwassink/test/chat/app/channels/room_channel.rb	/^  def unsubscribed$/;"	f	language:Ruby	class:RoomChannel
+update_inventory	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def update_inventory(older, newer)$/;"	f	language:Ruby
+v	/Users/lwassink/.vimrc	/^nnoremap v <c-v>$/;"	m	language:Vim
+v	/Users/lwassink/.vimrc	/^vnoremap v <c-v>$/;"	m	language:Vim
+valid?	/Users/lwassink/test/flip_ranges.rb	/^def valid?(range)$/;"	f	language:Ruby
+validMoves	/Users/lwassink/developer/checkers/frontend/game/ai.js	/^function validMoves(game, piece) {$/;"	f	language:JavaScript
+validPieces	/Users/lwassink/developer/checkers/frontend/game/ai.js	/^function validPieces(game, player) {$/;"	f	language:JavaScript
+valid_move?	/Users/lwassink/developer/reversi/board.rb	/^  def valid_move?(color, pos)$/;"	f	language:Ruby	class:Board
+valid_move?	/Users/lwassink/developer/reversi/lib/board.rb	/^  def valid_move?(color, pos)$/;"	f	language:Ruby	class:Board
+valid_moves	/Users/lwassink/developer/reversi/board.rb	/^  def valid_moves(color)$/;"	f	language:Ruby	class:Board
+valid_moves	/Users/lwassink/developer/reversi/lib/board.rb	/^  def valid_moves(color)$/;"	f	language:Ruby	class:Board
+vanity_projects	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def vanity_projects$/;"	f	language:Ruby
+vanity_projects	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def vanity_projects$/;"	f	language:Ruby
+vanity_projects	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb	/^def vanity_projects$/;"	f	language:Ruby
+vanity_projects	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def vanity_projects$/;"	f	language:Ruby
+vimrc_commands	/Users/lwassink/.vimrc	/^augroup vimrc_commands$/;"	a	language:Vim
+vim_help	/Users/lwassink/.vimrc	/^augroup vim_help$/;"	a	language:Vim
+W	/Users/lwassink/.vimrc	/^command! W w$/;"	c	language:Vim
+webpack	/Users/lwassink/developer/checkers/server.js	/^var webpack = require('webpack');$/;"	v	language:JavaScript
+what_was_that_one_with	/Users/lwassink/Desktop/skeleton/movie_buff/queries.rb	/^def what_was_that_one_with(those_actors)$/;"	f	language:Ruby
+what_was_that_one_with	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/skeleton/movie_buff/queries.rb	/^def what_was_that_one_with(those_actors)$/;"	f	language:Ruby
+what_was_that_one_with	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/02_queries.rb	/^def what_was_that_one_with(those_actors)$/;"	f	language:Ruby
+what_was_that_one_with	/Users/lwassink/developer/app_academy/curriculum/sql/projects/movie_buff/solution/movie_buff/queries.rb	/^def what_was_that_one_with(those_actors)$/;"	f	language:Ruby
+winner	/Users/lwassink/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb	/^  def winner$/;"	f	language:Ruby
+winner	/Users/lwassink/developer/reversi/board.rb	/^  def winner$/;"	f	language:Ruby	class:Board
+winner	/Users/lwassink/developer/reversi/lib/board.rb	/^  def winner$/;"	f	language:Ruby	class:Board
+word_lengths	/Users/lwassink/Desktop/luke_alpha_projects/hashes/lib/hashes.rb	/^def word_lengths(str)$/;"	f	language:Ruby
+WQ	/Users/lwassink/.vimrc	/^command! WQ wq$/;"	c	language:Vim
+Wq	/Users/lwassink/.vimrc	/^command! Wq wq$/;"	c	language:Vim
+x	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    private final int x;     \/\/ x-coordinate of this point$/;"	f	language:Java	class:Point	file:
+xCoord	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  private int xCoord(int pos) {$/;"	m	language:Java	class:Percolation	file:
+Y	/Users/lwassink/.vimrc	/^nnoremap Y y\$$/;"	m	language:Vim
+y	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week3/Point.java	/^    private final int y;     \/\/ y-coordinate of this point$/;"	f	language:Java	class:Point	file:
+yCoord	/Users/lwassink/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java	/^  private int yCoord(int pos) {$/;"	m	language:Java	class:Percolation	file:
+year_of_kane	/Users/lwassink/Desktop/skeleton 2/lib/06_joins_warmup.rb	/^def year_of_kane$/;"	f	language:Ruby
+ZZ	/Users/lwassink/.vimrc	/^nnoremap ZZ :wall<cr>ZZ$/;"	m	language:Vim
+[w	/Users/lwassink/.vimrc	/^nnoremap [w <c-w>W$/;"	m	language:Vim
+[[	/Users/lwassink/.vimrc	/^inoremap [[ []<esc>i$/;"	m	language:Vim
+[]	/Users/lwassink/developer/checkers/board.rb	/^  def [](pos)$/;"	f	language:Ruby	class:Board
+[]	/Users/lwassink/developer/reversi/board.rb	/^  def [](row, col)$/;"	f	language:Ruby	class:Board
+[]	/Users/lwassink/developer/reversi/lib/board.rb	/^  def [](row, col)$/;"	f	language:Ruby	class:Board
+[]=	/Users/lwassink/developer/checkers/board.rb	/^  def []=(pos, val)$/;"	f	language:Ruby	class:Board
+\	/Users/lwassink/.vimrc	/^nnoremap \\ ,$/;"	m	language:Vim
+\	/Users/lwassink/.vimrc	/^nnoremap \\ :Ag<SPACE>$/;"	m	language:Vim
+\d	/Users/lwassink/.vimrc	/^nnoremap \\d :RubyDoc <cword><cr>$/;"	m	language:Vim
+\m	/Users/lwassink/.vim/ftplugin/ruby/ruby.vim	/^nnoremap <buffer> <silent> \\m :silent execute "normal! \/\\\\v^\\\\s*def (self.)?".expand('<cword>').">\\n"<cr>zz$/;"	m	language:Vim
+]w	/Users/lwassink/.vimrc	/^nnoremap ]w <c-w>w$/;"	m	language:Vim
+^	/Users/lwassink/.vimrc	/^nnoremap ^ 0$/;"	m	language:Vim
+`	/Users/lwassink/.vimrc	/^nnoremap ` '$/;"	m	language:Vim
+{{	/Users/lwassink/.vimrc	/^inoremap {{ {}<esc>i$/;"	m	language:Vim
