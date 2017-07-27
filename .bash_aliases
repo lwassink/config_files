@@ -1,4 +1,5 @@
 # Author: Luke Wassink
+#
 # my aliases
 # linked to by my .bashrc
 
@@ -33,3 +34,4 @@ alias gitignore='source /Users/lwassink/configuration_files/git_init_setup.bash'
 
 # clean up undo and delete files
 alias vimclean='find . -type f -name "\.*sw[klmnop]" -delete; find . -type f -name "*.un~" -delete'
+

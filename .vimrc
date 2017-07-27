@@ -108,7 +108,7 @@ Plugin 'https://github.com/mattn/emmet-vim.git'
 " react styling
 Plugin 'mxw/vim-jsx'
 " MY FIRST PLUGIN!
-Plugin 'https://github.com/lwassink/vim-text-lists.git'
+Plugin 'https://github.com/lwassink/vim-lists.git'
 " easy switching between vim and tmux
 Plugin 'christoomey/vim-tmux-navigator'
 

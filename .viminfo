@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/in_bou
+~MSle0~/date
 
 # Last Substitute Search Pattern:
 ~MSle0&this.props.program
@@ -21,207 +21,207 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1485370426,,"w"
+|2,0,1500929707,,"w"
+:inoremap << <esc>0xxA
+|2,0,1500052081,,"inoremap << <esc>0xxA"
+:inoremap >> <esc>I<space><space><esc>A
+|2,0,1500051966,,"inoremap >> <esc>I<space><space><esc>A"
+:q!
+|2,0,1500929449,,"q!"
+:w!
+|2,0,1500929444,,"w!"
+:e components/edit.jsx
+|2,0,1499302410,,"e components/edit.jsx"
+:wall
+|2,0,1499302162,,"wall"
+:e Messages.scala
+|2,0,1499281672,,"e Messages.scala"
+:inoremap <esc>0xxA
+|2,0,1497893211,,"inoremap <esc>0xxA"
+:e test.txt
+|2,0,1495653662,,"e test.txt"
+:set nonumber
+|2,0,1495483547,,"set nonumber"
+:PluginUpdate
+|2,0,1495237101,,"PluginUpdate"
+:Plugin Update
+|2,0,1495237096,,"Plugin Update"
+:e ~/.bashrc
+|2,0,1494720167,,"e ~/.bashrc"
+:e projects.scss
+|2,0,1494648679,,"e projects.scss"
+:pwd
+|2,0,1494636518,,"pwd"
+:e lists.vim
+|2,0,1494636515,,"e lists.vim"
+:e markdown.vim
+|2,0,1494633713,,"e markdown.vim"
+:echo getcwd()
+|2,0,1494633382,,"echo getcwd()"
+:getcwd()
+|2,0,1494633376,,"getcwd()"
+:set filetype=text
+|2,0,1494636404,,"set filetype=text"
+:e text.vim
+|2,0,1494633062,,"e text.vim"
+:e ftplugin/markdown.vim
+|2,0,1494632604,,"e ftplugin/markdown.vim"
+:e ftplugin/text.vim
+|2,0,1494632430,,"e ftplugin/text.vim"
+:e
+|2,0,1494632078,,"e"
+:e ~/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim
+|2,0,1494632038,,"e ~/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim"
+:dif
+|2,0,1493841957,,"dif"
+:vimdif
+|2,0,1493841955,,"vimdif"
+:q
+|2,0,1490662570,,"q"
+:e manifest.json
+|2,0,1490073896,,"e manifest.json"
+:j
+|2,0,1490073880,,"j"
+:retab
+|2,0,1490073775,,"retab"
+:e myscript.js
+|2,0,1490073730,,"e myscript.js"
+:e app/assets/javascripts/channels/room.coffee
+|2,0,1489781758,,"e app/assets/javascripts/channels/room.coffee"
+:e app/models/message.rb
+|2,0,1489781384,,"e app/models/message.rb"
+:b 2
+|2,0,1489781174,,"b 2"
+:b rom
+|2,0,1489777307,,"b rom"
+:e app/views/rooms/show.html.erb
+|2,0,1489777213,,"e app/views/rooms/show.html.erb"
+:e app/channels/room_channel.rb
+|2,0,1489776802,,"e app/channels/room_channel.rb"
+:e config/routes.rb
+|2,0,1489772733,,"e config/routes.rb"
+:vsplit brainstorm.txt
+|2,0,1488756595,,"vsplit brainstorm.txt"
+:2
+|2,0,1489080482,,"2"
+:w brainstorm.txt
+|2,0,1488079085,,"w brainstorm.txt"
+:!ls
+|2,0,1488067259,,"!ls"
+:ls
+|2,0,1488067255,,"ls"
 :e lib/ai.rb
 |2,0,1485370062,,"e lib/ai.rb"
 :e lib/game.rb
 |2,0,1485369888,,"e lib/game.rb"
-:wall
-|2,0,1485369844,,"wall"
 :vsplit lib/board.rb
 |2,0,1485363756,,"vsplit lib/board.rb"
 :e spec/spec_helper.rb
 |2,0,1485299877,,"e spec/spec_helper.rb"
 :e spec_helper
 |2,0,1485299871,,"e spec_helper"
-:e ~/.vim/ftplugin/ruby/switch.vim
-|2,0,1485299764,,"e ~/.vim/ftplugin/ruby/switch.vim"
-:b ai
-|2,0,1485299167,,"b ai"
-:b gam
-|2,0,1485299013,,"b gam"
-:b min
-|2,0,1485298846,,"b min"
-:b boa
-|2,0,1485298749,,"b boa"
-:b hum
-|2,0,1485298724,,"b hum"
-:b game
-|2,0,1485298720,,"b game"
-:!ls
-|2,0,1485298535,,"!ls"
-:e game.rb
-|2,0,1485297035,,"e game.rb"
-:b boar
-|2,0,1485296805,,"b boar"
-:b minimax.rb
-|2,0,1485288839,,"b minimax.rb"
-:bd!
-|2,0,1485286820,,"bd!"
-:bd
-|2,0,1485286817,,"bd"
-:e player.rb
-|2,0,1485286715,,"e player.rb"
-:e pla
-|2,0,1485286711,,"e pla"
-:e
-|2,0,1485286707,,"e"
-:e human_player.rb
-|2,0,1485286681,,"e human_player.rb"
-:e board.rb
-|2,0,1485285969,,"e board.rb"
-:e ai.rb
-|2,0,1485285945,,"e ai.rb"
-:b bor
-|2,0,1485211517,,"b bor"
-:b ga
-|2,0,1485206721,,"b ga"
-:inoremap << <<
-|2,0,1485203575,,"inoremap << <<"
-:inoreamap << <<
-|2,0,1485203567,,"inoreamap << <<"
-:inoreamp << <<
-|2,0,1485203556,,"inoreamp << <<"
-:nnoremap <<
-|2,0,1485203544,,"nnoremap <<"
-:nnoremap << <<
-|2,0,1485203531,,"nnoremap << <<"
-:b components/todos.jsx
-|2,0,1484705772,,"b components/todos.jsx"
-:e components/todo_item.jsx
-|2,0,1484619585,,"e components/todo_item.jsx"
-:e todo_item.jsx
-|2,0,1484601817,,"e todo_item.jsx"
-:e components/todos.jsx
-|2,0,1484597025,,"e components/todos.jsx"
-:e components/Todos.jsx
-|2,0,1484595132,,"e components/Todos.jsx"
-:e delayed-job.md
-|2,0,1484024253,,"e delayed-job.md"
-:e ui_ux.md
-|2,0,1483749236,,"e ui_ux.md"
-:'<,'>set textwidth=80
-|2,0,1483746313,,"'<,'>set textwidth=80"
-:set textwidth=80
-|2,0,1483746300,,"set textwidth=80"
-:we
-|2,0,1483483049,,"we"
-:b Line.java
-|2,0,1482938912,,"b Line.java"
-:b ~/developer/coursera/analysis_of_algorithms_i/week3/Point.java
-|2,0,1482938900,,"b ~/developer/coursera/analysis_of_algorithms_i/week3/Point.java"
-:!open .
-|2,0,1482938862,,"!open ."
-:open .
-|2,0,1482938853,,"open ."
-:e Line.java
-|2,0,1482938845,,"e Line.java"
-:b Deque.j
-|2,0,1482792316,,"b Deque.j"
-:b De
-|2,0,1482792311,,"b De"
 
 # Search String History (newest to oldest):
 ?/^s*private<cr>mp
-|2,1,1485370063,47,"^s*private<cr>mp"
+|2,1,1499704140,47,"^s*private<cr>mp"
+?/from
+|2,1,1499357918,47,"from"
+?/====
+|2,1,1499302830,47,"===="
+?/===
+|2,1,1499302825,47,"==="
+?/merge
+|2,1,1499302822,47,"merge"
+?/rem
+|2,1,1499302631,47,"rem"
+?/rawMark
+|2,1,1499302547,47,"rawMark"
+?/Prese
+|2,1,1499302430,47,"Prese"
+?/proc
+|2,1,1499301779,47,"proc"
+?/slide
+|2,1,1499301615,47,"slide"
+?/sli
+|2,1,1499193324,47,"sli"
+?/date
+|2,1,1498805081,47,"date"
+?/arr
+|2,1,1498694746,47,"arr"
+?/;;
+|2,1,1495654491,47,";;"
+?/;
+|2,1,1495654487,47,";"
+?/\;\;
+|2,1,1495654484,47,"\\;\\;"
+?/black
+|2,1,1495654439,47,"black"
+?/ham
+|2,1,1495993484,47,"ham"
+?/next
+|2,1,1495474420,47,"next"
+?/prev
+|2,1,1495474404,47,"prev"
+?/white
+|2,1,1494964740,47,"white"
+?/Jav
+|2,1,1494720171,47,"Jav"
+?/ng
+|2,1,1494644165,47,"ng"
+?/nod
+|2,1,1494644161,47,"nod"
+?/int
+|2,1,1494644129,47,"int"
+?/lwass
+|2,1,1494637414,47,"lwass"
+?/An
+|2,1,1494637528,47,"An"
+?/source
+|2,1,1494632322,47,"source"
+?/run
+|2,1,1494541511,47,"run"
+?/store
+|2,1,1493847619,47,"store"
+??and
+|2,1,1493847391,63,"and"
+?/test
+|2,1,1493840984,47,"test"
+?/Sed
+|2,1,1493764009,47,"Sed"
+?/S
+|2,1,1493764006,47,"S"
+?/gzip
+|2,1,1493606269,47,"gzip"
+?/drunk
+|2,1,1493334358,47,"drunk"
+?/val
+|2,1,1491759476,47,"val"
+?/t p
+|2,1,1491253284,47,"t p"
+?/peer
+|2,1,1490992527,47,"peer"
+??cut
+|2,1,1490639373,63,"cut"
+?/arg
+|2,1,1489781685,47,"arg"
+?/server
+|2,1,1489777319,47,"server"
+? \$\(cursor\|select\)\$
+|2,1,1489772411,,"\\$\\(cursor\\|select\\)\\$"
+?/end
+|2,1,1487877861,47,"end"
+?/def
+|2,1,1487877626,47,"def"
+?/npm
+|2,1,1485977169,47,"npm"
+?/http
+|2,1,1485977113,47,"http"
 ?/in_bou
 |2,1,1485369796,47,"in_bou"
 ?/can_move
 |2,1,1485369538,47,"can_move"
 ?/coords
 |2,1,1485368444,47,"coords"
-?/priva
-|2,1,1485368267,47,"priva"
-?/debu
-|2,1,1485368249,47,"debu"
-?/valid_moves
-|2,1,1485367771,47,"valid_moves"
-?/:w
-|2,1,1485367721,47,":w"
-?/:b
-|2,1,1485367710,47,":b"
-?/puts
-|2,1,1485367306,47,"puts"
-?/p 
-|2,1,1485367299,47,"p "
-?/other_color
-|2,1,1485366423,47,"other_color"
-?/sl
-|2,1,1485363668,47,"sl"
-?/self[
-|2,1,1485306667,47,"self["
-?/all
-|2,1,1485306631,47,"all"
-?/200
-|2,1,1485298994,47,"200"
-?/boa
-|2,1,1485294893,47,"boa"
-??emp
-|2,1,1485283733,63,"emp"
-?/valid
-|2,1,1485213829,47,"valid"
-?/make
-|2,1,1485212604,47,"make"
-?/filter
-|2,1,1485206835,47,"filter"
-?/board
-|2,1,1485206725,47,"board"
-?/player
-|2,1,1485206707,47,"player"
-?/<<
-|2,1,1485203514,47,"<<"
-?/idx
-|2,1,1484602130,47,"idx"
-?/comp
-|2,1,1484602106,47,"comp"
-?/id
-|2,1,1484599045,47,"id"
-?/test
-|2,1,1484597746,47,"test"
-?/ange
-|2,1,1484597684,47,"ange"
-?/change
-|2,1,1484597680,47,"change"
-?/new
-|2,1,1484597623,47,"new"
-? \$\(cursor\|select\)\$
-|2,1,1484597411,,"\\$\\(cursor\\|select\\)\\$"
-?/NOTE
-|2,1,1484348029,47,"NOTE"
-??[
-|2,1,1484347758,63,"["
-?/Jen
-|2,1,1483749353,47,"Jen"
-?/ins
-|2,1,1483564589,47,"ins"
-? \<CLOUD_NAME\>
-|2,1,1483481268,,"\\<CLOUD_NAME\\>"
-?/CLOUD_NAME: dxpvdn7tw\nUPLOAD_PRESET: lqvi4si1\n
-|2,1,1483481262,47,"CLOUD_NAME: dxpvdn7tw\\nUPLOAD_PRESET: lqvi4si1\\n"
-?/review
-|2,1,1483478694,47,"review"
-?/radius
-|2,1,1483478474,47,"radius"
-?/padding
-|2,1,1483478428,47,"padding"
-?/button
-|2,1,1483478266,47,"button"
-?/get_ca
-|2,1,1482873005,47,"get_ca"
-?/cards to tr
-|2,1,1482872951,47,"cards to tr"
-?/has:
-|2,1,1482872666,47,"has:"
-?/remov
-|2,1,1482793387,47,"remov"
-?/next
-|2,1,1482793274,47,"next"
-?/NoSu
-|2,1,1482793034,47,"NoSu"
-?/remove
-|2,1,1482793014,47,"remove"
-?/NoSuc
-|2,1,1482792931,47,"NoSuc"
 
 # Expression History (newest to oldest):
 =12 + sqrt(19)
@@ -336,44 +336,37 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    p "#########"
-|3,0,0,1,1,0,1485369597,"    p \"#########\""
-""1	LINE	0
-	    p "#########"
-	    p valid_moves(color)
-	    p "#########"
-|3,1,1,1,3,0,1485369842,"    p \"#########\"","    p valid_moves(color)","    p \"#########\""
-"2	LINE	0
-	      puts
-	      puts "---------------"
-	      puts over_but_not_full.to_s
-	      p over_but_not_full.valid_moves(:b)
-	      puts over_but_not_full.can_move?(:b)
-	      puts "---------------"
-|3,0,2,1,6,0,1485369838,"      puts","      puts \"---------------\"","      puts over_but_not_full.to_s","      p over_but_not_full.valid_moves(:b)","      puts over_but_not_full.can_move?(:b)","      puts \"---------------\""
-"3	LINE	0
-	    (7..63).step(8).each { |i| grid[i] = nil }
-|3,0,3,1,1,0,1485369171,"    (7..63).step(8).each { |i| grid[i] = nil }"
-"4	LINE	0
-	    [7, 15, ]
-|3,0,4,1,1,0,1485369035,"    [7, 15, ]"
-"5	LINE	0
-	      p delta
-|3,0,5,1,1,0,1485368535,"      p delta"
-"6	LINE	0
-	require 'byebug'
+"0	CHAR	0
+	 
+|3,0,0,0,1,0,1500056985," "
+"1	LINE	0
 	
-|3,0,6,1,2,0,1485368518,"require 'byebug'",""
+	setenv("GNUTERM","X11")
+|3,0,1,1,2,0,1500929597,"","setenv(\"GNUTERM\",\"X11\")"
+"2	LINE	0
+	#
+|3,0,2,1,1,0,1500929466,"#"
+"3	LINE	0
+	* 
+|3,0,3,1,1,0,1500054670,"* "
+"4	LINE	0
+	      j
+|3,0,4,1,1,0,1500053194,"      j"
+"5	LINE	0
+	      * 
+|3,0,5,1,1,0,1500053190,"      * "
+"6	LINE	0
+	* 
+|3,0,6,1,1,0,1500052037,"* "
 "7	LINE	0
-	      debugger
-|3,0,7,1,1,0,1485368250,"      debugger"
+	  * 
+|3,0,7,1,1,0,1500051994,"  * "
 "8	LINE	0
-	      puts starting.to_s
-|3,0,8,1,1,0,1485367310,"      puts starting.to_s"
+	
+|3,0,8,1,1,0,1499702324,""
 "9	LINE	0
-	      puts over_but_not_full.to_s
-|3,0,9,1,1,0,1485367308,"      puts over_but_not_full.to_s"
+	          <Render
+|3,0,9,1,1,0,1499372234,"          <Render"
 "a	LINE	0
 	      <Toolbar
 	        backgroundColor={colors.light_brown}>
@@ -390,7 +383,7 @@ $
 	          </Menu>
 	        </Popover>
 	      </Toolbar>
-|3,0,10,1,15,0,1479234378,"      <Toolbar","        backgroundColor={colors.light_brown}>","        <LogoSmall","          onClick={handleLogoClick}/>","","        <FlatButton","          style={modelAnchor}","          label={this.props.user.username}","          onTouchTap={handleTouchTap}/>","","        <Popover>","          <Menu>","          </Menu>","        </Popover>","      </Toolbar>"
+|3,0,10,1,15,0,1500058771,"      <Toolbar","        backgroundColor={colors.light_brown}>","        <LogoSmall","          onClick={handleLogoClick}/>","","        <FlatButton","          style={modelAnchor}","          label={this.props.user.username}","          onTouchTap={handleTouchTap}/>","","        <Popover>","          <Menu>","          </Menu>","        </Popover>","      </Toolbar>"
 "b	CHAR	0
 	   \sin^{-1}(x)' = \frac{1}{\sqrt{1-x^2}},
 	   \ \ \ & \cos^{-1}(x)' = -\frac{1}{\sqrt{1-x^2}},
@@ -447,7 +440,7 @@ $
 	    puts "#{@game.guesser.name} has run out of guesses and lost.".center(40)
 	  end
 	end
-|3,0,17,1,43,0,1484698795,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
+|3,0,17,1,43,0,1497892961,"","class HumanPlayer","  attr_reader :name","","  def initialize(name, game)","    @name = name","    @game = game","  end","","  def guess","    print \"Guess a letter: \"","    guess = gets.chomp.downcase","","    raise \"Please guess only a single letter\" unless ALPHABET.include? guess","","    if @game.guessed_letters.include? guess","      puts \"You already guessed that letter. So far you have guessed\"\\",>60
 |<"        \"\\n\\t#{@game.guessed_letters.sort.join(', ')}\"","      guess","    else","      guess","    end","  end","","  def get_secret_length","    print \"Secret word length: \"","    gets.chomp.to_i","  end","","  def positions(letter)","    print \"Enter the numbers for any of these spaces that contain \\\"#{letter}\\\": \"","    gets.chomp.split(',').map { |num| num.to_i - 1 }","  end","","  def win","    puts \"Correct! The word is \\\"#{@game.revealed_word}\\\"\".center(40)",>33
 |<"    puts \"You win\".center(40)","  end","","  def lose","    puts \"#{@game.guesser.name} has run out of guesses and lost.\".center(40)","  end","end"
 "i	LINE	0
@@ -513,9 +506,9 @@ $
 |3,0,35,0,1,0,0,>723
 |<"Jx;;ZvZ€kb€kbZZqzqZqZZZ,ev,evjkk€ý,€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý-€ý./{{n:e ~/.vim/ftpl	jav	j	lllllllklllllllhxxxxxxxxxxxxi<cr><cr>jk:wZZijk:set filetype=javascript:€ku.jsz€kbxa{{jk:w€ýb€ýa€ýb€ýahi, () => jkjccconst root = document.get		\"\"rootjkA);jkoRe	.Ren€kb€kb€kb€ýb€ýa€kbDOMjkkkkOimpo	 E€kbRe		 from ''react-domjkA;jkjjjjA.render()jkijkA;jkhi€ýb€ýadiv,ujkuhhhhli<k€kbjklea>Hi €kb€kb€kbNot rea€kb€kb€kb€kb€kb€kb€kbReact!</div>jk:wjA;jk:
 |<w€ýb€ýa,lindwwh%aNot eea€kb€kb€kbreactjkz;:w€ýb€ýakkkkiDrajku%iDrag n'dropjkhhhhr hhr'kjjkosourc€kb€kb€kb€kbcr			jk:w€ýb€ýa€ýb€ýa,lma	:wkAkjh€kb€kb€kbjkhi, rootjk:w€ýb€ýahhhhhhhhhhhhhhhhhhhhhh:e fro	knight.jsx€ýb€ýaijk::w"
-"-	CHAR	0
-	puts
-|3,0,36,0,1,0,1485369527,"puts"
+""-	CHAR	0
+	1
+|3,1,36,0,1,0,1500929697,"1"
 
 # File marks:
 'L  436  0  ~/.vimrc
@@ -524,2945 +517,1976 @@ $
 |4,85,361,0,0,"/usr/local/Cellar/vim/7.4.1941/share/vim/vim74/doc/usr_07.txt"
 'V  75  0  ~/.vimrc
 |4,86,75,0,0,"~/.vimrc"
-'0  3  14  ~/.rspec
-|4,48,3,14,1485388293,"~/.rspec"
-'1  1  24  ~/developer/reversi/lib/ai.rb
-|4,49,1,24,1485379563,"~/developer/reversi/lib/ai.rb"
-'2  78  4  ~/developer/reversi/lib/board.rb
-|4,50,78,4,1485363523,"~/developer/reversi/lib/board.rb"
-'3  77  4  ~/developer/reversi/lib/board.rb
-|4,51,77,4,1485363523,"~/developer/reversi/lib/board.rb"
-'4  4  9  ~/developer/reversi/Gemfile
-|4,52,4,9,1485300501,"~/developer/reversi/Gemfile"
-'5  5  0  ~/developer/reversi/spec/board_spec.rb
-|4,53,5,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
-'6  4  0  ~/developer/reversi/spec/board_spec.rb
-|4,54,4,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
-'7  5  0  ~/developer/reversi/spec/board_spec.rb
-|4,55,5,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
-'8  4  0  ~/developer/reversi/spec/board_spec.rb
-|4,56,4,0,1485299958,"~/developer/reversi/spec/board_spec.rb"
-'9  1  0  ~/developer/reversi/spec/board.rb
-|4,57,1,0,1485299794,"~/developer/reversi/spec/board.rb"
+'0  1  19  ~/.octaverc
+|4,48,1,19,1500929729,"~/.octaverc"
+'1  4  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,49,4,0,1500929599,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+'2  76  20  ~/developer/app_academy/scribe_notes/jul_2017/w7d5.md
+|4,50,76,20,1500929505,"~/developer/app_academy/scribe_notes/jul_2017/w7d5.md"
+'3  5  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,51,5,22,1500929468,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+'4  6  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,52,6,22,1500929468,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+'5  5  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,53,5,22,1500929449,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+'6  6  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,54,6,22,1500929449,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+'7  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,55,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+'8  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,56,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+'9  79  0  ~/developer/app_academy/curriculum/sql/projects/movie_buff/README.md
+|4,57,79,0,1499991861,"~/developer/app_academy/curriculum/sql/projects/movie_buff/README.md"
 
 # Jumplist (newest first):
--'  3  14  ~/.rspec
-|4,39,3,14,1485388293,"~/.rspec"
--'  1  0  ~/.rspec
-|4,39,1,0,1485388288,"~/.rspec"
--'  1  24  ~/developer/reversi/lib/ai.rb
-|4,39,1,24,1485379563,"~/developer/reversi/lib/ai.rb"
--'  1  24  ~/developer/reversi/lib/ai.rb
-|4,39,1,24,1485379563,"~/developer/reversi/lib/ai.rb"
--'  67  29  ~/developer/reversi/lib/game.rb
-|4,39,67,29,1485370523,"~/developer/reversi/lib/game.rb"
--'  67  29  ~/developer/reversi/lib/game.rb
-|4,39,67,29,1485370523,"~/developer/reversi/lib/game.rb"
--'  57  0  ~/developer/reversi/lib/ai.rb
-|4,39,57,0,1485370414,"~/developer/reversi/lib/ai.rb"
--'  57  0  ~/developer/reversi/lib/ai.rb
-|4,39,57,0,1485370414,"~/developer/reversi/lib/ai.rb"
--'  46  0  ~/developer/reversi/lib/ai.rb
-|4,39,46,0,1485370410,"~/developer/reversi/lib/ai.rb"
--'  46  0  ~/developer/reversi/lib/ai.rb
-|4,39,46,0,1485370410,"~/developer/reversi/lib/ai.rb"
--'  68  29  ~/developer/reversi/lib/game.rb
-|4,39,68,29,1485370062,"~/developer/reversi/lib/game.rb"
--'  68  29  ~/developer/reversi/lib/game.rb
-|4,39,68,29,1485370062,"~/developer/reversi/lib/game.rb"
--'  1  0  ~/developer/reversi/lib/game.rb
-|4,39,1,0,1485369889,"~/developer/reversi/lib/game.rb"
--'  1  0  ~/developer/reversi/lib/game.rb
-|4,39,1,0,1485369889,"~/developer/reversi/lib/game.rb"
--'  49  4  ~/developer/reversi/lib/board.rb
-|4,39,49,4,1485369888,"~/developer/reversi/lib/board.rb"
--'  49  4  ~/developer/reversi/lib/board.rb
-|4,39,49,4,1485369888,"~/developer/reversi/lib/board.rb"
--'  115  10  ~/developer/reversi/lib/board.rb
-|4,39,115,10,1485369803,"~/developer/reversi/lib/board.rb"
--'  115  10  ~/developer/reversi/lib/board.rb
-|4,39,115,10,1485369803,"~/developer/reversi/lib/board.rb"
--'  53  30  ~/developer/reversi/lib/board.rb
-|4,39,53,30,1485369796,"~/developer/reversi/lib/board.rb"
--'  53  30  ~/developer/reversi/lib/board.rb
-|4,39,53,30,1485369796,"~/developer/reversi/lib/board.rb"
--'  51  0  ~/developer/reversi/lib/board.rb
-|4,39,51,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  47  0  ~/developer/reversi/lib/board.rb
-|4,39,47,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  43  0  ~/developer/reversi/lib/board.rb
-|4,39,43,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  40  0  ~/developer/reversi/lib/board.rb
-|4,39,40,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  51  0  ~/developer/reversi/lib/board.rb
-|4,39,51,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  47  0  ~/developer/reversi/lib/board.rb
-|4,39,47,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  43  0  ~/developer/reversi/lib/board.rb
-|4,39,43,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  40  0  ~/developer/reversi/lib/board.rb
-|4,39,40,0,1485369747,"~/developer/reversi/lib/board.rb"
--'  33  0  ~/developer/reversi/lib/board.rb
-|4,39,33,0,1485369746,"~/developer/reversi/lib/board.rb"
--'  33  0  ~/developer/reversi/lib/board.rb
-|4,39,33,0,1485369746,"~/developer/reversi/lib/board.rb"
--'  56  0  ~/developer/reversi/lib/board.rb
-|4,39,56,0,1485369737,"~/developer/reversi/lib/board.rb"
--'  56  0  ~/developer/reversi/lib/board.rb
-|4,39,56,0,1485369737,"~/developer/reversi/lib/board.rb"
--'  61  0  ~/developer/reversi/lib/board.rb
-|4,39,61,0,1485369735,"~/developer/reversi/lib/board.rb"
--'  65  0  ~/developer/reversi/lib/board.rb
-|4,39,65,0,1485369735,"~/developer/reversi/lib/board.rb"
--'  61  0  ~/developer/reversi/lib/board.rb
-|4,39,61,0,1485369735,"~/developer/reversi/lib/board.rb"
--'  65  0  ~/developer/reversi/lib/board.rb
-|4,39,65,0,1485369735,"~/developer/reversi/lib/board.rb"
--'  69  0  ~/developer/reversi/lib/board.rb
-|4,39,69,0,1485369734,"~/developer/reversi/lib/board.rb"
--'  76  0  ~/developer/reversi/lib/board.rb
-|4,39,76,0,1485369734,"~/developer/reversi/lib/board.rb"
--'  69  0  ~/developer/reversi/lib/board.rb
-|4,39,69,0,1485369734,"~/developer/reversi/lib/board.rb"
--'  76  0  ~/developer/reversi/lib/board.rb
-|4,39,76,0,1485369734,"~/developer/reversi/lib/board.rb"
--'  80  0  ~/developer/reversi/lib/board.rb
-|4,39,80,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  84  0  ~/developer/reversi/lib/board.rb
-|4,39,84,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  92  0  ~/developer/reversi/lib/board.rb
-|4,39,92,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  96  0  ~/developer/reversi/lib/board.rb
-|4,39,96,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  98  0  ~/developer/reversi/lib/board.rb
-|4,39,98,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  80  0  ~/developer/reversi/lib/board.rb
-|4,39,80,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  84  0  ~/developer/reversi/lib/board.rb
-|4,39,84,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  92  0  ~/developer/reversi/lib/board.rb
-|4,39,92,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  96  0  ~/developer/reversi/lib/board.rb
-|4,39,96,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  98  0  ~/developer/reversi/lib/board.rb
-|4,39,98,0,1485369733,"~/developer/reversi/lib/board.rb"
--'  101  0  ~/developer/reversi/lib/board.rb
-|4,39,101,0,1485369732,"~/developer/reversi/lib/board.rb"
--'  101  0  ~/developer/reversi/lib/board.rb
-|4,39,101,0,1485369732,"~/developer/reversi/lib/board.rb"
--'  105  9  ~/developer/reversi/lib/board.rb
-|4,39,105,9,1485369731,"~/developer/reversi/lib/board.rb"
--'  105  9  ~/developer/reversi/lib/board.rb
-|4,39,105,9,1485369731,"~/developer/reversi/lib/board.rb"
--'  155  6  ~/developer/reversi/lib/board.rb
-|4,39,155,6,1485369540,"~/developer/reversi/lib/board.rb"
--'  150  6  ~/developer/reversi/lib/board.rb
-|4,39,150,6,1485369540,"~/developer/reversi/lib/board.rb"
--'  155  6  ~/developer/reversi/lib/board.rb
-|4,39,155,6,1485369540,"~/developer/reversi/lib/board.rb"
--'  150  6  ~/developer/reversi/lib/board.rb
-|4,39,150,6,1485369540,"~/developer/reversi/lib/board.rb"
--'  134  0  ~/developer/reversi/lib/board.rb
-|4,39,134,0,1485369538,"~/developer/reversi/lib/board.rb"
--'  134  0  ~/developer/reversi/lib/board.rb
-|4,39,134,0,1485369538,"~/developer/reversi/lib/board.rb"
--'  152  0  ~/developer/reversi/lib/board.rb
-|4,39,152,0,1485368555,"~/developer/reversi/lib/board.rb"
--'  152  0  ~/developer/reversi/lib/board.rb
-|4,39,152,0,1485368555,"~/developer/reversi/lib/board.rb"
--'  104  6  ~/developer/reversi/lib/board.rb
-|4,39,104,6,1485368550,"~/developer/reversi/lib/board.rb"
--'  104  6  ~/developer/reversi/lib/board.rb
-|4,39,104,6,1485368550,"~/developer/reversi/lib/board.rb"
--'  107  0  ~/developer/reversi/lib/board.rb
-|4,39,107,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  110  0  ~/developer/reversi/lib/board.rb
-|4,39,110,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  114  0  ~/developer/reversi/lib/board.rb
-|4,39,114,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  119  0  ~/developer/reversi/lib/board.rb
-|4,39,119,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  122  0  ~/developer/reversi/lib/board.rb
-|4,39,122,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  107  0  ~/developer/reversi/lib/board.rb
-|4,39,107,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  110  0  ~/developer/reversi/lib/board.rb
-|4,39,110,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  114  0  ~/developer/reversi/lib/board.rb
-|4,39,114,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  119  0  ~/developer/reversi/lib/board.rb
-|4,39,119,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  122  0  ~/developer/reversi/lib/board.rb
-|4,39,122,0,1485368531,"~/developer/reversi/lib/board.rb"
--'  128  0  ~/developer/reversi/lib/board.rb
-|4,39,128,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  132  0  ~/developer/reversi/lib/board.rb
-|4,39,132,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  137  0  ~/developer/reversi/lib/board.rb
-|4,39,137,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  143  0  ~/developer/reversi/lib/board.rb
-|4,39,143,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  146  0  ~/developer/reversi/lib/board.rb
-|4,39,146,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  151  0  ~/developer/reversi/lib/board.rb
-|4,39,151,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  128  0  ~/developer/reversi/lib/board.rb
-|4,39,128,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  132  0  ~/developer/reversi/lib/board.rb
-|4,39,132,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  137  0  ~/developer/reversi/lib/board.rb
-|4,39,137,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  143  0  ~/developer/reversi/lib/board.rb
-|4,39,143,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  146  0  ~/developer/reversi/lib/board.rb
-|4,39,146,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  151  0  ~/developer/reversi/lib/board.rb
-|4,39,151,0,1485368530,"~/developer/reversi/lib/board.rb"
--'  10  0  ~/developer/reversi/lib/board.rb
-|4,39,10,0,1485368527,"~/developer/reversi/lib/board.rb"
--'  10  0  ~/developer/reversi/lib/board.rb
-|4,39,10,0,1485368527,"~/developer/reversi/lib/board.rb"
--'  156  0  ~/developer/reversi/lib/board.rb
-|4,39,156,0,1485368492,"~/developer/reversi/lib/board.rb"
--'  162  0  ~/developer/reversi/lib/board.rb
-|4,39,162,0,1485368492,"~/developer/reversi/lib/board.rb"
--'  156  0  ~/developer/reversi/lib/board.rb
-|4,39,156,0,1485368492,"~/developer/reversi/lib/board.rb"
--'  162  0  ~/developer/reversi/lib/board.rb
-|4,39,162,0,1485368492,"~/developer/reversi/lib/board.rb"
--'  64  4  ~/developer/reversi/lib/board.rb
-|4,39,64,4,1485368491,"~/developer/reversi/lib/board.rb"
--'  64  4  ~/developer/reversi/lib/board.rb
-|4,39,64,4,1485368491,"~/developer/reversi/lib/board.rb"
--'  22  15  ~/developer/reversi/lib/board.rb
-|4,39,22,15,1485368454,"~/developer/reversi/lib/board.rb"
--'  22  15  ~/developer/reversi/lib/board.rb
-|4,39,22,15,1485368454,"~/developer/reversi/lib/board.rb"
--'  21  15  ~/developer/reversi/lib/board.rb
-|4,39,21,15,1485368453,"~/developer/reversi/lib/board.rb"
--'  21  15  ~/developer/reversi/lib/board.rb
-|4,39,21,15,1485368453,"~/developer/reversi/lib/board.rb"
--'  1  0  ~/developer/reversi/lib/board.rb
-|4,39,1,0,1485368451,"~/developer/reversi/lib/board.rb"
--'  149  42  ~/developer/reversi/lib/board.rb
-|4,39,149,42,1485368451,"~/developer/reversi/lib/board.rb"
+-'  1  19  ~/.octaverc
+|4,39,1,19,1500929729,"~/.octaverc"
+-'  4  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,4,0,1500929599,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  4  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,4,0,1500929599,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  5  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,5,0,1500929595,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  1  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,1,0,1500929595,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  5  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,5,0,1500929595,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  1  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,1,0,1500929595,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  76  20  ~/developer/app_academy/scribe_notes/jul_2017/w7d5.md
+|4,39,76,20,1500929505,"~/developer/app_academy/scribe_notes/jul_2017/w7d5.md"
+-'  76  20  ~/developer/app_academy/scribe_notes/jul_2017/w7d5.md
+|4,39,76,20,1500929505,"~/developer/app_academy/scribe_notes/jul_2017/w7d5.md"
+-'  76  20  ~/developer/app_academy/scribe_notes/jul_2017/w7d5.md
+|4,39,76,20,1500929505,"~/developer/app_academy/scribe_notes/jul_2017/w7d5.md"
+-'  76  20  ~/developer/app_academy/scribe_notes/jul_2017/w7d5.md
+|4,39,76,20,1500929505,"~/developer/app_academy/scribe_notes/jul_2017/w7d5.md"
+-'  6  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,6,22,1500929468,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  6  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,6,22,1500929468,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  1  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,1,0,1500929465,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  1  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,1,0,1500929465,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  6  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,6,22,1500929449,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  6  22  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,6,22,1500929449,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  1  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,1,0,1500929425,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  1  0  /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+|4,39,1,0,1500929425,"/usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  53  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,53,0,1500850868,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  1  0  ~/developer/slides/assets/codemirror/mode/octave/octave.js
+|4,39,1,0,1500850859,"~/developer/slides/assets/codemirror/mode/octave/octave.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
+-'  4  0  ~/Desktop/A06/Gregory Park/webpack.config.js
+|4,39,4,0,1500338760,"~/Desktop/A06/Gregory Park/webpack.config.js"
 
 # History of marks within files (newest to oldest):
 
-> ~/.rspec
-	*	1485388293	0
-	"	3	14
-	^	3	15
-	.	3	14
-	+	3	14
-	z	3	0
-
-> ~/developer/reversi/lib/ai.rb
-	*	1485379563	0
-	"	1	24
+> ~/.octaverc
+	*	1500929729	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
 	z	1	0
 
-> ~/developer/reversi/lib/game.rb
-	*	1485370428	0
-	"	67	29
-	.	67	29
-	+	67	29
-	+	68	29
-	+	67	29
-	+	68	30
-	+	67	29
-	z	67	2
-
-> ~/developer/reversi/lib/board.rb
-	*	1485369884	0
-	"	49	4
-	^	54	7
-	.	49	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	6
-	+	9	8
-	+	10	8
-	+	11	8
-	+	12	9
-	+	13	9
-	+	14	10
-	+	15	9
-	+	16	9
-	+	8	11
-	+	129	20
-	+	130	45
-	+	133	21
-	+	134	23
-	+	135	20
-	+	112	19
-	+	133	10
-	+	112	48
-	+	115	13
-	+	142	21
-	+	142	0
-	+	137	0
-	+	142	0
-	+	138	22
-	+	140	12
-	+	116	19
-	+	115	32
-	+	116	32
-	+	117	42
-	+	130	11
-	+	52	0
-	+	115	38
-	+	105	48
-	+	78	0
-	+	79	0
-	+	78	0
-	+	160	0
-	+	149	0
-	+	154	0
-	+	147	0
-	+	150	17
-	+	155	17
-	+	103	22
-	+	108	4
-	+	150	0
-	+	155	0
-	+	153	0
-	+	148	0
-	+	103	49
-	+	103	0
-	+	105	0
-	+	106	0
-	+	106	7
-	+	106	11
-	+	106	46
-	+	106	35
-	+	105	81
-	+	106	0
-	+	154	0
-	+	149	0
-	+	147	0
-	+	155	0
-	+	3	20
-	+	6	20
-	+	5	20
-	+	3	0
-	+	152	24
-	+	150	0
-	+	155	0
-	+	103	7
-	+	105	13
-	+	1	14
-	+	1	0
-	+	151	0
-	+	105	0
-	+	97	0
-	+	103	0
-	+	152	0
-	+	103	12
-	+	104	0
-	+	103	0
-	+	63	18
-	+	152	0
-	+	151	0
-	+	1	0
-	+	103	6
-	+	104	6
-	+	152	0
-	+	147	0
-	+	155	0
-	+	49	22
-	+	49	15
-	+	49	0
-	+	53	10
-	+	54	6
-	+	49	0
-	z	49	4
-
-> ~/developer/reversi/spec/board_spec.rb
-	*	1485369883	0
-	"	55	6
-	.	55	0
-	+	1	13
-	+	3	0
-	+	4	18
-	+	5	20
-	+	2	28
-	+	5	28
-	+	7	21
-	+	8	22
-	+	9	35
-	+	10	35
-	+	28	20
-	+	29	38
-	+	33	43
-	+	30	39
-	+	11	17
-	+	30	36
-	+	34	11
-	+	6	0
-	+	13	0
-	+	14	9
-	+	16	9
-	+	17	6
-	+	18	0
-	+	34	35
-	+	21	27
-	+	22	0
-	+	23	5
-	+	24	10
-	+	38	22
-	+	39	38
-	+	40	42
-	+	41	15
-	+	44	0
-	+	43	0
-	+	44	50
-	+	46	0
-	+	45	29
-	+	48	45
-	+	49	26
-	+	45	32
-	+	49	18
-	+	53	26
-	+	54	55
-	+	55	57
-	+	56	42
-	+	75	0
-	+	59	8
-	+	54	19
-	+	59	45
-	+	60	48
-	+	61	33
-	+	60	0
-	+	55	0
-	+	56	0
-	+	60	0
-	+	66	28
-	+	67	29
-	+	68	43
-	+	72	43
-	+	71	0
-	+	69	6
-	+	70	0
-	+	71	24
-	+	45	0
-	+	49	0
-	+	55	25
-	+	23	5
-	+	24	10
-	+	25	36
-	+	55	32
-	+	25	19
-	+	23	8
-	+	24	114
-	+	24	6
-	+	25	0
-	+	24	6
-	+	55	9
-	+	55	42
-	+	55	27
-	+	55	0
-	+	55	37
-	+	55	39
-	+	55	0
-	z	55	6
-
-> ~/developer/reversi/Gemfile
-	*	1485300501	0
-	"	4	9
-	^	4	10
-	.	4	9
-	+	4	9
+> /usr/local/octave/3.8.0/share/octave/site/m/startup/octaverc
+	*	1500929599	0
+	"	4	0
+	.	5	0
+	+	5	0
 	z	4	0
 
-> ~/developer/reversi/spec/spec_helper.rb
-	*	1485299910	0
-	"	1	0
-	^	1	33
-	.	2	0
-	+	1	24
-	+	2	0
-	+	1	32
-	+	2	0
-	z	1	0
-
-> ~/developer/reversi/spec/board.rb
-	*	1485299794	0
-	"	1	0
-	z	1	0
-
-> ~/.vim/ftplugin/ruby/switch.vim
-	*	1485299774	0
-	"	20	0
-	z	20	4
-
-> ~/developer/reversi/game.rb
-	*	1485299689	0
-	"	68	28
-	^	68	33
-	.	68	29
-	+	48	7
-	+	47	48
-	+	48	0
-	+	64	0
-	+	15	0
-	+	6	39
-	+	9	17
-	+	15	12
-	+	13	14
-	+	16	6
-	+	15	0
-	+	16	19
-	+	18	4
-	+	16	0
-	+	18	11
-	+	32	5
-	+	36	4
-	+	47	31
-	+	47	30
-	+	48	30
-	+	48	6
-	+	33	0
-	+	43	48
-	+	47	0
-	+	21	8
-	+	33	4
-	+	46	20
-	+	32	15
-	+	15	15
-	+	33	18
-	+	33	32
-	+	34	15
-	+	32	14
-	+	15	14
-	+	34	18
-	+	35	38
-	+	36	0
-	+	52	0
-	+	59	52
-	+	78	0
-	+	33	39
-	+	34	35
-	+	35	57
-	+	7	24
-	+	8	24
-	+	59	70
-	+	59	0
-	+	58	19
-	+	59	0
-	+	61	22
-	+	62	6
-	+	14	18
-	+	30	4
-	+	30	0
-	+	25	7
-	+	28	50
+> ~/developer/app_academy/scribe_notes/jul_2017/w7d5.md
+	*	1500929505	0
+	"	76	20
+	^	76	21
+	.	76	20
+	+	8	31
+	+	1	5
+	+	9	35
+	+	10	7
+	+	2	18
+	+	6	0
+	+	5	10
+	+	11	34
+	+	15	39
+	+	16	5
+	+	18	44
+	+	20	86
+	+	17	70
+	+	21	77
+	+	22	47
+	+	23	30
+	+	26	46
+	+	17	16
+	+	28	46
 	+	29	0
-	+	1	29
-	+	3	0
-	+	4	0
-	+	3	22
-	+	65	0
-	+	66	0
-	+	75	18
-	+	67	29
-	+	68	29
-	+	73	18
-	+	75	40
-	+	76	9
-	+	68	8
-	+	7	21
-	+	8	21
-	+	39	24
-	+	43	44
-	+	70	20
-	+	71	0
-	+	70	22
-	+	71	13
-	+	72	5
-	+	69	0
-	+	74	0
-	+	72	14
-	+	73	22
-	+	59	47
-	+	59	0
-	+	55	7
-	+	56	0
-	+	57	0
-	+	56	19
-	+	73	18
-	+	68	19
-	+	2	20
-	+	67	19
-	+	24	18
-	+	67	32
-	+	68	29
-	+	67	29
-	+	68	29
-	+	67	29
-	+	68	29
-	z	68	2
-
-> ~/developer/reversi/ai.rb
-	*	1485299295	0
-	"	26	31
-	^	25	55
-	.	25	54
-	+	11	0
-	+	1	18
-	+	4	0
-	+	57	0
-	+	11	21
-	+	13	0
-	+	19	21
-	+	20	0
-	+	2	24
-	+	46	0
-	+	13	8
-	+	12	17
-	+	13	18
-	+	14	40
-	+	20	21
-	+	21	22
-	+	23	0
-	+	6	35
-	+	7	5
-	+	10	0
-	+	7	14
-	+	8	27
-	+	6	39
-	+	23	21
-	+	25	38
-	+	31	0
-	+	24	17
-	+	31	0
-	+	30	24
-	+	30	6
-	+	25	13
-	+	30	19
-	+	3	22
-	+	30	36
-	+	27	55
-	+	29	0
-	+	27	62
-	+	28	35
-	+	46	18
-	+	25	11
-	+	30	47
-	+	27	65
-	+	34	17
-	+	36	0
-	+	34	15
-	+	27	41
-	+	34	20
-	+	37	27
-	+	38	17
-	+	34	27
-	+	38	27
-	+	39	0
-	+	40	22
-	+	21	31
-	+	25	0
-	+	30	0
-	+	36	14
-	+	34	21
-	+	27	55
-	+	35	27
-	+	36	8
-	+	35	15
-	+	38	21
-	+	40	18
-	+	37	26
-	+	38	9
-	+	39	9
-	+	40	63
-	+	46	33
-	+	47	27
-	+	52	0
-	+	50	39
-	+	53	23
-	+	54	59
-	+	36	31
-	+	27	30
-	+	41	13
-	+	27	0
-	+	46	31
-	+	47	17
-	+	6	39
-	+	25	54
-	z	26	6
-
-> ~/developer/reversi/minimax.rb
-	*	1485298858	0
-	"	27	35
-	^	65	30
-	.	65	29
-	+	93	2
-	+	94	2
-	+	91	2
-	+	93	2
-	+	94	2
-	+	95	2
-	+	96	2
-	+	97	2
-	+	98	2
-	+	99	2
-	+	100	2
-	+	101	2
-	+	102	2
-	+	103	2
-	+	104	2
-	+	105	2
-	+	106	2
-	+	107	2
-	+	4	14
-	+	5	20
-	+	51	23
-	+	54	48
-	+	59	38
-	+	57	29
-	+	57	0
-	+	59	47
-	+	60	31
-	+	108	16
-	+	31	45
-	+	33	13
-	+	37	13
-	+	37	0
-	+	39	0
-	+	37	0
-	+	38	0
-	+	39	37
-	+	43	16
-	+	45	11
-	+	47	10
-	+	45	25
-	+	46	15
-	+	47	27
-	+	42	7
+	+	77	0
+	+	30	63
+	+	31	47
+	+	32	34
+	+	34	34
 	+	36	7
-	+	30	7
-	+	109	31
-	+	44	21
-	+	109	23
-	+	45	23
-	+	109	27
-	+	59	8
-	+	51	35
-	+	52	0
-	+	53	0
-	+	54	51
-	+	59	16
-	+	51	17
-	+	54	49
-	+	59	0
-	+	57	0
-	+	59	0
-	+	108	15
-	+	107	0
-	+	85	8
-	+	88	2
-	+	85	12
-	+	88	12
-	+	91	12
-	+	94	12
-	+	97	14
-	+	100	12
-	+	103	12
-	+	106	12
-	+	109	0
-	+	111	0
-	+	110	5
-	+	111	16
-	+	59	0
+	+	37	57
+	+	35	16
+	+	38	11
+	+	41	45
+	+	45	0
+	+	44	24
+	+	77	0
+	+	80	74
+	+	46	30
+	+	50	6
+	+	49	55
+	+	52	44
+	+	56	41
+	+	58	49
+	+	60	25
+	+	62	51
+	+	61	39
+	+	63	42
+	+	65	26
+	+	67	30
+	+	68	75
+	+	69	35
+	+	70	20
+	+	72	36
+	+	73	88
+	+	74	18
+	+	73	87
+	+	75	55
+	+	76	20
+	z	76	2
+
+> ~/developer/slides/assets/codemirror/mode/octave/octave.js
+	*	1500850867	0
+	"	53	0
+	z	53	4
+
+> ~/Desktop/A06/Gregory Park/webpack.config.js
+	*	1500338760	0
+	"	4	0
+	z	4	2
+
+> ~/developer/app_academy/curriculum/sql/projects/movie_buff/README.md
+	*	1499991861	0
+	"	79	0
+	^	56	1
+	.	56	0
 	+	56	0
-	+	57	0
-	+	56	4
-	+	57	0
-	+	58	7
-	+	61	6
-	+	57	0
-	+	55	0
-	+	57	15
-	+	52	25
-	+	57	39
-	+	26	26
-	+	27	45
-	+	7	14
-	+	64	16
-	+	65	29
-	z	27	4
+	z	79	0
 
-> ~/developer/reversi/board.rb
-	*	1485298831	0
-	"	95	6
-	.	95	0
-	+	107	13
-	+	92	0
-	+	107	21
-	+	111	4
-	+	110	0
-	+	105	0
-	+	108	22
-	+	92	0
-	+	91	23
-	+	92	17
-	+	95	53
-	+	95	9
-	+	96	58
-	+	99	12
-	+	115	0
-	+	114	37
-	+	115	48
-	+	116	19
-	+	115	25
-	+	119	29
-	+	119	2
-	+	116	20
-	+	115	0
-	+	116	23
-	+	115	47
-	+	116	15
-	+	119	41
-	+	36	62
-	+	135	8
-	+	47	15
-	+	48	17
-	+	35	22
-	+	36	44
-	+	135	0
-	+	125	22
-	+	127	22
-	+	52	17
-	+	53	20
-	+	125	23
-	+	36	22
-	+	103	25
-	+	95	11
-	+	96	0
-	+	95	6
-	+	96	41
-	+	126	0
-	+	135	0
-	+	126	48
-	+	135	24
-	+	52	10
-	+	126	42
-	+	135	42
-	+	125	2
-	+	126	2
-	+	127	2
-	+	135	0
-	+	128	0
-	+	119	0
-	+	55	0
-	+	61	24
-	+	62	24
-	+	63	34
-	+	64	35
-	+	21	0
-	+	12	22
-	+	14	16
-	+	67	11
-	+	68	24
-	+	39	22
-	+	40	29
-	+	49	0
-	+	57	21
-	+	68	23
-	+	71	0
-	+	68	29
-	+	69	36
-	+	119	0
-	+	74	8
-	+	131	13
-	+	132	12
-	+	133	7
-	+	131	0
-	+	133	0
-	+	128	0
-	+	123	0
-	+	131	13
-	+	133	0
-	+	77	22
-	+	77	24
-	+	79	29
-	+	81	16
-	+	80	20
-	+	81	18
-	+	80	7
-	+	81	22
-	+	85	0
-	+	89	0
-	+	85	10
-	+	95	27
-	+	95	0
-	z	95	6
+> ~/developer/app_academy/scribe_notes/jul_2017/w6d2.md
+	*	1499831081	0
+	"	42	0
+	^	41	9
+	.	42	0
+	+	4	8
+	+	3	12
+	+	46	55
+	+	10	6
+	+	13	35
+	+	47	20
+	+	48	0
+	+	13	36
+	+	14	5
+	+	15	61
+	+	17	11
+	+	19	27
+	+	21	10
+	+	23	14
+	+	27	23
+	+	31	33
+	+	33	39
+	+	37	26
+	+	41	12
+	+	42	0
+	+	41	8
+	+	42	0
+	z	42	0
 
-> ~/developer/reversi/human_player.rb
-	*	1485298727	0
-	"	5	0
-	^	30	28
-	.	5	0
-	+	4	10
-	+	32	2
-	+	4	25
-	+	33	0
-	+	3	0
-	+	1	23
-	+	5	0
-	+	5	17
-	+	5	0
-	+	5	14
-	+	8	9
-	+	6	22
-	+	8	10
-	+	5	19
-	+	8	40
-	+	9	30
-	+	2	22
-	+	12	7
-	+	7	0
-	+	17	18
-	+	18	49
-	+	21	0
-	+	24	8
-	+	18	8
-	+	19	33
-	+	20	6
-	+	20	0
-	+	19	33
-	+	16	0
-	+	29	21
-	+	30	46
-	+	20	19
+> ~/programing-in-scala/ch2/Application.scala
+	*	1499813049	0
+	"	3	4
+	^	2	17
+	.	2	16
+	+	1	32
+	+	2	44
+	+	4	0
+	+	2	41
+	+	3	18
+	+	2	16
+	z	3	4
+
+> ~/test/curb_test.rb
+	*	1499704965	0
+	"	3	15
+	^	3	16
+	.	3	15
+	+	1	12
+	+	3	38
+	+	4	17
+	+	3	15
+	z	3	0
+
+> ~/test/arg-parser-test.rb
+	*	1499702786	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	10	2
+	+	1	18
 	+	25	0
-	+	15	33
-	+	30	27
-	+	15	0
+	+	11	32
+	+	4	23
 	+	5	0
-	z	5	2
+	+	26	0
+	+	13	51
+	+	15	62
+	+	22	15
+	+	22	0
+	+	27	11
+	+	10	12
+	+	11	12
+	+	13	9
+	+	15	6
+	+	1	19
+	z	1	0
 
-> ~/developer/reversi/player.rb
-	*	1485286891	0
-	"	12	2
-	^	16	0
-	.	12	0
-	+	8	14
-	+	9	0
-	+	8	15
-	+	9	55
-	+	12	53
-	+	15	0
-	+	12	0
-	+	15	3
-	+	2	0
-	+	12	0
-	z	12	2
+> ~/developer/personal_page/frontend/src/components/App.jsx
+	*	1499372458	0
+	"	5	46
+	^	5	47
+	.	5	46
+	+	19	15
+	+	27	15
+	+	20	0
+	+	23	0
+	+	24	33
+	+	26	11
+	+	24	25
+	+	26	14
+	+	25	30
+	+	27	0
+	+	28	0
+	+	27	9
+	+	5	46
+	z	5	0
 
-> ~/developer/reversi/pla
-	*	1485286817	0
+> ~/.bashrc
+	*	1499357682	0
+	"	33	11
+	^	33	12
+	.	33	11
+	+	30	50
+	+	31	28
+	+	34	38
+	+	33	11
+	z	33	0
+
+> ~/developer/slides/bundle.js
+	*	1499302835	0
+	"	28074	7
+	z	28074	4
+
+> ~/developer/slides/components/edit.jsx
+	*	1499302739	0
+	"	115	25
+	^	115	26
+	.	115	25
+	+	49	0
+	+	49	11
+	+	49	0
+	+	49	19
+	+	49	16
+	+	49	11
+	+	49	17
+	+	49	16
+	+	49	0
+	+	45	0
+	+	47	0
+	+	46	29
+	+	47	0
+	+	30	0
+	+	228	0
+	+	227	19
+	+	228	19
+	+	116	89
+	+	123	0
+	+	119	7
+	+	119	0
+	+	116	38
+	+	116	0
+	+	115	25
+	z	115	4
+
+> ~/developer/slides/components/presentation.jsx
+	*	1499302601	0
+	"	31	0
+	^	1	25
+	.	20	0
+	+	20	50
+	+	21	57
+	+	31	12
+	+	20	24
+	+	12	23
+	+	1	17
+	+	12	0
+	+	20	0
+	z	31	2
+
+> ~/developer/slides/README.md
+	*	1499301230	0
+	"	5	0
+	^	4	92
+	.	6	0
+	+	4	91
+	+	4	0
+	+	6	0
+	z	5	0
+
+> ~/programing-in-scala/ch2/Messages.scala
+	*	1499281771	0
+	"	2	75
+	^	2	76
+	.	2	75
+	+	1	16
+	+	2	75
+	z	2	2
+
+> ~/test/Promise.js
+	*	1499204137	0
+	"	3	11
+	^	3	12
+	.	3	11
+	+	1	15
+	+	2	7
+	+	1	9
+	+	2	20
+	+	4	0
+	+	5	0
+	+	3	11
+	z	3	4
+
+> ~/developer/slides/.gitignore
+	*	1499192429	0
+	"	5	8
+	^	5	9
+	.	6	0
+	+	6	0
+	z	5	0
+
+> ~/developer/slides/.git/COMMIT_EDITMSG
+	*	1499190498	0
+	"	1	53
+	^	1	54
+	.	1	53
+	+	1	53
+	z	1	0
+
+> ~/test/divisors.rb
+	*	1499186851	0
 	"	1	0
-	^	1	0
+	^	7	6
+	.	7	5
+	+	2	21
+	+	4	28
+	+	7	5
+	z	1	0
+
+> ~/developer/personal_page/luke_api/db/seeds.rb
+	*	1498805134	0
+	"	453	27
+	^	453	26
+	.	453	27
+	+	16	17
+	+	25	99
+	+	33	0
+	+	34	18
+	+	35	105
+	+	36	63
+	+	38	51
+	+	36	88
+	+	39	49
+	+	40	31
+	+	37	73
+	+	36	42
+	+	343	27
+	+	453	27
+	z	453	2
+
+> ~/developer/app_academy/curriculum/javascript/projects/intro_js_exercises/solution/phase_1_arrays.js
+	*	1498694750	0
+	"	73	39
+	^	5	26
+	.	5	25
+	+	5	25
+	z	73	2
+
+> ~/test/ethos.rb
+	*	1498691904	0
+	"	17	22
+	^	17	23
+	.	17	22
+	+	1	18
+	+	2	13
+	+	5	59
+	+	5	21
+	+	6	0
+	+	20	1
+	+	8	39
+	+	9	32
+	+	6	18
+	+	9	28
+	+	20	0
+	+	21	10
+	+	21	14
+	+	13	17
+	+	14	0
+	+	11	8
+	+	17	9
+	+	21	0
+	+	16	0
+	+	17	43
+	+	19	0
+	+	21	5
+	+	18	7
+	+	17	22
+	z	17	2
+
+> ~/developer/personal_page/frontend/src/components/splash/SplashHeader.jsx
+	*	1498188727	0
+	"	9	44
+	^	9	45
+	.	9	45
+	+	9	45
+	z	9	4
+
+> ~/developer/app_academy/alpha-curriculum/environment-setup/pry.md
+	*	1497988954	0
+	"	1	0
+	z	1	0
+
+> ~/developer/app_academy/scribe_notes/jun_2017/w4d1.md
+	*	1497908292	0
+	"	1	0
+	^	120	26
+	.	121	0
+	+	1	1
+	+	9	58
+	+	4	0
+	+	9	59
+	+	10	21
+	+	11	33
+	+	4	13
+	+	6	19
+	+	7	0
+	+	13	19
+	+	126	0
+	+	13	0
+	+	16	19
+	+	17	54
+	+	18	15
+	+	19	39
+	+	20	15
+	+	22	21
+	+	24	13
+	+	28	31
+	+	29	18
+	+	31	46
+	+	33	44
+	+	34	28
+	+	35	45
+	+	36	21
+	+	39	6
+	+	41	56
+	+	45	1
+	+	43	16
+	+	45	39
+	+	46	10
+	+	47	33
+	+	48	22
+	+	49	63
+	+	50	19
+	+	54	15
+	+	56	20
+	+	61	4
+	+	65	37
+	+	66	7
+	+	67	7
+	+	71	13
+	+	70	29
+	+	72	26
+	+	73	6
+	+	124	56
+	+	74	0
+	+	126	0
+	+	74	14
+	+	75	6
+	+	76	35
+	+	79	44
+	+	80	44
+	+	81	1
+	+	80	43
+	+	84	9
+	+	86	5
+	+	87	30
+	+	83	33
+	+	121	0
+	+	88	47
+	+	89	5
+	+	90	31
+	+	92	42
+	+	94	32
+	+	95	33
+	+	96	15
+	+	97	23
+	+	98	53
+	+	99	8
+	+	101	23
+	+	98	9
+	+	100	19
+	+	124	55
+	+	103	26
+	+	105	14
+	+	109	40
+	+	125	19
+	+	124	26
+	+	125	73
+	+	116	38
+	+	117	5
+	+	118	14
+	+	119	29
+	+	120	26
+	+	121	0
+	z	1	0
+
+> ~/developer/app_academy/scribe_notes/jun_2017/NERD_tree_1
+	*	1497892964	0
+	"	1	0
 	.	1	0
 	+	1	0
 	z	1	0
 
+> ~/developer/app_academy/curriculum/react/projects/todos/todos_ii.md
+	*	1497634490	0
+	"	108	0
+	z	108	2
+
+> ~/developer/app_academy/scribe_notes/jun_2017/w3d5.md
+	*	1497632890	0
+	"	1	0
+	.	86	0
+	+	8	44
+	+	4	13
+	+	5	0
+	+	3	15
+	+	86	0
+	+	10	37
+	+	12	57
+	+	10	2
+	+	8	2
+	+	13	20
+	+	15	35
+	+	9	20
+	+	11	24
+	+	20	0
+	+	18	31
+	+	21	7
+	+	30	27
+	+	32	0
+	+	31	4
+	+	33	45
+	+	85	48
+	+	86	0
+	+	33	55
+	+	35	23
+	+	48	55
+	+	49	29
+	+	54	31
+	+	3	12
+	+	56	25
+	+	60	21
+	+	82	0
+	+	61	11
+	+	62	16
+	+	63	50
+	+	64	18
+	+	86	54
+	+	66	15
+	+	52	0
+	+	86	33
+	+	71	9
+	+	86	0
+	+	73	0
+	+	72	21
+	+	73	15
+	+	75	14
+	+	77	7
+	+	79	6
+	+	80	5
+	+	81	6
+	+	82	0
+	+	86	0
+	z	1	0
+
+> ~/developer/app_academy/lecture_demos/w3d3/bloggerific/config/database.yml
+	*	1497398051	0
+	"	1	0
+	z	1	0
+
+> ~/developer/scala/ArrayProblems/.gitignore
+	*	1497310468	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+	z	1	0
+
+> ~/developer/scala/Synonyms/test.txt
+	*	1497292558	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	6
+	+	3	5
+	+	1	8
+	+	2	5
+	+	3	16
+	+	1	10
+	z	1	0
+
+> ~/developer/personal_page/frontend/src/styles/nav-bar.scss
+	*	1495993641	0
+	"	56	4
+	.	56	0
+	+	94	0
+	+	48	0
+	+	55	21
+	+	57	0
+	+	56	0
+	z	56	4
+
+> ~/developer/scala/Synonyms/thesaurus.txt
+	*	1495654509	0
+	"	1097	1283
+	z	1097	0
+
+> ~/Desktop/thesaurus.txt
+	*	1495650690	0
+	"	1	0
+	z	1	0
+
+> ~/Desktop/test.txt
+	*	1495584779	0
+	"	3	5
+	^	3	6
+	.	3	5
+	+	3	5
+	z	3	0
+
+> ~/developer/personal_page/.git/MERGE_MSG
+	*	1495575366	0
+	"	1	0
+	z	1	0
+
+> ~/test.md
+	*	1495483712	0
+	"	7	0
+	^	7	0
+	.	7	0
+	+	1	6
+	+	1	0
+	+	1	3
+	+	1	0
+	+	1	3
+	+	7	0
+	z	7	0
+
+> ~/test/flip_ranges.rb
+	*	1495475286	0
+	"	53	0
+	^	1	15
+	.	6	0
+	+	5	0
+	+	17	0
+	+	30	0
+	+	39	0
+	+	27	20
+	+	37	20
+	+	16	9
+	+	17	26
+	+	22	9
+	+	21	13
+	+	22	27
+	+	24	6
+	+	4	21
+	+	30	4
+	+	49	12
+	+	51	0
+	+	48	16
+	+	49	25
+	+	17	20
+	+	18	5
+	+	21	8
+	+	18	10
+	+	30	5
+	+	28	15
+	+	31	21
+	+	29	9
+	+	30	5
+	+	28	2
+	+	29	5
+	+	30	5
+	+	31	32
+	+	33	12
+	+	39	5
+	+	40	9
+	+	41	24
+	+	42	12
+	+	45	0
+	+	44	12
+	+	5	12
+	+	7	8
+	+	5	6
+	+	7	20
+	+	8	29
+	+	9	25
+	+	8	32
+	+	9	49
+	+	11	64
+	+	13	24
+	+	52	0
+	+	22	23
+	+	23	0
+	+	22	0
+	+	23	39
+	+	52	14
+	+	53	8
+	+	7	44
+	+	9	39
+	+	11	37
+	+	53	39
+	+	54	17
+	+	9	0
+	+	54	0
+	+	9	68
+	+	38	9
+	+	1	14
+	+	2	0
+	+	6	0
+	z	9	4
+
+> ~/developer/personal_page/.gitignore
+	*	1495296878	0
+	"	24	15
+	^	24	16
+	.	24	15
+	+	20	0
+	+	4	0
+	+	7	0
+	+	10	0
+	+	20	1
+	+	10	1
+	+	7	1
+	+	4	1
+	+	20	5
+	+	10	1
+	+	7	1
+	+	4	1
+	+	20	5
+	+	22	9
+	+	23	11
+	+	27	11
+	+	24	15
+	z	24	0
+
+> ~/test.txt
+	*	1495246961	0
+	"	7	0
+	^	7	0
+	.	7	0
+	+	1	6
+	+	1	0
+	+	1	12
+	+	1	3
+	+	1	0
+	+	1	2
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	8
+	+	1	5
+	+	7	0
+	z	7	0
+
+> ~/.eslintrc
+	*	1495067779	0
+	"	1	1
+	^	1	3
+	.	1	1
+	+	1	0
+	+	2	0
+	+	1	1
+	z	1	0
+
+> ~/developer/reversi/spec/board_spec.rb
+	*	1494964756	0
+	"	92	40
+	^	92	41
+	.	92	40
+	+	92	40
+	z	92	6
+
+> ~/developer/scala/first-play/app/models/Product.scala
+	*	1494807474	0
+	"	3	17
+	^	3	18
+	.	3	17
+	+	3	17
+	z	3	0
+
+> ~/developer/scala/first-play/conf/application.conf
+	*	1494807420	0
+	"	2	0
+	^	3	0
+	.	2	0
+	+	2	0
+	z	2	0
+
+> ~/.bash_profile
+	*	1494720161	0
+	"	1	0
+	z	1	0
+
+> ~/developer/personal_page/frontend/src/styles/blog.scss
+	*	1494648833	0
+	"	29	6
+	.	29	18
+	+	29	18
+	z	29	6
+
+> ~/developer/personal_page/frontend/src/styles/projects.scss
+	*	1494648686	0
+	"	18	0
+	z	18	6
+
+> ~/developer/personal_page/README.md
+	*	1494644206	0
+	"	10	45
+	^	11	66
+	.	11	122
+	+	2	126
+	+	11	109
+	+	10	19
+	+	6	18
+	+	11	122
+	z	10	0
+
+> ~/developer/personal_page/frontend/src/components/AboutMe.jsx
+	*	1494643444	0
+	"	21	26
+	^	21	27
+	.	21	26
+	+	18	0
+	+	23	0
+	+	24	33
+	+	25	53
+	+	26	27
+	+	21	26
+	z	21	14
+
 > ~/.vimrc
-	*	1485206709	0
-	"	399	0
+	*	1494643435	0
+	"	111	40
 	^	14	31
-	.	399	0
+	.	111	40
 	+	15	0
 	+	14	30
 	+	399	0
-	z	399	0
+	+	111	40
+	z	111	0
 
-> ~/developer/reversi/api.md
-	*	1485197633	0
-	"	7	56
-	^	7	57
-	.	7	56
-	+	6	77
-	+	2	71
-	+	4	14
-	+	9	0
-	+	8	101
-	+	7	56
-	z	7	0
-
-> ~/developer/testing-reading/jest/src/components/todos.jsx
-	*	1484946336	0
-	"	60	8
-	.	68	0
-	+	27	30
-	+	9	14
-	+	68	27
-	+	68	0
-	+	68	26
-	+	68	33
-	+	10	12
-	+	9	15
-	+	32	17
-	+	34	0
-	+	33	51
-	+	10	9
-	+	68	33
-	+	68	37
-	+	15	29
-	+	68	0
-	+	68	17
-	+	10	13
-	+	27	28
-	+	55	25
-	+	33	42
-	+	33	54
-	+	55	0
-	+	74	0
-	+	12	18
-	+	33	58
-	+	33	56
-	+	33	52
-	+	33	38
-	+	33	60
-	+	33	72
-	+	74	39
-	+	33	32
-	+	33	52
-	+	33	40
-	+	33	55
-	+	34	0
-	+	21	18
-	+	25	5
-	+	23	26
-	+	27	14
-	+	23	26
-	+	74	28
-	+	24	21
-	+	74	0
-	+	2	38
-	+	70	45
-	+	24	9
-	+	70	54
-	+	22	8
-	+	70	56
-	+	74	0
-	+	71	26
-	+	72	29
-	+	73	18
-	+	73	31
-	+	36	18
-	+	17	48
-	+	37	0
-	+	70	12
-	+	73	33
-	+	70	12
-	+	73	32
-	+	52	0
-	+	37	0
-	+	74	0
-	+	55	0
-	+	13	0
-	+	37	17
-	+	51	5
-	+	44	18
-	+	22	0
-	+	44	20
-	+	41	18
-	+	41	0
-	+	40	13
-	+	41	58
-	+	42	44
-	+	44	21
-	+	45	41
-	+	50	0
-	+	45	52
-	+	44	0
-	+	39	36
-	+	42	12
-	+	45	47
-	+	47	52
-	+	49	0
-	+	48	25
-	+	45	44
-	+	48	31
-	+	46	0
-	+	45	8
-	+	28	13
-	+	68	0
-	+	59	0
-	+	66	0
-	+	68	0
-	z	60	10
-
-> ~/developer/checkers/frontend/drag/specs.js
-	*	1484946042	0
-	"	61	0
-	^	41	2
-	.	41	1
-	+	3	38
-	+	52	24
-	+	3	10
-	+	52	37
-	+	52	0
-	+	53	0
-	+	50	37
-	+	51	16
-	+	1	10
-	+	47	0
-	+	51	42
-	+	51	35
-	+	51	0
-	+	17	7
-	+	14	39
-	+	17	33
-	+	17	0
-	+	36	0
-	+	17	73
-	+	28	35
-	+	28	0
-	+	36	0
-	+	36	24
-	+	17	75
-	+	36	0
-	+	48	0
-	+	36	0
-	+	28	0
-	+	36	11
-	+	48	0
-	+	45	0
-	+	42	51
-	+	44	0
-	+	43	37
-	+	48	31
-	+	17	0
-	+	19	0
-	+	29	0
-	+	31	0
-	+	30	28
-	+	16	35
-	+	17	41
-	+	43	21
-	+	30	31
-	+	48	0
-	+	36	0
-	+	40	0
-	+	36	0
-	+	31	11
-	+	40	0
-	+	32	0
-	+	34	10
-	+	37	0
-	+	36	0
-	+	34	70
-	+	27	24
-	+	33	65
-	+	41	46
-	+	46	20
-	+	37	0
-	+	40	0
-	+	34	27
-	+	34	54
-	+	34	21
-	+	34	27
-	+	31	0
-	+	19	24
-	+	31	0
-	+	19	0
-	+	18	27
-	+	30	23
-	+	34	20
-	+	14	37
-	+	34	24
-	+	35	0
-	+	36	0
-	+	35	12
-	+	18	40
-	+	37	0
-	+	40	0
-	+	33	0
-	+	34	0
-	+	30	0
-	+	38	0
-	+	37	11
-	+	39	0
-	+	18	27
-	+	34	24
-	+	35	51
-	+	27	0
-	+	25	24
-	+	23	0
-	+	22	19
-	+	24	24
-	+	20	19
-	+	21	24
-	+	25	0
-	+	27	0
-	+	15	0
-	+	41	1
-	z	61	0
-
-> ~/developer/checkers/frontend/drag/collects.js
-	*	1484930322	0
-	"	1	0
-	z	1	0
-
-> ~/developer/testing-reading/jest/src/App.css
-	*	1484705764	0
-	"	24	0
-	z	24	0
-
-> ~/developer/testing-reading/jest/src/ControlP
-	*	1484705763	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/developer/testing-reading/jest/src/index.css
-	*	1484705754	0
-	"	8	31
-	^	8	32
-	.	8	31
-	+	9	0
-	+	8	31
-	z	8	2
-
-> ~/developer/testing-reading/jest/src/NERD_tree_1
-	*	1484698808	0
-	"	9	0
-	.	1	0
-	+	1	0
-
-> ~/developer/testing-reading/jest/src/components/todo_item.jsx
-	*	1484698791	0
-	"	6	6
-	.	6	0
-	+	8	0
-	+	7	38
-	+	10	3
-	+	8	9
-	+	4	17
-	+	8	11
-	+	3	17
-	+	4	0
-	+	6	0
-	z	6	6
-
-> ~/developer/testing-reading/jest/src/todo_item.jsx
-	*	1484602050	0
-	"	3	16
-	.	9	7
-	+	1	0
-	+	11	0
-	+	3	34
-	+	11	0
-	+	5	8
-	+	10	0
-	+	6	23
-	+	7	38
-	+	8	0
-	+	9	7
-	z	3	0
-
-> ~/developer/testing-reading/jest/src/App.jsx
-	*	1484597046	0
-	"	2	17
-	^	2	18
-	.	2	17
-	+	2	17
-	z	2	0
-
-> ~/developer/testing-reading/jest/src/App.js
-	*	1484596933	0
-	"	4	0
-	^	4	24
-	.	4	23
-	+	9	14
-	+	4	23
-	z	4	0
-
-> components/Todos.jsx
-	*	1484596908	0
-	"	11	0
-	^	11	17
-	.	11	16
-	+	1	0
-	+	17	0
-	+	12	11
-	+	11	16
-	z	11	8
-
-> ~/developer/test/ia.rb
-	*	1484348114	0
-	"	71	75
-	^	43	82
-	.	43	81
-	+	1	0
-	+	216	2
-	+	206	0
-	+	217	0
-	+	217	24
-	+	224	79
-	+	217	14
-	+	30	0
-	+	29	0
-	+	43	85
-	+	71	98
-	+	110	48
-	+	71	79
-	+	43	81
-	z	71	0
-
-> ~/developer/test/incoming_assessment.rb
-	*	1484347189	0
-	"	1	0
-	.	1	0
-	+	1	168
-	+	1	0
-	z	1	0
-
-> ~/Desktop/fruit_stand/frontend/store.js
-	*	1484250837	0
-	"	7	50
-	z	7	0
-
-> ~/developer/app_academy/curriculum/.git/MERGE_MSG
-	*	1484073759	0
-	"	1	0
-	z	1	0
-
-> ~/developer/app_academy/curriculum/full-stack-project/readings_to_copy/delayed-job.md
-	*	1484024284	0
-	"	50	21
-	^	50	22
-	.	50	21
-	+	49	0
-	+	50	21
-	z	50	0
-
-> ~/developer/app_academy/curriculum/full-stack-project/readings_to_copy/delayed-job-2.md
-	*	1484024248	0
-	"	1	0
-	.	1	0
-	+	1	0
-	z	1	0
-
-> ~/developer/app_academy/scribe_notes/ui_ux.md
-	*	1483770321	0
-	"	9	0
-	^	9	2
+> ~/developer/vim-text-lists/README.md
+	*	1494637531	0
+	"	9	1
+	^	37	41
 	.	9	0
-	+	1	0
-	+	15	1
-	+	3	15
-	+	15	34
-	+	19	90
-	+	3	90
-	+	3	0
-	+	13	34
-	+	23	9
-	+	21	41
-	+	23	30
-	+	24	2
-	+	25	20
+	+	3	36
+	+	4	20
+	+	3	48
+	+	38	0
+	+	9	33
+	+	5	21
+	+	9	37
+	+	12	0
+	+	12	1
+	+	13	2
+	+	14	10
+	+	14	0
+	+	15	0
+	+	14	0
+	+	17	7
+	+	16	0
+	+	21	3
+	+	20	9
+	+	21	19
+	+	22	16
+	+	23	2
+	+	33	16
+	+	27	11
+	+	36	2
+	+	35	49
+	+	37	40
 	+	9	0
 	z	9	0
 
-> ~/developer/app_academy/scribe_notes/fsp.md
-	*	1483749357	0
-	"	45	29
-	^	45	30
-	.	45	29
-	+	4	1
-	+	3	0
-	+	7	2
-	+	9	2
-	+	10	0
-	+	11	3
-	+	10	0
-	+	9	4
-	+	13	2
-	+	12	0
-	+	13	43
-	+	15	36
-	+	23	2
-	+	48	0
-	+	23	8
-	+	27	26
-	+	31	18
-	+	33	63
-	+	35	26
-	+	43	8
-	+	47	79
-	+	48	0
-	+	3	15
-	+	45	29
-	z	45	0
+> ~/.vim/bundle/vim-text-lists/ftplugin/lists.vim
+	*	1494636587	0
+	"	23	33
+	^	23	35
+	.	23	33
+	+	8	7
+	+	8	0
+	+	9	36
+	+	23	33
+	z	23	2
 
-> ~/developer/app_academy/curriculum/react/readings/redux_nontech.md
-	*	1483746347	0
-	"	12	0
-	.	290	24
-	+	290	24
-	z	12	0
-
-> ~/.bash_aliases
-	*	1483579011	0
-	"	25	48
-	^	25	49
-	.	25	48
-	+	25	48
-	z	25	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/webpack.config.js
-	*	1483564590	0
-	"	11	0
-	z	11	4
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/assets/stylesheets/application.css
-	*	1483564363	0
-	"	233	0
-	.	234	0
-	+	230	4
-	+	231	30
-	+	234	8
-	+	234	17
-	+	234	16
-	+	139	0
-	+	234	0
-	+	61	0
-	+	234	0
-	z	233	0
-
-> ~/developer/app_academy/aa-benchbnb/app/assets/stylesheets/application.css
-	*	1483564256	0
-	"	232	0
-	.	233	0
-	+	233	0
-	z	232	0
-
-> ~/developer/app_academy/aa-benchbnb/frontend/components/root.jsx
-	*	1483554977	0
-	"	7	0
-	z	7	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/config/routes.rb
-	*	1483554282	0
+> ~/.vim/bundle/vim-text-lists/ftplugin/text.vim
+	*	1494636513	0
 	"	1	0
+	^	1	32
+	.	1	31
+	+	2	39
+	+	1	31
+	+	2	0
+	+	2	22
+	+	1	31
 	z	1	0
 
-> ~/developer/app_academy/aa-benchbnb/app/views/layouts/application.html.erb
-	*	1483552614	0
-	"	12	21
-	^	12	22
-	.	12	21
-	+	12	21
-	z	12	4
-
-> ~/developer/app_academy/aa-benchbnb/config/application.yml
-	*	1483552036	0
-	"	14	22
-	^	14	23
-	.	14	22
-	+	14	22
-	z	14	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/config/application.yml
-	*	1483552020	0
-	"	13	0
-	^	13	22
-	.	14	0
-	+	12	0
-	+	14	24
-	+	13	12
-	+	14	22
-	+	13	12
-	+	14	0
-	z	13	0
-
-> ~/developer/app_academy/aa-benchbnb/Gemfile
-	*	1483551976	0
-	"	14	10
-	^	14	11
-	.	14	10
-	+	14	10
-	z	14	0
-
-> ~/developer/app_academy/aa-benchbnb/db/seeds.rb
-	*	1483551747	0
-	"	3	0
-	.	3	0
-	+	3	0
-	z	3	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/NERD_tree_1
-	*	1483492488	0
-	"	20	0
+> ~/.vim/bundle/vim-text-lists/ftplugin/markdown.vim
+	*	1494633720	0
+	"	1	0
 	.	1	0
+	+	1	8
 	+	1	0
-	z	20	8
+	z	1	0
 
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/root.jsx
-	*	1483492486	0
-	"	38	22
-	z	38	10
+> ~/developer/vim-text-lists/ftplugin/markdown.vim
+	*	1494633000	0
+	"	1	8
+	^	1	22
+	.	1	8
+	+	1	8
+	z	1	0
 
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/bench_bnb_ii.md
-	*	1483491982	0
-	"	828	0
-	^	485	95
-	.	486	0
-	+	33	9
-	+	36	0
-	+	33	60
-	+	34	92
-	+	485	86
-	+	486	0
-	+	485	94
-	+	486	0
-	z	828	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/NERD_tree_2
-	*	1483491686	0
-	"	14	0
-	.	1	0
-	+	1	0
-	z	14	8
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/views/layouts/application.html.erb
-	*	1483491685	0
-	"	21	0
-	^	15	48
-	.	21	0
-	+	12	60
-	+	3	0
-	+	19	0
-	+	20	0
-	+	22	0
-	+	24	0
-	+	22	0
-	+	14	0
-	+	17	0
-	+	12	92
-	+	13	34
-	+	17	0
-	+	20	0
-	+	18	12
-	+	14	0
-	+	15	48
-	+	16	49
-	+	15	46
-	+	16	23
-	+	15	45
-	+	21	0
-	z	21	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/components/bench_form/bench_form.jsx
-	*	1483491415	0
-	"	34	57
-	^	34	58
-	.	34	57
-	+	59	0
-	+	59	54
-	+	59	25
-	+	59	0
-	+	27	0
-	+	28	23
-	+	29	22
-	+	15	60
-	+	59	0
-	+	59	45
-	+	59	21
-	+	59	0
-	+	58	0
-	+	59	42
-	+	59	17
-	+	59	0
-	+	69	0
-	+	84	0
-	+	77	0
-	+	35	27
-	+	29	0
-	+	30	0
-	+	31	9
-	+	32	26
-	+	31	14
-	+	34	23
-	+	30	38
-	+	30	33
-	+	30	70
-	+	35	5
-	+	36	25
-	+	35	27
-	+	30	0
-	+	35	0
-	+	36	0
-	+	34	57
-	z	34	8
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/NERD_tree_1
-	*	1483490858	0
-	"	5	0
-	.	1	0
-	+	1	0
-	z	5	2
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/config/secrets.yml
-	*	1483482430	0
-	"	3	0
-	z	3	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/Gemfile
-	*	1483480265	0
-	"	14	0
-	^	14	11
-	.	14	10
-	+	14	10
-	z	14	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/app/views/api/benches/_bench.json.jbuilder
-	*	1483477748	0
-	"	4	0
-	.	4	0
-	+	4	0
-	+	7	0
-	+	4	0
-	z	4	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/db/schema.rb
-	*	1483477721	0
-	"	60	0
-	z	60	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/ControlP
-	*	1483477720	0
-	"	10	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/developer/coursera/analysis_of_algorithms_i/week3/FastCollinearPoints.java
-	*	1483467165	0
-	"	42	62
-	^	42	63
-	.	42	62
-	+	15	45
-	+	18	10
-	+	1	23
-	+	2	0
-	+	18	0
-	+	16	49
-	+	17	25
-	+	33	31
-	+	34	0
-	+	16	25
-	+	17	0
-	+	36	31
-	+	37	16
-	+	46	21
-	+	16	0
-	+	11	47
-	+	33	14
-	+	46	0
-	+	33	34
-	+	12	45
-	+	14	0
-	+	12	45
-	+	14	0
-	+	12	43
-	+	13	15
-	+	11	23
-	+	13	33
-	+	11	21
-	+	13	15
-	+	16	27
-	+	17	33
-	+	33	47
-	+	46	0
-	+	46	14
-	+	33	41
-	+	17	25
-	+	36	31
-	+	37	18
-	+	38	53
-	+	46	0
-	+	49	0
-	+	45	11
-	+	40	42
-	+	36	31
-	+	40	53
-	+	38	17
-	+	40	55
-	+	41	0
-	+	45	11
-	+	40	55
-	+	41	0
-	+	44	0
-	+	42	21
-	+	43	15
-	+	5	25
-	+	8	19
-	+	10	0
-	+	42	20
-	+	43	71
-	+	9	63
-	+	17	37
-	+	33	68
-	+	43	19
-	+	48	23
-	+	17	20
-	+	21	39
-	+	22	35
-	+	20	47
-	+	26	22
-	+	9	58
-	+	33	22
-	+	9	48
-	+	33	80
-	+	42	62
-	z	42	6
-
-> ~/developer/coursera/analysis_of_algorithms_i/week3/Point.java
-	*	1483398337	0
-	"	49	0
-	^	110	17
-	.	110	16
-	+	1	0
-	+	63	47
-	+	64	40
-	+	66	48
-	+	68	50
-	+	85	26
-	+	90	34
-	+	90	36
-	+	90	0
-	+	90	34
-	+	90	14
-	+	100	10
-	+	85	49
-	+	90	28
-	+	85	26
-	+	90	0
-	+	85	17
-	+	100	29
-	+	103	59
-	+	104	40
-	+	111	0
-	+	105	0
-	+	85	36
-	+	86	37
-	+	87	36
-	+	88	37
-	+	89	14
-	+	105	28
-	+	104	0
-	+	105	45
-	+	106	15
-	+	108	38
-	+	109	39
-	+	110	16
-	z	49	0
-
-> ~/developer/coursera/analysis_of_algorithms_i/week3/ControlP
-	*	1483398312	0
-	"	10	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/developer/coursera/analysis_of_algorithms_i/week3/BruteCollinearPoints.java
-	*	1483397299	0
-	"	8	23
-	^	8	24
-	.	8	23
-	+	1	24
-	+	8	23
-	z	8	4
-
-> ~/developer/coursera/.gitignore
-	*	1483379176	0
+> ~/developer/vim-text-lists/ftplugin/text.vim
+	*	1494632984	0
 	"	1	8
 	^	1	9
 	.	1	8
 	+	1	8
 	z	1	0
 
-> ~/developer/coursera/analysis_of_algorithms_i/week3/Line.java
-	*	1482938925	0
-	"	24	1
-	z	24	5
+> ~/developer/vim-text-lists/plugin/lists.vim
+	*	1494632449	0
+	"	1	0
+	z	1	0
 
-> ~/developer/coursera/analysis_of_algorithms_i/week3/NERD_tree_1
-	*	1482938892	0
-	"	6	0
-	.	1	0
+> ~/.vim/bundle/vim-text-lists/ftplugin/text/lists.vim
+	*	1494632068	0
+	"	13	4
+	z	13	2
+
+> ~/developer/checkers/.git/MERGE_MSG
+	*	1494604530	0
+	"	1	0
+	z	1	0
+
+> ~/developer/scala/play/play-scala-chatroom-example/README.md
+	*	1494541515	0
+	"	63	4
+	z	63	0
+
+> ~/bin/ec2.sh
+	*	1494524925	0
+	"	1	109
+	^	1	110
+	.	1	109
+	+	1	18
 	+	1	0
-	z	6	2
+	+	1	11
+	+	1	20
+	+	1	23
+	+	1	0
+	+	1	18
+	+	1	1
+	+	1	109
+	z	1	0
 
-> ~/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/game.rb
-	*	1482873059	0
-	"	100	0
-	^	100	54
-	.	100	53
-	+	117	4
-	+	144	13
-	+	15	11
-	+	146	4
-	+	145	25
-	+	53	0
-	+	50	0
-	+	100	10
-	+	133	54
-	+	132	10
-	+	137	19
-	+	133	46
-	+	137	49
-	+	23	33
-	+	137	43
-	+	117	14
-	+	77	27
-	+	79	0
-	+	80	0
-	+	77	0
-	+	77	11
-	+	77	24
-	+	77	0
-	+	23	0
-	+	44	48
-	+	47	0
-	+	44	0
-	+	59	0
-	+	44	21
-	+	50	33
-	+	59	27
-	+	44	0
-	+	47	12
-	+	53	0
-	+	51	23
-	+	52	0
-	+	84	0
-	+	82	25
-	+	91	27
-	+	94	25
-	+	96	0
-	+	95	4
-	+	86	12
-	+	85	0
-	+	89	0
-	+	86	46
-	+	87	0
-	+	83	7
-	+	84	0
-	+	87	18
-	+	91	41
-	+	87	44
-	+	82	35
-	+	51	33
-	+	56	0
-	+	90	7
-	+	69	0
-	+	28	18
-	+	20	16
-	+	30	49
-	+	42	0
-	+	44	0
-	+	43	14
-	+	44	0
-	+	43	0
-	+	49	0
-	+	43	0
-	+	49	12
-	+	56	9
-	+	56	0
-	+	30	35
-	+	92	37
-	+	67	32
-	+	66	14
-	+	68	24
-	+	67	23
-	+	68	0
-	+	76	0
-	+	74	0
-	+	75	0
-	+	74	25
-	+	75	0
-	+	30	0
-	+	40	0
-	+	66	11
-	+	67	23
-	+	60	14
-	+	61	0
-	+	62	0
-	+	65	12
-	+	66	10
-	+	34	25
-	+	91	24
-	+	92	32
-	+	94	57
-	+	92	39
-	+	87	28
-	+	94	59
-	+	93	34
-	+	100	53
-	z	100	6
+> ~/.bash_aliases
+	*	1494524884	0
+	"	37	0
+	.	38	0
+	+	3	0
+	+	38	93
+	+	38	0
+	z	37	0
 
-> ~/developer/app_academy/curriculum/ruby/projects/poker/solution/lib/player.rb
-	*	1482873025	0
-	"	50	7
-	^	50	8
-	.	50	7
-	+	52	0
-	+	51	4
-	+	4	19
-	+	21	0
-	+	12	19
-	+	2	27
-	+	58	15
-	+	54	23
-	+	58	25
+> ~/bin/ec2
+	*	1494524846	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+	z	1	0
+
+> ~/developer/personal_page/backend/db/seeds.rb
+	*	1494005753	0
+	"	19	53
+	^	19	54
+	.	19	53
+	+	18	56
+	+	19	43
+	+	20	0
+	+	19	53
+	z	19	2
+
+> ~/developer/good-code/Gemfile
+	*	1494004754	0
+	"	53	2
+	^	48	14
+	.	48	13
+	+	40	17
+	+	41	0
+	+	40	18
+	+	41	24
+	+	45	13
+	+	46	14
+	+	47	17
+	+	48	13
+	z	53	0
+
+> ~/developer/personal_page/frontend/src/util/api_util.js
+	*	1493960337	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	21
 	+	2	0
+	z	2	0
+
+> ~/developer/app_academy/scribe_notes/may_2017/w6d4.md
+	*	1493923222	0
+	"	1	0
+	.	31	0
+	+	8	62
+	+	9	47
+	+	10	70
+	+	12	55
+	+	11	38
+	+	10	34
+	+	12	39
+	+	13	54
+	+	14	71
+	+	15	54
+	+	16	32
+	+	17	41
+	+	18	16
+	+	19	20
+	+	20	0
+	+	21	50
+	+	22	53
+	+	23	38
+	+	31	0
+	+	24	68
+	+	25	55
+	+	26	56
+	+	27	29
+	+	28	36
+	+	29	26
+	+	30	25
+	+	30	0
+	+	31	16
+	+	31	0
+	z	1	0
+
+> ~/developer/app_academy/curriculum/rails/readings/basic-json-api.md
+	*	1493847674	0
+	"	30	96
+	^	30	97
+	.	30	96
+	+	26	15
+	+	27	0
+	+	13	84
+	+	14	35
+	+	15	0
+	+	14	51
+	+	28	85
+	+	28	0
+	+	31	64
+	+	33	4
+	+	76	0
+	+	38	130
+	+	43	40
+	+	44	0
+	+	38	23
+	+	45	33
+	+	79	40
+	+	80	0
+	+	79	0
+	+	80	28
+	+	75	2
+	+	46	2
+	+	47	0
+	+	46	6
+	+	74	0
+	+	45	56
+	+	30	96
+	z	30	0
+
+> ~/developer/good-code/log/development.log
+	*	1493841971	0
+	"	239441	0
+	z	239441	0
+
+> /usr/local/etc/nginx/nginx.conf
+	*	1493831409	0
+	"	35	0
+	^	33	13
+	.	41	0
+	+	51	24
+	+	52	42
+	+	46	0
+	+	33	0
+	+	41	227
+	+	39	0
+	+	33	12
+	+	39	0
+	+	40	22
+	+	34	0
+	+	33	11
+	+	35	0
+	+	40	22
+	+	37	20
+	+	34	0
+	+	33	12
+	+	41	0
+	n	33	4
+	z	35	4
+
+> ~/developer/scala/scalaTrie/README.md
+	*	1493772824	0
+	"	15	44
+	^	15	45
+	.	15	44
+	+	3	62
+	+	7	134
+	+	16	2
+	+	10	46
+	+	16	0
+	+	12	32
+	+	13	54
+	+	9	0
+	+	19	116
+	+	25	117
+	+	26	55
+	+	5	6
+	+	7	15
+	+	21	16
+	+	31	2
+	+	26	28
+	+	31	88
+	+	7	148
+	+	15	44
+	z	15	2
+
+> ~/Desktop/solution/webpack.config.js
+	*	1493672898	0
+	"	5	2
+	.	5	0
+	+	5	0
+	z	5	2
+
+> ~/developer/personal_page/frontend/webpack.config.js
+	*	1493619225	0
+	"	25	12
+	^	25	25
+	.	25	25
+	+	25	25
+	z	25	12
+
+> /usr/local/etc/nginx/nginx.conf.old
+	*	1493605664	0
+	"	115	0
+	^	44	43
+	.	54	0
+	+	36	23
+	+	45	0
+	+	44	42
+	+	54	0
+	z	115	4
+
+> /usr/local/nginx/conf/nginx.conf
+	*	1493605447	0
+	"	7	34
+	^	3	21
+	.	6	13
+	+	6	0
+	+	7	36
+	+	2	0
+	+	1	5
+	+	2	0
+	+	10	0
+	+	3	20
+	+	6	13
+	z	7	6
+
+> ~/developer/personal_page/reverse-proxy/nginx.conf
+	*	1493604633	0
+	"	3	4
+	^	6	36
+	.	6	35
+	+	1	8
+	+	3	0
+	+	2	18
+	+	5	14
+	+	6	35
+	z	3	2
+
+> ~/developer/app_academy/curriculum/.git/MERGE_MSG
+	*	1493338320	0
+	"	1	0
+	z	1	0
+
+> ~/developer/app_academy/curriculum/javascript/README.md
+	*	1493334443	0
+	"	168	37
+	^	168	38
+	.	168	38
+	+	162	0
+	+	157	0
+	+	165	29
+	+	168	38
+	z	168	0
+
+> ~/developer/app_academy/scribe_notes/apr_2017/w5d4.md
+	*	1493330623	0
+	"	1	0
+	^	61	68
+	.	61	67
+	+	5	0
+	+	3	0
+	+	9	31
+	+	8	28
+	+	10	1
+	+	9	37
+	+	11	21
+	+	1	2
+	+	10	2
+	+	14	35
+	+	15	45
+	+	16	14
+	+	22	5
+	+	23	0
+	+	22	0
+	+	23	22
+	+	26	6
+	+	41	0
+	+	31	25
+	+	32	45
+	+	33	22
+	+	34	40
+	+	41	0
+	+	35	71
+	+	36	14
+	+	38	27
+	+	40	34
+	+	42	30
+	+	41	2
+	+	62	0
+	+	44	34
+	+	52	45
+	+	53	46
+	+	55	32
+	+	58	7
+	+	60	25
+	+	61	67
+	z	1	0
+
+> ~/test/spiral.rb
+	*	1493073982	0
+	"	5	19
+	^	5	20
+	.	5	19
+	+	2	4
+	+	1	19
+	+	2	15
+	+	8	3
+	+	1	46
+	+	2	15
+	+	3	15
+	+	2	25
+	+	8	12
+	+	7	9
+	+	8	31
+	+	8	15
+	+	13	0
+	+	8	33
+	+	13	2
+	+	9	0
+	+	10	0
+	+	11	0
+	+	13	0
+	+	2	31
+	+	2	0
+	+	4	0
+	+	9	27
+	+	8	36
+	+	9	31
+	+	10	41
+	+	11	38
+	+	12	38
+	+	15	20
+	+	16	27
+	+	17	45
+	+	4	15
+	+	5	19
+	+	8	17
+	+	9	17
+	+	10	17
+	+	11	17
+	+	15	0
+	+	17	0
+	+	3	15
+	+	17	0
+	+	8	16
+	+	9	16
+	+	10	16
+	+	11	16
+	+	7	4
+	+	9	6
+	+	10	0
+	+	11	0
+	+	4	21
+	+	5	24
+	+	7	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	15	0
+	+	17	0
+	+	5	19
+	z	5	2
+
+> ~/developer/personal_page/.git/COMMIT_EDITMSG
+	*	1493058139	0
+	"	2	66
+	^	2	76
+	.	3	0
+	+	2	66
+	+	3	0
+	z	2	0
+
+> ~/developer/app_academy/scribe_notes/apr_2017/w4d2.md
+	*	1492535387	0
+	"	1	0
+	^	33	38
+	.	33	37
+	+	8	23
+	+	9	35
+	+	7	0
+	+	6	22
+	+	13	45
+	+	14	55
+	+	15	38
+	+	16	22
+	+	17	26
+	+	18	2
+	+	19	33
+	+	20	14
+	+	19	24
+	+	21	50
+	+	22	46
+	+	24	29
+	+	25	41
+	+	34	0
+	+	30	18
+	+	27	17
+	+	30	46
+	+	27	6
+	+	31	56
+	+	32	31
+	+	33	37
+	z	1	0
+
+> ~/developer/app_academy/curriculum/react/readings/preloaded_state.md
+	*	1492484027	0
+	"	1	0
+	z	1	0
+
+> ~/test/akka_http/hello/src/main/scala/hello.scala
+	*	1492138608	0
+	"	16	13
+	.	16	0
+	+	16	21
+	+	21	20
+	+	21	6
+	+	21	13
+	+	21	86
+	+	21	7
+	+	23	36
+	+	23	80
+	+	24	4
+	+	27	0
+	+	27	22
+	+	30	0
+	+	26	0
+	+	27	21
+	+	21	59
+	+	23	25
+	+	24	0
+	+	23	30
+	+	16	0
+	z	16	4
+
+> ~/developer/app_academy/scribe_notes/apr_2017/w3d3.md
+	*	1492017558	0
+	"	1	0
+	^	39	15
+	.	39	14
+	+	30	7
+	+	8	47
+	+	9	0
+	+	8	1
+	+	9	6
+	+	10	1
+	+	7	0
+	+	15	0
+	+	11	14
+	+	12	20
+	+	13	32
+	+	14	28
+	+	15	0
+	+	18	17
+	+	19	20
+	+	20	42
+	+	21	18
+	+	20	45
+	+	22	29
+	+	22	18
+	+	22	0
+	+	25	0
+	+	32	39
+	+	40	0
+	+	33	0
+	+	34	99
+	+	35	27
+	+	36	37
+	+	37	20
+	+	39	14
+	z	1	0
+
+> ~/test/linked_list.rb
+	*	1491839938	0
+	"	64	0
+	^	47	32
+	.	47	31
+	+	6	4
+	+	5	20
+	+	8	15
+	+	3	27
+	+	16	0
+	+	15	15
+	+	17	21
+	+	26	13
+	+	29	0
+	+	21	22
+	+	23	0
+	+	25	23
+	+	35	16
+	+	35	14
+	+	35	0
+	+	44	16
+	+	5	24
+	+	3	16
+	+	2	17
+	+	4	0
+	+	7	13
+	+	16	33
+	+	29	17
+	+	35	30
+	+	31	10
+	+	25	11
+	+	31	27
+	+	29	11
+	+	31	19
+	+	33	19
+	+	35	0
+	+	37	6
+	+	41	13
+	+	43	0
+	+	51	4
+	+	45	14
+	+	30	36
+	+	45	17
+	+	44	15
+	+	40	18
+	+	3	0
+	+	41	13
+	+	47	55
+	+	50	6
+	+	55	8
+	+	54	15
+	+	55	42
+	+	58	7
+	+	58	0
+	+	55	46
 	+	58	0
 	+	55	0
-	+	63	19
-	+	2	43
-	+	85	10
-	+	50	7
-	z	50	4
-
-> ~/developer/coursera/analysis_of_algorithms_i/week2/Deque.java
-	*	1482872264	0
-	"	124	15
-	^	124	16
-	.	124	15
-	+	90	70
-	+	93	0
-	+	90	10
-	+	1	25
-	+	2	0
-	+	93	28
-	+	94	24
-	+	95	0
-	+	97	30
-	+	98	12
-	+	101	11
-	+	91	33
-	+	92	0
-	+	101	36
-	+	106	21
-	+	105	37
-	+	106	20
-	+	107	20
-	+	90	10
-	+	87	30
-	+	107	27
-	+	101	11
-	+	126	26
-	+	127	29
-	+	126	21
-	+	127	18
-	+	13	0
-	+	126	42
-	+	128	0
-	+	126	39
-	+	126	0
-	+	126	32
-	+	126	0
-	+	84	10
-	+	65	0
-	+	52	4
-	+	84	0
-	+	71	0
-	+	28	18
-	+	41	6
-	+	40	6
-	+	126	0
-	+	52	0
-	+	56	0
-	+	62	0
-	+	75	0
-	+	81	0
-	+	71	0
-	+	56	0
-	+	126	0
-	+	125	0
-	+	128	0
-	+	98	22
-	+	23	21
-	+	25	0
-	+	36	0
-	+	38	0
-	+	50	37
-	+	69	0
-	+	70	0
-	+	51	0
-	+	50	25
-	+	69	25
-	+	105	0
-	+	106	0
-	+	104	0
-	+	106	6
-	+	102	21
-	+	103	52
-	+	110	26
-	+	111	47
-	+	79	13
-	+	60	14
-	+	73	6
-	+	74	6
-	+	54	6
-	+	55	6
-	+	45	4
-	+	61	23
-	+	80	22
-	+	33	0
-	+	32	4
-	+	17	0
-	+	19	11
-	+	15	11
-	+	11	4
-	+	10	4
-	+	9	4
-	+	30	0
-	+	31	0
-	+	30	33
-	+	43	30
-	+	142	25
-	+	148	27
-	+	145	17
-	+	151	16
-	+	121	17
-	+	122	15
-	+	123	0
-	+	124	15
-	z	124	4
-
-> ~/developer/coursera/analysis_of_algorithms_i/week2/RandomizedQueue.java
-	*	1482793391	0
-	"	86	16
-	^	49	26
-	.	49	25
-	+	106	23
-	+	58	67
-	+	59	36
-	+	62	38
-	+	63	48
-	+	65	37
-	+	69	36
-	+	66	51
-	+	67	20
-	+	66	0
-	+	69	0
-	+	66	0
-	+	67	0
-	+	69	0
-	+	66	0
-	+	67	32
-	+	67	49
-	+	69	33
-	+	67	53
-	+	69	0
-	+	74	0
-	+	60	23
-	+	71	17
-	+	75	26
-	+	83	4
-	+	82	20
-	+	64	0
-	+	59	34
-	+	63	36
-	+	66	0
-	+	67	38
-	+	69	0
-	+	82	35
-	+	83	0
-	+	82	45
-	+	56	0
-	+	55	41
-	+	58	60
-	+	10	0
-	+	67	22
-	+	7	13
-	+	12	0
-	+	67	40
-	+	91	62
-	+	91	17
-	+	91	0
-	+	91	15
-	+	91	21
-	+	91	27
-	+	91	63
-	+	66	30
-	+	66	37
-	+	65	35
-	+	66	0
-	+	65	34
-	+	67	0
-	+	66	0
-	+	91	0
-	+	91	31
-	+	91	38
-	+	29	0
-	+	91	0
-	+	91	26
-	+	91	0
-	+	28	0
-	+	29	23
-	+	39	33
-	+	40	13
-	+	71	32
-	+	71	29
-	+	66	0
-	+	67	56
-	+	71	0
-	+	91	0
-	+	33	15
-	+	34	40
-	+	35	0
-	+	48	0
-	+	24	23
-	+	27	0
-	+	25	38
-	+	79	19
-	+	80	42
-	+	81	0
-	+	85	26
-	+	86	47
-	+	85	14
-	+	80	27
-	+	34	25
-	+	49	25
-	z	86	6
-
-> ~/developer/coursera/analysis_of_algorithms_i/week2/ControlP
-	*	1482792888	0
-	"	4	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/developer/coursera/analysis_of_algorithms_i/week2/Subset.java
-	*	1482792318	0
-	"	23	4
-	.	23	0
-	+	5	21
-	+	29	0
-	+	6	42
-	+	7	41
-	+	9	63
-	+	11	33
-	+	1	0
-	+	4	0
-	+	1	34
-	+	2	35
-	+	15	36
-	+	25	34
-	+	11	30
-	+	24	0
-	+	26	34
-	+	11	14
-	+	11	15
-	+	11	10
-	+	15	20
-	+	11	29
-	+	15	34
-	+	11	32
-	+	24	0
-	+	15	16
-	+	15	37
-	+	24	31
-	+	24	0
-	+	15	6
-	+	11	44
-	+	15	0
-	+	11	46
-	+	15	0
-	+	11	29
-	+	15	31
-	+	15	0
-	+	24	0
-	+	15	12
-	+	15	0
-	+	11	28
-	+	24	0
-	+	11	29
-	+	14	10
-	+	23	0
-	+	14	25
-	+	15	0
-	+	16	10
-	+	14	28
-	+	16	14
-	+	22	0
-	+	18	0
-	+	17	0
-	+	8	17
-	+	12	13
-	+	17	41
-	+	3	0
-	+	18	24
-	+	17	11
-	+	18	28
-	+	20	19
-	+	15	22
-	+	13	38
-	+	20	26
-	+	23	0
-	z	23	4
-
-> ~/developer/coursera/analysis_of_algorithms_i/week1/PercolationStats.java
-	*	1482644809	0
-	"	1	0
-	z	1	0
-
-> ~/developer/coursera/analysis_of_algorithms_i/week1/Percolation.java
-	*	1482644794	0
-	"	1	0
-	^	3	24
-	.	62	18
-	+	9	0
-	+	6	0
-	+	67	0
-	+	56	0
-	+	61	0
-	+	57	0
-	+	58	25
-	+	61	14
-	+	61	0
-	+	59	34
-	+	60	5
-	+	61	0
-	+	60	14
-	+	61	10
-	+	59	12
-	+	61	18
-	+	65	12
-	+	63	12
-	+	62	11
-	+	63	0
-	+	62	21
-	+	63	0
-	+	64	14
-	+	65	0
-	+	67	0
-	+	68	26
-	+	69	29
-	+	73	0
-	+	100	0
-	+	72	52
-	+	3	13
-	+	3	0
-	+	64	14
-	+	60	14
-	+	58	18
-	+	62	18
-	z	1	0
-
-> ~/developer/test/java/Test.java
-	*	1482637402	0
-	"	8	32
-	^	8	33
-	.	8	32
-	+	7	31
-	+	9	0
-	+	8	32
-	z	8	4
-
-> ~/developer/test/java/Test.
-	*	1482605698	0
-	"	1	0
-	z	1	0
-
-> ~/developer/test/java/double_v_Double.java
-	*	1482605670	0
-	"	6	28
-	^	6	29
-	.	6	28
-	+	1	0
-	+	8	0
-	+	1	19
-	+	2	43
-	+	5	27
-	+	6	28
-	z	6	4
-
-> ~/developer/coursera/analysis_of_algorithms_i/HelloWorld.java
-	*	1482267216	0
-	"	3	27
-	^	3	29
-	.	3	27
-	+	3	27
-	z	3	8
-
-> ~/Desktop/link_sort.rb
-	*	1482179833	0
-	"	52	0
-	^	51	44
-	.	100	19
-	+	22	25
-	+	23	39
-	+	24	23
-	+	25	8
-	+	26	0
-	+	27	23
-	+	28	8
-	+	29	0
-	+	30	0
-	+	41	16
-	+	45	0
-	+	37	19
-	+	44	15
-	+	45	46
-	+	48	22
-	+	50	42
-	+	51	19
-	+	50	35
-	+	51	29
-	+	54	0
-	+	52	24
-	+	53	7
-	+	50	8
-	+	45	25
-	+	50	46
-	+	51	47
-	+	42	19
-	+	45	7
-	+	50	40
-	+	51	44
-	+	41	14
-	+	31	38
-	+	95	0
-	+	100	7
-	+	100	18
-	+	23	46
-	+	95	0
-	+	100	0
-	+	95	0
-	+	99	0
-	+	45	34
-	+	46	20
-	+	47	8
-	+	48	12
-	+	50	0
-	+	34	8
-	+	32	0
-	+	50	8
-	+	51	9
-	+	52	0
-	+	53	26
-	+	70	10
-	+	95	0
-	+	89	23
-	+	92	24
-	+	94	0
-	+	90	6
-	+	92	9
-	+	93	13
-	+	100	14
-	+	98	7
-	+	92	18
-	+	100	18
-	+	80	9
-	+	79	13
-	+	78	11
-	+	81	16
-	+	82	15
-	+	84	9
-	+	99	0
-	+	37	33
-	+	38	25
-	+	100	15
-	+	1	0
-	+	37	34
-	+	39	0
-	+	40	0
-	+	39	40
-	+	53	34
-	+	11	29
-	+	12	44
-	+	23	63
-	+	50	33
-	+	51	35
-	+	99	13
-	+	97	15
-	+	96	16
-	+	99	17
-	+	100	15
-	+	37	22
-	+	100	41
-	+	37	43
-	+	50	0
-	+	51	0
-	+	50	0
-	+	51	50
-	+	50	32
-	+	51	43
-	+	100	19
-	z	52	0
-
-> ~/developer/checkers/frontend/game/ai.js
-	*	1482032942	0
-	"	63	0
-	^	63	32
-	.	63	31
-	+	18	15
-	+	39	35
-	+	40	0
-	+	37	0
-	+	39	0
-	+	30	38
-	+	31	6
-	+	32	0
-	+	13	14
-	+	30	19
-	+	32	2
-	+	31	13
-	+	32	30
-	+	36	0
-	+	32	37
-	+	36	0
-	+	32	47
-	+	33	62
-	+	35	15
-	+	40	43
-	+	41	66
-	+	42	40
-	+	43	64
-	+	38	23
-	+	52	2
-	+	66	1
-	+	52	21
-	+	51	39
-	+	52	42
-	+	2	17
-	+	7	12
-	+	6	12
-	+	15	28
-	+	22	45
-	+	52	0
-	+	24	0
-	+	25	30
-	+	53	0
-	+	55	0
-	+	54	0
-	+	60	0
-	+	58	37
-	+	55	0
-	+	2	30
-	+	52	0
-	+	43	10
-	+	44	10
-	+	45	57
-	+	46	0
-	+	51	20
-	+	52	35
-	+	55	44
-	+	45	6
-	+	51	19
-	+	52	33
-	+	55	49
-	+	54	0
-	+	56	0
-	+	66	0
-	+	67	57
-	+	68	4
-	+	71	4
-	+	68	32
-	+	71	32
-	+	71	29
-	+	3	38
-	+	50	18
-	+	58	24
-	+	68	34
-	+	70	0
-	+	74	15
-	+	79	24
-	+	71	0
-	+	70	14
-	+	71	0
-	+	69	0
-	+	71	0
-	+	70	2
-	+	71	0
-	+	74	18
-	+	70	18
-	+	74	18
-	+	75	42
-	+	1	28
-	+	75	18
-	+	11	0
-	+	9	0
-	+	10	0
-	+	70	0
-	+	61	0
-	+	65	0
-	+	61	0
-	+	62	22
-	+	63	4
-	+	2	40
-	+	63	18
-	+	76	54
-	+	63	31
-	z	63	4
-
-> ~/developer/checkers/frontend/ControlP
-	*	1482032494	0
-	"	10	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/developer/checkers/frontend/middleware/players_middleware.js
-	*	1482032492	0
-	"	25	0
-	^	25	34
-	.	25	17
-	+	28	11
-	+	28	0
-	+	21	0
-	+	28	9
-	+	16	23
-	+	28	0
-	+	15	54
-	+	17	43
-	+	16	45
-	+	24	25
-	+	25	30
-	+	24	13
-	+	21	0
-	+	24	0
-	+	24	28
-	+	16	65
-	+	24	0
-	+	3	36
-	+	25	17
-	z	25	8
-
-> ~/developer/checkers/frontend/game/game.js
-	*	1482026095	0
-	"	150	0
-	.	26	0
-	+	10	0
-	+	11	35
-	+	12	0
-	+	10	26
-	+	41	0
-	+	50	16
-	+	51	0
-	+	50	14
-	+	51	40
-	+	51	50
-	+	52	9
-	+	51	26
-	+	52	46
-	+	53	49
-	+	54	46
-	+	55	43
-	+	51	33
-	+	51	60
-	+	55	59
-	+	59	16
-	+	10	25
-	+	50	13
-	+	51	0
-	+	50	17
-	+	51	48
-	+	10	35
-	+	55	37
+	+	62	49
 	+	14	0
-	+	8	42
-	+	52	0
-	+	8	0
-	+	56	0
-	+	122	17
-	+	123	29
-	+	124	0
-	+	123	31
-	+	124	24
-	+	127	27
-	+	128	23
-	+	100	36
-	+	83	36
-	+	128	10
-	+	123	10
-	+	88	17
-	+	89	11
-	+	87	0
-	+	88	0
-	+	89	0
-	+	88	0
-	+	90	18
-	+	95	0
-	+	94	10
-	+	92	21
-	+	95	0
-	+	93	42
-	+	95	23
-	+	97	23
-	+	95	24
-	+	82	0
-	+	82	2
-	+	72	0
-	+	82	0
-	+	73	0
-	+	72	0
-	+	82	10
-	+	75	21
-	+	82	0
-	+	76	0
-	+	82	0
-	+	72	15
-	+	73	14
-	+	72	55
-	+	73	54
-	+	88	55
-	+	89	54
-	+	78	18
-	+	95	18
-	+	93	0
-	+	94	0
-	+	93	0
-	+	93	18
-	+	76	18
-	+	88	14
-	+	72	0
-	+	62	0
-	+	21	23
-	+	24	0
-	+	24	10
-	+	22	33
-	+	21	24
-	+	23	19
-	+	21	0
-	+	24	0
-	+	26	0
-	+	27	32
-	+	30	16
-	+	26	0
-	z	150	0
-
-> ~/developer/checkers/frontend/actions/pieces_actions.js
-	*	1482018339	0
-	"	15	0
-	^	15	27
-	.	15	26
-	+	8	0
-	+	1	0
-	+	7	0
-	+	2	33
-	+	4	5
-	+	5	4
-	+	8	0
-	+	14	0
-	+	9	29
-	+	14	0
-	+	5	4
-	+	2	32
-	+	14	0
-	+	19	0
-	+	15	26
-	z	15	0
-
-> ~/developer/checkers/frontend/store/preloaded_state.js
-	*	1482017255	0
-	"	39	0
-	^	39	13
-	.	39	12
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	3	5
-	+	4	5
-	+	5	5
-	+	6	5
-	+	7	5
-	+	8	5
-	+	9	5
-	+	11	5
-	+	12	5
-	+	13	3
-	+	12	3
-	+	11	3
-	+	10	3
-	+	9	3
-	+	8	3
-	+	7	3
-	+	15	0
-	+	16	0
-	+	17	3
-	+	18	3
-	+	19	3
-	+	20	3
-	+	21	3
-	+	22	3
-	+	23	3
-	+	24	3
-	+	25	3
-	+	26	3
-	+	27	3
-	+	28	3
-	+	16	18
-	+	1	19
-	+	31	20
-	+	42	0
-	+	31	20
-	+	33	36
-	+	41	0
-	+	33	36
-	+	42	0
-	+	34	25
-	+	40	3
-	+	33	36
-	+	35	16
-	+	36	19
-	+	38	14
-	+	43	4
-	+	44	20
-	+	45	15
-	+	46	15
-	+	43	3
-	+	2	5
-	+	3	5
-	+	4	5
-	+	5	5
-	+	6	5
-	+	7	5
-	+	8	5
-	+	9	5
-	+	10	5
-	+	11	5
-	+	12	5
-	+	13	5
-	+	36	22
+	+	47	32
 	+	46	0
 	+	47	0
-	+	46	21
-	+	53	0
-	+	54	11
-	+	65	17
-	+	60	6
-	+	62	0
-	+	64	3
-	+	62	8
-	+	61	9
-	+	62	15
-	+	55	6
-	+	59	3
-	+	56	10
-	+	57	16
-	+	68	0
-	+	71	8
-	+	70	8
-	+	31	11
-	+	44	7
-	+	34	7
-	+	54	5
-	+	36	17
-	+	46	16
-	+	38	0
-	+	58	15
-	+	63	18
-	+	62	17
-	+	49	12
-	+	39	12
-	z	39	4
+	+	49	0
+	+	46	17
+	+	47	31
+	z	64	0
 
-> ~/developer/checkers/frontend/components/checkers/square_container.js
-	*	1482004598	0
-	"	10	2
-	^	7	2
-	.	7	0
-	+	15	51
-	+	15	48
-	+	17	43
-	+	3	30
-	+	18	33
-	+	3	40
-	+	18	41
-	+	19	51
-	+	3	19
-	+	3	32
-	+	3	42
-	+	3	41
-	+	10	41
-	+	10	0
-	+	3	42
-	+	6	0
-	+	3	41
-	+	3	32
-	+	3	0
-	+	6	23
-	+	7	0
-	z	10	2
-
-> ~/developer/checkers/frontend/store/store.js
-	*	1482003771	0
-	"	13	0
-	^	13	21
-	.	13	20
-	+	8	15
-	+	10	0
-	+	14	0
-	+	10	0
-	+	8	39
-	+	9	0
-	+	4	0
-	+	8	15
-	+	4	30
-	+	8	13
-	+	13	20
-	z	13	0
-
-> ~/developer/checkers/frontend/NERD_tree_2
-	*	1482003768	0
-	"	16	0
-	.	1	0
+> ~/test/akka_http/hello/build.sbt
+	*	1491695926	0
+	"	12	4
+	.	12	0
 	+	1	0
-
-> ~/developer/checkers/frontend/entry.jsx
-	*	1482003752	0
-	"	6	0
-	^	5	12
-	.	6	0
-	+	14	3
-	+	3	0
-	+	8	0
-	+	9	0
-	+	11	0
-	+	9	14
-	+	12	38
-	+	4	40
-	+	12	26
-	+	5	45
-	+	9	26
-	+	12	35
-	+	10	4
-	+	9	0
-	+	10	21
-	+	9	7
-	+	8	0
-	+	8	20
-	+	8	1
-	+	8	6
-	+	8	0
-	+	8	17
-	+	8	12
-	+	8	22
-	+	8	0
-	+	8	1
-	+	8	21
-	+	9	42
-	+	8	9
-	+	8	0
-	+	6	55
-	+	9	44
-	+	10	22
-	+	16	12
-	+	9	0
-	+	7	0
-	+	9	0
+	+	1	29
+	+	1	5
+	+	1	31
+	+	16	16
+	+	1	0
 	+	16	0
-	+	7	0
-	+	12	36
-	+	7	0
-	+	5	11
-	+	6	0
-	z	6	0
+	+	13	0
+	+	12	0
+	z	12	4
 
-> ~/developer/checkers/config/application.rb
-	*	1482003189	0
-	"	1	0
-	z	1	0
-
-> ~/developer/checkers/frontend/actions/player_actions.js
-	*	1482003043	0
-	"	7	0
-	^	7	34
-	.	7	33
-	+	1	0
+> ~/test/akka_http/hello/project/Dependencies.scala
+	*	1491695539	0
+	"	5	0
+	.	5	0
 	+	5	0
-	+	2	25
-	+	6	0
-	+	11	0
-	+	7	33
-	z	7	0
+	z	5	0
 
-> ~/developer/checkers/frontend/game/ai.rb
-	*	1481999846	0
-	"	1	0
-	^	1	0
+> ~/test/akka_http/hello/NERD_tree_3
+	*	1491695210	0
+	"	4	0
 	.	1	0
 	+	1	0
-	z	1	0
+	z	4	0
 
-> ~/developer/checkers/frontend/middleware/pieces_middleware.js
-	*	1481997299	0
+> ~/test/sbt/hello/project/build.properties
+	*	1491695160	0
 	"	1	0
 	z	1	0
 
-> ~/developer/checkers/frontend/components/checkers/piece_container.js
-	*	1481995297	0
-	"	19	74
-	^	19	75
-	.	19	74
-	+	1	37
-	+	1	0
-	+	3	30
-	+	4	0
-	+	10	0
-	+	7	35
-	+	8	16
-	+	13	0
-	+	15	0
-	+	14	16
-	+	15	6
-	+	7	39
-	+	13	53
-	+	13	2
-	+	13	7
-	+	2	19
-	+	13	38
-	+	15	19
-	+	13	49
-	+	7	34
-	+	10	85
-	+	9	73
-	+	8	0
-	+	13	0
-	+	15	0
-	+	14	16
-	+	6	8
-	+	11	0
-	+	7	0
-	+	6	0
-	+	19	74
-	z	19	4
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/util/bench_api_util.js
-	*	1481934032	0
-	"	15	0
-	z	15	0
-
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/bench_bnb_i.md
-	*	1481922800	0
-	"	187	0
-	^	164	11
-	.	164	10
+> ~/test/react_router_4/router_test/src/App.js
+	*	1491344581	0
+	"	17	37
+	^	17	38
+	.	17	37
+	+	9	0
+	+	38	0
+	+	29	43
 	+	30	0
-	+	120	0
-	+	123	39
-	+	124	147
-	+	134	1
-	+	135	1
-	+	164	10
-	z	187	0
+	+	31	0
+	+	30	42
+	+	31	44
+	+	59	10
+	+	29	44
+	+	30	44
+	+	31	46
+	+	30	26
+	+	31	28
+	+	19	13
+	+	21	13
+	+	23	13
+	+	25	13
+	+	19	19
+	+	12	28
+	+	19	39
+	+	22	0
+	+	21	0
+	+	23	0
+	+	25	0
+	+	12	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	19	55
+	+	21	57
+	+	23	57
+	+	25	61
+	+	7	8
+	+	19	31
+	+	21	31
+	+	23	31
+	+	25	31
+	+	69	0
+	+	69	32
+	+	73	20
+	+	38	31
+	+	78	0
+	+	69	29
+	+	69	30
+	+	75	0
+	+	78	0
+	+	69	42
+	+	72	6
+	+	73	12
+	+	74	7
+	+	69	19
+	+	38	0
+	+	17	23
+	+	72	8
+	+	74	9
+	+	18	0
+	+	69	24
+	+	69	23
+	+	72	0
+	+	78	0
+	+	72	0
+	+	78	0
+	+	38	16
+	+	66	0
+	+	65	0
+	+	66	0
+	+	65	18
+	+	38	0
+	+	62	7
+	+	64	7
+	+	62	7
+	+	63	19
+	+	65	19
+	+	37	13
+	+	33	49
+	+	37	0
+	+	33	0
+	+	37	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	34	28
+	+	35	30
+	+	36	30
+	+	34	54
+	+	35	56
+	+	36	57
+	+	33	57
+	+	34	62
+	+	35	64
+	+	36	65
+	+	71	8
+	+	76	0
+	+	16	0
+	+	72	0
+	+	70	18
+	+	17	37
+	z	17	10
 
-> ~/developer/app_academy/curriculum/react/projects/bench_bnb/solution/frontend/NERD_tree_8
-	*	1481830772	0
-	"	14	0
-	.	1	0
-	+	1	0
-	z	14	4
+> ~/developer/app_academy/lecture_demos/w2d4/big_o.rb
+	*	1491333215	0
+	"	48	13
+	^	48	36
+	.	48	13
+	+	31	29
+	+	32	0
+	+	33	0
+	+	32	2
+	+	33	3
+	+	31	12
+	+	32	11
+	+	33	13
+	+	34	0
+	+	39	15
+	+	40	13
+	+	39	13
+	+	40	18
+	+	41	18
+	+	40	20
+	+	39	42
+	+	40	40
+	+	41	41
+	+	46	0
+	+	49	0
+	+	46	35
+	+	47	35
+	+	48	35
+	+	32	10
+	+	33	12
+	+	40	12
+	+	41	13
+	+	47	12
+	+	48	13
+	z	48	2
+
+> ~/developer/app_academy/lecture_demos/w2d4/big_o.rg
+	*	1491332923	0
+	"	49	2
+	^	49	3
+	.	49	2
+	+	49	2
+	z	49	0
+
+> ~/test/akka_http/hello.scala
+	*	1491250082	0
+	"	31	0
+	^	31	1
+	.	31	0
+	+	31	0
+	z	31	0
+
+> ~/developer/app_academy/scribe_notes/apr_2017/w2d1.md
+	*	1491245773	0
+	"	1	0
+	.	35	0
+	+	9	64
+	+	11	36
+	+	14	31
+	+	15	48
+	+	17	34
+	+	10	26
+	+	9	28
+	+	19	47
+	+	20	31
+	+	25	54
+	+	27	13
+	+	31	10
+	+	32	21
+	+	33	49
+	+	34	45
+	+	35	0
+	z	1	0
+
+> ~/developer/app_academy/curriculum/full-stack-project/README.md
+	*	1490992532	0
+	"	44	26
+	z	44	0
+
+> ~/developer/coursera/.git/COMMIT_EDITMSG
+	*	1490901917	0
+	"	4	31
+	^	4	32
+	.	4	31
+	+	4	31
+	z	4	0
+
+> ~/developer/app_academy/scribe_notes/mar_2017/w1d2.md
+	*	1490721942	0
+	"	1	0
+	^	98	50
+	.	99	0
+	+	31	0
+	+	10	7
+	+	9	33
+	+	13	20
+	+	14	24
+	+	15	1
+	+	12	7
+	+	11	31
+	+	12	6
+	+	15	2
+	+	9	8
+	+	16	20
+	+	11	54
+	+	17	16
+	+	18	12
+	+	20	41
+	+	22	20
+	+	23	27
+	+	25	27
+	+	26	45
+	+	28	28
+	+	30	35
+	+	47	0
+	+	92	0
+	+	48	12
+	+	54	6
+	+	58	34
+	+	59	34
+	+	60	32
+	+	68	38
+	+	71	20
+	+	63	20
+	+	71	22
+	+	79	1
+	+	92	0
+	+	79	0
+	+	78	0
+	+	82	38
+	+	82	0
+	+	85	55
+	+	89	34
+	+	91	0
+	+	96	74
+	+	99	0
+	z	1	0

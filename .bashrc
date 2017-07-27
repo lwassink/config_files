@@ -25,3 +25,10 @@ eval "$(rbenv init -)"
 
 export NVM_DIR="/Users/lwassink/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$HOME/.yarn/bin:$PATH"
+export PATH=/Users/lwassink/Library/Python/3.6/bin:$PATH
+export PATH=/Users/lwassink/bin:$PATH
+
+# Scala path
+PATH="$HOME/bin/scala-2.12.2/bin:$PATH"
